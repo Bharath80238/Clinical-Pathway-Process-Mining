@@ -1,0 +1,18 @@
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+
+.env
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+# Operating system files
+.DS_Store
+Thumbs.db
