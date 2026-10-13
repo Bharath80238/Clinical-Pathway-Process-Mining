@@ -1,0 +1,33 @@
+Column name,Data type
+case:concept:name,object
+InfectionSuspected,object
+org:group,object
+DiagnosticBlood,object
+DisfuncOrg,object
+SIRSCritTachypnea,object
+Hypotensie,object
+SIRSCritHeartRate,object
+Infusion,object
+DiagnosticArtAstrup,object
+concept:name,object
+Age,float64
+DiagnosticIC,object
+DiagnosticSputum,object
+DiagnosticLiquor,object
+DiagnosticOther,object
+SIRSCriteria2OrMore,object
+DiagnosticXthorax,object
+SIRSCritTemperature,object
+DiagnosticUrinaryCulture,object
+SIRSCritLeucos,object
+Oligurie,object
+DiagnosticLacticAcid,object
+lifecycle:transition,object
+Diagnose,object
+Hypoxie,object
+DiagnosticUrinarySediment,object
+DiagnosticECG,object
+Leucocytes,float64
+CRP,float64
+LacticAcid,float64
+time:timestamp,"datetime64[ns, UTC]"

@@ -8,10 +8,12 @@ This repository area supports the CareFlow: Clinical Pathway Process Mining proj
 CareFlow-Data-Collection-Cleaning/
 |-- data/
 |   |-- dataset_source.md
+|   |-- data_dictionary.csv
 |   `-- data_dictionary.md
 |-- reports/
 |   `-- day01_initial_inspection.md
 |-- src/
+|   |-- data_dictionary.py
 |   `-- inspect_dataset.py
 `-- README.md
 ```
@@ -45,5 +47,21 @@ python .\src\inspect_dataset.py
 ```
 
 The script prints the dataset dimensions, column names and data types, first five records, missing-value counts, exact duplicate-row count, and types of key event-log fields. It performs inspection only; it does not remove duplicates, fill missing values, or otherwise clean the data.
+
+## Create the Data Dictionary
+
+From the workspace folder, run:
+
+```powershell
+python .\CareFlow-Data-Collection-Cleaning\src\data_dictionary.py
+```
+
+Or, from this project directory, run:
+
+```powershell
+python .\src\data_dictionary.py
+```
+
+The script reads `events.parquet` and creates `data\data_dictionary.csv` and `data\data_dictionary.md`. It searches the project folder first and then the containing workspace folder. If the dataset is missing, place the original file in either location and run the script again. It does not modify the dataset.
 
 The dataset licence and reuse conditions still need verification. Do not assume the dataset is approved for reuse.
