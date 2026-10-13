@@ -1,0 +1,23 @@
+# CareFlow: Clinical Pathway Process Mining
+
+## 1. Project Overview
+
+CareFlow uses process mining to understand patient journeys and identify delays in hospital workflows.
+
+## 2. Example Patient Journey
+
+1. Patient Registration
+2. Triage
+3. X-Ray
+4. Return to Triage
+5. Treatment
+
+## 3. Process Analysis
+
+The repeated Triage activity after X-Ray is an example workflow that should be investigated. Process mining can help identify how frequently this occurs and how it affects patient waiting time.
+
+## 4. Expected Outcome
+
+Identify repeated activities, workflow bottlenecks, and opportunities to improve hospital operations.
+
+Note: This is an illustrative workflow, not a finding from actual hospital data.
