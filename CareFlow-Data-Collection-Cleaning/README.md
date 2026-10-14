@@ -11,9 +11,12 @@ CareFlow-Data-Collection-Cleaning/
 |   |-- data_dictionary.csv
 |   `-- data_dictionary.md
 |-- reports/
-|   `-- day01_initial_inspection.md
+|   |-- day01_initial_inspection.md
+|   |-- day03_missing_values_report.csv
+|   `-- day03_missing_values_report.md
 |-- src/
 |   |-- data_dictionary.py
+|   |-- missing_values_analysis.py
 |   `-- inspect_dataset.py
 `-- README.md
 ```
@@ -65,3 +68,21 @@ python .\src\data_dictionary.py
 The script reads `events.parquet` and creates `data\data_dictionary.csv` and `data\data_dictionary.md`. It searches the project folder first and then the containing workspace folder. If the dataset is missing, place the original file in either location and run the script again. It does not modify the dataset.
 
 The dataset licence and reuse conditions still need verification. Do not assume the dataset is approved for reuse.
+
+## Analyze Missing Values
+
+From the workspace folder, run:
+
+```powershell
+python .\CareFlow-Data-Collection-Cleaning\src\missing_values_analysis.py
+```
+
+Or, from this project directory, run:
+
+```powershell
+python .\src\missing_values_analysis.py
+```
+
+The script reads `events.parquet` without changing it and creates
+`reports\day03_missing_values_report.csv` and
+`reports\day03_missing_values_report.md`.
