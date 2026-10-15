@@ -13,9 +13,11 @@ CareFlow-Data-Collection-Cleaning/
 |-- reports/
 |   |-- day01_initial_inspection.md
 |   |-- day03_missing_values_report.csv
-|   `-- day03_missing_values_report.md
+|   |-- day03_missing_values_report.md
+|   `-- day04_duplicate_analysis_report.md
 |-- src/
 |   |-- data_dictionary.py
+|   |-- duplicate_analysis.py
 |   |-- missing_values_analysis.py
 |   `-- inspect_dataset.py
 `-- README.md
@@ -86,3 +88,15 @@ python .\src\missing_values_analysis.py
 The script reads `events.parquet` without changing it and creates
 `reports\day03_missing_values_report.csv` and
 `reports\day03_missing_values_report.md`.
+
+## Analyze Duplicate Records
+
+From the workspace folder, run:
+
+```powershell
+python .\CareFlow-Data-Collection-Cleaning\src\duplicate_analysis.py
+```
+
+The script checks for exact duplicate rows across all columns without changing
+`events.parquet`. It writes `reports\day04_duplicate_analysis_report.md` and,
+when duplicates are found, `reports\day04_duplicate_rows.csv`.
