@@ -20,7 +20,11 @@ def load_events():
             "WARNING: Using Excel copy. "
             "Validate it against the source before final analysis."
         )
-        return pd.read_excel(excel_path)
+        return pd.read_excel(
+    excel_path,
+    keep_default_na=False,
+    na_values=[""],
+)
     raise FileNotFoundError(
         "Place events.parquet or events.xlsx inside data/raw/"
     )

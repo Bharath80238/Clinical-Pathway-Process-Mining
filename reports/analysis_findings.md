@@ -7,7 +7,7 @@ The analysis uses the `events_analysis` table in `data/processed/careflow.db`. S
 - Distinct cases: 1,050
 - Distinct activities: 16
 - Average events per case: approximately 14.49
-- Exact duplicate rows detected: 0
+- Exact duplicate rows in the analysis table: 0 (one exact duplicate was retained in the raw table and removed during preparation).
 - Invalid timestamps detected: 0
 ## 3. Data Quality Assessment
 The inspected dataset contains no missing case IDs, activity names, or timestamps. No exact duplicate rows or invalid timestamps were detected by the validation script.
@@ -18,6 +18,7 @@ Clinical measurement fields contain substantial missing data:
 | CRP | 12,090 | 79.5% |
 | Lactic acid | 13,759 | 90.4% |
 These missing values limit the completeness of clinical measurement analysis. Missing measurements should not be interpreted as normal results or as proof that a test was unnecessary.
+**Case-ID limitation:** The literal case ID `"NA"` appears in 24 event records, spanning 10 November 2014 to 22 November 2014. The identifier's meaning has not been verified. Current SQL groups these records under one case ID, which may affect case counts, case-duration statistics, and inter-event interval calculations. These records have been retained pending clarification of the source data's identifier semantics.
 ## 4. Activity Frequency Analysis
 The most frequent activities in the SQL results were:
 | Activity | Event count |
