@@ -1,0 +1,1051 @@
+case_id,total_events,compliance_score_pct,has_registration,has_triage,has_sepsis_triage,has_iv_antibiotics,has_return_er,deviations_count,deviation_reasons
+A,22,100.0,True,True,True,True,False,0,Fully Compliant
+AA,8,100.0,True,True,True,True,False,0,Fully Compliant
+AAA,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AB,8,100.0,True,True,True,True,False,0,Fully Compliant
+ABA,17,100.0,True,True,True,True,False,0,Fully Compliant
+AC,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ACA,8,100.0,True,True,True,True,False,0,Fully Compliant
+AD,29,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ADA,24,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AE,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AEA,9,100.0,True,True,True,True,False,0,Fully Compliant
+AF,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AFA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AG,5,75.0,True,True,True,False,False,3,ER Registration not first event; Sepsis Triage executed before General Triage; No IV Antibiotics Recorded
+AGA,15,100.0,True,True,True,True,False,0,Fully Compliant
+AH,11,100.0,True,True,True,True,False,0,Fully Compliant
+AHA,12,100.0,True,True,True,True,False,0,Fully Compliant
+AI,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AIA,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AJ,25,100.0,True,True,True,True,False,0,Fully Compliant
+AJA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AK,11,100.0,True,True,True,True,False,0,Fully Compliant
+AKA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AL,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ALA,11,100.0,True,True,True,True,False,0,Fully Compliant
+AM,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AMA,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AN,8,100.0,True,True,True,True,False,0,Fully Compliant
+ANA,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AO,7,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+AP,11,100.0,True,True,True,True,False,0,Fully Compliant
+AQ,14,100.0,True,True,True,True,False,0,Fully Compliant
+AR,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+AS,22,100.0,True,True,True,True,False,0,Fully Compliant
+AT,8,100.0,True,True,True,True,False,0,Fully Compliant
+AU,12,100.0,True,True,True,True,False,0,Fully Compliant
+AV,10,100.0,True,True,True,True,False,0,Fully Compliant
+AW,7,100.0,True,True,True,True,False,0,Fully Compliant
+AX,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AY,22,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+AZ,15,100.0,True,True,True,True,False,0,Fully Compliant
+B,12,100.0,True,True,True,True,False,0,Fully Compliant
+BA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BAA,12,100.0,True,True,True,True,False,0,Fully Compliant
+BB,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BBA,14,100.0,True,True,True,True,False,0,Fully Compliant
+BC,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BCA,19,100.0,True,True,True,True,False,0,Fully Compliant
+BD,12,100.0,True,True,True,True,False,0,Fully Compliant
+BDA,12,100.0,True,True,True,True,False,0,Fully Compliant
+BE,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BEA,8,100.0,True,True,True,True,False,1,ER Registration not first event
+BF,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BFA,21,100.0,True,True,True,True,False,1,ER Registration not first event
+BG,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BGA,12,100.0,True,True,True,True,False,0,Fully Compliant
+BH,20,100.0,True,True,True,True,False,0,Fully Compliant
+BHA,15,100.0,True,True,True,True,False,0,Fully Compliant
+BI,10,100.0,True,True,True,True,False,0,Fully Compliant
+BIA,36,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+BJ,21,100.0,True,True,True,True,False,0,Fully Compliant
+BJA,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BK,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BKA,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BL,11,100.0,True,True,True,True,False,0,Fully Compliant
+BLA,20,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BM,9,100.0,True,True,True,True,False,0,Fully Compliant
+BMA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BN,26,100.0,True,True,True,True,False,0,Fully Compliant
+BNA,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BO,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BP,22,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BQ,12,100.0,True,True,True,True,False,0,Fully Compliant
+BR,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BS,13,100.0,True,True,True,True,False,0,Fully Compliant
+BT,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BU,14,100.0,True,True,True,True,False,0,Fully Compliant
+BV,16,100.0,True,True,True,True,False,0,Fully Compliant
+BW,21,100.0,True,True,True,True,False,0,Fully Compliant
+BX,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+BY,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+BZ,24,100.0,True,True,True,True,False,0,Fully Compliant
+C,14,100.0,True,True,True,True,False,0,Fully Compliant
+CA,8,100.0,True,True,True,True,False,0,Fully Compliant
+CAA,8,100.0,True,True,True,True,False,0,Fully Compliant
+CB,14,100.0,True,True,True,True,False,0,Fully Compliant
+CBA,21,100.0,True,True,True,True,False,0,Fully Compliant
+CC,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+CCA,8,100.0,True,True,True,True,False,0,Fully Compliant
+CD,8,100.0,True,True,True,True,False,0,Fully Compliant
+CDA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+CE,11,100.0,True,True,True,True,False,0,Fully Compliant
+CEA,14,100.0,True,True,True,True,False,0,Fully Compliant
+CF,27,100.0,True,True,True,True,True,1,ER Readmission Occurred
+CFA,18,100.0,True,True,True,True,False,0,Fully Compliant
+CG,15,100.0,True,True,True,True,False,0,Fully Compliant
+CGA,10,100.0,True,True,True,True,False,0,Fully Compliant
+CH,9,100.0,True,True,True,True,False,0,Fully Compliant
+CHA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+CI,13,100.0,True,True,True,True,False,0,Fully Compliant
+CIA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+CJ,25,100.0,True,True,True,True,False,1,ER Registration not first event
+CJA,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+CK,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+CKA,17,100.0,True,True,True,True,False,0,Fully Compliant
+CL,4,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+CLA,8,100.0,True,True,True,True,False,0,Fully Compliant
+CM,15,100.0,True,True,True,True,False,0,Fully Compliant
+CMA,8,100.0,True,True,True,True,False,0,Fully Compliant
+CN,11,100.0,True,True,True,True,False,0,Fully Compliant
+CNA,17,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+CO,8,100.0,True,True,True,True,False,0,Fully Compliant
+CP,15,100.0,True,True,True,True,False,0,Fully Compliant
+CQ,13,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+CR,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+CS,7,100.0,True,True,True,True,False,0,Fully Compliant
+CT,12,100.0,True,True,True,True,False,0,Fully Compliant
+CU,11,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+CV,12,100.0,True,True,True,True,False,0,Fully Compliant
+CW,15,100.0,True,True,True,True,False,0,Fully Compliant
+CX,14,100.0,True,True,True,True,False,0,Fully Compliant
+CY,33,100.0,True,True,True,True,False,0,Fully Compliant
+CZ,40,100.0,True,True,True,True,False,0,Fully Compliant
+D,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DA,12,100.0,True,True,True,True,False,0,Fully Compliant
+DAA,16,100.0,True,True,True,True,False,0,Fully Compliant
+DB,12,100.0,True,True,True,True,False,0,Fully Compliant
+DBA,14,100.0,True,True,True,True,False,0,Fully Compliant
+DC,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DCA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DD,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DDA,17,100.0,True,True,True,True,False,0,Fully Compliant
+DE,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DEA,14,100.0,True,True,True,True,False,0,Fully Compliant
+DF,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DFA,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DG,12,100.0,True,True,True,True,False,0,Fully Compliant
+DGA,18,100.0,True,True,True,True,False,0,Fully Compliant
+DH,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DHA,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DI,12,100.0,True,True,True,True,False,0,Fully Compliant
+DIA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DJ,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DJA,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+DK,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DKA,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DL,11,100.0,True,True,True,True,False,0,Fully Compliant
+DLA,8,100.0,True,True,True,True,False,0,Fully Compliant
+DM,8,100.0,True,True,True,True,False,0,Fully Compliant
+DMA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DN,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DNA,8,100.0,True,True,True,True,False,0,Fully Compliant
+DO,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+DP,14,100.0,True,True,True,True,False,0,Fully Compliant
+DQ,8,100.0,True,True,True,True,False,0,Fully Compliant
+DR,15,100.0,True,True,True,True,False,0,Fully Compliant
+DS,15,100.0,True,True,True,True,False,1,ER Registration not first event
+DT,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+DU,9,100.0,True,True,True,True,False,0,Fully Compliant
+DV,8,100.0,True,True,True,True,False,0,Fully Compliant
+DW,13,100.0,True,True,True,True,False,0,Fully Compliant
+DX,13,100.0,True,True,True,True,False,1,ER Registration not first event
+DY,14,100.0,True,True,True,True,False,0,Fully Compliant
+DZ,32,100.0,True,True,True,True,False,0,Fully Compliant
+E,8,100.0,True,True,True,True,False,0,Fully Compliant
+EA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EAA,15,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+EB,8,100.0,True,True,True,True,False,0,Fully Compliant
+EBA,12,100.0,True,True,True,True,False,0,Fully Compliant
+EC,17,100.0,True,True,True,True,False,0,Fully Compliant
+ECA,19,100.0,True,True,True,True,False,0,Fully Compliant
+ED,33,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EDA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EE,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+EEA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EF,14,100.0,True,True,True,True,False,0,Fully Compliant
+EFA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+EG,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+EGA,13,100.0,True,True,True,True,False,0,Fully Compliant
+EH,10,100.0,True,True,True,True,False,0,Fully Compliant
+EHA,30,100.0,True,True,True,True,False,0,Fully Compliant
+EI,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EIA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EJ,11,100.0,True,True,True,True,False,0,Fully Compliant
+EJA,9,100.0,True,True,True,True,False,0,Fully Compliant
+EK,20,100.0,True,True,True,True,False,0,Fully Compliant
+EKA,14,100.0,True,True,True,True,False,0,Fully Compliant
+EL,14,100.0,True,True,True,True,False,0,Fully Compliant
+ELA,20,100.0,True,True,True,True,False,0,Fully Compliant
+EM,29,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EMA,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EN,8,100.0,True,True,True,True,False,0,Fully Compliant
+ENA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+EO,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EP,8,100.0,True,True,True,True,False,0,Fully Compliant
+EQ,30,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ER,8,100.0,True,True,True,True,False,0,Fully Compliant
+ES,47,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ET,10,100.0,True,True,True,True,False,0,Fully Compliant
+EU,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+EV,10,100.0,True,True,True,True,False,0,Fully Compliant
+EW,23,100.0,True,True,True,True,False,0,Fully Compliant
+EX,24,100.0,True,True,True,True,False,0,Fully Compliant
+EY,12,100.0,True,True,True,True,False,0,Fully Compliant
+EZ,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+F,10,100.0,True,True,True,True,False,0,Fully Compliant
+FA,8,100.0,True,True,True,True,False,0,Fully Compliant
+FAA,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FB,8,100.0,True,True,True,True,False,0,Fully Compliant
+FBA,10,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+FC,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FCA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FD,11,100.0,True,True,True,True,False,0,Fully Compliant
+FDA,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FE,17,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+FEA,10,100.0,True,True,True,True,False,0,Fully Compliant
+FF,8,100.0,True,True,True,True,False,0,Fully Compliant
+FFA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FG,11,100.0,True,True,True,True,False,0,Fully Compliant
+FGA,11,100.0,True,True,True,True,False,0,Fully Compliant
+FH,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FHA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FI,8,100.0,True,True,True,True,False,0,Fully Compliant
+FIA,13,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FJ,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FJA,16,100.0,True,True,True,True,False,0,Fully Compliant
+FK,17,100.0,True,True,True,True,False,0,Fully Compliant
+FKA,11,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FL,9,100.0,True,True,True,True,False,0,Fully Compliant
+FLA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FM,16,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+FMA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FN,23,100.0,True,True,True,True,False,0,Fully Compliant
+FNA,9,100.0,True,True,True,True,False,0,Fully Compliant
+FO,28,100.0,True,True,True,True,False,0,Fully Compliant
+FP,6,100.0,True,True,True,True,False,0,Fully Compliant
+FQ,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FR,9,100.0,True,True,True,True,False,0,Fully Compliant
+FS,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FT,37,100.0,True,True,True,True,False,0,Fully Compliant
+FU,12,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+FV,8,100.0,True,True,True,True,False,0,Fully Compliant
+FW,20,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FX,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FY,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+FZ,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+G,12,100.0,True,True,True,True,False,0,Fully Compliant
+GA,12,100.0,True,True,True,True,False,0,Fully Compliant
+GAA,16,100.0,True,True,True,True,False,0,Fully Compliant
+GB,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GBA,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GC,12,100.0,True,True,True,True,False,0,Fully Compliant
+GCA,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GD,14,100.0,True,True,True,True,False,0,Fully Compliant
+GDA,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+GE,15,100.0,True,True,True,True,False,0,Fully Compliant
+GEA,14,100.0,True,True,True,True,False,0,Fully Compliant
+GF,59,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GFA,10,100.0,True,True,True,True,False,0,Fully Compliant
+GG,18,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+GGA,8,100.0,True,True,True,True,False,0,Fully Compliant
+GH,8,100.0,True,True,True,True,False,0,Fully Compliant
+GHA,14,100.0,True,True,True,True,False,0,Fully Compliant
+GI,12,100.0,True,True,True,True,False,1,ER Registration not first event
+GIA,7,100.0,True,True,True,True,False,0,Fully Compliant
+GJ,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GJA,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GK,88,100.0,True,True,True,True,False,1,ER Registration not first event
+GKA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+GL,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GLA,14,100.0,True,True,True,True,False,0,Fully Compliant
+GM,13,100.0,True,True,True,True,False,0,Fully Compliant
+GMA,13,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+GN,41,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GNA,25,100.0,True,True,True,True,False,0,Fully Compliant
+GO,20,100.0,True,True,True,True,False,0,Fully Compliant
+GP,10,100.0,True,True,True,True,False,0,Fully Compliant
+GQ,10,100.0,True,True,True,True,False,0,Fully Compliant
+GR,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+GS,16,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+GT,22,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+GU,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+GV,14,100.0,True,True,True,True,False,0,Fully Compliant
+GW,11,100.0,True,True,True,True,False,2,ER Registration not first event; Sepsis Triage executed before General Triage
+GX,15,100.0,True,True,True,True,False,2,ER Registration not first event; Sepsis Triage executed before General Triage
+GY,13,100.0,True,True,True,True,False,0,Fully Compliant
+GZ,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+H,13,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HA,11,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HAA,21,100.0,True,True,True,True,False,0,Fully Compliant
+HB,15,100.0,True,True,True,True,False,0,Fully Compliant
+HBA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HC,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HCA,8,100.0,True,True,True,True,False,0,Fully Compliant
+HD,32,100.0,True,True,True,True,False,0,Fully Compliant
+HDA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HE,17,100.0,True,True,True,True,False,0,Fully Compliant
+HEA,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HF,13,100.0,True,True,True,True,False,0,Fully Compliant
+HFA,8,100.0,True,True,True,True,False,0,Fully Compliant
+HG,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HGA,16,100.0,True,True,True,True,False,0,Fully Compliant
+HH,12,100.0,True,True,True,True,False,0,Fully Compliant
+HHA,16,100.0,True,True,True,True,False,0,Fully Compliant
+HI,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+HIA,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HJ,15,100.0,True,True,True,True,False,0,Fully Compliant
+HJA,13,100.0,True,True,True,True,False,0,Fully Compliant
+HK,10,100.0,True,True,True,True,False,0,Fully Compliant
+HKA,19,100.0,True,True,True,True,False,0,Fully Compliant
+HL,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HLA,16,100.0,True,True,True,True,False,0,Fully Compliant
+HM,15,75.0,True,True,True,False,False,2,ER Registration not first event; No IV Antibiotics Recorded
+HMA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HN,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HNA,30,100.0,True,True,True,True,False,0,Fully Compliant
+HO,25,100.0,True,True,True,True,False,0,Fully Compliant
+HP,11,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HQ,13,100.0,True,True,True,True,False,0,Fully Compliant
+HR,10,100.0,True,True,True,True,False,0,Fully Compliant
+HS,45,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HT,14,100.0,True,True,True,True,False,0,Fully Compliant
+HU,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HV,16,100.0,True,True,True,True,False,0,Fully Compliant
+HW,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+HX,10,100.0,True,True,True,True,False,0,Fully Compliant
+HY,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+HZ,22,100.0,True,True,True,True,False,0,Fully Compliant
+I,11,100.0,True,True,True,True,False,0,Fully Compliant
+IA,8,100.0,True,True,True,True,False,1,ER Registration not first event
+IAA,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+IB,14,100.0,True,True,True,True,False,0,Fully Compliant
+IBA,12,100.0,True,True,True,True,False,0,Fully Compliant
+IC,12,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+ICA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+ID,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IDA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IE,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IEA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IF,17,100.0,True,True,True,True,False,1,ER Registration not first event
+IFA,8,100.0,True,True,True,True,False,0,Fully Compliant
+IG,18,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IGA,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IH,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IHA,16,100.0,True,True,True,True,False,0,Fully Compliant
+II,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IIA,13,100.0,True,True,True,True,False,0,Fully Compliant
+IJ,16,100.0,True,True,True,True,False,0,Fully Compliant
+IJA,11,100.0,True,True,True,True,False,0,Fully Compliant
+IK,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IKA,8,100.0,True,True,True,True,False,0,Fully Compliant
+IL,13,100.0,True,True,True,True,False,0,Fully Compliant
+ILA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IM,37,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+IMA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IN,11,100.0,True,True,True,True,False,0,Fully Compliant
+INA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+IO,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IP,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IQ,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IR,9,100.0,True,True,True,True,False,0,Fully Compliant
+IS,23,100.0,True,True,True,True,False,0,Fully Compliant
+IT,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IU,15,100.0,True,True,True,True,False,0,Fully Compliant
+IV,8,100.0,True,True,True,True,False,0,Fully Compliant
+IW,13,100.0,True,True,True,True,False,1,ER Registration not first event
+IX,8,100.0,True,True,True,True,False,0,Fully Compliant
+IY,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+IZ,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+J,11,100.0,True,True,True,True,False,0,Fully Compliant
+JA,14,100.0,True,True,True,True,True,2,Sepsis Triage executed before General Triage; ER Readmission Occurred
+JAA,23,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JB,8,100.0,True,True,True,True,False,0,Fully Compliant
+JBA,8,100.0,True,True,True,True,False,0,Fully Compliant
+JC,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JCA,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JD,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JDA,8,100.0,True,True,True,True,False,0,Fully Compliant
+JE,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JEA,9,100.0,True,True,True,True,False,0,Fully Compliant
+JF,8,100.0,True,True,True,True,False,0,Fully Compliant
+JFA,8,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+JG,13,100.0,True,True,True,True,False,0,Fully Compliant
+JGA,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JH,12,100.0,True,True,True,True,True,2,Sepsis Triage executed before General Triage; ER Readmission Occurred
+JHA,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JI,8,100.0,True,True,True,True,False,0,Fully Compliant
+JIA,9,100.0,True,True,True,True,False,1,ER Registration not first event
+JJ,12,100.0,True,True,True,True,False,0,Fully Compliant
+JJA,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JK,31,100.0,True,True,True,True,False,0,Fully Compliant
+JKA,13,100.0,True,True,True,True,False,0,Fully Compliant
+JL,10,100.0,True,True,True,True,False,0,Fully Compliant
+JLA,25,100.0,True,True,True,True,False,0,Fully Compliant
+JM,13,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JMA,17,100.0,True,True,True,True,False,2,ER Registration not first event; Sepsis Triage executed before General Triage
+JN,12,100.0,True,True,True,True,False,0,Fully Compliant
+JNA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JO,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JP,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+JQ,18,100.0,True,True,True,True,False,0,Fully Compliant
+JR,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JS,39,100.0,True,True,True,True,False,0,Fully Compliant
+JT,14,100.0,True,True,True,True,False,0,Fully Compliant
+JU,16,100.0,True,True,True,True,False,0,Fully Compliant
+JV,15,100.0,True,True,True,True,False,0,Fully Compliant
+JW,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JX,17,100.0,True,True,True,True,False,0,Fully Compliant
+JY,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+JZ,10,100.0,True,True,True,True,False,0,Fully Compliant
+K,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KA,16,100.0,True,True,True,True,False,0,Fully Compliant
+KAA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+KB,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KBA,15,100.0,True,True,True,True,False,0,Fully Compliant
+KC,13,100.0,True,True,True,True,False,0,Fully Compliant
+KCA,11,100.0,True,True,True,True,False,0,Fully Compliant
+KD,17,100.0,True,True,True,True,True,3,ER Registration not first event; Sepsis Triage executed before General Triage; ER Readmission Occurred
+KDA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+KE,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KEA,8,100.0,True,True,True,True,False,0,Fully Compliant
+KF,15,100.0,True,True,True,True,False,0,Fully Compliant
+KFA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KG,16,100.0,True,True,True,True,False,1,ER Registration not first event
+KGA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+KH,12,100.0,True,True,True,True,False,0,Fully Compliant
+KHA,10,100.0,True,True,True,True,False,0,Fully Compliant
+KI,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KIA,13,100.0,True,True,True,True,False,0,Fully Compliant
+KJ,10,100.0,True,True,True,True,False,0,Fully Compliant
+KJA,5,75.0,True,True,True,False,False,2,ER Registration not first event; No IV Antibiotics Recorded
+KK,14,100.0,True,True,True,True,False,0,Fully Compliant
+KKA,14,100.0,True,True,True,True,False,0,Fully Compliant
+KL,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+KLA,14,100.0,True,True,True,True,False,0,Fully Compliant
+KM,170,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KMA,20,100.0,True,True,True,True,False,0,Fully Compliant
+KN,14,100.0,True,True,True,True,False,0,Fully Compliant
+KNA,15,100.0,True,True,True,True,False,0,Fully Compliant
+KO,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KP,10,100.0,True,True,True,True,False,0,Fully Compliant
+KQ,11,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+KR,9,100.0,True,True,True,True,False,0,Fully Compliant
+KS,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KT,13,100.0,True,True,True,True,False,0,Fully Compliant
+KU,8,100.0,True,True,True,True,False,0,Fully Compliant
+KV,8,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+KW,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+KX,30,50.0,True,True,False,False,True,4,ER Registration not first event; Bypassed Sepsis Triage; No IV Antibiotics Recorded; ER Readmission Occurred
+KY,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+KZ,17,100.0,True,True,True,True,False,0,Fully Compliant
+L,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LAA,8,100.0,True,True,True,True,False,0,Fully Compliant
+LB,19,100.0,True,True,True,True,False,0,Fully Compliant
+LBA,19,100.0,True,True,True,True,False,0,Fully Compliant
+LC,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LCA,8,100.0,True,True,True,True,False,0,Fully Compliant
+LD,14,100.0,True,True,True,True,False,0,Fully Compliant
+LDA,15,100.0,True,True,True,True,False,0,Fully Compliant
+LE,12,100.0,True,True,True,True,False,0,Fully Compliant
+LEA,30,100.0,True,True,True,True,False,0,Fully Compliant
+LF,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LFA,10,100.0,True,True,True,True,False,0,Fully Compliant
+LG,41,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LGA,9,100.0,True,True,True,True,False,1,ER Registration not first event
+LH,17,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LHA,13,100.0,True,True,True,True,False,0,Fully Compliant
+LI,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LIA,31,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LJ,31,100.0,True,True,True,True,False,0,Fully Compliant
+LJA,8,100.0,True,True,True,True,False,0,Fully Compliant
+LK,12,100.0,True,True,True,True,False,0,Fully Compliant
+LKA,24,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LL,22,100.0,True,True,True,True,False,0,Fully Compliant
+LLA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LM,35,100.0,True,True,True,True,False,0,Fully Compliant
+LMA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LN,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LNA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LO,8,100.0,True,True,True,True,False,0,Fully Compliant
+LP,19,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+LQ,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LR,12,100.0,True,True,True,True,False,0,Fully Compliant
+LS,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LT,29,100.0,True,True,True,True,False,0,Fully Compliant
+LU,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+LV,19,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LW,15,100.0,True,True,True,True,False,1,ER Registration not first event
+LX,13,100.0,True,True,True,True,False,1,ER Registration not first event
+LY,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+LZ,21,100.0,True,True,True,True,True,3,ER Registration not first event; Sepsis Triage executed before General Triage; ER Readmission Occurred
+M,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MA,14,100.0,True,True,True,True,False,0,Fully Compliant
+MAA,14,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MB,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MBA,11,100.0,True,True,True,True,False,0,Fully Compliant
+MC,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MCA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MD,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MDA,12,100.0,True,True,True,True,False,1,ER Registration not first event
+ME,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MEA,21,100.0,True,True,True,True,False,0,Fully Compliant
+MF,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MFA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MG,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MGA,12,100.0,True,True,True,True,False,0,Fully Compliant
+MH,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MHA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MI,8,100.0,True,True,True,True,False,0,Fully Compliant
+MIA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MJ,13,100.0,True,True,True,True,False,0,Fully Compliant
+MJA,8,100.0,True,True,True,True,False,0,Fully Compliant
+MK,27,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MKA,52,100.0,True,True,True,True,False,0,Fully Compliant
+ML,29,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MLA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MM,20,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MMA,8,100.0,True,True,True,True,False,0,Fully Compliant
+MN,33,75.0,True,True,True,False,True,3,ER Registration not first event; No IV Antibiotics Recorded; ER Readmission Occurred
+MO,10,100.0,True,True,True,True,False,0,Fully Compliant
+MP,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MQ,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MR,12,100.0,True,True,True,True,False,0,Fully Compliant
+MS,15,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+MT,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+MU,14,100.0,True,True,True,True,False,0,Fully Compliant
+MV,16,100.0,True,True,True,True,False,0,Fully Compliant
+MW,30,100.0,True,True,True,True,False,0,Fully Compliant
+MX,12,100.0,True,True,True,True,False,0,Fully Compliant
+MY,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+MZ,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+N,12,100.0,True,True,True,True,False,0,Fully Compliant
+NA,24,100.0,True,True,True,True,False,0,Fully Compliant
+NAA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NB,21,100.0,True,True,True,True,False,0,Fully Compliant
+NBA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NC,7,100.0,True,True,True,True,False,0,Fully Compliant
+NCA,17,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+ND,16,100.0,True,True,True,True,False,0,Fully Compliant
+NDA,15,100.0,True,True,True,True,False,0,Fully Compliant
+NE,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NEA,51,100.0,True,True,True,True,False,0,Fully Compliant
+NF,28,100.0,True,True,True,True,False,0,Fully Compliant
+NFA,8,100.0,True,True,True,True,False,0,Fully Compliant
+NG,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NGA,185,100.0,True,True,True,True,False,0,Fully Compliant
+NH,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NHA,11,100.0,True,True,True,True,False,0,Fully Compliant
+NI,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NIA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NJ,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NJA,16,100.0,True,True,True,True,False,0,Fully Compliant
+NK,18,100.0,True,True,True,True,False,0,Fully Compliant
+NKA,10,100.0,True,True,True,True,False,0,Fully Compliant
+NL,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NLA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NM,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NMA,21,100.0,True,True,True,True,False,0,Fully Compliant
+NN,13,100.0,True,True,True,True,False,0,Fully Compliant
+NO,13,100.0,True,True,True,True,False,0,Fully Compliant
+NP,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+NQ,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NR,19,100.0,True,True,True,True,False,0,Fully Compliant
+NS,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+NT,17,100.0,True,True,True,True,False,0,Fully Compliant
+NU,20,100.0,True,True,True,True,False,0,Fully Compliant
+NV,11,100.0,True,True,True,True,False,0,Fully Compliant
+NW,18,100.0,True,True,True,True,False,0,Fully Compliant
+NX,12,100.0,True,True,True,True,False,0,Fully Compliant
+NY,8,100.0,True,True,True,True,False,0,Fully Compliant
+NZ,61,100.0,True,True,True,True,True,1,ER Readmission Occurred
+O,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OA,11,100.0,True,True,True,True,False,0,Fully Compliant
+OAA,37,100.0,True,True,True,True,False,0,Fully Compliant
+OB,16,100.0,True,True,True,True,False,0,Fully Compliant
+OBA,13,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OC,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OCA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OD,118,100.0,True,True,True,True,False,0,Fully Compliant
+ODA,23,100.0,True,True,True,True,False,0,Fully Compliant
+OE,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OEA,20,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OF,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OFA,7,100.0,True,True,True,True,False,0,Fully Compliant
+OG,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OGA,13,100.0,True,True,True,True,False,0,Fully Compliant
+OH,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OHA,13,100.0,True,True,True,True,False,0,Fully Compliant
+OI,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OIA,15,100.0,True,True,True,True,False,0,Fully Compliant
+OJ,23,100.0,True,True,True,True,False,0,Fully Compliant
+OJA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OK,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OKA,12,100.0,True,True,True,True,False,0,Fully Compliant
+OL,12,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+OLA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OM,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OMA,26,100.0,True,True,True,True,True,3,ER Registration not first event; Sepsis Triage executed before General Triage; ER Readmission Occurred
+ON,15,100.0,True,True,True,True,False,0,Fully Compliant
+OO,11,100.0,True,True,True,True,False,0,Fully Compliant
+OP,8,100.0,True,True,True,True,False,0,Fully Compliant
+OQ,12,100.0,True,True,True,True,False,0,Fully Compliant
+OR,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OS,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OT,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OU,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OV,9,100.0,True,True,True,True,False,0,Fully Compliant
+OW,16,100.0,True,True,True,True,False,0,Fully Compliant
+OX,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+OY,16,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+OZ,10,100.0,True,True,True,True,False,0,Fully Compliant
+P,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PAA,8,100.0,True,True,True,True,False,0,Fully Compliant
+PB,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PBA,11,100.0,True,True,True,True,False,0,Fully Compliant
+PC,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PCA,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PD,9,100.0,True,True,True,True,False,0,Fully Compliant
+PDA,16,100.0,True,True,True,True,False,0,Fully Compliant
+PE,8,100.0,True,True,True,True,False,0,Fully Compliant
+PEA,10,100.0,True,True,True,True,False,0,Fully Compliant
+PF,15,100.0,True,True,True,True,False,0,Fully Compliant
+PFA,20,100.0,True,True,True,True,False,0,Fully Compliant
+PG,13,100.0,True,True,True,True,True,2,Sepsis Triage executed before General Triage; ER Readmission Occurred
+PGA,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PH,8,100.0,True,True,True,True,False,0,Fully Compliant
+PHA,8,100.0,True,True,True,True,False,0,Fully Compliant
+PI,11,100.0,True,True,True,True,False,0,Fully Compliant
+PIA,45,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PJ,19,100.0,True,True,True,True,False,0,Fully Compliant
+PJA,8,100.0,True,True,True,True,False,0,Fully Compliant
+PK,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PKA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PL,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PLA,25,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PM,8,100.0,True,True,True,True,False,0,Fully Compliant
+PMA,14,100.0,True,True,True,True,False,0,Fully Compliant
+PN,6,75.0,True,True,True,False,False,2,ER Registration not first event; No IV Antibiotics Recorded
+PO,13,100.0,True,True,True,True,False,0,Fully Compliant
+PP,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PQ,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PR,14,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PS,10,100.0,True,True,True,True,False,0,Fully Compliant
+PT,13,100.0,True,True,True,True,False,0,Fully Compliant
+PU,38,100.0,True,True,True,True,False,0,Fully Compliant
+PV,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+PW,12,100.0,True,True,True,True,False,0,Fully Compliant
+PX,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+PY,8,100.0,True,True,True,True,False,0,Fully Compliant
+PZ,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+Q,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QA,14,100.0,True,True,True,True,False,0,Fully Compliant
+QAA,14,100.0,True,True,True,True,False,0,Fully Compliant
+QB,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QBA,33,100.0,True,True,True,True,False,0,Fully Compliant
+QC,15,100.0,True,True,True,True,False,0,Fully Compliant
+QCA,15,100.0,True,True,True,True,False,0,Fully Compliant
+QD,12,100.0,True,True,True,True,False,0,Fully Compliant
+QDA,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+QE,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QEA,7,100.0,True,True,True,True,False,0,Fully Compliant
+QF,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QFA,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QG,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QGA,7,100.0,True,True,True,True,False,0,Fully Compliant
+QH,23,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QHA,14,100.0,True,True,True,True,False,0,Fully Compliant
+QI,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QIA,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QJ,14,100.0,True,True,True,True,False,0,Fully Compliant
+QJA,9,100.0,True,True,True,True,False,0,Fully Compliant
+QK,16,100.0,True,True,True,True,False,1,ER Registration not first event
+QKA,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QL,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QLA,7,100.0,True,True,True,True,False,1,ER Registration not first event
+QM,12,100.0,True,True,True,True,False,0,Fully Compliant
+QMA,18,100.0,True,True,True,True,False,0,Fully Compliant
+QN,16,100.0,True,True,True,True,False,0,Fully Compliant
+QO,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QP,17,100.0,True,True,True,True,False,0,Fully Compliant
+QQ,10,100.0,True,True,True,True,False,0,Fully Compliant
+QR,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QS,12,100.0,True,True,True,True,False,0,Fully Compliant
+QT,11,100.0,True,True,True,True,False,0,Fully Compliant
+QU,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QV,9,100.0,True,True,True,True,False,0,Fully Compliant
+QW,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+QX,29,100.0,True,True,True,True,False,0,Fully Compliant
+QY,12,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+QZ,10,100.0,True,True,True,True,False,0,Fully Compliant
+R,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RAA,17,100.0,True,True,True,True,False,0,Fully Compliant
+RB,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RBA,13,100.0,True,True,True,True,False,0,Fully Compliant
+RC,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+RCA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+RD,7,100.0,True,True,True,True,False,0,Fully Compliant
+RDA,8,100.0,True,True,True,True,False,0,Fully Compliant
+RE,8,100.0,True,True,True,True,False,0,Fully Compliant
+REA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RF,9,100.0,True,True,True,True,False,0,Fully Compliant
+RFA,10,100.0,True,True,True,True,False,0,Fully Compliant
+RG,33,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+RGA,14,100.0,True,True,True,True,False,0,Fully Compliant
+RH,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RHA,9,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RI,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+RIA,13,100.0,True,True,True,True,False,0,Fully Compliant
+RJ,7,100.0,True,True,True,True,False,0,Fully Compliant
+RJA,8,100.0,True,True,True,True,False,0,Fully Compliant
+RK,15,100.0,True,True,True,True,False,0,Fully Compliant
+RKA,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RL,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RLA,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+RM,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RN,20,100.0,True,True,True,True,False,0,Fully Compliant
+RO,17,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+RP,14,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RQ,8,100.0,True,True,True,True,False,0,Fully Compliant
+RR,11,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+RS,10,100.0,True,True,True,True,False,0,Fully Compliant
+RT,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+RU,34,100.0,True,True,True,True,False,1,ER Registration not first event
+RV,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RW,15,100.0,True,True,True,True,False,0,Fully Compliant
+RX,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+RY,23,100.0,True,True,True,True,False,1,ER Registration not first event
+RZ,14,100.0,True,True,True,True,False,0,Fully Compliant
+S,19,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SA,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SAA,11,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+SB,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SBA,14,100.0,True,True,True,True,False,0,Fully Compliant
+SC,9,100.0,True,True,True,True,False,0,Fully Compliant
+SCA,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SD,14,100.0,True,True,True,True,False,0,Fully Compliant
+SDA,14,100.0,True,True,True,True,False,0,Fully Compliant
+SE,10,100.0,True,True,True,True,False,0,Fully Compliant
+SEA,10,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SF,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SFA,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SG,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+SGA,16,100.0,True,True,True,True,False,0,Fully Compliant
+SH,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SHA,17,100.0,True,True,True,True,False,0,Fully Compliant
+SI,18,100.0,True,True,True,True,False,0,Fully Compliant
+SIA,8,100.0,True,True,True,True,False,0,Fully Compliant
+SJ,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SJA,12,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SK,32,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SKA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+SL,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SLA,24,100.0,True,True,True,True,False,0,Fully Compliant
+SM,40,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SMA,16,100.0,True,True,True,True,False,0,Fully Compliant
+SN,8,100.0,True,True,True,True,False,0,Fully Compliant
+SO,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SP,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+SQ,12,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+SR,13,100.0,True,True,True,True,False,0,Fully Compliant
+SS,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ST,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SU,9,100.0,True,True,True,True,False,0,Fully Compliant
+SV,10,100.0,True,True,True,True,False,0,Fully Compliant
+SW,19,100.0,True,True,True,True,False,0,Fully Compliant
+SX,20,100.0,True,True,True,True,False,0,Fully Compliant
+SY,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+SZ,8,100.0,True,True,True,True,False,0,Fully Compliant
+T,10,100.0,True,True,True,True,False,0,Fully Compliant
+TA,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TAA,18,100.0,True,True,True,True,False,0,Fully Compliant
+TB,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+TBA,12,100.0,True,True,True,True,False,0,Fully Compliant
+TC,24,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TCA,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TD,16,100.0,True,True,True,True,False,0,Fully Compliant
+TDA,10,100.0,True,True,True,True,False,0,Fully Compliant
+TE,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TEA,13,100.0,True,True,True,True,False,0,Fully Compliant
+TF,16,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TFA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TG,11,100.0,True,True,True,True,False,0,Fully Compliant
+TGA,15,100.0,True,True,True,True,False,0,Fully Compliant
+TH,13,100.0,True,True,True,True,False,0,Fully Compliant
+THA,12,100.0,True,True,True,True,False,0,Fully Compliant
+TI,21,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TIA,15,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TJ,15,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+TJA,27,100.0,True,True,True,True,False,0,Fully Compliant
+TK,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TKA,13,100.0,True,True,True,True,False,0,Fully Compliant
+TL,17,100.0,True,True,True,True,False,0,Fully Compliant
+TLA,8,100.0,True,True,True,True,False,0,Fully Compliant
+TM,7,100.0,True,True,True,True,False,0,Fully Compliant
+TMA,10,100.0,True,True,True,True,False,0,Fully Compliant
+TN,27,100.0,True,True,True,True,False,0,Fully Compliant
+TO,34,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TP,15,100.0,True,True,True,True,False,0,Fully Compliant
+TQ,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TR,8,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TS,20,100.0,True,True,True,True,False,0,Fully Compliant
+TT,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TU,20,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TV,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TW,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TX,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+TY,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+TZ,8,100.0,True,True,True,True,False,0,Fully Compliant
+U,11,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UA,11,100.0,True,True,True,True,False,0,Fully Compliant
+UAA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UB,9,100.0,True,True,True,True,False,0,Fully Compliant
+UBA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+UC,32,100.0,True,True,True,True,True,1,ER Readmission Occurred
+UCA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UD,31,100.0,True,True,True,True,True,1,ER Readmission Occurred
+UDA,30,100.0,True,True,True,True,False,1,ER Registration not first event
+UE,19,100.0,True,True,True,True,False,0,Fully Compliant
+UEA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UF,29,100.0,True,True,True,True,False,0,Fully Compliant
+UFA,8,100.0,True,True,True,True,False,0,Fully Compliant
+UG,8,100.0,True,True,True,True,False,0,Fully Compliant
+UGA,15,100.0,True,True,True,True,False,0,Fully Compliant
+UH,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UHA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UI,14,100.0,True,True,True,True,False,0,Fully Compliant
+UIA,13,100.0,True,True,True,True,False,0,Fully Compliant
+UJ,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+UJA,8,100.0,True,True,True,True,False,0,Fully Compliant
+UK,18,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+UKA,17,100.0,True,True,True,True,False,0,Fully Compliant
+UL,7,100.0,True,True,True,True,False,0,Fully Compliant
+ULA,15,100.0,True,True,True,True,False,0,Fully Compliant
+UM,9,100.0,True,True,True,True,False,0,Fully Compliant
+UMA,14,100.0,True,True,True,True,False,1,ER Registration not first event
+UN,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UO,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UP,11,100.0,True,True,True,True,False,0,Fully Compliant
+UQ,12,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+UR,15,100.0,True,True,True,True,False,0,Fully Compliant
+US,15,100.0,True,True,True,True,False,0,Fully Compliant
+UT,12,100.0,True,True,True,True,False,0,Fully Compliant
+UU,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+UV,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+UW,14,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+UX,8,100.0,True,True,True,True,False,0,Fully Compliant
+UY,9,100.0,True,True,True,True,False,0,Fully Compliant
+UZ,12,100.0,True,True,True,True,False,0,Fully Compliant
+V,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VA,13,100.0,True,True,True,True,False,0,Fully Compliant
+VAA,20,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VB,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VBA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VC,13,100.0,True,True,True,True,False,0,Fully Compliant
+VCA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VD,11,100.0,True,True,True,True,False,0,Fully Compliant
+VDA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VE,19,100.0,True,True,True,True,False,0,Fully Compliant
+VEA,8,100.0,True,True,True,True,False,0,Fully Compliant
+VF,13,100.0,True,True,True,True,False,0,Fully Compliant
+VFA,16,100.0,True,True,True,True,False,0,Fully Compliant
+VG,16,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+VGA,8,100.0,True,True,True,True,False,0,Fully Compliant
+VH,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VHA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VI,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VIA,36,100.0,True,True,True,True,False,0,Fully Compliant
+VJ,13,100.0,True,True,True,True,False,0,Fully Compliant
+VJA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VK,20,100.0,True,True,True,True,False,0,Fully Compliant
+VKA,14,100.0,True,True,True,True,False,0,Fully Compliant
+VL,14,100.0,True,True,True,True,False,0,Fully Compliant
+VLA,8,100.0,True,True,True,True,False,0,Fully Compliant
+VM,15,100.0,True,True,True,True,False,0,Fully Compliant
+VMA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VN,28,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VO,22,100.0,True,True,True,True,True,1,ER Readmission Occurred
+VP,15,100.0,True,True,True,True,False,0,Fully Compliant
+VQ,12,100.0,True,True,True,True,False,0,Fully Compliant
+VR,16,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+VS,16,100.0,True,True,True,True,False,0,Fully Compliant
+VT,16,100.0,True,True,True,True,False,0,Fully Compliant
+VU,14,100.0,True,True,True,True,False,0,Fully Compliant
+VV,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VW,14,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+VX,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+VY,17,100.0,True,True,True,True,False,0,Fully Compliant
+VZ,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+W,11,100.0,True,True,True,True,False,0,Fully Compliant
+WA,8,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+WAA,12,100.0,True,True,True,True,False,0,Fully Compliant
+WB,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WBA,12,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WC,12,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+WCA,20,100.0,True,True,True,True,False,0,Fully Compliant
+WD,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WDA,31,100.0,True,True,True,True,False,1,ER Registration not first event
+WE,17,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+WEA,7,100.0,True,True,True,True,False,0,Fully Compliant
+WF,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WFA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WG,14,100.0,True,True,True,True,False,0,Fully Compliant
+WGA,36,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WH,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WHA,12,100.0,True,True,True,True,False,0,Fully Compliant
+WI,9,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+WIA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WJA,18,100.0,True,True,True,True,False,1,ER Registration not first event
+WK,8,100.0,True,True,True,True,False,1,ER Registration not first event
+WKA,18,100.0,True,True,True,True,False,0,Fully Compliant
+WL,9,75.0,True,True,True,False,False,2,ER Registration not first event; No IV Antibiotics Recorded
+WLA,14,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+WM,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WMA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WN,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WO,18,100.0,True,True,True,True,True,2,ER Registration not first event; ER Readmission Occurred
+WP,16,100.0,True,True,True,True,False,0,Fully Compliant
+WQ,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WR,18,100.0,True,True,True,True,False,1,ER Registration not first event
+WS,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WT,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WU,17,100.0,True,True,True,True,False,0,Fully Compliant
+WV,14,100.0,True,True,True,True,False,0,Fully Compliant
+WW,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+WX,8,100.0,True,True,True,True,False,0,Fully Compliant
+WY,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+WZ,24,100.0,True,True,True,True,True,1,ER Readmission Occurred
+X,13,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+XA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+XAA,13,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+XB,11,100.0,True,True,True,True,False,0,Fully Compliant
+XBA,27,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XC,8,100.0,True,True,True,True,False,0,Fully Compliant
+XCA,35,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XD,10,100.0,True,True,True,True,False,0,Fully Compliant
+XDA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+XE,8,100.0,True,True,True,True,False,0,Fully Compliant
+XEA,12,100.0,True,True,True,True,False,0,Fully Compliant
+XF,12,100.0,True,True,True,True,False,0,Fully Compliant
+XFA,19,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+XG,8,100.0,True,True,True,True,False,0,Fully Compliant
+XGA,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XH,22,100.0,True,True,True,True,False,0,Fully Compliant
+XHA,12,100.0,True,True,True,True,False,0,Fully Compliant
+XI,39,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XIA,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+XJ,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XJA,20,100.0,True,True,True,True,False,0,Fully Compliant
+XK,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+XKA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XL,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XLA,8,100.0,True,True,True,True,False,0,Fully Compliant
+XM,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XMA,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+XN,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XO,9,100.0,True,True,True,True,False,0,Fully Compliant
+XP,13,100.0,True,True,True,True,False,0,Fully Compliant
+XQ,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XR,6,100.0,True,True,True,True,False,0,Fully Compliant
+XS,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XT,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XU,8,100.0,True,True,True,True,False,0,Fully Compliant
+XV,8,100.0,True,True,True,True,False,0,Fully Compliant
+XW,16,100.0,True,True,True,True,False,0,Fully Compliant
+XX,12,100.0,True,True,True,True,False,1,ER Registration not first event
+XY,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+XZ,16,100.0,True,True,True,True,False,1,ER Registration not first event
+Y,8,100.0,True,True,True,True,False,0,Fully Compliant
+YA,6,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+YAA,12,100.0,True,True,True,True,False,0,Fully Compliant
+YB,15,100.0,True,True,True,True,False,0,Fully Compliant
+YBA,14,100.0,True,True,True,True,False,0,Fully Compliant
+YC,9,100.0,True,True,True,True,False,1,ER Registration not first event
+YCA,11,100.0,True,True,True,True,False,0,Fully Compliant
+YD,8,100.0,True,True,True,True,False,0,Fully Compliant
+YDA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YE,13,100.0,True,True,True,True,False,0,Fully Compliant
+YEA,10,100.0,True,True,True,True,False,0,Fully Compliant
+YF,29,100.0,True,True,True,True,False,0,Fully Compliant
+YFA,12,100.0,True,True,True,True,False,0,Fully Compliant
+YG,29,100.0,True,True,True,True,False,0,Fully Compliant
+YGA,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YH,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+YHA,16,100.0,True,True,True,True,False,0,Fully Compliant
+YI,14,100.0,True,True,True,True,False,0,Fully Compliant
+YIA,52,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YJ,12,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+YJA,12,100.0,True,True,True,True,False,0,Fully Compliant
+YK,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YKA,43,100.0,True,True,True,True,False,0,Fully Compliant
+YL,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YLA,61,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+YM,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YMA,10,75.0,True,True,True,False,True,2,No IV Antibiotics Recorded; ER Readmission Occurred
+YN,7,75.0,True,True,True,False,False,2,ER Registration not first event; No IV Antibiotics Recorded
+YO,27,100.0,True,True,True,True,False,0,Fully Compliant
+YP,30,100.0,True,True,True,True,False,0,Fully Compliant
+YQ,12,100.0,True,True,True,True,False,0,Fully Compliant
+YR,17,100.0,True,True,True,True,False,0,Fully Compliant
+YS,23,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YT,17,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YU,3,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+YV,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+YW,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+YX,84,100.0,True,True,True,True,False,0,Fully Compliant
+YY,21,100.0,True,True,True,True,False,0,Fully Compliant
+YZ,15,100.0,True,True,True,True,True,1,ER Readmission Occurred
+Z,10,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+ZA,8,100.0,True,True,True,True,False,0,Fully Compliant
+ZAA,15,100.0,True,True,True,True,False,0,Fully Compliant
+ZB,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZBA,11,100.0,True,True,True,True,False,0,Fully Compliant
+ZC,10,100.0,True,True,True,True,False,0,Fully Compliant
+ZCA,9,100.0,True,True,True,True,False,0,Fully Compliant
+ZD,7,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+ZDA,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZE,16,100.0,True,True,True,True,False,0,Fully Compliant
+ZEA,18,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZF,14,100.0,True,True,True,True,False,0,Fully Compliant
+ZFA,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZG,10,100.0,True,True,True,True,False,0,Fully Compliant
+ZGA,29,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZH,13,100.0,True,True,True,True,False,0,Fully Compliant
+ZHA,26,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZI,18,100.0,True,True,True,True,False,0,Fully Compliant
+ZIA,8,100.0,True,True,True,True,False,0,Fully Compliant
+ZJ,16,100.0,True,True,True,True,False,0,Fully Compliant
+ZJA,23,100.0,True,True,True,True,False,0,Fully Compliant
+ZK,11,100.0,True,True,True,True,False,0,Fully Compliant
+ZKA,16,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZL,13,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZLA,11,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZM,28,100.0,True,True,True,True,False,0,Fully Compliant
+ZMA,66,100.0,True,True,True,True,False,1,ER Registration not first event
+ZN,5,75.0,True,True,True,False,False,1,No IV Antibiotics Recorded
+ZO,12,100.0,True,True,True,True,False,0,Fully Compliant
+ZP,12,100.0,True,True,True,True,False,1,Sepsis Triage executed before General Triage
+ZQ,21,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZR,13,100.0,True,True,True,True,False,0,Fully Compliant
+ZS,14,100.0,True,True,True,True,True,1,ER Readmission Occurred
+ZT,13,100.0,True,True,True,True,False,0,Fully Compliant
+ZU,10,100.0,True,True,True,True,False,0,Fully Compliant
+ZV,12,100.0,True,True,True,True,False,0,Fully Compliant
+ZW,13,100.0,True,True,True,True,False,0,Fully Compliant
+ZX,10,100.0,True,True,True,True,False,0,Fully Compliant
+ZY,8,100.0,True,True,True,True,False,0,Fully Compliant
+ZZ,14,100.0,True,True,True,True,False,0,Fully Compliant
