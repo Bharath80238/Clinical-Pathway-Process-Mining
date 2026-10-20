@@ -227,6 +227,48 @@ def discover_and_save_dfg(event_log):
     print(f"Saved process summary JSON: {summary_path}")
     return dfg, start_activities, end_activities
 
+def generate_happy_path_map(event_log):
+    """Generate the 'Happy Path' process model focusing on high-frequency standard transitions."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    dfg, start_activities, end_activities = pm4py.discover_dfg(event_log)
+
+    # Filter for dominant transitions (e.g., transition frequency >= 100)
+    filtered_dfg = {k: v for k, v in dfg.items() if v >= 100}
+
+    # Identify nodes in the filtered graph
+    active_nodes = set()
+    for u, v in filtered_dfg.keys():
+        active_nodes.add(u)
+        active_nodes.add(v)
+
+    filtered_start = {k: v for k, v in start_activities.items() if k in active_nodes and v >= 10}
+    filtered_end = {k: v for k, v in end_activities.items() if k in active_nodes and v >= 10}
+
+    output_path = OUTPUT_DIR / "happy_path.png"
+    render_dfg_networkx(
+        filtered_dfg,
+        filtered_start,
+        filtered_end,
+        output_path,
+        title="CareFlow Happy Path: Dominant Clinical Trajectory (Transitions >= 100)",
+    )
+    return filtered_dfg
+
+def generate_spaghetti_diagram(event_log):
+    """Generate full unfiltered process map demonstrating operational complexity."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    dfg, start_activities, end_activities = pm4py.discover_dfg(event_log)
+
+    output_path = OUTPUT_DIR / "spaghetti_diagram.png"
+    render_dfg_networkx(
+        dfg,
+        start_activities,
+        end_activities,
+        output_path,
+        title="CareFlow 'Spaghetti Diagram': Full Unfiltered Clinical Process Map",
+    )
+    return dfg
+
 def main():
     print("Loading event log...")
     log = load_process_event_log()
@@ -239,6 +281,11 @@ def main():
 
     print("\nMining Directly-Follows Graph (DFG)...")
     discover_and_save_dfg(log)
+
+    print("\nGenerating Happy Path vs Spaghetti Diagram...")
+    generate_happy_path_map(log)
+    generate_spaghetti_diagram(log)
+
     print("\nProcess mining discovery completed successfully.")
 
 if __name__ == "__main__":
