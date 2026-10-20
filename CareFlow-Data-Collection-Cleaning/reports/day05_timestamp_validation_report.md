@@ -1,0 +1,13 @@
+# Timestamp Validation Report
+
+## Summary
+
+- Dataset rows: 15214
+- Timestamp column: `time:timestamp`
+- Missing timestamps: 0
+- Invalid non-missing timestamps: 0
+- Valid timestamps: 15214
+- Earliest valid timestamp: 2013-11-07T08:18:29+00:00
+- Latest valid timestamp: 2015-06-05T12:25:11+00:00
+
+Missing and invalid timestamps are counted separately. The original dataset was not modified.
