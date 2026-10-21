@@ -8,9 +8,13 @@ import sqlite3
 import json
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
+OUTPUT_DIR = PROJECT_ROOT / "reports" / "figures" / "process_maps"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
 def load_events():
@@ -101,10 +105,61 @@ def compute_trace_metrics(df):
 
     return case_summary, stats
 
+def plot_trace_distributions(case_summary):
+    """Plot trace length histogram and event count vs case duration scatter."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+
+    # 1. Trace length histogram
+    counts = case_summary["event_count"]
+    p95 = np.percentile(counts, 95)
+    counts_filtered = counts[counts <= p95]
+
+    ax1.hist(counts_filtered, bins=25, color="#3498db", edgecolor="black", alpha=0.85)
+    ax1.axvline(counts.median(), color="#e74c3c", linestyle="--", linewidth=2, label=f"Median ({counts.median():.0f} events)")
+    ax1.axvline(counts.mean(), color="#f39c12", linestyle="-", linewidth=2, label=f"Mean ({counts.mean():.1f} events)")
+    ax1.set_title("Trace Length Distribution (Events per Patient Case)", fontsize=11, fontweight="bold")
+    ax1.set_xlabel("Number of Recorded Events (up to 95th percentile)", fontsize=10, fontweight="bold")
+    ax1.set_ylabel("Patient Cases", fontsize=10, fontweight="bold")
+    ax1.legend(frameon=True, facecolor="white")
+
+    # 2. Scatter plot: Event Count vs Duration (Days)
+    colors = {
+        "Completed Normal Encounter": "#2ecc71",
+        "Readmission Encounter": "#e74c3c",
+        "Truncated / Open Encounter": "#95a5a6",
+    }
+
+    for cat, group in case_summary.groupby("lifecycle_category"):
+        # Clip to 95th percentile duration for visual clarity
+        p95_days = np.percentile(case_summary["duration_days"], 95)
+        grp_filtered = group[group["duration_days"] <= p95_days]
+        ax2.scatter(
+            grp_filtered["event_count"],
+            grp_filtered["duration_days"],
+            label=f"{cat} ({len(group)})",
+            color=colors.get(cat, "#34495e"),
+            alpha=0.65,
+            edgecolors="none",
+            s=35,
+        )
+
+    ax2.set_title("Patient Case Event Count vs Duration (Days)", fontsize=11, fontweight="bold")
+    ax2.set_xlabel("Event Count", fontsize=10, fontweight="bold")
+    ax2.set_ylabel("Duration in Days (up to 95th percentile)", fontsize=10, fontweight="bold")
+    ax2.legend(frameon=True, facecolor="white")
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "trace_duration_vs_events.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created trace distribution figure: {chart_path}")
+
 def main():
     print("Loading events...")
     df = load_events()
     case_summary, stats = compute_trace_metrics(df)
+    plot_trace_distributions(case_summary)
 
     print("\n--- Trace Length Distribution (Events per Case) ---")
     for k, v in stats["trace_length"].items():
