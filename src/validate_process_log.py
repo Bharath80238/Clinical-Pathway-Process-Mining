@@ -12,6 +12,45 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
+CLINICAL_ACTIVITY_ORDER = {
+    "ER Registration": 1,
+    "ER Triage": 2,
+    "ER Sepsis Triage": 3,
+    "CRP": 4,
+    "Leucocytes": 5,
+    "LacticAcid": 6,
+    "IV Liquid": 7,
+    "IV Antibiotics": 8,
+    "Admission NC": 9,
+    "Admission IC": 10,
+    "Release A": 11,
+    "Release B": 12,
+    "Release C": 13,
+    "Release D": 14,
+    "Release E": 15,
+    "Return ER": 16,
+}
+
+def resolve_simultaneous_events(df):
+    """Apply clinical precedence rules to resolve same-second simultaneous events deterministically."""
+    df_sorted = df.copy()
+    df_sorted["clinical_priority"] = df_sorted["activity"].map(CLINICAL_ACTIVITY_ORDER).fillna(99)
+
+    # Sort stably by case_id, timestamp, then clinical priority
+    df_sorted = df_sorted.sort_values(
+        by=["case_id", "event_time", "clinical_priority"],
+        kind="stable",
+    ).reset_index(drop=True)
+
+    # Assign intra-second sequence offset to guarantee unique temporal ordering
+    df_sorted["intra_second_seq"] = df_sorted.groupby(["case_id", "event_time"]).cumcount()
+    df_sorted["resolved_event_time"] = df_sorted["event_time"] + pd.to_timedelta(
+        df_sorted["intra_second_seq"], unit="ms"
+    )
+
+    print(f"Resolved {len(df_sorted)} events with clinical precedence tie-breaking.")
+    return df_sorted
+
 def load_raw_analysis_events():
     """Load events from SQLite database for process-specific validation."""
     if not DB_PATH.exists():
@@ -128,6 +167,11 @@ def main():
     for cat, count in summary.items():
         pct = (count / len(outcomes_df)) * 100
         print(f"  {cat}: {count} cases ({pct:.2f}%)")
+
+    print("\n--- Resolving Simultaneous Same-Second Events ---")
+    df_resolved = resolve_simultaneous_events(df)
+    simul_after = (df_resolved["resolved_event_time"] == df_resolved.groupby("case_id")["resolved_event_time"].shift(1)).sum()
+    print(f"  Simultaneous timestamps after resolution: {simul_after}")
 
 if __name__ == "__main__":
     main()
