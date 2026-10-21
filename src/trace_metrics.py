@@ -40,8 +40,31 @@ def compute_trace_metrics(df):
     case_summary["duration_seconds"] = (
         case_summary["end_time"] - case_summary["start_time"]
     ).dt.total_seconds()
-    case_summary["duration_hours"] = case_summary["duration_seconds"] / 3600.0
-    case_summary["duration_days"] = case_summary["duration_seconds"] / 86400.0
+    case_summary["duration_hours"] = (case_summary["duration_seconds"] / 3600.0).round(2)
+    case_summary["duration_days"] = (case_summary["duration_seconds"] / 86400.0).round(2)
+
+    # Add clinical flags per case
+    case_acts = df.groupby("case_id")["activity"].apply(set)
+    case_summary["has_return_er"] = case_summary["case_id"].map(lambda cid: "Return ER" in case_acts.get(cid, set()))
+    case_summary["has_iv_antibiotics"] = case_summary["case_id"].map(lambda cid: "IV Antibiotics" in case_acts.get(cid, set()))
+    case_summary["has_admission_ic"] = case_summary["case_id"].map(lambda cid: "Admission IC" in case_acts.get(cid, set()))
+    case_summary["has_admission_nc"] = case_summary["case_id"].map(lambda cid: "Admission NC" in case_acts.get(cid, set()))
+
+    # Lifecycle classification
+    def classify_lifecycle(row):
+        if row["has_return_er"]:
+            return "Readmission Encounter"
+        elif str(row["last_activity"]).startswith("Release"):
+            return "Completed Normal Encounter"
+        else:
+            return "Truncated / Open Encounter"
+
+    case_summary["lifecycle_category"] = case_summary.apply(classify_lifecycle, axis=1)
+
+    # Export trace-level CSV
+    trace_csv_path = REPORTS_DIR / "trace_level_metrics.csv"
+    case_summary.to_csv(trace_csv_path, index=False)
+    print(f"Exported trace-level metrics: {trace_csv_path}")
 
     # Overall statistical distributions
     stats = {
