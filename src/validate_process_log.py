@@ -76,6 +76,44 @@ def validate_event_log_health(df):
 
     return report
 
+def categorize_case_completeness(df):
+    """Categorize every patient case into clinical lifecycle outcome states."""
+    grouped = df.groupby("case_id")
+    case_outcomes = []
+
+    for case_id, group in grouped:
+        acts = group["activity"].tolist()
+        has_release = any(a.startswith("Release") for a in acts)
+        has_return = "Return ER" in acts
+        last_act = acts[-1] if acts else "None"
+
+        if has_return:
+            category = "Readmission Encounter"
+        elif has_release:
+            category = "Completed Normal Encounter"
+        else:
+            category = "Truncated / Open Encounter"
+
+        case_outcomes.append({
+            "case_id": case_id,
+            "lifecycle_status": category,
+            "last_recorded_activity": last_act,
+            "has_release": has_release,
+            "has_return_er": has_return,
+            "trace_length": len(acts),
+        })
+
+    outcomes_df = pd.DataFrame(case_outcomes)
+    summary = outcomes_df["lifecycle_status"].value_counts().to_dict()
+
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    summary_out = REPORTS_DIR / "case_completeness_summary.json"
+    import json
+    with open(summary_out, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+    print(f"Exported case completeness summary: {summary_out}")
+    return outcomes_df, summary
+
 def main():
     print("Executing Process Mining Event Log Validation...")
     df = load_raw_analysis_events()
@@ -84,6 +122,12 @@ def main():
     print("\n--- Event Log Health Audit ---")
     for key, value in report.items():
         print(f"  {key}: {value}")
+
+    print("\n--- Case Lifecycle Completeness Breakdown ---")
+    outcomes_df, summary = categorize_case_completeness(df)
+    for cat, count in summary.items():
+        pct = (count / len(outcomes_df)) * 100
+        print(f"  {cat}: {count} cases ({pct:.2f}%)")
 
 if __name__ == "__main__":
     main()
