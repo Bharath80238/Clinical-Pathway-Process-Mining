@@ -57,15 +57,40 @@ def load_org_events(db_path=DB_PATH):
     df["department"] = df["org_group"].apply(get_department_label)
     return df
 
+def compute_department_profiles(df):
+    """Compute workload, case involvement, and activity distribution across departments."""
+    total_events = len(df)
+    total_cases = df["case_id"].nunique()
+
+    profiles = []
+    for (code, dept), group in df.groupby(["org_group", "department"]):
+        events_cnt = len(group)
+        cases_cnt = group["case_id"].nunique()
+        acts = sorted(group["activity"].unique())
+        
+        profiles.append({
+            "org_code": code,
+            "department": dept,
+            "total_events": events_cnt,
+            "event_share_pct": round((events_cnt / total_events) * 100, 2),
+            "patient_cases_involved": cases_cnt,
+            "patient_reach_pct": round((cases_cnt / total_cases) * 100, 2),
+            "unique_activity_count": len(acts),
+            "activities_handled": ", ".join(acts),
+            "avg_events_per_patient": round(events_cnt / cases_cnt, 2),
+        })
+
+    profile_df = pd.DataFrame(profiles).sort_values("total_events", ascending=False).reset_index(drop=True)
+    return profile_df
+
 def main():
     print("Loading organizational events...")
     df = load_org_events()
     print(f"Loaded {len(df)} events with {df['org_group'].nunique()} organizational groups.")
-    top_orgs = df["department"].value_counts().head(8)
-    print("\nTop Organizational Units by Event Volume:")
-    for dept, count in top_orgs.items():
-        pct = (count / len(df)) * 100
-        print(f"  {dept}: {count:,} events ({pct:.2f}%)")
+    
+    print("\nComputing department workload profiles...")
+    profile_df = compute_department_profiles(df)
+    print(profile_df[["org_code", "department", "total_events", "event_share_pct", "patient_cases_involved"]].head(10).to_string())
 
 if __name__ == "__main__":
     main()
