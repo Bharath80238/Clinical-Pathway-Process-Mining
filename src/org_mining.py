@@ -7,6 +7,9 @@ from pathlib import Path
 import sqlite3
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -103,6 +106,83 @@ def compute_handoff_matrix(df):
     print(f"Exported handoff matrix: {REPORTS_DIR / 'org_handoff_matrix.csv'}")
     return handoff_matrix
 
+def plot_org_workload(profile_df, top_n=10):
+    """Plot workload distribution across hospital departments."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    subset = profile_df.head(top_n).sort_values("total_events", ascending=True)
+
+    plt.figure(figsize=(12, 6))
+    bars = plt.barh(subset["department"], subset["total_events"], color="#16a085", edgecolor="black", alpha=0.85)
+
+    plt.title(f"Top {top_n} Hospital Departments by Event Volume & Workload", fontsize=12, fontweight="bold")
+    plt.xlabel("Total Recorded Events", fontsize=10, fontweight="bold")
+    plt.ylabel("Clinical Department / Unit", fontsize=10, fontweight="bold")
+
+    for bar in bars:
+        w = bar.get_width()
+        pct = (w / profile_df["total_events"].sum()) * 100
+        plt.annotate(
+            f"{int(w):,} ({pct:.1f}%)",
+            xy=(w, bar.get_y() + bar.get_height() / 2),
+            xytext=(5, 0),
+            textcoords="offset points",
+            ha="left",
+            va="center",
+            fontsize=9,
+            fontweight="bold",
+        )
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "org_workload_distribution.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created workload chart: {chart_path}")
+
+def plot_org_handoff_heatmap(handoff_df, top_n=6):
+    """Plot cross-departmental patient handoff transfer matrix."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    top_orgs = (
+        handoff_df.groupby("org_group")["handoff_count"].sum().nlargest(top_n).index.tolist()
+    )
+
+    # Filter matrix to top units
+    sub = handoff_df[
+        (handoff_df["org_group"].isin(top_orgs)) & (handoff_df["next_org_code"].isin(top_orgs))
+    ].copy()
+
+    pivot = sub.pivot_table(
+        index="org_group",
+        columns="next_org_code",
+        values="handoff_count",
+        fill_value=0,
+    )
+
+    labels = [DEPARTMENT_MAPPING.get(c, c) for c in pivot.index]
+
+    plt.figure(figsize=(9, 7))
+    plt.imshow(pivot.values, cmap="YlOrRd", aspect="auto")
+    plt.colorbar(label="Patient Transfers / Handoff Count")
+
+    plt.xticks(range(len(pivot.columns)), pivot.columns, fontsize=10, fontweight="bold")
+    plt.yticks(range(len(pivot.index)), [f"{c}: {l[:22]}" for c, l in zip(pivot.index, labels)], fontsize=9)
+
+    plt.title("Cross-Department Patient Care Handoff Matrix", fontsize=12, fontweight="bold", pad=12)
+    plt.xlabel("Receiving Department Code (org:group)", fontsize=10, fontweight="bold")
+    plt.ylabel("Transferring Department Code", fontsize=10, fontweight="bold")
+
+    for i in range(len(pivot.index)):
+        for j in range(len(pivot.columns)):
+            val = int(pivot.values[i, j])
+            if val > 0:
+                color = "white" if val > pivot.values.max() / 2 else "black"
+                plt.text(j, i, f"{val:,}", ha="center", va="center", color=color, fontsize=8.5, fontweight="bold")
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "org_handoff_heatmap.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created handoff heatmap: {chart_path}")
+
 def main():
     print("Loading organizational events...")
     df = load_org_events()
@@ -112,11 +192,14 @@ def main():
     profile_df = compute_department_profiles(df)
     profile_df.to_csv(REPORTS_DIR / "org_department_profiles.csv", index=False)
     print(f"Exported department profiles: {REPORTS_DIR / 'org_department_profiles.csv'}")
-    print(profile_df[["org_code", "department", "total_events", "event_share_pct", "patient_cases_involved"]].head(8).to_string())
 
     print("\nComputing organizational handoff matrix...")
     handoff_df = compute_handoff_matrix(df)
-    print(handoff_df.head(8).to_string())
+
+    print("\nGenerating organizational charts...")
+    plot_org_workload(profile_df)
+    plot_org_handoff_heatmap(handoff_df)
+    print("\nOrganizational resource mining completed successfully.")
 
 if __name__ == "__main__":
     main()
