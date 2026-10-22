@@ -83,6 +83,26 @@ def compute_department_profiles(df):
     profile_df = pd.DataFrame(profiles).sort_values("total_events", ascending=False).reset_index(drop=True)
     return profile_df
 
+def compute_handoff_matrix(df):
+    """Compute organizational handoff transitions (handover of work network)."""
+    df_sorted = df.copy()
+    df_sorted["next_dept"] = df_sorted.groupby("case_id")["department"].shift(-1)
+    df_sorted["next_org_code"] = df_sorted.groupby("case_id")["org_group"].shift(-1)
+
+    handoffs = df_sorted.dropna(subset=["next_dept", "next_org_code"]).copy()
+
+    handoff_matrix = handoffs.groupby(
+        ["org_group", "department", "next_org_code", "next_dept"]
+    ).size().reset_index(name="handoff_count")
+
+    handoff_matrix = handoff_matrix.sort_values("handoff_count", ascending=False).reset_index(drop=True)
+    
+    # Export CSVs
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    handoff_matrix.to_csv(REPORTS_DIR / "org_handoff_matrix.csv", index=False)
+    print(f"Exported handoff matrix: {REPORTS_DIR / 'org_handoff_matrix.csv'}")
+    return handoff_matrix
+
 def main():
     print("Loading organizational events...")
     df = load_org_events()
@@ -90,7 +110,13 @@ def main():
     
     print("\nComputing department workload profiles...")
     profile_df = compute_department_profiles(df)
-    print(profile_df[["org_code", "department", "total_events", "event_share_pct", "patient_cases_involved"]].head(10).to_string())
+    profile_df.to_csv(REPORTS_DIR / "org_department_profiles.csv", index=False)
+    print(f"Exported department profiles: {REPORTS_DIR / 'org_department_profiles.csv'}")
+    print(profile_df[["org_code", "department", "total_events", "event_share_pct", "patient_cases_involved"]].head(8).to_string())
+
+    print("\nComputing organizational handoff matrix...")
+    handoff_df = compute_handoff_matrix(df)
+    print(handoff_df.head(8).to_string())
 
 if __name__ == "__main__":
     main()
