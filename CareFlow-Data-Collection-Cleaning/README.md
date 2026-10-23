@@ -16,8 +16,11 @@ CareFlow-Data-Collection-Cleaning/
 |   |-- day03_missing_values_report.md
 |   |-- day04_duplicate_analysis_report.md
 |   |-- day05_timestamp_validation_report.csv
-|   `-- day05_timestamp_validation_report.md
+|   |-- day05_timestamp_validation_report.md
+|   |-- day06_case_activity_validation.csv
+|   `-- day06_case_activity_validation.md
 |-- src/
+|   |-- case_activity_validation.py
 |   |-- data_dictionary.py
 |   |-- duplicate_analysis.py
 |   |-- missing_values_analysis.py
@@ -115,3 +118,17 @@ python .\CareFlow-Data-Collection-Cleaning\src\timestamp_validation.py
 The script validates `time:timestamp` without changing the original dataset and
 creates `reports\day05_timestamp_validation_report.csv` and
 `reports\day05_timestamp_validation_report.md`.
+
+## Validate Case IDs and Activity Names
+
+From the workspace folder, run:
+
+```powershell
+python .\CareFlow-Data-Collection-Cleaning\src\case_activity_validation.py
+```
+
+The script checks `case:concept:name` and `concept:name` without changing the
+original dataset. It reports missing values, empty or whitespace-only strings,
+unique non-missing values, and the 10 most frequent non-empty activity names.
+It creates `reports\day06_case_activity_validation.csv` and
+`reports\day06_case_activity_validation.md`.

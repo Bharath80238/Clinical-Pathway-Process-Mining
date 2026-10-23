@@ -1,0 +1,18 @@
+Metric,Column,Value,Count
+Dataset rows,,15214,
+Missing values,case:concept:name,0,
+Empty or whitespace-only strings,case:concept:name,0,
+Unique non-missing values,case:concept:name,1050,
+Missing values,concept:name,0,
+Empty or whitespace-only strings,concept:name,0,
+Unique non-missing values,concept:name,16,
+Most frequent activity,concept:name,Leucocytes,3383
+Most frequent activity,concept:name,CRP,3262
+Most frequent activity,concept:name,LacticAcid,1466
+Most frequent activity,concept:name,Admission NC,1182
+Most frequent activity,concept:name,ER Triage,1053
+Most frequent activity,concept:name,ER Registration,1050
+Most frequent activity,concept:name,ER Sepsis Triage,1049
+Most frequent activity,concept:name,IV Antibiotics,823
+Most frequent activity,concept:name,IV Liquid,753
+Most frequent activity,concept:name,Release A,671
