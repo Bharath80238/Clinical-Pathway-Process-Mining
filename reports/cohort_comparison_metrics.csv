@@ -1,0 +1,10 @@
+cohort_name,patient_cases,share_of_total_pct,median_event_count,mean_event_count,median_duration_days,mean_duration_days,antibiotic_admin_rate_pct,readmission_rate_pct,icu_admission_rate_pct
+All Patients,1050,100.0,13,14.49,5.34,28.47,78.38,28.0,10.48
+Infection Suspected,848,80.76,14,15.95,6.37,31.26,95.87,31.01,12.03
+Infection Not Suspected,202,19.24,6,8.36,0.1,16.73,4.95,15.35,3.96
+ICU Admitted,110,10.48,26,32.21,19.84,51.79,90.91,42.73,100.0
+Normal Ward Only,940,89.52,12,12.41,4.91,25.74,76.91,26.28,0.0
+High SIRS Risk (>=2),853,81.24,14,15.93,6.33,31.12,95.66,31.07,11.96
+Low SIRS Risk,197,18.76,6,8.26,0.09,16.98,3.55,14.72,4.06
+Geriatric (Age >= 65),756,72.0,13,15.04,6.29,32.62,81.35,31.22,8.73
+Non-Geriatric (Age < 65),294,28.0,12,13.08,3.65,17.8,70.75,19.73,14.97
