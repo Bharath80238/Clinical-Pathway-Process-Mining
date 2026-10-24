@@ -642,6 +642,37 @@ with process_tab1:
             v_df = pd.read_csv(variant_csv)
             st.dataframe(v_df.head(15), use_container_width=True, hide_index=True)
 
+with process_tab2:
+    st.subheader("Process Bottleneck Analytics & Sepsis Golden Hour SLA")
+    
+    col_bn1, col_bn2 = st.columns(2)
+    bn_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "bottleneck_heatmap.png"
+    sla_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "sepsis_golden_hour_sla.png"
+
+    with col_bn1:
+        if bn_img.exists():
+            st.image(str(bn_img), caption="Clinical Step Bottlenecks by Median Duration", use_container_width=True)
+        else:
+            st.info("Bottleneck chart generating...")
+
+    with col_bn2:
+        if sla_img.exists():
+            st.image(str(sla_img), caption="Time to IV Antibiotics vs Sepsis Guidelines", use_container_width=True)
+        else:
+            st.info("SLA chart generating...")
+
+    st.subheader("Diagnostic Rework & Repetitive Testing Loops")
+    rework_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "rework_frequency.png"
+    if rework_img.exists():
+        st.image(str(rework_img), caption="Repeated Activities Across Sepsis Cases", use_container_width=True)
+
+    matrix_csv = PROJECT_DIR / "reports" / "transition_duration_matrix.csv"
+    if matrix_csv.exists():
+        with st.expander("View Complete Inter-Activity Transition Duration Matrix"):
+            m_df = pd.read_csv(matrix_csv)
+            st.dataframe(m_df.head(20), use_container_width=True, hide_index=True)
+
+
 with st.expander("View missing values"):
     missing_values = (
         events.isna()
