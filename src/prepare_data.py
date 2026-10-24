@@ -76,6 +76,20 @@ def main():
         if source_col in df.columns:
             analysis[output_col] = df[source_col]
 
+    # Forward-fill case-level static clinical attributes across all events of each patient
+    case_level_cols = [
+        "age",
+        "infection_suspected",
+        "sirs_criteria_2_or_more",
+        "disfunc_org",
+        "hypoxie",
+        "hypotensie",
+        "oligurie",
+    ]
+    for col in case_level_cols:
+        if col in analysis.columns:
+            analysis[col] = analysis.groupby("case_id")[col].ffill().bfill()
+
     original_rows = len(analysis)
     analysis = analysis.dropna(
         subset=["case_id", "activity", "event_time"]
