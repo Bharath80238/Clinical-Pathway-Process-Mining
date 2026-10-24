@@ -7,6 +7,9 @@ from pathlib import Path
 import sqlite3
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -146,6 +149,80 @@ def compare_icu_vs_ward_pathways(df, case_meta):
     print(f"Exported ICU vs Ward comparison: {comp_path}")
     return comparison
 
+def plot_cohort_metrics(metrics_df):
+    """Plot comparative metrics across clinical patient cohorts."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    # Filter specific core cohorts for cleaner presentation
+    focus_cohorts = [
+        "Infection Suspected", "Infection Not Suspected",
+        "ICU Admitted", "Normal Ward Only",
+        "Geriatric (Age >= 65)", "Non-Geriatric (Age < 65)",
+    ]
+    sub = metrics_df[metrics_df["cohort_name"].isin(focus_cohorts)].copy()
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+
+    # Subplot 1: Median Length of Stay (Days)
+    colors = ["#2980b9", "#7f8c8d", "#c0392b", "#27ae60", "#d35400", "#16a085"]
+    bars1 = ax1.barh(sub["cohort_name"], sub["median_duration_days"], color=colors, edgecolor="black", alpha=0.85)
+    ax1.set_title("Median Length of Stay by Clinical Cohort (Days)", fontsize=11, fontweight="bold")
+    ax1.set_xlabel("Median Duration (Days)", fontsize=10, fontweight="bold")
+    for bar in bars1:
+        w = bar.get_width()
+        ax1.annotate(f"{w:.1f}d", xy=(w, bar.get_y() + bar.get_height() / 2), xytext=(5, 0),
+                     textcoords="offset points", ha="left", va="center", fontsize=9, fontweight="bold")
+
+    # Subplot 2: Readmission Rate vs Antibiotic Administration
+    y = np.arange(len(sub))
+    height = 0.35
+    bars_abx = ax2.barh(y - height/2, sub["antibiotic_admin_rate_pct"], height, label="Antibiotic Admin %", color="#3498db", edgecolor="black")
+    bars_ret = ax2.barh(y + height/2, sub["readmission_rate_pct"], height, label="Readmission (Return ER) %", color="#e74c3c", edgecolor="black")
+
+    ax2.set_yticks(y)
+    ax2.set_yticklabels(sub["cohort_name"], fontsize=9)
+    ax2.set_title("Clinical Intervention & Readmission Rate by Cohort", fontsize=11, fontweight="bold")
+    ax2.set_xlabel("Percentage (%)", fontsize=10, fontweight="bold")
+    ax2.legend(frameon=True, facecolor="white")
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "cohort_comparison_barchart.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created cohort comparison chart: {chart_path}")
+
+def plot_icu_sla_comparison(comparison):
+    """Plot Golden Hour and 3-hour bundle antibiotic compliance for ICU vs Ward."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    labels = ["ICU Admitted", "Normal Ward Only"]
+    golden_hour = [comparison["icu_cohort"]["golden_hour_compliance_pct"], comparison["ward_cohort"]["golden_hour_compliance_pct"]]
+    three_hour = [comparison["icu_cohort"]["three_hour_bundle_compliance_pct"], comparison["ward_cohort"]["three_hour_bundle_compliance_pct"]]
+
+    x = np.arange(len(labels))
+    width = 0.35
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    bars1 = ax.bar(x - width/2, golden_hour, width, label="Golden Hour Target (<= 60 min)", color="#27ae60", edgecolor="black")
+    bars2 = ax.bar(x + width/2, three_hour, width, label="Surviving Sepsis Mandate (<= 180 min)", color="#2980b9", edgecolor="black")
+
+    ax.set_ylabel("Compliance Rate (%)", fontsize=10, fontweight="bold")
+    ax.set_title("Antibiotic Administration SLA Compliance: ICU vs Ward", fontsize=11, fontweight="bold")
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels, fontsize=10, fontweight="bold")
+    ax.set_ylim(0, 115)
+    ax.legend(frameon=True, facecolor="white")
+
+    for bars in [bars1, bars2]:
+        for bar in bars:
+            h = bar.get_height()
+            ax.annotate(f"{h:.1f}%", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 3),
+                        textcoords="offset points", ha="center", va="bottom", fontsize=9, fontweight="bold")
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "cohort_sepsis_sla_comparison.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created SLA comparison chart: {chart_path}")
+
 def main():
     print("Loading events for cohort analysis...")
     df = load_cohort_events()
@@ -155,11 +232,11 @@ def main():
     
     print("\nComparing ICU vs Normal Ward pathways...")
     icu_comp = compare_icu_vs_ward_pathways(df, case_meta)
-    print(f"  ICU Golden Hour Compliance (<=60m): {icu_comp['icu_cohort']['golden_hour_compliance_pct']}%")
-    print(f"  Ward Golden Hour Compliance (<=60m): {icu_comp['ward_cohort']['golden_hour_compliance_pct']}%")
 
-    print("\n--- Clinical Cohort Comparison Summary ---")
-    print(metrics_df[["cohort_name", "patient_cases", "median_event_count", "median_duration_days", "antibiotic_admin_rate_pct", "readmission_rate_pct"]].to_string(index=False))
+    print("\nGenerating comparative cohort visualizations...")
+    plot_cohort_metrics(metrics_df)
+    plot_icu_sla_comparison(icu_comp)
+    print("\nCohort analysis completed successfully.")
 
 if __name__ == "__main__":
     main()
