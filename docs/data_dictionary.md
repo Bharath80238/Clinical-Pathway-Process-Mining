@@ -2,7 +2,9 @@
 
 ## 1. Introduction
 
-This document describes the fields in the `events(1).xlsx` dataset used for the CareFlow: Clinical Pathway Process Mining project.
+This document describes the fields in `data/raw/events.xlsx` (worksheet
+`Sheet1`), the workbook inspected for the CareFlow: Clinical Pathway Process
+Mining project. It contains 15,214 rows and 32 columns.
 
 The dataset contains timestamped hospital events, patient case identifiers, clinical indicators, diagnostic activities, and laboratory measurements.
 
@@ -10,9 +12,9 @@ The dataset contains timestamped hospital events, patient case identifiers, clin
 
 | Column | Description | Data Type | Purpose |
 |---|---|---|---|
-| `case:concept:name` | Patient case identifier | Text | Groups events belonging to a case |
-| `concept:name` | Recorded hospital activity | Text | Reconstructs the process flow |
-| `time:timestamp` | Date and time of an event | DateTime | Orders events and calculates elapsed time |
+| `case:concept:name` (`case_concept_name` after cleaning) | Case identifier | Text | Groups events belonging to a case |
+| `concept:name` (`concept_name` after cleaning) | Recorded activity | Text | Reconstructs the process flow |
+| `time:timestamp` (`time_timestamp` after cleaning) | Date and time of an event | DateTime | Orders events and calculates elapsed time |
 | `lifecycle:transition` | Lifecycle stage of an event | Text | Identifies the event's recorded stage |
 | `org:group` | Organizational group associated with an event | Text | Supports analysis by group |
 
@@ -74,8 +76,21 @@ These fields indicate or describe diagnostic procedures and investigations recor
 
 ## 8. Data Quality Considerations
 
+The inspected workbook has 24 missing case identifiers, no missing activity
+names, no missing timestamps, and no timestamps that fail datetime parsing.
+One exact duplicate row was found. Seven rows beyond the first occurrences
+repeat a case/activity/timestamp key, including that exact duplicate; review
+these records before deciding whether to remove any.
+
+Missing values are unevenly distributed: `Age` and the clinical indicator
+fields have 14,164 missing values each; `Diagnose` has 14,418; `Leucocytes`
+has 11,853; `CRP` has 12,091; and `LacticAcid` has 13,760. `org:group`,
+`lifecycle:transition`, `concept:name`, and `time:timestamp` have no missing
+values. The workbook's indicator codes, measurement units, and reasons for
+attribute sparsity have not been established here.
+
 1. Check missing case identifiers before using records to reconstruct patient journeys.
-2. Investigate duplicate event rows before removing them.
+2. Investigate duplicate event rows and repeated event keys before removing them.
 3. Verify whether numeric indicators use binary values, counts, or another coding scheme.
 4. Check measurement units and permissible ranges before interpreting laboratory results.
 5. Preserve the original dataset and perform cleaning on a separate working copy.
@@ -93,4 +108,7 @@ These fields indicate or describe diagnostic procedures and investigations recor
 
 ## 10. Conclusion
 
-The data dictionary defines the meaning and intended use of the dataset's 32 columns. It provides a reference for data cleaning, exploratory analysis, patient journey reconstruction, and subsequent process-mining work.
+The data dictionary records the intended use of the workbook's 32 columns.
+Descriptions of indicator fields are based on their names; coding, units, and
+clinical interpretation require confirmation from an authoritative data
+source before further analysis.
