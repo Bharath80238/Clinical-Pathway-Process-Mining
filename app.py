@@ -595,6 +595,53 @@ quality1.metric("Source Records", f"{len(events):,}")
 quality2.metric("Valid Event Records", f"{len(valid_events):,}")
 quality3.metric("Excluded Invalid Records", f"{invalid_record_count:,}")
 
+# ==============================================================================
+# Member 3: Process Mining & Clinical Pathway Discovery (Day 5 Deliverable)
+# ==============================================================================
+st.header("Process Mining & Clinical Pathway Analytics (Member 3)")
+st.markdown(
+    """
+    Algorithmic discovery of actual patient journeys, clinical bottlenecks,
+    departmental handoffs, and cohort divergence mined using **PM4Py** and **NetworkX**.
+    """
+)
+
+process_tab1, process_tab2, process_tab3 = st.tabs([
+    "Process Discovery & Pathways",
+    "Bottlenecks & Sepsis SLA",
+    "Department Handoffs & Cohorts",
+])
+
+with process_tab1:
+    st.subheader("Clinical Pathway Discovery: Happy Path vs Spaghetti Process")
+
+    col_map1, col_map2 = st.columns(2)
+    happy_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "happy_path.png"
+    spaghetti_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "spaghetti_diagram.png"
+
+    with col_map1:
+        if happy_img.exists():
+            st.image(str(happy_img), caption="Dominant Clinical Pathway (Happy Path: >=100 transitions)", use_container_width=True)
+        else:
+            st.info("Happy path visualization generating...")
+
+    with col_map2:
+        if spaghetti_img.exists():
+            st.image(str(spaghetti_img), caption="Full Hospital Spaghetti Diagram (Unfiltered Transitions)", use_container_width=True)
+        else:
+            st.info("Spaghetti diagram generating...")
+
+    st.subheader("Pathway Variant Distribution (Pareto Curve)")
+    pareto_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "variant_distribution.png"
+    if pareto_img.exists():
+        st.image(str(pareto_img), caption="Top Clinical Pathway Variants and Cumulative Patient Coverage", use_container_width=True)
+
+    variant_csv = PROJECT_DIR / "reports" / "variant_analysis.csv"
+    if variant_csv.exists():
+        with st.expander("View Top 15 Frequent Clinical Pathways"):
+            v_df = pd.read_csv(variant_csv)
+            st.dataframe(v_df.head(15), use_container_width=True, hide_index=True)
+
 with st.expander("View missing values"):
     missing_values = (
         events.isna()
