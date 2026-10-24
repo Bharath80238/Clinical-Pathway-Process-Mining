@@ -1,0 +1,7 @@
+activity,affected_cases,total_repetition_events,max_repeats_in_single_case,mean_repeats_when_repeated
+CRP,692,2947,69,4.258670520231214
+Leucocytes,677,3047,74,4.500738552437223
+Admission NC,313,695,5,2.220447284345048
+LacticAcid,172,778,51,4.523255813953488
+Admission IC,7,14,2,2.0
+ER Triage,3,6,2,2.0

@@ -1,0 +1,29 @@
+{
+  "total_cases": 1050,
+  "total_events": 15213,
+  "unique_activities": 16,
+  "unique_variants": 691,
+  "start_activities": {
+    "ER Registration": 995,
+    "ER Sepsis Triage": 7,
+    "CRP": 23,
+    "IV Liquid": 14,
+    "Leucocytes": 5,
+    "ER Triage": 6
+  },
+  "end_activities": {
+    "Release A": 393,
+    "IV Antibiotics": 87,
+    "Return ER": 291,
+    "Leucocytes": 106,
+    "Admission NC": 14,
+    "ER Sepsis Triage": 49,
+    "IV Liquid": 12,
+    "Release B": 55,
+    "Release E": 5,
+    "Release C": 19,
+    "Release D": 14,
+    "ER Triage": 2,
+    "LacticAcid": 3
+  }
+}

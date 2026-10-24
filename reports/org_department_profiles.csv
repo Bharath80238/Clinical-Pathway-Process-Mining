@@ -1,0 +1,27 @@
+org_code,department,total_events,event_share_pct,patient_cases_involved,patient_reach_pct,unique_activity_count,activities_handled,avg_events_per_patient
+B,Central Diagnostic Laboratory,8110,53.31,1013,96.48,3,"CRP, LacticAcid, Leucocytes",8.01
+A,Emergency Clinical Staff (Team A),3462,22.76,985,93.81,4,"ER Registration, ER Sepsis Triage, IV Antibiotics, IV Liquid",3.51
+C,Emergency Triage Assessment Unit,1053,6.92,1050,100.0,1,ER Triage,1.0
+E,Discharge & Outpatient Administration,782,5.14,782,74.48,5,"Release A, Release B, Release C, Release D, Release E",1.0
+?,Emergency Readmission (Unplanned),294,1.93,294,28.0,1,Return ER,1.0
+F,General Inpatient Ward (F),216,1.42,200,19.05,1,Admission NC,1.08
+L,Emergency Clinical Staff (Team B),213,1.4,65,6.19,4,"ER Registration, ER Sepsis Triage, IV Antibiotics, IV Liquid",3.28
+O,General Inpatient Ward (O),186,1.22,179,17.05,1,Admission NC,1.04
+G,General Inpatient Ward (G),148,0.97,147,14.0,1,Admission NC,1.01
+I,General Inpatient Ward (I),126,0.83,118,11.24,1,Admission NC,1.07
+M,General Inpatient Ward (M),84,0.55,82,7.81,1,Admission NC,1.02
+Q,General Inpatient Ward (Q),63,0.41,62,5.9,1,Admission NC,1.02
+P,Intensive Care Unit (ICU Team P),59,0.39,58,5.52,2,"Admission IC, Admission NC",1.02
+R,General Inpatient Ward (R),57,0.37,54,5.14,1,Admission NC,1.06
+W,Intensive Care Unit (ICU Team W),55,0.36,54,5.14,2,"Admission IC, Admission NC",1.02
+H,General Inpatient Ward (H),55,0.36,50,4.76,1,Admission NC,1.1
+D,General Inpatient Ward (D),47,0.31,46,4.38,1,Admission NC,1.02
+N,General Inpatient Ward (N),46,0.3,43,4.1,1,Admission NC,1.07
+T,General Inpatient Ward (T),35,0.23,30,2.86,1,Admission NC,1.17
+S,General Inpatient Ward (S),33,0.22,31,2.95,1,Admission NC,1.06
+J,Intensive Care Unit (ICU Team J),26,0.17,22,2.1,2,"Admission IC, Admission NC",1.18
+V,General Inpatient Ward (V),25,0.16,24,2.29,1,Admission NC,1.04
+K,Intensive Care Unit (ICU Team K),18,0.12,18,1.71,2,"Admission IC, Admission NC",1.0
+U,General Inpatient Ward (U),18,0.12,18,1.71,1,Admission NC,1.0
+X,General Inpatient Ward (X),1,0.01,1,0.1,1,Admission NC,1.0
+Y,General Inpatient Ward (Y),1,0.01,1,0.1,1,Admission NC,1.0

@@ -1,0 +1,1051 @@
+case_id,start_time,end_time,event_count,unique_activities,first_activity,last_activity,duration_seconds,duration_hours,duration_days,has_return_er,has_iv_antibiotics,has_admission_ic,has_admission_nc,lifecycle_category
+A,2014-10-22 11:15:41+00:00,2014-11-02 15:15:00+00:00,22,10,ER Registration,Release A,964759.0,267.99,11.17,False,True,False,True,Completed Normal Encounter
+AA,2014-12-03 09:06:44+00:00,2014-12-03 14:28:01+00:00,8,8,ER Registration,IV Antibiotics,19277.0,5.35,0.22,False,True,False,False,Truncated / Open Encounter
+AAA,2014-11-19 03:16:21+00:00,2014-11-28 16:15:17+00:00,11,11,ER Registration,Return ER,824336.0,228.98,9.54,True,True,False,True,Readmission Encounter
+AB,2014-02-16 09:55:43+00:00,2014-02-16 13:52:06+00:00,8,8,ER Registration,IV Antibiotics,14183.0,3.94,0.16,False,True,False,False,Truncated / Open Encounter
+ABA,2014-10-12 11:22:24+00:00,2014-10-18 16:15:00+00:00,17,10,ER Registration,Release A,535956.0,148.88,6.2,False,True,False,True,Completed Normal Encounter
+AC,2014-09-24 15:39:13+00:00,2014-12-02 18:47:17+00:00,13,11,ER Registration,Return ER,5972884.0,1659.13,69.13,True,True,False,True,Readmission Encounter
+ACA,2014-09-22 10:00:00+00:00,2014-09-22 10:45:56+00:00,8,8,ER Registration,IV Antibiotics,2756.0,0.77,0.03,False,True,False,False,Truncated / Open Encounter
+AD,2013-12-19 09:04:38+00:00,2014-05-04 18:34:00+00:00,29,12,ER Registration,Return ER,11784562.0,3273.49,136.4,True,True,True,True,Readmission Encounter
+ADA,2014-06-21 07:14:16+00:00,2014-07-06 20:58:00+00:00,24,10,ER Registration,Leucocytes,1345424.0,373.73,15.57,True,True,False,True,Readmission Encounter
+AE,2014-03-11 08:41:47+00:00,2014-07-23 17:38:24+00:00,18,12,ER Registration,Return ER,11609797.0,3224.94,134.37,True,True,True,True,Readmission Encounter
+AEA,2014-02-26 10:15:03+00:00,2014-02-26 14:28:44+00:00,9,9,ER Registration,Admission NC,15221.0,4.23,0.18,False,True,False,True,Truncated / Open Encounter
+AF,2014-04-06 16:03:24+00:00,2014-04-20 02:58:15+00:00,17,11,ER Registration,Return ER,1162491.0,322.91,13.45,True,True,False,True,Readmission Encounter
+AFA,2014-04-16 12:21:27+00:00,2014-07-13 13:18:24+00:00,13,9,ER Registration,Return ER,7606617.0,2112.95,88.04,True,True,False,True,Readmission Encounter
+AG,2014-05-10 01:00:00+00:00,2014-05-10 11:24:00+00:00,5,5,ER Sepsis Triage,Leucocytes,37440.0,10.4,0.43,False,False,False,False,Truncated / Open Encounter
+AGA,2014-08-06 17:06:19+00:00,2014-08-09 13:30:00+00:00,15,10,ER Registration,Release A,246221.0,68.39,2.85,False,True,False,True,Completed Normal Encounter
+AH,2013-11-20 08:34:52+00:00,2013-11-24 10:00:00+00:00,11,9,ER Registration,Release A,350708.0,97.42,4.06,False,True,False,True,Completed Normal Encounter
+AHA,2014-05-20 21:53:19+00:00,2014-05-23 12:41:00+00:00,12,10,ER Registration,Release A,226061.0,62.79,2.62,False,True,False,True,Completed Normal Encounter
+AI,2013-12-19 19:47:57+00:00,2014-12-19 02:38:36+00:00,15,11,ER Registration,Return ER,31474239.0,8742.84,364.29,True,True,False,True,Readmission Encounter
+AIA,2014-05-25 18:20:51+00:00,2014-06-09 16:49:06+00:00,17,11,ER Registration,Return ER,1290495.0,358.47,14.94,True,True,False,True,Readmission Encounter
+AJ,2014-07-24 09:37:32+00:00,2014-08-09 11:00:00+00:00,25,10,ER Registration,Release A,1387348.0,385.37,16.06,False,True,False,True,Completed Normal Encounter
+AJA,2014-05-18 00:07:04+00:00,2014-05-18 11:46:11+00:00,5,5,ER Registration,ER Sepsis Triage,41947.0,11.65,0.49,False,False,False,False,Truncated / Open Encounter
+AK,2014-10-08 21:41:35+00:00,2014-10-09 08:00:00+00:00,11,9,ER Registration,Leucocytes,37105.0,10.31,0.43,False,True,False,True,Truncated / Open Encounter
+AKA,2014-08-02 15:20:57+00:00,2014-08-02 15:48:09+00:00,3,3,ER Registration,ER Sepsis Triage,1632.0,0.45,0.02,False,False,False,False,Truncated / Open Encounter
+AL,2014-04-07 18:13:06+00:00,2015-02-22 06:16:14+00:00,19,11,ER Registration,Return ER,27691388.0,7692.05,320.5,True,True,False,True,Readmission Encounter
+ALA,2014-10-02 17:31:45+00:00,2014-10-05 17:00:00+00:00,11,10,ER Registration,Release A,257295.0,71.47,2.98,False,True,False,True,Completed Normal Encounter
+AM,2014-02-17 14:29:57+00:00,2014-02-17 14:50:00+00:00,5,5,ER Registration,Leucocytes,1203.0,0.33,0.01,False,False,False,False,Truncated / Open Encounter
+AMA,2014-07-23 11:18:49+00:00,2014-08-01 18:00:00+00:00,9,7,ER Registration,Release A,801671.0,222.69,9.28,False,False,False,True,Completed Normal Encounter
+AN,2014-05-20 19:22:09+00:00,2014-05-21 22:32:29+00:00,8,8,ER Registration,IV Liquid,97820.0,27.17,1.13,False,True,False,False,Truncated / Open Encounter
+ANA,2014-05-16 17:11:45+00:00,2014-05-17 16:00:00+00:00,9,7,ER Registration,Release A,82095.0,22.8,0.95,False,False,False,True,Completed Normal Encounter
+AO,2014-08-27 09:18:56+00:00,2015-01-04 21:06:48+00:00,7,7,ER Registration,Return ER,11274472.0,3131.8,130.49,True,False,False,True,Readmission Encounter
+AP,2014-10-29 18:36:01+00:00,2014-10-30 07:00:00+00:00,11,9,ER Registration,Leucocytes,44639.0,12.4,0.52,False,True,False,True,Truncated / Open Encounter
+AQ,2014-06-05 19:43:42+00:00,2014-06-12 14:20:00+00:00,14,10,ER Registration,Release A,585378.0,162.6,6.78,False,True,False,True,Completed Normal Encounter
+AR,2014-04-04 12:36:40+00:00,2014-05-16 15:37:49+00:00,23,11,ER Registration,Return ER,3639669.0,1011.02,42.13,True,True,False,True,Readmission Encounter
+AS,2013-11-23 17:32:23+00:00,2013-11-24 18:16:00+00:00,22,10,ER Registration,Release B,89017.0,24.73,1.03,False,True,True,False,Completed Normal Encounter
+AT,2014-06-10 16:00:33+00:00,2014-06-10 16:45:01+00:00,8,8,ER Registration,IV Antibiotics,2668.0,0.74,0.03,False,True,False,False,Truncated / Open Encounter
+AU,2013-12-05 22:13:04+00:00,2013-12-09 10:15:00+00:00,12,10,ER Registration,Release A,302516.0,84.03,3.5,False,True,False,True,Completed Normal Encounter
+AV,2014-11-10 03:21:46+00:00,2014-11-15 13:00:00+00:00,10,10,ER Registration,Release A,466694.0,129.64,5.4,False,True,False,True,Completed Normal Encounter
+AW,2013-12-22 22:16:04+00:00,2013-12-22 23:56:58+00:00,7,7,ER Registration,IV Antibiotics,6054.0,1.68,0.07,False,True,False,False,Truncated / Open Encounter
+AX,2014-02-26 21:41:19+00:00,2014-02-26 21:52:00+00:00,6,6,ER Registration,Leucocytes,641.0,0.18,0.01,False,False,False,False,Truncated / Open Encounter
+AY,2014-01-04 12:08:23+00:00,2014-01-12 16:15:00+00:00,22,8,ER Registration,Release B,705997.0,196.11,8.17,False,False,False,True,Completed Normal Encounter
+AZ,2014-02-23 03:21:21+00:00,2014-02-28 11:30:00+00:00,15,10,ER Registration,Release A,461319.0,128.14,5.34,False,True,False,True,Completed Normal Encounter
+B,2014-12-21 11:04:24+00:00,2014-12-26 18:00:00+00:00,12,10,ER Registration,Release A,456936.0,126.93,5.29,False,True,False,True,Completed Normal Encounter
+BA,2014-05-07 17:36:23+00:00,2014-08-01 08:58:21+00:00,13,11,ER Registration,Return ER,7399318.0,2055.37,85.64,True,True,False,True,Readmission Encounter
+BAA,2014-12-17 20:21:03+00:00,2014-12-20 12:00:00+00:00,12,10,ER Registration,Release A,229137.0,63.65,2.65,False,True,False,True,Completed Normal Encounter
+BB,2014-03-10 12:13:21+00:00,2014-03-10 13:07:00+00:00,6,6,ER Registration,Leucocytes,3219.0,0.89,0.04,False,False,False,False,Truncated / Open Encounter
+BBA,2014-04-23 10:08:21+00:00,2014-04-28 13:00:00+00:00,14,10,ER Registration,Release A,442299.0,122.86,5.12,False,True,False,True,Completed Normal Encounter
+BC,2015-02-07 15:14:13+00:00,2015-02-07 16:23:00+00:00,5,5,ER Registration,Leucocytes,4127.0,1.15,0.05,False,False,False,False,Truncated / Open Encounter
+BCA,2015-01-01 11:37:39+00:00,2015-01-03 12:00:00+00:00,19,10,ER Registration,Release E,174141.0,48.37,2.02,False,True,False,True,Completed Normal Encounter
+BD,2015-02-02 02:03:30+00:00,2015-02-05 10:00:00+00:00,12,10,ER Registration,Release A,287790.0,79.94,3.33,False,True,False,True,Completed Normal Encounter
+BDA,2014-10-15 08:59:57+00:00,2014-10-20 11:00:00+00:00,12,10,ER Registration,Release A,439203.0,122.0,5.08,False,True,False,True,Completed Normal Encounter
+BE,2014-02-21 11:37:38+00:00,2014-10-31 15:35:09+00:00,15,11,ER Registration,Return ER,21787051.0,6051.96,252.16,True,True,False,True,Readmission Encounter
+BEA,2014-05-29 13:01:00+00:00,2014-05-29 13:53:10+00:00,8,8,CRP,IV Liquid,3130.0,0.87,0.04,False,True,False,False,Truncated / Open Encounter
+BF,2014-08-07 10:15:51+00:00,2014-08-11 13:38:32+00:00,13,11,ER Registration,Return ER,357761.0,99.38,4.14,True,True,False,True,Readmission Encounter
+BFA,2014-10-21 08:52:00+00:00,2014-10-25 15:30:00+00:00,21,11,CRP,Release B,369480.0,102.63,4.28,False,True,True,True,Completed Normal Encounter
+BG,2014-03-06 09:30:52+00:00,2014-03-09 10:00:00+00:00,10,7,ER Registration,Release A,260948.0,72.49,3.02,False,False,False,True,Completed Normal Encounter
+BGA,2014-08-10 02:45:02+00:00,2014-08-13 15:45:00+00:00,12,10,ER Registration,Release A,305998.0,85.0,3.54,False,True,False,True,Completed Normal Encounter
+BH,2014-03-01 21:48:52+00:00,2014-03-06 11:30:00+00:00,20,10,ER Registration,Release A,394868.0,109.69,4.57,False,True,False,True,Completed Normal Encounter
+BHA,2014-05-02 06:59:42+00:00,2014-05-07 15:20:00+00:00,15,10,ER Registration,Release A,462018.0,128.34,5.35,False,True,False,True,Completed Normal Encounter
+BI,2014-02-06 14:57:26+00:00,2014-02-08 02:05:00+00:00,10,9,ER Registration,Release B,126454.0,35.13,1.46,False,True,False,True,Completed Normal Encounter
+BIA,2014-09-04 20:00:00+00:00,2014-12-14 00:05:21+00:00,36,12,IV Liquid,Return ER,8654721.0,2404.09,100.17,True,True,True,True,Readmission Encounter
+BJ,2014-11-22 05:43:13+00:00,2014-11-28 12:45:00+00:00,21,11,ER Registration,Release A,543707.0,151.03,6.29,False,True,True,True,Completed Normal Encounter
+BJA,2013-12-15 21:17:27+00:00,2014-08-05 10:57:36+00:00,17,11,ER Registration,Return ER,20094009.0,5581.67,232.57,True,True,False,True,Readmission Encounter
+BK,2014-11-24 10:14:01+00:00,2015-03-27 10:29:21+00:00,13,11,ER Registration,Return ER,10628120.0,2952.26,123.01,True,True,False,True,Readmission Encounter
+BKA,2014-05-27 16:43:10+00:00,2014-06-20 16:09:03+00:00,19,11,ER Registration,Return ER,2071553.0,575.43,23.98,True,True,False,True,Readmission Encounter
+BL,2014-05-06 22:37:39+00:00,2014-05-08 11:00:00+00:00,11,8,ER Registration,Release A,130941.0,36.37,1.52,False,True,False,True,Completed Normal Encounter
+BLA,2014-06-25 08:44:52+00:00,2014-08-19 11:50:36+00:00,20,11,ER Registration,Return ER,4763144.0,1323.1,55.13,True,True,False,True,Readmission Encounter
+BM,2014-09-21 17:05:30+00:00,2014-09-21 19:58:30+00:00,9,9,ER Registration,Admission NC,10380.0,2.88,0.12,False,True,False,True,Truncated / Open Encounter
+BMA,2014-07-28 16:24:15+00:00,2014-12-02 09:47:57+00:00,12,11,ER Registration,Return ER,10949022.0,3041.4,126.72,True,True,False,True,Readmission Encounter
+BN,2014-02-27 10:52:15+00:00,2014-03-22 09:30:00+00:00,26,10,ER Registration,Release A,1982265.0,550.63,22.94,False,True,False,True,Completed Normal Encounter
+BNA,2014-09-06 15:22:52+00:00,2014-09-09 12:35:00+00:00,7,7,ER Registration,Release A,249128.0,69.2,2.88,False,False,False,True,Completed Normal Encounter
+BO,2014-05-30 16:45:52+00:00,2014-05-30 17:10:00+00:00,6,6,ER Registration,Leucocytes,1448.0,0.4,0.02,False,False,False,False,Truncated / Open Encounter
+BP,2015-01-31 09:50:31+00:00,2015-02-14 10:30:00+00:00,22,9,ER Registration,Release A,1211969.0,336.66,14.03,False,False,True,True,Completed Normal Encounter
+BQ,2014-03-24 18:09:11+00:00,2014-03-30 14:00:00+00:00,12,10,ER Registration,Release A,503449.0,139.85,5.83,False,True,False,True,Completed Normal Encounter
+BR,2014-03-26 12:20:45+00:00,2014-10-14 14:59:49+00:00,11,11,ER Registration,Return ER,17462344.0,4850.65,202.11,True,True,False,True,Readmission Encounter
+BS,2014-08-02 14:17:41+00:00,2014-08-15 13:00:00+00:00,13,10,ER Registration,Release C,1118539.0,310.71,12.95,False,True,False,True,Completed Normal Encounter
+BT,2014-07-19 14:09:40+00:00,2014-10-12 16:01:01+00:00,13,11,ER Registration,Return ER,7350681.0,2041.86,85.08,True,True,False,True,Readmission Encounter
+BU,2014-03-10 09:57:48+00:00,2014-03-14 11:00:00+00:00,14,10,ER Registration,Release A,349332.0,97.04,4.04,False,True,False,True,Completed Normal Encounter
+BV,2013-11-13 14:11:53+00:00,2013-11-18 11:30:00+00:00,16,10,ER Registration,Release A,422287.0,117.3,4.89,False,True,False,True,Completed Normal Encounter
+BW,2014-04-02 16:39:39+00:00,2014-04-21 14:00:00+00:00,21,10,ER Registration,Release A,1632021.0,453.34,18.89,False,True,False,True,Completed Normal Encounter
+BX,2014-08-19 20:04:00+00:00,2014-11-28 09:00:33+00:00,17,11,ER Registration,Return ER,8686593.0,2412.94,100.54,True,True,False,True,Readmission Encounter
+BY,2014-05-25 12:30:39+00:00,2014-05-25 13:24:00+00:00,6,6,ER Registration,Leucocytes,3201.0,0.89,0.04,False,False,False,False,Truncated / Open Encounter
+BZ,2014-01-15 19:56:31+00:00,2014-01-28 14:00:00+00:00,24,9,ER Registration,Release A,1101809.0,306.06,12.75,False,True,False,True,Completed Normal Encounter
+C,2014-02-09 19:29:29+00:00,2014-02-15 10:00:00+00:00,14,9,ER Registration,Release A,484231.0,134.51,5.6,False,True,False,True,Completed Normal Encounter
+CA,2013-12-23 19:11:35+00:00,2013-12-23 19:57:00+00:00,8,8,ER Registration,Leucocytes,2725.0,0.76,0.03,False,True,False,False,Truncated / Open Encounter
+CAA,2015-01-10 10:11:59+00:00,2015-01-10 11:13:10+00:00,8,8,ER Registration,IV Antibiotics,3671.0,1.02,0.04,False,True,False,False,Truncated / Open Encounter
+CB,2014-02-11 12:36:56+00:00,2014-02-18 09:00:00+00:00,14,10,ER Registration,Release A,591784.0,164.38,6.85,False,True,False,True,Completed Normal Encounter
+CBA,2015-02-01 22:20:15+00:00,2015-02-16 14:00:00+00:00,21,10,ER Registration,Release A,1265985.0,351.66,14.65,False,True,False,True,Completed Normal Encounter
+CC,2015-02-23 00:50:05+00:00,2015-02-26 14:18:29+00:00,14,11,ER Registration,Return ER,307704.0,85.47,3.56,True,True,False,True,Readmission Encounter
+CCA,2014-06-05 11:40:54+00:00,2014-06-05 15:00:53+00:00,8,8,ER Registration,IV Antibiotics,11999.0,3.33,0.14,False,True,False,False,Truncated / Open Encounter
+CD,2014-09-22 14:38:49+00:00,2014-09-22 20:15:38+00:00,8,8,ER Registration,IV Antibiotics,20209.0,5.61,0.23,False,True,False,False,Truncated / Open Encounter
+CDA,2014-02-16 01:58:26+00:00,2014-02-16 02:00:31+00:00,3,3,ER Registration,ER Sepsis Triage,125.0,0.03,0.0,False,False,False,False,Truncated / Open Encounter
+CE,2014-10-11 16:40:44+00:00,2014-10-21 08:00:00+00:00,11,10,ER Registration,Release A,832756.0,231.32,9.64,False,True,False,True,Completed Normal Encounter
+CEA,2013-12-25 10:26:40+00:00,2014-01-02 10:00:00+00:00,14,10,ER Registration,Release A,689600.0,191.56,7.98,False,True,False,True,Completed Normal Encounter
+CF,2014-05-12 13:10:14+00:00,2014-06-05 12:56:16+00:00,27,10,ER Registration,Return ER,2072762.0,575.77,23.99,True,True,False,True,Readmission Encounter
+CFA,2014-07-02 00:05:48+00:00,2014-07-16 13:30:00+00:00,18,9,ER Registration,Release A,1257852.0,349.4,14.56,False,True,False,True,Completed Normal Encounter
+CG,2013-11-24 09:56:15+00:00,2013-11-29 08:45:00+00:00,15,10,ER Registration,Release A,427725.0,118.81,4.95,False,True,False,True,Completed Normal Encounter
+CGA,2014-11-17 22:34:16+00:00,2014-11-20 11:10:00+00:00,10,9,ER Registration,Release B,218144.0,60.6,2.52,False,True,False,True,Completed Normal Encounter
+CH,2014-12-22 05:25:48+00:00,2014-12-24 13:30:00+00:00,9,9,ER Registration,Release A,201852.0,56.07,2.34,False,True,False,True,Completed Normal Encounter
+CHA,2014-07-18 16:37:59+00:00,2014-07-27 06:59:42+00:00,13,11,ER Registration,Return ER,742903.0,206.36,8.6,True,True,False,True,Readmission Encounter
+CI,2015-01-06 18:29:49+00:00,2015-01-10 14:00:00+00:00,13,10,ER Registration,Release A,329411.0,91.5,3.81,False,True,False,True,Completed Normal Encounter
+CIA,2014-04-26 20:23:08+00:00,2014-04-26 21:34:00+00:00,5,5,ER Registration,Leucocytes,4252.0,1.18,0.05,False,False,False,False,Truncated / Open Encounter
+CJ,2014-08-09 15:19:00+00:00,2014-08-20 05:45:00+00:00,25,10,CRP,Release B,915960.0,254.43,10.6,False,True,False,True,Completed Normal Encounter
+CJA,2015-01-07 00:55:03+00:00,2015-01-10 12:30:00+00:00,8,7,ER Registration,Release A,300897.0,83.58,3.48,False,False,False,True,Completed Normal Encounter
+CK,2014-01-29 02:42:25+00:00,2014-01-29 03:09:00+00:00,5,5,ER Registration,Leucocytes,1595.0,0.44,0.02,False,False,False,False,Truncated / Open Encounter
+CKA,2014-10-03 09:22:45+00:00,2014-10-12 10:30:00+00:00,17,10,ER Registration,Release A,781635.0,217.12,9.05,False,True,False,True,Completed Normal Encounter
+CL,2014-02-06 01:17:00+00:00,2014-02-06 01:26:00+00:00,4,4,ER Registration,Leucocytes,540.0,0.15,0.01,False,False,False,False,Truncated / Open Encounter
+CLA,2014-10-27 00:00:42+00:00,2014-10-27 03:00:00+00:00,8,8,ER Registration,IV Antibiotics,10758.0,2.99,0.12,False,True,False,False,Truncated / Open Encounter
+CM,2015-01-25 15:00:04+00:00,2015-01-30 13:00:00+00:00,15,9,ER Registration,Release A,424796.0,118.0,4.92,False,True,False,True,Completed Normal Encounter
+CMA,2014-09-01 08:40:16+00:00,2014-09-01 17:43:18+00:00,8,8,ER Registration,Admission NC,32582.0,9.05,0.38,False,True,False,True,Truncated / Open Encounter
+CN,2014-01-01 17:06:57+00:00,2014-01-02 09:00:00+00:00,11,10,ER Registration,Release B,57183.0,15.88,0.66,False,True,False,True,Completed Normal Encounter
+CNA,2014-09-19 08:14:18+00:00,2014-10-06 10:36:47+00:00,17,8,ER Registration,Return ER,1477349.0,410.37,17.1,True,False,False,True,Readmission Encounter
+CO,2014-01-17 16:44:42+00:00,2014-01-21 11:00:00+00:00,8,8,ER Registration,Release A,324918.0,90.26,3.76,False,True,False,True,Completed Normal Encounter
+CP,2014-04-09 13:21:46+00:00,2014-04-28 11:15:00+00:00,15,10,ER Registration,Release C,1633994.0,453.89,18.91,False,True,False,True,Completed Normal Encounter
+CQ,2014-02-24 21:43:57+00:00,2014-02-28 10:30:00+00:00,13,10,ER Registration,Release A,305163.0,84.77,3.53,False,True,False,True,Completed Normal Encounter
+CR,2014-04-18 18:44:51+00:00,2014-05-27 14:03:53+00:00,17,11,ER Registration,Return ER,3352742.0,931.32,38.8,True,True,False,True,Readmission Encounter
+CS,2013-11-28 16:06:15+00:00,2013-11-28 17:48:05+00:00,7,7,ER Registration,IV Antibiotics,6110.0,1.7,0.07,False,True,False,False,Truncated / Open Encounter
+CT,2014-05-31 21:46:45+00:00,2014-06-06 14:00:00+00:00,12,10,ER Registration,Release A,490395.0,136.22,5.68,False,True,False,True,Completed Normal Encounter
+CU,2014-12-26 19:45:40+00:00,2015-01-04 16:32:50+00:00,11,9,ER Registration,Return ER,766030.0,212.79,8.87,True,False,False,True,Readmission Encounter
+CV,2014-04-17 21:30:41+00:00,2014-04-21 09:45:00+00:00,12,10,ER Registration,Release A,303259.0,84.24,3.51,False,True,False,True,Completed Normal Encounter
+CW,2015-01-11 15:59:46+00:00,2015-01-15 15:30:00+00:00,15,10,ER Registration,Release A,343814.0,95.5,3.98,False,True,False,True,Completed Normal Encounter
+CX,2014-03-01 21:28:17+00:00,2014-03-06 10:00:00+00:00,14,9,ER Registration,Release A,390703.0,108.53,4.52,False,True,False,True,Completed Normal Encounter
+CY,2014-06-04 20:02:57+00:00,2014-07-03 09:00:00+00:00,33,11,ER Registration,Release E,2465823.0,684.95,28.54,False,True,True,True,Completed Normal Encounter
+CZ,2014-09-18 13:46:43+00:00,2014-10-03 00:59:00+00:00,40,11,ER Registration,Release B,1249937.0,347.2,14.47,False,True,True,True,Completed Normal Encounter
+D,2014-07-10 11:52:00+00:00,2014-07-28 17:36:41+00:00,13,11,ER Registration,Return ER,1575881.0,437.74,18.24,True,True,False,True,Readmission Encounter
+DA,2014-02-16 21:57:06+00:00,2014-02-22 13:50:00+00:00,12,10,ER Registration,Release C,489174.0,135.88,5.66,False,True,False,True,Completed Normal Encounter
+DAA,2014-07-14 01:15:16+00:00,2014-07-22 14:00:00+00:00,16,10,ER Registration,Release A,737084.0,204.75,8.53,False,True,False,True,Completed Normal Encounter
+DB,2014-06-04 11:56:17+00:00,2014-06-09 11:30:00+00:00,12,10,ER Registration,Release A,430423.0,119.56,4.98,False,True,False,True,Completed Normal Encounter
+DBA,2014-10-31 11:25:27+00:00,2014-11-04 10:00:00+00:00,14,10,ER Registration,Release A,340473.0,94.58,3.94,False,True,False,True,Completed Normal Encounter
+DC,2014-03-08 03:44:37+00:00,2014-11-26 03:05:34+00:00,12,11,ER Registration,Return ER,22720857.0,6311.35,262.97,True,True,False,True,Readmission Encounter
+DCA,2014-05-20 12:31:49+00:00,2014-07-01 11:40:54+00:00,13,11,ER Registration,Return ER,3625745.0,1007.15,41.96,True,True,False,True,Readmission Encounter
+DD,2014-02-13 13:14:23+00:00,2014-02-18 19:30:00+00:00,8,8,ER Registration,Release B,454537.0,126.26,5.26,False,False,False,True,Completed Normal Encounter
+DDA,2014-02-11 17:12:08+00:00,2014-02-22 08:55:00+00:00,17,10,ER Registration,Release A,920572.0,255.71,10.65,False,True,False,True,Completed Normal Encounter
+DE,2014-02-20 00:02:34+00:00,2014-02-20 00:26:00+00:00,5,5,ER Registration,Leucocytes,1406.0,0.39,0.02,False,False,False,False,Truncated / Open Encounter
+DEA,2014-03-05 03:36:26+00:00,2014-03-07 11:00:00+00:00,14,10,ER Registration,Release A,199414.0,55.39,2.31,False,True,False,True,Completed Normal Encounter
+DF,2014-03-21 14:38:19+00:00,2014-03-21 16:50:54+00:00,5,5,ER Registration,ER Sepsis Triage,7955.0,2.21,0.09,False,False,False,False,Truncated / Open Encounter
+DFA,2014-10-05 15:28:27+00:00,2014-10-12 15:00:00+00:00,10,7,ER Registration,Release A,603093.0,167.53,6.98,False,False,False,True,Completed Normal Encounter
+DG,2014-09-19 08:51:17+00:00,2014-09-22 16:00:00+00:00,12,10,ER Registration,Release A,284923.0,79.15,3.3,False,True,False,True,Completed Normal Encounter
+DGA,2014-08-19 19:41:58+00:00,2014-09-01 10:00:00+00:00,18,10,ER Registration,Release C,1088282.0,302.3,12.6,False,True,False,True,Completed Normal Encounter
+DH,2014-06-30 18:04:08+00:00,2014-10-18 11:17:01+00:00,15,10,ER Registration,Return ER,9479573.0,2633.21,109.72,True,True,False,True,Readmission Encounter
+DHA,2014-09-20 16:26:51+00:00,2014-09-25 11:14:39+00:00,8,7,ER Registration,Release D,413268.0,114.8,4.78,False,False,False,True,Completed Normal Encounter
+DI,2014-08-29 22:54:03+00:00,2014-09-01 09:30:00+00:00,12,10,ER Registration,Release A,210957.0,58.6,2.44,False,True,False,True,Completed Normal Encounter
+DIA,2014-09-13 21:00:25+00:00,2014-09-13 21:16:00+00:00,5,5,ER Registration,Leucocytes,935.0,0.26,0.01,False,False,False,False,Truncated / Open Encounter
+DJ,2014-12-26 15:44:53+00:00,2015-05-04 12:21:42+00:00,23,12,ER Registration,Return ER,11133409.0,3092.61,128.86,True,True,True,True,Readmission Encounter
+DJA,2014-02-09 13:39:54+00:00,2014-04-05 03:40:50+00:00,9,9,ER Registration,Return ER,4716056.0,1310.02,54.58,True,False,False,True,Readmission Encounter
+DK,2014-06-21 06:33:03+00:00,2014-09-25 16:04:57+00:00,13,11,ER Registration,Return ER,8328714.0,2313.53,96.4,True,True,False,True,Readmission Encounter
+DKA,2014-03-29 18:23:51+00:00,2014-04-28 21:05:08+00:00,14,11,ER Registration,Return ER,2601677.0,722.69,30.11,True,True,False,True,Readmission Encounter
+DL,2015-01-07 20:39:25+00:00,2015-01-11 10:00:00+00:00,11,10,ER Registration,Release A,307235.0,85.34,3.56,False,True,False,True,Completed Normal Encounter
+DLA,2015-01-04 10:44:28+00:00,2015-01-04 14:18:23+00:00,8,8,ER Registration,IV Antibiotics,12835.0,3.57,0.15,False,True,False,False,Truncated / Open Encounter
+DM,2014-02-13 15:51:08+00:00,2014-02-13 17:38:56+00:00,8,8,ER Registration,IV Antibiotics,6468.0,1.8,0.07,False,True,False,False,Truncated / Open Encounter
+DMA,2014-05-02 17:08:18+00:00,2014-05-02 17:28:02+00:00,3,3,ER Registration,ER Sepsis Triage,1184.0,0.33,0.01,False,False,False,False,Truncated / Open Encounter
+DN,2013-11-19 18:19:38+00:00,2013-11-19 18:29:00+00:00,5,5,ER Registration,Leucocytes,562.0,0.16,0.01,False,False,False,False,Truncated / Open Encounter
+DNA,2014-11-10 04:25:25+00:00,2014-11-10 07:04:51+00:00,8,8,ER Registration,IV Antibiotics,9566.0,2.66,0.11,False,True,False,False,Truncated / Open Encounter
+DO,2013-12-11 13:16:08+00:00,2014-01-11 12:57:22+00:00,16,11,ER Registration,Return ER,2677274.0,743.69,30.99,True,True,False,True,Readmission Encounter
+DP,2014-07-13 10:57:07+00:00,2014-07-18 10:00:00+00:00,14,10,ER Registration,Release A,428573.0,119.05,4.96,False,True,False,True,Completed Normal Encounter
+DQ,2014-07-27 22:02:28+00:00,2014-07-27 23:20:55+00:00,8,8,ER Registration,IV Antibiotics,4707.0,1.31,0.05,False,True,False,False,Truncated / Open Encounter
+DR,2014-04-20 18:21:54+00:00,2014-04-25 18:00:00+00:00,15,10,ER Registration,Release A,430686.0,119.64,4.98,False,True,False,True,Completed Normal Encounter
+DS,2014-10-28 21:08:11+00:00,2014-11-06 10:45:00+00:00,15,10,IV Liquid,Release A,740209.0,205.61,8.57,False,True,False,True,Completed Normal Encounter
+DT,2014-03-27 11:05:24+00:00,2014-04-02 16:00:00+00:00,9,8,ER Registration,Release A,536076.0,148.91,6.2,False,False,False,True,Completed Normal Encounter
+DU,2013-11-28 19:08:21+00:00,2013-11-28 21:37:05+00:00,9,9,ER Registration,Admission NC,8924.0,2.48,0.1,False,True,False,True,Truncated / Open Encounter
+DV,2014-03-16 22:55:04+00:00,2014-03-17 00:38:14+00:00,8,8,ER Registration,IV Antibiotics,6190.0,1.72,0.07,False,True,False,False,Truncated / Open Encounter
+DW,2014-11-07 15:08:45+00:00,2014-11-10 16:00:00+00:00,13,10,ER Registration,Release A,262275.0,72.85,3.04,False,True,False,True,Completed Normal Encounter
+DX,2014-09-18 17:41:00+00:00,2014-09-22 14:00:00+00:00,13,10,CRP,Release A,332340.0,92.32,3.85,False,True,False,True,Completed Normal Encounter
+DY,2014-10-17 22:14:45+00:00,2014-10-24 11:00:00+00:00,14,10,ER Registration,Release A,564315.0,156.75,6.53,False,True,False,True,Completed Normal Encounter
+DZ,2014-07-26 18:22:41+00:00,2014-08-16 10:35:00+00:00,32,11,ER Registration,Release A,1786339.0,496.21,20.68,False,True,True,True,Completed Normal Encounter
+E,2015-01-15 20:14:58+00:00,2015-01-15 20:35:59+00:00,8,8,ER Registration,IV Antibiotics,1261.0,0.35,0.01,False,True,False,False,Truncated / Open Encounter
+EA,2014-06-08 12:28:37+00:00,2014-11-20 10:58:55+00:00,15,11,ER Registration,Return ER,14250618.0,3958.5,164.94,True,True,False,True,Readmission Encounter
+EAA,2014-06-23 14:19:50+00:00,2014-06-26 04:00:00+00:00,15,8,ER Registration,Release B,222010.0,61.67,2.57,False,False,False,True,Completed Normal Encounter
+EB,2014-10-17 10:02:44+00:00,2014-10-17 14:07:37+00:00,8,8,ER Registration,IV Antibiotics,14693.0,4.08,0.17,False,True,False,False,Truncated / Open Encounter
+EBA,2015-02-02 15:30:18+00:00,2015-02-05 13:30:00+00:00,12,10,ER Registration,Release A,251982.0,70.0,2.92,False,True,False,True,Completed Normal Encounter
+EC,2014-02-27 08:58:20+00:00,2014-03-16 09:30:00+00:00,17,10,ER Registration,Release A,1470700.0,408.53,17.02,False,True,False,True,Completed Normal Encounter
+ECA,2014-04-25 16:42:42+00:00,2014-04-30 09:04:38+00:00,19,11,ER Registration,Release A,404516.0,112.37,4.68,False,True,True,True,Completed Normal Encounter
+ED,2014-02-19 09:26:10+00:00,2014-08-05 22:02:37+00:00,33,11,ER Registration,Return ER,14474187.0,4020.61,167.53,True,True,False,True,Readmission Encounter
+EDA,2015-02-02 10:35:49+00:00,2015-02-09 00:14:34+00:00,12,11,ER Registration,Return ER,567525.0,157.65,6.57,True,True,False,True,Readmission Encounter
+EE,2014-07-18 05:04:02+00:00,2014-07-23 10:00:00+00:00,7,7,ER Registration,Release A,449758.0,124.93,5.21,False,False,False,True,Completed Normal Encounter
+EEA,2014-02-12 14:18:20+00:00,2014-07-04 17:09:34+00:00,13,11,ER Registration,Return ER,12279074.0,3410.85,142.12,True,True,False,True,Readmission Encounter
+EF,2014-05-02 18:36:15+00:00,2014-05-06 15:00:00+00:00,14,10,ER Registration,Release A,332625.0,92.4,3.85,False,True,False,True,Completed Normal Encounter
+EFA,2014-06-10 13:08:33+00:00,2014-06-10 13:33:00+00:00,6,6,ER Registration,Leucocytes,1467.0,0.41,0.02,False,False,False,False,Truncated / Open Encounter
+EG,2014-10-26 19:22:19+00:00,2014-10-26 20:25:22+00:00,5,5,ER Registration,ER Sepsis Triage,3783.0,1.05,0.04,False,False,False,False,Truncated / Open Encounter
+EGA,2014-03-10 15:53:54+00:00,2014-03-17 13:00:00+00:00,13,10,ER Registration,Release A,594366.0,165.1,6.88,False,True,False,True,Completed Normal Encounter
+EH,2014-05-12 12:27:58+00:00,2014-05-17 10:00:00+00:00,10,10,ER Registration,Release A,423122.0,117.53,4.9,False,True,False,True,Completed Normal Encounter
+EHA,2014-03-30 17:57:58+00:00,2014-04-10 13:30:00+00:00,30,11,ER Registration,Release A,934322.0,259.53,10.81,False,True,True,True,Completed Normal Encounter
+EI,2014-08-18 14:10:03+00:00,2014-09-07 11:07:45+00:00,14,10,ER Registration,Return ER,1717062.0,476.96,19.87,True,True,False,True,Readmission Encounter
+EIA,2014-05-09 10:55:38+00:00,2014-11-18 10:23:28+00:00,12,11,ER Registration,Return ER,16673270.0,4631.46,192.98,True,True,False,True,Readmission Encounter
+EJ,2014-10-25 13:30:00+00:00,2014-10-27 13:00:00+00:00,11,9,ER Registration,Release A,171000.0,47.5,1.98,False,True,False,True,Completed Normal Encounter
+EJA,2014-03-10 12:45:15+00:00,2014-03-15 10:00:00+00:00,9,9,ER Registration,Release A,422085.0,117.25,4.89,False,True,False,True,Completed Normal Encounter
+EK,2014-05-11 12:18:51+00:00,2014-05-18 14:00:00+00:00,20,11,ER Registration,Release B,610869.0,169.69,7.07,False,True,True,True,Completed Normal Encounter
+EKA,2013-12-08 10:50:16+00:00,2013-12-12 14:20:00+00:00,14,10,ER Registration,Release A,358184.0,99.5,4.15,False,True,False,True,Completed Normal Encounter
+EL,2014-07-29 02:57:58+00:00,2014-08-04 10:35:00+00:00,14,10,ER Registration,Release A,545822.0,151.62,6.32,False,True,False,True,Completed Normal Encounter
+ELA,2014-06-19 22:46:46+00:00,2014-07-01 13:30:00+00:00,20,10,ER Registration,Release A,1003394.0,278.72,11.61,False,True,False,True,Completed Normal Encounter
+EM,2014-03-02 14:16:17+00:00,2014-06-02 14:08:19+00:00,29,12,ER Registration,Return ER,7948322.0,2207.87,91.99,True,True,True,True,Readmission Encounter
+EMA,2014-09-09 21:42:34+00:00,2014-10-12 21:17:11+00:00,17,11,ER Registration,Return ER,2849677.0,791.58,32.98,True,True,False,True,Readmission Encounter
+EN,2014-11-01 09:56:02+00:00,2014-11-01 16:18:06+00:00,8,8,ER Registration,IV Antibiotics,22924.0,6.37,0.27,False,True,False,False,Truncated / Open Encounter
+ENA,2014-11-20 09:25:52+00:00,2014-11-20 09:57:00+00:00,5,5,ER Registration,Leucocytes,1868.0,0.52,0.02,False,False,False,False,Truncated / Open Encounter
+EO,2014-07-02 04:39:23+00:00,2015-01-02 10:14:22+00:00,15,11,ER Registration,Return ER,15917699.0,4421.58,184.23,True,True,False,True,Readmission Encounter
+EP,2014-08-05 13:49:12+00:00,2014-08-05 17:17:55+00:00,8,8,ER Registration,IV Antibiotics,12523.0,3.48,0.14,False,True,False,False,Truncated / Open Encounter
+EQ,2014-02-10 21:51:26+00:00,2014-03-05 14:48:59+00:00,30,11,ER Registration,Return ER,1961853.0,544.96,22.71,True,True,False,True,Readmission Encounter
+ER,2014-10-07 18:47:11+00:00,2014-10-07 19:50:27+00:00,8,8,ER Registration,IV Antibiotics,3796.0,1.05,0.04,False,True,False,False,Truncated / Open Encounter
+ES,2014-11-04 14:02:09+00:00,2014-12-05 12:13:23+00:00,47,12,ER Registration,Return ER,2671874.0,742.19,30.92,True,True,True,True,Readmission Encounter
+ET,2015-01-26 12:06:00+00:00,2015-01-29 10:00:00+00:00,10,10,ER Registration,Release A,251640.0,69.9,2.91,False,True,False,True,Completed Normal Encounter
+EU,2014-05-27 17:50:50+00:00,2014-11-22 13:38:12+00:00,14,11,ER Registration,Return ER,15450442.0,4291.79,178.82,True,True,False,True,Readmission Encounter
+EV,2014-07-22 23:28:12+00:00,2014-07-23 23:45:54+00:00,10,8,ER Registration,IV Liquid,87462.0,24.3,1.01,False,True,False,False,Truncated / Open Encounter
+EW,2015-01-07 22:32:17+00:00,2015-01-22 12:00:00+00:00,23,10,ER Registration,Release A,1258063.0,349.46,14.56,False,True,False,True,Completed Normal Encounter
+EX,2014-01-05 20:36:30+00:00,2014-01-23 16:29:00+00:00,24,10,ER Registration,Release A,1540350.0,427.88,17.83,False,True,False,True,Completed Normal Encounter
+EY,2014-06-02 13:01:57+00:00,2014-06-07 20:00:00+00:00,12,9,ER Registration,Release B,457083.0,126.97,5.29,False,True,False,True,Completed Normal Encounter
+EZ,2014-11-08 14:46:59+00:00,2014-11-08 16:05:00+00:00,6,6,ER Registration,Leucocytes,4681.0,1.3,0.05,False,False,False,False,Truncated / Open Encounter
+F,2014-05-07 18:56:57+00:00,2014-05-09 11:00:00+00:00,10,10,ER Registration,Release A,144183.0,40.05,1.67,False,True,False,True,Completed Normal Encounter
+FA,2014-05-12 16:30:57+00:00,2014-05-12 22:17:45+00:00,8,8,ER Registration,IV Antibiotics,20808.0,5.78,0.24,False,True,False,False,Truncated / Open Encounter
+FAA,2014-10-06 22:10:15+00:00,2015-06-05 12:25:11+00:00,17,11,ER Registration,Return ER,20873696.0,5798.25,241.59,True,True,False,True,Readmission Encounter
+FB,2014-05-21 17:02:23+00:00,2014-05-21 17:34:00+00:00,8,8,ER Registration,Leucocytes,1897.0,0.53,0.02,False,True,False,False,Truncated / Open Encounter
+FBA,2014-02-24 00:40:52+00:00,2014-11-20 06:23:24+00:00,10,8,ER Registration,Return ER,23262152.0,6461.71,269.24,True,False,False,True,Readmission Encounter
+FC,2014-03-11 13:36:01+00:00,2014-03-13 10:00:00+00:00,7,7,ER Registration,Release A,159839.0,44.4,1.85,False,False,False,True,Completed Normal Encounter
+FCA,2013-12-07 01:11:08+00:00,2014-01-15 21:02:25+00:00,15,11,ER Registration,Return ER,3441077.0,955.85,39.83,True,True,False,True,Readmission Encounter
+FD,2014-05-10 22:26:10+00:00,2014-05-11 07:00:00+00:00,11,8,ER Registration,Leucocytes,30830.0,8.56,0.36,False,True,False,False,Truncated / Open Encounter
+FDA,2014-05-13 23:00:14+00:00,2014-05-29 13:27:22+00:00,18,11,ER Registration,Return ER,1348028.0,374.45,15.6,True,True,False,True,Readmission Encounter
+FE,2015-01-24 16:45:54+00:00,2015-02-20 10:34:07+00:00,17,9,ER Registration,Return ER,2310493.0,641.8,26.74,True,False,False,True,Readmission Encounter
+FEA,2014-03-07 20:36:08+00:00,2014-03-09 10:30:00+00:00,10,10,ER Registration,Release A,136432.0,37.9,1.58,False,True,False,True,Completed Normal Encounter
+FF,2014-08-06 11:50:31+00:00,2014-08-06 17:39:14+00:00,8,8,ER Registration,IV Antibiotics,20923.0,5.81,0.24,False,True,False,False,Truncated / Open Encounter
+FFA,2015-01-21 00:14:49+00:00,2015-01-21 00:21:17+00:00,3,3,ER Registration,ER Sepsis Triage,388.0,0.11,0.0,False,False,False,False,Truncated / Open Encounter
+FG,2014-12-08 10:56:58+00:00,2014-12-13 12:00:00+00:00,11,10,ER Registration,Release A,435782.0,121.05,5.04,False,True,False,True,Completed Normal Encounter
+FGA,2014-10-05 20:51:36+00:00,2014-10-06 21:00:47+00:00,11,9,ER Registration,IV Liquid,86951.0,24.15,1.01,False,True,False,True,Truncated / Open Encounter
+FH,2014-11-22 10:48:10+00:00,2015-01-08 18:32:02+00:00,13,10,ER Registration,Return ER,4088632.0,1135.73,47.32,True,True,False,True,Readmission Encounter
+FHA,2013-11-20 15:16:15+00:00,2014-07-11 21:07:05+00:00,13,10,ER Registration,Return ER,20152250.0,5597.85,233.24,True,True,False,True,Readmission Encounter
+FI,2014-04-21 10:38:12+00:00,2014-04-21 13:47:51+00:00,8,8,ER Registration,IV Antibiotics,11379.0,3.16,0.13,False,True,False,False,Truncated / Open Encounter
+FIA,2014-03-02 15:44:37+00:00,2014-03-23 11:00:00+00:00,13,8,ER Registration,Release C,1797323.0,499.26,20.8,False,False,False,True,Completed Normal Encounter
+FJ,2014-04-01 11:10:14+00:00,2014-08-02 13:30:00+00:00,13,11,ER Registration,Return ER,10635586.0,2954.33,123.1,True,True,False,True,Readmission Encounter
+FJA,2014-05-02 20:47:21+00:00,2014-05-13 10:30:00+00:00,16,10,ER Registration,Release A,913359.0,253.71,10.57,False,True,False,True,Completed Normal Encounter
+FK,2014-11-04 20:19:40+00:00,2014-11-16 10:00:00+00:00,17,10,ER Registration,Release A,999620.0,277.67,11.57,False,True,False,True,Completed Normal Encounter
+FKA,2014-04-14 20:51:37+00:00,2014-04-19 09:19:09+00:00,11,8,ER Registration,Release A,390452.0,108.46,4.52,False,False,False,True,Completed Normal Encounter
+FL,2014-07-05 20:15:59+00:00,2014-07-06 23:17:59+00:00,9,9,ER Registration,IV Antibiotics,97320.0,27.03,1.13,False,True,False,True,Truncated / Open Encounter
+FLA,2014-04-10 11:41:13+00:00,2014-04-10 12:49:09+00:00,5,5,ER Registration,ER Sepsis Triage,4076.0,1.13,0.05,False,False,False,False,Truncated / Open Encounter
+FM,2014-07-21 12:24:06+00:00,2014-08-23 10:45:00+00:00,16,9,ER Registration,Release A,2845254.0,790.35,32.93,False,True,False,True,Completed Normal Encounter
+FMA,2014-08-20 22:58:06+00:00,2014-08-25 21:42:34+00:00,13,11,ER Registration,Return ER,427468.0,118.74,4.95,True,True,False,True,Readmission Encounter
+FN,2014-03-26 11:20:08+00:00,2014-03-31 04:20:55+00:00,23,10,ER Registration,Release B,406847.0,113.01,4.71,False,True,False,True,Completed Normal Encounter
+FNA,2014-09-08 20:49:40+00:00,2014-09-09 22:05:30+00:00,9,9,ER Registration,IV Liquid,90950.0,25.26,1.05,False,True,False,True,Truncated / Open Encounter
+FO,2014-11-05 02:05:12+00:00,2014-11-11 10:00:00+00:00,28,11,ER Registration,Release A,546888.0,151.91,6.33,False,True,True,True,Completed Normal Encounter
+FP,2014-05-31 15:07:00+00:00,2014-05-31 17:28:33+00:00,6,6,ER Registration,IV Antibiotics,8493.0,2.36,0.1,False,True,False,False,Truncated / Open Encounter
+FQ,2014-03-08 08:40:34+00:00,2014-03-08 11:55:00+00:00,8,8,ER Registration,Release B,11666.0,3.24,0.14,False,False,False,True,Completed Normal Encounter
+FR,2014-12-16 20:41:04+00:00,2014-12-17 00:08:21+00:00,9,9,ER Registration,Admission NC,12437.0,3.45,0.14,False,True,False,True,Truncated / Open Encounter
+FS,2014-10-16 16:37:21+00:00,2014-10-16 16:44:00+00:00,6,6,ER Registration,Leucocytes,399.0,0.11,0.0,False,False,False,False,Truncated / Open Encounter
+FT,2014-05-08 13:26:19+00:00,2014-05-26 13:45:00+00:00,37,10,ER Registration,Release A,1556321.0,432.31,18.01,False,True,True,True,Completed Normal Encounter
+FU,2014-06-21 17:08:52+00:00,2014-06-27 20:00:00+00:00,12,8,ER Registration,Release A,528668.0,146.85,6.12,False,False,False,True,Completed Normal Encounter
+FV,2013-12-04 16:35:19+00:00,2013-12-04 16:56:00+00:00,8,8,ER Registration,Leucocytes,1241.0,0.34,0.01,False,True,False,False,Truncated / Open Encounter
+FW,2014-10-09 11:16:42+00:00,2015-01-09 22:32:17+00:00,20,11,ER Registration,Return ER,7989335.0,2219.26,92.47,True,True,False,True,Readmission Encounter
+FX,2014-01-02 17:17:25+00:00,2014-01-22 20:36:30+00:00,17,10,ER Registration,Return ER,1739945.0,483.32,20.14,True,True,False,True,Readmission Encounter
+FY,2014-03-19 14:54:15+00:00,2014-04-04 12:32:51+00:00,17,11,ER Registration,Return ER,1373916.0,381.64,15.9,True,True,False,True,Readmission Encounter
+FZ,2015-02-08 19:51:33+00:00,2015-02-25 21:05:22+00:00,18,11,ER Registration,Return ER,1473229.0,409.23,17.05,True,True,False,True,Readmission Encounter
+G,2014-09-05 14:40:47+00:00,2014-09-12 10:00:00+00:00,12,10,ER Registration,Release A,587953.0,163.32,6.81,False,True,False,True,Completed Normal Encounter
+GA,2014-05-03 08:37:18+00:00,2014-05-07 11:00:00+00:00,12,10,ER Registration,Release A,354162.0,98.38,4.1,False,True,False,True,Completed Normal Encounter
+GAA,2014-08-15 09:06:19+00:00,2014-08-20 13:00:00+00:00,16,10,ER Registration,Release A,446021.0,123.89,5.16,False,True,False,True,Completed Normal Encounter
+GB,2014-08-27 02:15:42+00:00,2015-04-29 15:32:06+00:00,13,11,ER Registration,Return ER,21215784.0,5893.27,245.55,True,True,False,True,Readmission Encounter
+GBA,2014-05-09 19:12:49+00:00,2014-10-17 23:12:07+00:00,11,11,ER Registration,Return ER,13924758.0,3867.99,161.17,True,True,False,True,Readmission Encounter
+GC,2014-08-25 06:18:21+00:00,2014-08-31 10:00:00+00:00,12,10,ER Registration,Release A,531699.0,147.69,6.15,False,True,False,True,Completed Normal Encounter
+GCA,2014-08-10 23:07:44+00:00,2015-01-22 23:11:20+00:00,14,11,ER Registration,Return ER,14256216.0,3960.06,165.0,True,True,False,True,Readmission Encounter
+GD,2014-07-06 15:19:13+00:00,2014-07-12 10:30:00+00:00,14,10,ER Registration,Release C,501047.0,139.18,5.8,False,True,False,True,Completed Normal Encounter
+GDA,2014-03-05 08:45:59+00:00,2014-09-28 20:13:13+00:00,9,8,ER Registration,Return ER,17926034.0,4979.45,207.48,True,False,False,True,Readmission Encounter
+GE,2014-08-01 10:35:00+00:00,2014-08-08 10:05:00+00:00,15,10,ER Registration,Release A,603000.0,167.5,6.98,False,True,False,True,Completed Normal Encounter
+GEA,2014-07-02 23:37:45+00:00,2014-07-06 18:30:00+00:00,14,10,ER Registration,Release A,327135.0,90.87,3.79,False,True,False,True,Completed Normal Encounter
+GF,2014-05-29 03:22:48+00:00,2014-07-12 22:51:19+00:00,59,12,ER Registration,Return ER,3871711.0,1075.48,44.81,True,True,True,True,Readmission Encounter
+GFA,2014-05-02 22:39:29+00:00,2014-05-04 13:00:00+00:00,10,10,ER Registration,Release A,138031.0,38.34,1.6,False,True,False,True,Completed Normal Encounter
+GG,2015-01-18 17:28:17+00:00,2015-02-23 21:43:23+00:00,18,9,ER Registration,Return ER,3125706.0,868.25,36.18,True,False,False,True,Readmission Encounter
+GGA,2014-01-11 07:03:42+00:00,2014-01-11 09:00:00+00:00,8,8,ER Registration,IV Antibiotics,6978.0,1.94,0.08,False,True,False,False,Truncated / Open Encounter
+GH,2014-03-18 16:50:43+00:00,2014-03-18 18:45:00+00:00,8,8,ER Registration,IV Antibiotics,6857.0,1.9,0.08,False,True,False,False,Truncated / Open Encounter
+GHA,2014-06-07 15:22:23+00:00,2014-06-12 10:00:00+00:00,14,10,ER Registration,Release A,412657.0,114.63,4.78,False,True,False,True,Completed Normal Encounter
+GI,2014-09-11 09:38:00+00:00,2014-09-20 15:00:00+00:00,12,9,Leucocytes,Release A,796920.0,221.37,9.22,False,True,False,True,Completed Normal Encounter
+GIA,2014-02-14 09:27:11+00:00,2014-02-14 10:02:46+00:00,7,7,ER Registration,IV Antibiotics,2135.0,0.59,0.02,False,True,False,False,Truncated / Open Encounter
+GJ,2014-02-19 19:50:19+00:00,2014-05-17 11:28:57+00:00,21,12,ER Registration,Return ER,7486718.0,2079.64,86.65,True,True,True,True,Readmission Encounter
+GJA,2014-06-26 22:47:43+00:00,2014-07-21 16:32:02+00:00,19,11,ER Registration,Return ER,2137459.0,593.74,24.74,True,True,False,True,Readmission Encounter
+GK,2014-12-24 09:34:00+00:00,2015-02-04 13:20:00+00:00,88,11,CRP,Release D,3642360.0,1011.77,42.16,False,True,True,True,Completed Normal Encounter
+GKA,2014-03-03 20:46:23+00:00,2014-03-03 21:13:00+00:00,6,6,ER Registration,Leucocytes,1597.0,0.44,0.02,False,False,False,False,Truncated / Open Encounter
+GL,2014-03-16 04:24:14+00:00,2014-03-23 15:46:59+00:00,15,10,ER Registration,Return ER,645765.0,179.38,7.47,True,True,False,True,Readmission Encounter
+GLA,2014-10-05 06:55:02+00:00,2014-10-10 20:00:00+00:00,14,9,ER Registration,Release A,479098.0,133.08,5.55,False,True,False,True,Completed Normal Encounter
+GM,2015-02-11 13:24:15+00:00,2015-02-18 09:55:00+00:00,13,10,ER Registration,Release C,592245.0,164.51,6.85,False,True,False,True,Completed Normal Encounter
+GMA,2015-02-18 17:04:38+00:00,2015-02-27 18:00:00+00:00,13,7,ER Registration,Release A,780922.0,216.92,9.04,False,False,False,True,Completed Normal Encounter
+GN,2014-07-21 15:19:09+00:00,2014-08-26 13:35:19+00:00,41,12,ER Registration,Return ER,3104170.0,862.27,35.93,True,True,True,True,Readmission Encounter
+GNA,2014-07-31 00:25:29+00:00,2014-08-06 16:00:00+00:00,25,11,ER Registration,Release A,574471.0,159.58,6.65,False,True,True,True,Completed Normal Encounter
+GO,2015-01-26 17:22:03+00:00,2015-02-01 14:30:00+00:00,20,11,ER Registration,Release A,508077.0,141.13,5.88,False,True,True,True,Completed Normal Encounter
+GP,2014-12-18 09:47:59+00:00,2014-12-22 09:00:00+00:00,10,10,ER Registration,Release A,342721.0,95.2,3.97,False,True,False,True,Completed Normal Encounter
+GQ,2014-06-25 12:22:33+00:00,2014-06-29 13:00:00+00:00,10,9,ER Registration,Release A,347847.0,96.62,4.03,False,True,False,True,Completed Normal Encounter
+GR,2014-11-14 11:22:26+00:00,2014-11-14 11:32:00+00:00,5,5,ER Registration,Leucocytes,574.0,0.16,0.01,False,False,False,False,Truncated / Open Encounter
+GS,2015-01-14 15:04:34+00:00,2015-01-28 11:20:00+00:00,16,7,ER Registration,Release B,1196126.0,332.26,13.84,False,False,False,True,Completed Normal Encounter
+GT,2014-04-17 15:19:30+00:00,2014-05-10 17:27:33+00:00,22,9,ER Registration,Return ER,1994883.0,554.13,23.09,True,False,False,True,Readmission Encounter
+GU,2014-07-16 09:44:44+00:00,2014-10-24 12:16:53+00:00,15,10,ER Registration,Return ER,8649129.0,2402.54,100.11,True,True,False,True,Readmission Encounter
+GV,2014-02-14 19:28:29+00:00,2014-02-25 00:30:00+00:00,14,10,ER Registration,Release B,882091.0,245.03,10.21,False,True,False,True,Completed Normal Encounter
+GW,2014-03-30 10:10:59+00:00,2014-03-30 12:57:00+00:00,11,8,ER Sepsis Triage,Leucocytes,9961.0,2.77,0.12,False,True,False,False,Truncated / Open Encounter
+GX,2014-11-04 23:30:00+00:00,2014-11-08 06:30:00+00:00,15,10,ER Sepsis Triage,Release B,284400.0,79.0,3.29,False,True,False,True,Completed Normal Encounter
+GY,2014-08-23 12:47:37+00:00,2014-09-03 09:15:00+00:00,13,10,ER Registration,Release A,937643.0,260.46,10.85,False,True,False,True,Completed Normal Encounter
+GZ,2014-11-28 03:19:01+00:00,2014-11-28 03:37:00+00:00,5,5,ER Registration,Leucocytes,1079.0,0.3,0.01,False,False,False,False,Truncated / Open Encounter
+H,2014-03-11 09:50:02+00:00,2014-03-16 01:00:00+00:00,13,9,ER Registration,Release B,400198.0,111.17,4.63,False,False,True,True,Completed Normal Encounter
+HA,2013-11-16 11:38:41+00:00,2013-11-22 10:00:00+00:00,11,8,ER Registration,Release A,512479.0,142.36,5.93,False,False,False,True,Completed Normal Encounter
+HAA,2013-12-12 08:49:26+00:00,2013-12-22 06:00:00+00:00,21,10,ER Registration,Release A,853834.0,237.18,9.88,False,True,True,True,Completed Normal Encounter
+HB,2014-04-17 14:28:36+00:00,2014-04-22 11:39:58+00:00,15,10,ER Registration,Release A,421882.0,117.19,4.88,False,True,False,True,Completed Normal Encounter
+HBA,2014-07-27 19:29:38+00:00,2014-12-05 12:05:28+00:00,15,11,ER Registration,Return ER,11291750.0,3136.6,130.69,True,True,False,True,Readmission Encounter
+HC,2014-04-29 20:06:23+00:00,2014-04-29 20:41:00+00:00,5,5,ER Registration,Leucocytes,2077.0,0.58,0.02,False,False,False,False,Truncated / Open Encounter
+HCA,2014-05-10 15:56:58+00:00,2014-05-10 16:15:00+00:00,8,8,ER Registration,IV Antibiotics,1082.0,0.3,0.01,False,True,False,False,Truncated / Open Encounter
+HD,2014-12-08 12:12:19+00:00,2014-12-14 19:00:00+00:00,32,11,ER Registration,Release A,542861.0,150.79,6.28,False,True,True,True,Completed Normal Encounter
+HDA,2014-01-04 20:49:48+00:00,2015-01-04 19:28:24+00:00,12,11,ER Registration,Return ER,31531116.0,8758.64,364.94,True,True,False,True,Readmission Encounter
+HE,2014-03-06 15:30:48+00:00,2014-03-13 17:00:00+00:00,17,10,ER Registration,Release A,610152.0,169.49,7.06,False,True,False,True,Completed Normal Encounter
+HEA,2014-05-27 03:52:46+00:00,2014-06-01 21:26:00+00:00,19,11,ER Registration,Leucocytes,495194.0,137.55,5.73,True,True,False,True,Readmission Encounter
+HF,2014-10-25 20:30:31+00:00,2014-10-31 10:00:00+00:00,13,10,ER Registration,Release A,480569.0,133.49,5.56,False,True,False,True,Completed Normal Encounter
+HFA,2014-12-17 17:49:12+00:00,2014-12-17 22:44:19+00:00,8,8,ER Registration,IV Antibiotics,17707.0,4.92,0.2,False,True,False,False,Truncated / Open Encounter
+HG,2013-12-13 11:58:49+00:00,2015-02-08 19:45:18+00:00,15,10,ER Registration,Return ER,36488789.0,10135.77,422.32,True,True,False,True,Readmission Encounter
+HGA,2014-11-30 06:58:43+00:00,2014-12-11 09:45:00+00:00,16,10,ER Registration,Release A,960377.0,266.77,11.12,False,True,False,True,Completed Normal Encounter
+HH,2014-11-03 17:39:47+00:00,2014-11-07 14:15:00+00:00,12,10,ER Registration,Release A,333313.0,92.59,3.86,False,True,False,True,Completed Normal Encounter
+HHA,2014-06-27 19:26:16+00:00,2014-07-02 14:00:00+00:00,16,11,ER Registration,Release A,412424.0,114.56,4.77,False,True,True,True,Completed Normal Encounter
+HI,2014-05-06 16:44:48+00:00,2014-05-27 20:35:37+00:00,9,9,ER Registration,Return ER,1828249.0,507.85,21.16,True,False,False,True,Readmission Encounter
+HIA,2014-11-01 17:34:14+00:00,2014-12-23 19:08:31+00:00,16,11,ER Registration,Return ER,4498457.0,1249.57,52.07,True,True,False,True,Readmission Encounter
+HJ,2014-07-12 17:09:24+00:00,2014-07-17 13:30:00+00:00,15,10,ER Registration,Release A,418836.0,116.34,4.85,False,True,False,True,Completed Normal Encounter
+HJA,2014-12-06 14:54:36+00:00,2014-12-13 13:00:00+00:00,13,10,ER Registration,Release A,597924.0,166.09,6.92,False,True,False,True,Completed Normal Encounter
+HK,2014-04-09 17:01:24+00:00,2014-04-25 13:00:00+00:00,10,10,ER Registration,Release C,1367916.0,379.98,15.83,False,True,False,True,Completed Normal Encounter
+HKA,2014-12-12 15:09:12+00:00,2014-12-22 11:00:00+00:00,19,10,ER Registration,Release D,849048.0,235.85,9.83,False,True,False,True,Completed Normal Encounter
+HL,2015-01-28 08:33:50+00:00,2015-05-07 19:35:42+00:00,15,11,ER Registration,Return ER,8593312.0,2387.03,99.46,True,True,False,True,Readmission Encounter
+HLA,2014-08-30 08:50:24+00:00,2014-09-05 14:15:00+00:00,16,11,ER Registration,Release A,537876.0,149.41,6.23,False,True,True,True,Completed Normal Encounter
+HM,2014-01-27 13:40:00+00:00,2014-02-08 13:20:00+00:00,15,7,CRP,Release C,1035600.0,287.67,11.99,False,False,False,True,Completed Normal Encounter
+HMA,2014-02-19 08:39:43+00:00,2014-02-19 08:51:21+00:00,3,3,ER Registration,ER Sepsis Triage,698.0,0.19,0.01,False,False,False,False,Truncated / Open Encounter
+HN,2015-02-12 15:18:22+00:00,2015-02-25 13:47:53+00:00,18,11,ER Registration,Return ER,1117771.0,310.49,12.94,True,True,False,True,Readmission Encounter
+HNA,2014-08-01 10:26:51+00:00,2014-08-13 10:30:00+00:00,30,10,ER Registration,Release A,1036989.0,288.05,12.0,False,True,True,True,Completed Normal Encounter
+HO,2014-11-27 09:26:16+00:00,2014-12-13 12:00:00+00:00,25,10,ER Registration,Release A,1391624.0,386.56,16.11,False,True,False,True,Completed Normal Encounter
+HP,2014-10-22 06:34:40+00:00,2014-10-25 15:00:00+00:00,11,8,ER Registration,Release A,289520.0,80.42,3.35,False,False,False,True,Completed Normal Encounter
+HQ,2015-01-28 15:24:44+00:00,2015-01-31 18:00:00+00:00,13,10,ER Registration,Release A,268516.0,74.59,3.11,False,True,False,True,Completed Normal Encounter
+HR,2014-12-19 21:35:27+00:00,2014-12-21 13:00:00+00:00,10,10,ER Registration,Release A,141873.0,39.41,1.64,False,True,False,True,Completed Normal Encounter
+HS,2014-10-25 13:17:04+00:00,2014-11-12 15:58:21+00:00,45,12,ER Registration,Return ER,1564877.0,434.69,18.11,True,True,True,True,Readmission Encounter
+HT,2014-03-31 08:21:47+00:00,2014-04-07 16:00:00+00:00,14,10,ER Registration,Release A,632293.0,175.64,7.32,False,True,False,True,Completed Normal Encounter
+HU,2014-02-01 21:08:54+00:00,2014-02-01 21:20:30+00:00,3,3,ER Registration,ER Sepsis Triage,696.0,0.19,0.01,False,False,False,False,Truncated / Open Encounter
+HV,2014-02-17 09:25:50+00:00,2014-02-23 15:00:00+00:00,16,10,ER Registration,Release A,538450.0,149.57,6.23,False,True,False,True,Completed Normal Encounter
+HW,2014-07-01 14:58:06+00:00,2014-07-01 15:54:26+00:00,6,5,ER Registration,ER Triage,3380.0,0.94,0.04,False,False,False,False,Truncated / Open Encounter
+HX,2014-11-29 08:01:38+00:00,2014-12-02 17:00:00+00:00,10,10,ER Registration,Release A,291502.0,80.97,3.37,False,True,False,True,Completed Normal Encounter
+HY,2014-03-09 22:41:06+00:00,2014-05-07 12:47:37+00:00,15,11,ER Registration,Return ER,5061991.0,1406.11,58.59,True,True,False,True,Readmission Encounter
+HZ,2014-09-16 20:03:03+00:00,2014-09-21 10:00:00+00:00,22,11,ER Registration,Release A,395817.0,109.95,4.58,False,True,True,True,Completed Normal Encounter
+I,2013-11-09 09:21:03+00:00,2013-11-16 13:05:00+00:00,11,9,ER Registration,Release A,618237.0,171.73,7.16,False,True,False,True,Completed Normal Encounter
+IA,2014-07-11 09:32:24+00:00,2014-07-11 10:02:24+00:00,8,8,IV Liquid,IV Antibiotics,1800.0,0.5,0.02,False,True,False,False,Truncated / Open Encounter
+IAA,2014-12-09 13:00:02+00:00,2015-02-15 18:33:09+00:00,9,9,ER Registration,Return ER,5895187.0,1637.55,68.23,True,False,False,True,Readmission Encounter
+IB,2014-03-25 00:14:37+00:00,2014-03-28 11:00:00+00:00,14,10,ER Registration,Release A,297923.0,82.76,3.45,False,True,False,True,Completed Normal Encounter
+IBA,2014-02-10 11:36:11+00:00,2014-02-15 14:00:00+00:00,12,10,ER Registration,Release A,440629.0,122.4,5.1,False,True,False,True,Completed Normal Encounter
+IC,2014-04-10 02:09:50+00:00,2014-06-12 16:35:29+00:00,12,11,ER Triage,Return ER,5495139.0,1526.43,63.6,True,True,False,True,Readmission Encounter
+ICA,2013-12-21 11:27:15+00:00,2013-12-21 11:42:00+00:00,5,5,ER Registration,Leucocytes,885.0,0.25,0.01,False,False,False,False,Truncated / Open Encounter
+ID,2014-08-25 12:20:55+00:00,2014-08-25 12:59:02+00:00,3,3,ER Registration,ER Sepsis Triage,2287.0,0.64,0.03,False,False,False,False,Truncated / Open Encounter
+IDA,2013-11-28 14:27:01+00:00,2014-01-06 20:49:48+00:00,13,11,ER Registration,Return ER,3392567.0,942.38,39.27,True,True,False,True,Readmission Encounter
+IE,2014-07-28 18:02:48+00:00,2014-07-31 10:20:00+00:00,7,7,ER Registration,Release A,231432.0,64.29,2.68,False,False,False,True,Completed Normal Encounter
+IEA,2014-01-06 20:11:24+00:00,2014-03-01 02:52:46+00:00,13,11,ER Registration,Return ER,4603282.0,1278.69,53.28,True,True,False,True,Readmission Encounter
+IF,2014-11-12 13:41:00+00:00,2014-11-18 10:00:00+00:00,17,10,CRP,Release A,505140.0,140.32,5.85,False,True,False,True,Completed Normal Encounter
+IFA,2014-11-10 15:24:36+00:00,2014-11-10 18:15:20+00:00,8,8,ER Registration,IV Antibiotics,10244.0,2.85,0.12,False,True,False,False,Truncated / Open Encounter
+IG,2014-08-01 20:07:48+00:00,2014-08-13 10:00:00+00:00,18,7,ER Registration,Release A,1000332.0,277.87,11.58,False,False,False,True,Completed Normal Encounter
+IGA,2014-03-06 01:22:26+00:00,2014-03-26 10:24:17+00:00,16,11,ER Registration,Return ER,1760511.0,489.03,20.38,True,True,False,True,Readmission Encounter
+IH,2014-03-09 21:22:21+00:00,2014-03-29 09:43:43+00:00,17,11,ER Registration,Return ER,1686082.0,468.36,19.51,True,True,False,True,Readmission Encounter
+IHA,2014-06-07 17:25:26+00:00,2014-06-11 14:45:00+00:00,16,10,ER Registration,Release A,335974.0,93.33,3.89,False,True,False,True,Completed Normal Encounter
+II,2014-07-25 17:59:02+00:00,2014-07-30 16:44:48+00:00,13,11,ER Registration,Return ER,427546.0,118.76,4.95,True,True,False,True,Readmission Encounter
+IIA,2014-03-25 13:20:52+00:00,2014-03-29 10:00:00+00:00,13,10,ER Registration,Release A,333548.0,92.65,3.86,False,True,False,True,Completed Normal Encounter
+IJ,2014-05-24 19:40:09+00:00,2014-05-31 10:30:00+00:00,16,10,ER Registration,Release A,571791.0,158.83,6.62,False,True,False,True,Completed Normal Encounter
+IJA,2014-05-06 20:28:44+00:00,2014-05-07 08:00:00+00:00,11,9,ER Registration,Leucocytes,41476.0,11.52,0.48,False,True,False,True,Truncated / Open Encounter
+IK,2015-02-20 11:10:31+00:00,2015-02-20 11:45:00+00:00,6,6,ER Registration,Leucocytes,2069.0,0.57,0.02,False,False,False,False,Truncated / Open Encounter
+IKA,2014-01-22 13:58:27+00:00,2014-01-22 15:03:42+00:00,8,8,ER Registration,IV Antibiotics,3915.0,1.09,0.05,False,True,False,False,Truncated / Open Encounter
+IL,2014-11-25 14:45:07+00:00,2014-11-29 10:00:00+00:00,13,10,ER Registration,Release A,328493.0,91.25,3.8,False,True,False,True,Completed Normal Encounter
+ILA,2014-09-16 09:08:46+00:00,2014-10-07 08:15:46+00:00,12,11,ER Registration,Return ER,1811220.0,503.12,20.96,True,True,False,True,Readmission Encounter
+IM,2014-10-31 09:04:50+00:00,2014-12-01 12:30:00+00:00,37,11,ER Registration,Release A,2690710.0,747.42,31.14,False,True,True,True,Completed Normal Encounter
+IMA,2015-01-21 17:46:05+00:00,2015-01-21 20:07:22+00:00,5,5,ER Registration,ER Sepsis Triage,8477.0,2.35,0.1,False,False,False,False,Truncated / Open Encounter
+IN,2014-03-25 19:04:46+00:00,2014-03-26 13:00:00+00:00,11,9,ER Registration,Leucocytes,64514.0,17.92,0.75,False,True,False,True,Truncated / Open Encounter
+INA,2014-11-03 09:43:47+00:00,2014-11-03 10:45:51+00:00,3,3,ER Registration,ER Sepsis Triage,3724.0,1.03,0.04,False,False,False,False,Truncated / Open Encounter
+IO,2014-11-03 11:04:03+00:00,2015-01-02 10:20:09+00:00,17,11,ER Registration,Return ER,5181366.0,1439.27,59.97,True,True,False,True,Readmission Encounter
+IP,2014-01-12 09:04:20+00:00,2014-01-24 16:23:39+00:00,16,10,ER Registration,Return ER,1063159.0,295.32,12.31,True,True,False,True,Readmission Encounter
+IQ,2015-02-12 15:43:06+00:00,2015-02-17 12:54:11+00:00,13,11,ER Registration,Return ER,421865.0,117.18,4.88,True,True,False,True,Readmission Encounter
+IR,2014-05-19 15:21:17+00:00,2014-05-19 16:09:13+00:00,9,8,ER Registration,ER Triage,2876.0,0.8,0.03,False,True,False,False,Truncated / Open Encounter
+IS,2014-08-20 11:58:02+00:00,2014-09-02 12:00:00+00:00,23,10,ER Registration,Release A,1123318.0,312.03,13.0,False,True,False,True,Completed Normal Encounter
+IT,2014-03-26 03:07:35+00:00,2014-07-05 08:21:47+00:00,16,11,ER Registration,Return ER,8745252.0,2429.24,101.22,True,True,False,True,Readmission Encounter
+IU,2014-11-17 22:11:54+00:00,2014-11-24 13:00:00+00:00,15,10,ER Registration,Release A,571686.0,158.8,6.62,False,True,False,True,Completed Normal Encounter
+IV,2014-06-06 15:37:50+00:00,2014-06-06 19:10:08+00:00,8,8,ER Registration,IV Antibiotics,12738.0,3.54,0.15,False,True,False,False,Truncated / Open Encounter
+IW,2014-02-27 09:18:00+00:00,2014-03-01 14:00:00+00:00,13,10,Leucocytes,Release A,189720.0,52.7,2.2,False,True,False,True,Completed Normal Encounter
+IX,2014-08-27 10:03:23+00:00,2014-08-27 14:14:22+00:00,8,8,ER Registration,IV Antibiotics,15059.0,4.18,0.17,False,True,False,False,Truncated / Open Encounter
+IY,2014-05-03 18:19:41+00:00,2014-06-16 23:41:06+00:00,18,11,ER Registration,Return ER,3820885.0,1061.36,44.22,True,True,False,True,Readmission Encounter
+IZ,2014-06-07 06:29:56+00:00,2014-06-09 18:30:00+00:00,7,7,ER Registration,Release A,216004.0,60.0,2.5,False,False,False,True,Completed Normal Encounter
+J,2014-01-02 16:45:45+00:00,2014-01-06 11:00:00+00:00,11,10,ER Registration,Release A,324855.0,90.24,3.76,False,True,False,True,Completed Normal Encounter
+JA,2014-04-24 10:19:51+00:00,2014-07-03 22:59:38+00:00,14,10,ER Registration,Return ER,6093587.0,1692.66,70.53,True,True,False,True,Readmission Encounter
+JAA,2014-03-02 06:35:09+00:00,2014-03-31 09:30:00+00:00,23,7,ER Registration,Release E,2516091.0,698.91,29.12,False,False,False,True,Completed Normal Encounter
+JB,2014-02-23 15:55:06+00:00,2014-02-23 17:43:39+00:00,8,8,ER Registration,IV Antibiotics,6513.0,1.81,0.08,False,True,False,False,Truncated / Open Encounter
+JBA,2014-08-18 17:31:24+00:00,2014-08-18 19:32:55+00:00,8,8,ER Registration,IV Antibiotics,7291.0,2.03,0.08,False,True,False,False,Truncated / Open Encounter
+JC,2014-02-28 16:31:31+00:00,2014-05-20 20:46:05+00:00,15,11,ER Registration,Return ER,7013674.0,1948.24,81.18,True,True,False,True,Readmission Encounter
+JCA,2014-10-28 13:24:21+00:00,2015-01-15 16:40:23+00:00,18,11,ER Registration,Return ER,6837362.0,1899.27,79.14,True,True,False,True,Readmission Encounter
+JD,2014-07-16 08:54:39+00:00,2015-02-20 10:19:11+00:00,14,11,ER Registration,Return ER,18926672.0,5257.41,219.06,True,True,False,True,Readmission Encounter
+JDA,2014-03-09 13:06:52+00:00,2014-03-09 20:06:13+00:00,8,8,ER Registration,IV Antibiotics,25161.0,6.99,0.29,False,True,False,False,Truncated / Open Encounter
+JE,2014-02-25 17:33:52+00:00,2014-03-14 13:23:38+00:00,16,11,ER Registration,Return ER,1453786.0,403.83,16.83,True,True,False,True,Readmission Encounter
+JEA,2014-01-08 20:39:11+00:00,2014-01-08 22:43:20+00:00,9,9,ER Registration,Admission NC,7449.0,2.07,0.09,False,True,False,True,Truncated / Open Encounter
+JF,2014-10-20 17:55:21+00:00,2014-10-20 21:22:20+00:00,8,8,ER Registration,IV Antibiotics,12419.0,3.45,0.14,False,True,False,False,Truncated / Open Encounter
+JFA,2013-12-24 12:45:04+00:00,2014-07-16 13:35:39+00:00,8,8,ER Registration,Return ER,17628635.0,4896.84,204.04,True,False,False,True,Readmission Encounter
+JG,2014-02-15 15:56:02+00:00,2014-02-23 13:00:00+00:00,13,10,ER Registration,Release A,680638.0,189.07,7.88,False,True,False,True,Completed Normal Encounter
+JGA,2014-03-06 14:23:54+00:00,2014-03-07 18:00:00+00:00,8,8,ER Registration,Release A,99366.0,27.6,1.15,False,False,False,True,Completed Normal Encounter
+JH,2014-02-27 13:57:37+00:00,2014-03-11 21:22:21+00:00,12,11,ER Registration,Return ER,1063484.0,295.41,12.31,True,True,False,True,Readmission Encounter
+JHA,2014-06-04 16:39:57+00:00,2014-06-07 18:00:00+00:00,7,6,ER Registration,Release A,264003.0,73.33,3.06,False,False,False,True,Completed Normal Encounter
+JI,2014-10-17 16:37:46+00:00,2014-10-17 17:11:00+00:00,8,8,ER Registration,Leucocytes,1994.0,0.55,0.02,False,True,False,False,Truncated / Open Encounter
+JIA,2014-05-24 12:14:00+00:00,2014-05-24 19:15:30+00:00,9,7,CRP,IV Antibiotics,25290.0,7.02,0.29,False,True,False,False,Truncated / Open Encounter
+JJ,2014-10-12 14:37:47+00:00,2014-10-16 16:45:00+00:00,12,10,ER Registration,Release A,353233.0,98.12,4.09,False,True,False,True,Completed Normal Encounter
+JJA,2014-05-05 10:56:00+00:00,2014-05-09 17:00:00+00:00,9,8,ER Registration,Release A,367440.0,102.07,4.25,False,False,False,True,Completed Normal Encounter
+JK,2014-10-18 08:43:05+00:00,2014-10-23 11:00:00+00:00,31,11,ER Registration,Release A,440215.0,122.28,5.1,False,True,True,True,Completed Normal Encounter
+JKA,2014-07-29 22:10:01+00:00,2014-08-04 17:00:00+00:00,13,10,ER Registration,Release B,499799.0,138.83,5.78,False,True,False,True,Completed Normal Encounter
+JL,2014-03-25 12:54:19+00:00,2014-03-26 09:00:00+00:00,10,10,ER Registration,Release A,72341.0,20.09,0.84,False,True,False,True,Completed Normal Encounter
+JLA,2014-05-04 06:15:14+00:00,2014-05-19 14:00:00+00:00,25,10,ER Registration,Release A,1323886.0,367.75,15.32,False,True,False,True,Completed Normal Encounter
+JM,2014-09-15 14:16:02+00:00,2014-10-05 13:00:00+00:00,13,8,ER Registration,Release E,1723438.0,478.73,19.95,False,False,False,True,Completed Normal Encounter
+JMA,2014-02-02 20:00:58+00:00,2014-02-11 11:00:00+00:00,17,10,ER Sepsis Triage,Release A,745142.0,206.98,8.62,False,True,False,True,Completed Normal Encounter
+JN,2013-11-25 12:56:29+00:00,2013-11-29 05:10:00+00:00,12,10,ER Registration,Release A,317611.0,88.23,3.68,False,True,False,True,Completed Normal Encounter
+JNA,2014-11-12 17:40:19+00:00,2014-11-12 17:47:39+00:00,3,3,ER Registration,ER Sepsis Triage,440.0,0.12,0.01,False,False,False,False,Truncated / Open Encounter
+JO,2015-01-30 12:47:20+00:00,2015-02-12 13:43:02+00:00,12,11,ER Registration,Return ER,1126542.0,312.93,13.04,True,True,False,True,Readmission Encounter
+JP,2014-05-03 20:14:32+00:00,2014-05-03 20:26:00+00:00,5,5,ER Registration,Leucocytes,688.0,0.19,0.01,False,False,False,False,Truncated / Open Encounter
+JQ,2013-12-03 10:41:53+00:00,2013-12-07 19:00:00+00:00,18,10,ER Registration,Release B,375487.0,104.3,4.35,False,True,False,True,Completed Normal Encounter
+JR,2013-11-18 13:02:28+00:00,2014-01-12 17:16:20+00:00,16,11,ER Registration,Return ER,4767232.0,1324.23,55.18,True,True,False,True,Readmission Encounter
+JS,2014-03-27 17:12:12+00:00,2014-05-02 11:45:00+00:00,39,9,ER Registration,Release A,3090768.0,858.55,35.77,False,True,False,True,Completed Normal Encounter
+JT,2014-06-13 21:10:26+00:00,2014-06-25 19:00:00+00:00,14,9,ER Registration,Release A,1028974.0,285.83,11.91,False,True,False,True,Completed Normal Encounter
+JU,2014-06-26 23:18:30+00:00,2014-07-01 10:40:00+00:00,16,10,ER Registration,Release A,386490.0,107.36,4.47,False,True,False,True,Completed Normal Encounter
+JV,2014-12-03 01:25:29+00:00,2014-12-08 13:00:00+00:00,15,10,ER Registration,Release A,473671.0,131.58,5.48,False,True,False,True,Completed Normal Encounter
+JW,2014-06-13 12:59:20+00:00,2014-06-23 19:35:01+00:00,16,11,ER Registration,Return ER,887741.0,246.59,10.27,True,True,False,True,Readmission Encounter
+JX,2014-12-24 11:47:15+00:00,2014-12-29 10:00:00+00:00,17,11,ER Registration,Release A,425565.0,118.21,4.93,False,True,True,True,Completed Normal Encounter
+JY,2014-04-01 00:08:15+00:00,2014-04-30 18:19:41+00:00,18,11,ER Registration,Return ER,2571086.0,714.19,29.76,True,True,False,True,Readmission Encounter
+JZ,2014-12-18 18:34:00+00:00,2014-12-19 07:00:00+00:00,10,8,ER Registration,Leucocytes,44760.0,12.43,0.52,False,True,False,False,Truncated / Open Encounter
+K,2014-02-23 21:43:13+00:00,2014-06-10 22:27:24+00:00,16,11,ER Registration,Return ER,9247451.0,2568.74,107.03,True,True,False,True,Readmission Encounter
+KA,2013-12-26 07:50:57+00:00,2013-12-31 12:09:34+00:00,16,10,ER Registration,Release A,447517.0,124.31,5.18,False,True,False,True,Completed Normal Encounter
+KAA,2014-08-28 10:40:39+00:00,2014-08-29 10:00:00+00:00,5,5,ER Registration,Release A,83961.0,23.32,0.97,False,False,False,True,Completed Normal Encounter
+KB,2014-06-17 11:02:28+00:00,2014-11-08 22:04:52+00:00,11,11,ER Registration,Return ER,12481344.0,3467.04,144.46,True,True,False,True,Readmission Encounter
+KBA,2014-07-29 17:11:20+00:00,2014-08-01 17:00:00+00:00,15,10,ER Registration,Release A,258520.0,71.81,2.99,False,True,False,True,Completed Normal Encounter
+KC,2014-06-05 08:25:58+00:00,2014-06-22 11:00:00+00:00,13,10,ER Registration,Release A,1478042.0,410.57,17.11,False,True,False,True,Completed Normal Encounter
+KCA,2014-10-11 17:55:10+00:00,2014-10-15 14:00:00+00:00,11,9,ER Registration,Release A,331490.0,92.08,3.84,False,True,False,True,Completed Normal Encounter
+KD,2014-02-24 21:00:00+00:00,2014-06-26 08:54:39+00:00,17,12,ER Sepsis Triage,Return ER,10497279.0,2915.91,121.5,True,True,True,True,Readmission Encounter
+KDA,2014-05-11 14:09:29+00:00,2014-05-11 14:21:21+00:00,3,3,ER Registration,ER Sepsis Triage,712.0,0.2,0.01,False,False,False,False,Truncated / Open Encounter
+KE,2013-12-16 15:30:19+00:00,2014-11-17 15:54:09+00:00,16,11,ER Registration,Return ER,29031830.0,8064.4,336.02,True,True,False,True,Readmission Encounter
+KEA,2014-11-06 16:29:26+00:00,2014-11-06 17:49:02+00:00,8,8,ER Registration,IV Antibiotics,4776.0,1.33,0.06,False,True,False,False,Truncated / Open Encounter
+KF,2014-03-31 20:38:07+00:00,2014-04-05 11:00:00+00:00,15,10,ER Registration,Release A,397313.0,110.36,4.6,False,True,False,True,Completed Normal Encounter
+KFA,2014-03-06 14:41:30+00:00,2014-04-02 15:07:59+00:00,15,11,ER Registration,Return ER,2334389.0,648.44,27.02,True,True,False,True,Readmission Encounter
+KG,2014-05-20 12:52:00+00:00,2014-05-24 15:15:00+00:00,16,10,CRP,Release A,354180.0,98.38,4.1,False,True,False,True,Completed Normal Encounter
+KGA,2014-06-29 08:49:47+00:00,2014-06-29 12:03:49+00:00,6,6,ER Registration,Admission NC,11642.0,3.23,0.13,False,False,False,True,Truncated / Open Encounter
+KH,2014-05-31 08:12:01+00:00,2014-06-03 13:40:00+00:00,12,10,ER Registration,Release A,278879.0,77.47,3.23,False,True,False,True,Completed Normal Encounter
+KHA,2014-09-11 15:33:49+00:00,2014-09-20 13:46:42+00:00,10,10,ER Registration,Release A,771173.0,214.21,8.93,False,True,False,True,Completed Normal Encounter
+KI,2014-11-16 01:52:30+00:00,2015-01-02 15:37:46+00:00,16,11,ER Registration,Return ER,4110316.0,1141.75,47.57,True,True,False,True,Readmission Encounter
+KIA,2015-01-19 06:06:52+00:00,2015-01-23 13:15:00+00:00,13,10,ER Registration,Release A,371288.0,103.14,4.3,False,True,False,True,Completed Normal Encounter
+KJ,2014-08-27 10:34:14+00:00,2014-08-31 13:30:00+00:00,10,9,ER Registration,Release A,356146.0,98.93,4.12,False,True,False,True,Completed Normal Encounter
+KJA,2014-02-18 08:05:00+00:00,2014-02-18 14:39:40+00:00,5,5,CRP,ER Sepsis Triage,23680.0,6.58,0.27,False,False,False,False,Truncated / Open Encounter
+KK,2014-08-21 01:07:35+00:00,2014-08-24 09:45:00+00:00,14,10,ER Registration,Release A,290245.0,80.62,3.36,False,True,False,True,Completed Normal Encounter
+KKA,2014-09-14 20:16:04+00:00,2014-09-27 10:00:00+00:00,14,11,ER Registration,Release A,1086236.0,301.73,12.57,False,True,True,True,Completed Normal Encounter
+KL,2014-11-13 08:43:17+00:00,2014-11-13 09:22:43+00:00,5,5,ER Registration,ER Sepsis Triage,2366.0,0.66,0.03,False,False,False,False,Truncated / Open Encounter
+KLA,2014-09-23 10:58:03+00:00,2014-09-28 16:00:00+00:00,14,10,ER Registration,Release A,450117.0,125.03,5.21,False,True,False,True,Completed Normal Encounter
+KM,2014-08-25 02:09:42+00:00,2014-11-02 13:29:18+00:00,170,12,ER Registration,Return ER,6002376.0,1667.33,69.47,True,True,True,True,Readmission Encounter
+KMA,2013-12-24 00:38:29+00:00,2014-01-01 10:00:00+00:00,20,10,ER Registration,Release D,724891.0,201.36,8.39,False,True,False,True,Completed Normal Encounter
+KN,2014-07-11 15:28:35+00:00,2014-07-18 22:00:00+00:00,14,10,ER Registration,Release A,628285.0,174.52,7.27,False,True,False,True,Completed Normal Encounter
+KNA,2014-12-11 23:28:38+00:00,2014-12-16 17:00:00+00:00,15,10,ER Registration,Release A,408682.0,113.52,4.73,False,True,False,True,Completed Normal Encounter
+KO,2014-05-03 21:14:35+00:00,2014-08-20 07:34:50+00:00,16,10,ER Registration,Return ER,9368415.0,2602.34,108.43,True,True,False,True,Readmission Encounter
+KP,2014-05-12 21:24:12+00:00,2014-05-15 20:00:00+00:00,10,10,ER Registration,Release A,254148.0,70.6,2.94,False,True,False,True,Completed Normal Encounter
+KQ,2014-06-29 10:30:52+00:00,2014-12-07 08:30:15+00:00,11,8,ER Registration,Return ER,13903163.0,3861.99,160.92,True,False,False,True,Readmission Encounter
+KR,2015-01-05 19:09:49+00:00,2015-01-05 23:11:45+00:00,9,9,ER Registration,Admission NC,14516.0,4.03,0.17,False,True,False,True,Truncated / Open Encounter
+KS,2014-08-08 12:08:12+00:00,2014-09-28 03:24:02+00:00,22,11,ER Registration,Return ER,4374950.0,1215.26,50.64,True,True,False,True,Readmission Encounter
+KT,2014-12-26 05:24:53+00:00,2014-12-29 20:00:00+00:00,13,10,ER Registration,Release A,311707.0,86.59,3.61,False,True,False,True,Completed Normal Encounter
+KU,2014-08-04 11:25:50+00:00,2014-08-04 11:45:31+00:00,8,8,ER Registration,IV Antibiotics,1181.0,0.33,0.01,False,True,False,False,Truncated / Open Encounter
+KV,2014-08-07 17:49:36+00:00,2014-08-13 21:29:21+00:00,8,8,ER Registration,Return ER,531585.0,147.66,6.15,True,False,False,True,Readmission Encounter
+KW,2014-03-11 11:47:39+00:00,2014-03-19 11:59:20+00:00,13,11,ER Registration,Return ER,691901.0,192.19,8.01,True,True,False,True,Readmission Encounter
+KX,2014-11-11 11:40:02+00:00,2014-12-02 16:49:55+00:00,30,9,ER Triage,Return ER,1832993.0,509.16,21.22,True,False,True,True,Readmission Encounter
+KY,2014-11-12 21:27:21+00:00,2014-11-12 21:46:00+00:00,5,5,ER Registration,Leucocytes,1119.0,0.31,0.01,False,False,False,False,Truncated / Open Encounter
+KZ,2014-11-11 11:25:42+00:00,2014-11-14 09:52:00+00:00,17,10,ER Registration,Release A,253578.0,70.44,2.93,False,True,False,True,Completed Normal Encounter
+L,2014-08-31 18:47:15+00:00,2014-09-12 00:40:27+00:00,15,11,ER Registration,Return ER,971592.0,269.89,11.25,True,True,False,True,Readmission Encounter
+LA,2014-11-20 12:11:27+00:00,2014-11-20 12:28:00+00:00,5,5,ER Registration,Leucocytes,993.0,0.28,0.01,False,False,False,False,Truncated / Open Encounter
+LAA,2013-12-03 21:44:47+00:00,2013-12-03 22:43:26+00:00,8,8,ER Registration,IV Antibiotics,3519.0,0.98,0.04,False,True,False,False,Truncated / Open Encounter
+LB,2013-12-02 10:51:22+00:00,2013-12-12 06:45:00+00:00,19,10,ER Registration,Release B,849218.0,235.89,9.83,False,True,False,True,Completed Normal Encounter
+LBA,2014-11-17 20:29:46+00:00,2014-12-02 09:00:00+00:00,19,10,ER Registration,Release C,1254614.0,348.5,14.52,False,True,False,True,Completed Normal Encounter
+LC,2014-05-02 06:09:01+00:00,2014-05-26 08:25:58+00:00,21,10,ER Registration,Return ER,2081817.0,578.28,24.1,True,True,False,True,Readmission Encounter
+LCA,2014-05-22 12:44:41+00:00,2014-05-22 16:01:56+00:00,8,8,ER Registration,IV Antibiotics,11835.0,3.29,0.14,False,True,False,False,Truncated / Open Encounter
+LD,2015-01-25 15:08:46+00:00,2015-02-01 20:00:00+00:00,14,10,ER Registration,Release A,622274.0,172.85,7.2,False,True,False,True,Completed Normal Encounter
+LDA,2014-10-15 21:24:44+00:00,2014-10-20 15:00:00+00:00,15,10,ER Registration,Release A,408916.0,113.59,4.73,False,True,False,True,Completed Normal Encounter
+LE,2014-03-14 11:00:15+00:00,2014-03-17 18:30:00+00:00,12,10,ER Registration,Release B,286185.0,79.5,3.31,False,True,False,True,Completed Normal Encounter
+LEA,2014-04-19 18:39:23+00:00,2014-04-26 06:27:00+00:00,30,11,ER Registration,Release B,560857.0,155.79,6.49,False,True,True,True,Completed Normal Encounter
+LF,2014-03-07 21:49:45+00:00,2014-03-07 22:42:00+00:00,5,5,ER Registration,Leucocytes,3135.0,0.87,0.04,False,False,False,False,Truncated / Open Encounter
+LFA,2014-08-27 15:38:05+00:00,2014-08-31 12:00:00+00:00,10,10,ER Registration,Release A,332515.0,92.37,3.85,False,True,False,True,Completed Normal Encounter
+LG,2014-11-27 10:41:23+00:00,2015-03-29 17:53:20+00:00,41,12,ER Registration,Return ER,10566717.0,2935.2,122.3,True,True,True,True,Readmission Encounter
+LGA,2014-08-10 11:39:14+00:00,2014-08-10 16:50:42+00:00,9,9,ER Triage,IV Antibiotics,18688.0,5.19,0.22,False,True,False,True,Truncated / Open Encounter
+LH,2015-01-17 09:50:23+00:00,2015-01-28 11:30:00+00:00,17,7,ER Registration,Release A,956377.0,265.66,11.07,False,False,False,True,Completed Normal Encounter
+LHA,2014-09-09 09:38:25+00:00,2014-09-13 10:00:00+00:00,13,10,ER Registration,Release A,346895.0,96.36,4.01,False,True,False,True,Completed Normal Encounter
+LI,2014-03-20 10:06:50+00:00,2014-08-25 02:52:30+00:00,14,11,ER Registration,Return ER,13625140.0,3784.76,157.7,True,True,False,True,Readmission Encounter
+LIA,2014-11-30 02:57:44+00:00,2015-01-17 06:06:52+00:00,31,12,ER Registration,Return ER,4158548.0,1155.15,48.13,True,True,True,True,Readmission Encounter
+LJ,2014-10-26 20:21:00+00:00,2014-12-14 09:30:00+00:00,31,10,ER Registration,Release D,4194540.0,1165.15,48.55,False,True,False,True,Completed Normal Encounter
+LJA,2014-06-13 17:57:35+00:00,2014-06-13 20:14:31+00:00,8,8,ER Registration,IV Antibiotics,8216.0,2.28,0.1,False,True,False,False,Truncated / Open Encounter
+LK,2015-02-15 21:39:55+00:00,2015-02-19 13:40:00+00:00,12,10,ER Registration,Release A,316805.0,88.0,3.67,False,True,False,True,Completed Normal Encounter
+LKA,2014-03-22 20:22:31+00:00,2014-04-29 16:52:39+00:00,24,11,ER Registration,Return ER,3270608.0,908.5,37.85,True,True,False,True,Readmission Encounter
+LL,2014-06-08 12:46:50+00:00,2014-06-20 10:00:00+00:00,22,10,ER Registration,Release A,1026790.0,285.22,11.88,False,True,False,True,Completed Normal Encounter
+LLA,2014-08-15 14:25:35+00:00,2014-08-15 14:43:00+00:00,5,5,ER Registration,Leucocytes,1045.0,0.29,0.01,False,False,False,False,Truncated / Open Encounter
+LM,2014-12-06 08:30:47+00:00,2014-12-29 18:00:00+00:00,35,11,ER Registration,Release A,2021353.0,561.49,23.4,False,True,True,True,Completed Normal Encounter
+LMA,2014-09-12 10:50:45+00:00,2014-09-13 15:30:00+00:00,6,6,ER Registration,Release A,103155.0,28.65,1.19,False,False,False,True,Completed Normal Encounter
+LN,2014-02-18 22:28:35+00:00,2015-01-27 13:12:50+00:00,15,11,ER Registration,Return ER,29601855.0,8222.74,342.61,True,True,False,True,Readmission Encounter
+LNA,2014-12-03 10:50:28+00:00,2014-12-03 10:54:39+00:00,3,3,ER Registration,ER Sepsis Triage,251.0,0.07,0.0,False,False,False,False,Truncated / Open Encounter
+LO,2014-10-13 15:14:34+00:00,2014-10-13 18:00:26+00:00,8,8,ER Registration,IV Antibiotics,9952.0,2.76,0.12,False,True,False,False,Truncated / Open Encounter
+LP,2014-09-01 12:51:27+00:00,2014-09-13 21:30:00+00:00,19,10,ER Registration,Release B,1067913.0,296.64,12.36,False,True,False,True,Completed Normal Encounter
+LQ,2014-09-18 22:24:34+00:00,2014-09-28 10:30:52+00:00,21,11,ER Registration,Return ER,821178.0,228.1,9.5,True,True,False,True,Readmission Encounter
+LR,2014-10-04 13:37:43+00:00,2014-10-10 12:00:00+00:00,12,10,ER Registration,Release A,512537.0,142.37,5.93,False,True,False,True,Completed Normal Encounter
+LS,2013-11-18 17:24:56+00:00,2014-12-20 16:39:26+00:00,15,11,ER Registration,Return ER,34298070.0,9527.24,396.97,True,True,False,True,Readmission Encounter
+LT,2014-04-05 14:01:25+00:00,2014-04-20 10:00:44+00:00,29,10,ER Registration,Release A,1281559.0,355.99,14.83,False,True,True,True,Completed Normal Encounter
+LU,2014-12-22 22:36:58+00:00,2015-01-01 15:33:58+00:00,13,11,ER Registration,Return ER,838620.0,232.95,9.71,True,True,False,True,Readmission Encounter
+LV,2014-10-02 13:47:38+00:00,2014-10-23 11:30:00+00:00,19,7,ER Registration,Release D,1806142.0,501.71,20.9,False,False,False,True,Completed Normal Encounter
+LW,2014-11-21 09:10:00+00:00,2014-11-27 10:15:00+00:00,15,10,CRP,Release A,522300.0,145.08,6.05,False,True,False,True,Completed Normal Encounter
+LX,2014-06-18 08:15:00+00:00,2014-06-22 11:00:00+00:00,13,10,Leucocytes,Release A,355500.0,98.75,4.11,False,True,False,True,Completed Normal Encounter
+LY,2014-04-14 20:24:37+00:00,2014-04-14 20:40:40+00:00,3,3,ER Registration,ER Sepsis Triage,963.0,0.27,0.01,False,False,False,False,Truncated / Open Encounter
+LZ,2013-11-28 00:00:01+00:00,2014-01-27 13:57:44+00:00,21,11,ER Sepsis Triage,Return ER,5234263.0,1453.96,60.58,True,True,False,True,Readmission Encounter
+M,2014-10-10 03:08:37+00:00,2014-10-10 03:10:54+00:00,3,3,ER Registration,ER Sepsis Triage,137.0,0.04,0.0,False,False,False,False,Truncated / Open Encounter
+MA,2014-04-07 16:15:09+00:00,2014-04-10 17:00:00+00:00,14,10,ER Registration,Release A,261891.0,72.75,3.03,False,True,False,True,Completed Normal Encounter
+MAA,2014-02-12 16:56:15+00:00,2014-02-15 15:00:00+00:00,14,8,ER Registration,Release A,252225.0,70.06,2.92,False,False,False,True,Completed Normal Encounter
+MB,2014-11-04 13:55:37+00:00,2014-11-04 14:03:10+00:00,3,3,ER Registration,ER Sepsis Triage,453.0,0.13,0.01,False,False,False,False,Truncated / Open Encounter
+MBA,2014-01-19 17:29:13+00:00,2014-01-23 18:00:00+00:00,11,10,ER Registration,Release A,347447.0,96.51,4.02,False,True,False,True,Completed Normal Encounter
+MC,2013-12-27 16:14:54+00:00,2014-01-06 12:15:26+00:00,14,11,ER Registration,Return ER,849632.0,236.01,9.83,True,True,False,True,Readmission Encounter
+MCA,2015-01-14 22:14:36+00:00,2015-01-14 22:43:00+00:00,5,5,ER Registration,Leucocytes,1704.0,0.47,0.02,False,False,False,False,Truncated / Open Encounter
+MD,2014-09-22 23:48:47+00:00,2014-10-06 16:08:46+00:00,15,11,ER Registration,Return ER,1181999.0,328.33,13.68,True,True,False,True,Readmission Encounter
+MDA,2014-10-07 20:00:31+00:00,2014-10-08 07:00:00+00:00,12,9,IV Liquid,Leucocytes,39569.0,10.99,0.46,False,True,True,False,Truncated / Open Encounter
+ME,2014-05-18 00:24:21+00:00,2014-09-09 09:23:41+00:00,15,11,ER Registration,Return ER,9881960.0,2744.99,114.37,True,True,False,True,Readmission Encounter
+MEA,2014-04-15 17:04:11+00:00,2014-04-23 17:00:00+00:00,21,10,ER Registration,Release A,690949.0,191.93,8.0,False,True,False,True,Completed Normal Encounter
+MF,2014-12-18 18:53:10+00:00,2014-12-18 19:34:21+00:00,3,3,ER Registration,ER Sepsis Triage,2471.0,0.69,0.03,False,False,False,False,Truncated / Open Encounter
+MFA,2014-05-29 21:08:41+00:00,2014-07-10 13:30:40+00:00,13,11,ER Registration,Return ER,3601319.0,1000.37,41.68,True,True,False,True,Readmission Encounter
+MG,2014-02-20 05:21:59+00:00,2014-02-20 11:00:00+00:00,6,5,ER Registration,Leucocytes,20281.0,5.63,0.23,False,False,False,False,Truncated / Open Encounter
+MGA,2014-03-30 13:04:20+00:00,2014-04-03 23:00:00+00:00,12,10,ER Registration,Release B,381340.0,105.93,4.41,False,True,False,True,Completed Normal Encounter
+MH,2014-06-16 21:05:04+00:00,2014-06-16 21:48:00+00:00,5,5,ER Registration,Leucocytes,2576.0,0.72,0.03,False,False,False,False,Truncated / Open Encounter
+MHA,2014-09-26 11:24:42+00:00,2015-04-22 22:30:51+00:00,13,11,ER Registration,Return ER,18011169.0,5003.1,208.46,True,True,False,True,Readmission Encounter
+MI,2013-12-22 08:11:25+00:00,2013-12-22 09:39:01+00:00,8,8,ER Registration,IV Antibiotics,5256.0,1.46,0.06,False,True,False,False,Truncated / Open Encounter
+MIA,2014-10-11 09:32:36+00:00,2014-12-02 02:57:44+00:00,13,11,ER Registration,Return ER,4469108.0,1241.42,51.73,True,True,False,True,Readmission Encounter
+MJ,2014-09-04 21:10:31+00:00,2014-09-09 09:44:30+00:00,13,9,ER Registration,Release A,390839.0,108.57,4.52,False,True,False,True,Completed Normal Encounter
+MJA,2014-05-04 20:55:44+00:00,2014-05-05 07:00:00+00:00,8,6,ER Registration,Leucocytes,36256.0,10.07,0.42,False,True,False,False,Truncated / Open Encounter
+MK,2014-08-27 21:46:25+00:00,2015-04-18 14:02:11+00:00,27,12,ER Registration,Return ER,20189746.0,5608.26,233.68,True,True,True,True,Readmission Encounter
+MKA,2015-01-30 09:53:07+00:00,2015-02-15 10:00:00+00:00,52,11,ER Registration,Release A,1382813.0,384.11,16.0,False,True,True,True,Completed Normal Encounter
+ML,2014-01-14 09:00:46+00:00,2014-07-31 17:05:19+00:00,29,12,ER Registration,Return ER,17136273.0,4760.08,198.34,True,True,True,True,Readmission Encounter
+MLA,2014-02-11 21:48:17+00:00,2014-02-11 22:13:00+00:00,5,5,ER Registration,Leucocytes,1483.0,0.41,0.02,False,False,False,False,Truncated / Open Encounter
+MM,2014-03-30 12:17:19+00:00,2014-04-10 13:30:00+00:00,20,7,ER Registration,Release A,954761.0,265.21,11.05,False,False,False,True,Completed Normal Encounter
+MMA,2014-12-14 16:14:48+00:00,2014-12-14 17:21:28+00:00,8,8,ER Registration,IV Antibiotics,4000.0,1.11,0.05,False,True,False,False,Truncated / Open Encounter
+MN,2014-04-29 15:08:00+00:00,2014-05-09 11:16:43+00:00,33,10,CRP,Return ER,850123.0,236.15,9.84,True,False,True,True,Readmission Encounter
+MO,2014-12-03 16:47:39+00:00,2014-12-09 10:15:00+00:00,10,10,ER Registration,Release A,494841.0,137.46,5.73,False,True,False,True,Completed Normal Encounter
+MP,2013-12-10 05:40:54+00:00,2013-12-19 21:21:50+00:00,22,11,ER Registration,Return ER,834056.0,231.68,9.65,True,True,False,True,Readmission Encounter
+MQ,2014-02-22 18:37:22+00:00,2014-10-01 22:24:34+00:00,16,10,ER Registration,Return ER,19108032.0,5307.79,221.16,True,True,False,True,Readmission Encounter
+MR,2014-01-29 17:35:14+00:00,2014-02-02 09:30:00+00:00,12,10,ER Registration,Release A,316486.0,87.91,3.66,False,True,False,True,Completed Normal Encounter
+MS,2014-11-28 16:40:19+00:00,2015-03-01 14:35:00+00:00,15,11,IV Liquid,Return ER,8027681.0,2229.91,92.91,True,True,False,True,Readmission Encounter
+MT,2014-05-17 19:17:28+00:00,2014-08-08 21:14:40+00:00,12,11,ER Registration,Return ER,7178232.0,1993.95,83.08,True,True,False,True,Readmission Encounter
+MU,2014-03-05 10:43:33+00:00,2014-03-12 12:00:00+00:00,14,10,ER Registration,Release A,609387.0,169.27,7.05,False,True,False,True,Completed Normal Encounter
+MV,2015-01-17 20:30:00+00:00,2015-01-21 16:00:00+00:00,16,10,ER Registration,Release A,329400.0,91.5,3.81,False,True,False,True,Completed Normal Encounter
+MW,2014-10-30 11:52:00+00:00,2014-11-15 11:30:00+00:00,30,10,ER Registration,Release B,1381080.0,383.63,15.98,False,True,False,True,Completed Normal Encounter
+MX,2014-05-07 15:45:11+00:00,2014-05-16 14:00:00+00:00,12,10,ER Registration,Release A,771289.0,214.25,8.93,False,True,False,True,Completed Normal Encounter
+MY,2013-11-13 14:23:53+00:00,2013-11-13 15:12:00+00:00,6,6,ER Registration,Leucocytes,2887.0,0.8,0.03,False,False,False,False,Truncated / Open Encounter
+MZ,2014-09-05 12:22:37+00:00,2014-09-26 17:57:44+00:00,14,10,ER Registration,Return ER,1834507.0,509.59,21.23,True,True,False,True,Readmission Encounter
+N,2014-06-16 10:34:58+00:00,2014-06-21 14:30:00+00:00,12,10,ER Registration,Release A,446102.0,123.92,5.16,False,True,False,True,Completed Normal Encounter
+NA,2014-11-10 01:45:19+00:00,2014-11-22 14:30:00+00:00,24,10,ER Registration,Release C,1082681.0,300.74,12.53,False,True,False,True,Completed Normal Encounter
+NAA,2014-12-06 10:32:35+00:00,2014-12-06 10:51:24+00:00,3,3,ER Registration,ER Sepsis Triage,1129.0,0.31,0.01,False,False,False,False,Truncated / Open Encounter
+NB,2014-10-10 18:16:35+00:00,2014-10-19 13:00:00+00:00,21,10,ER Registration,Release A,758605.0,210.72,8.78,False,True,False,True,Completed Normal Encounter
+NBA,2014-06-02 00:34:13+00:00,2014-06-02 00:43:00+00:00,5,5,ER Registration,Leucocytes,527.0,0.15,0.01,False,False,False,False,Truncated / Open Encounter
+NC,2014-09-11 11:51:28+00:00,2014-09-11 16:58:59+00:00,7,7,ER Registration,IV Liquid,18451.0,5.13,0.21,False,True,False,False,Truncated / Open Encounter
+NCA,2014-03-17 20:20:31+00:00,2015-01-28 15:37:56+00:00,17,11,IV Liquid,Return ER,27371845.0,7603.29,316.8,True,True,False,True,Readmission Encounter
+ND,2013-12-02 21:33:43+00:00,2013-12-08 13:00:00+00:00,16,10,ER Registration,Release A,487577.0,135.44,5.64,False,True,False,True,Completed Normal Encounter
+NDA,2014-01-30 12:06:08+00:00,2014-02-02 19:00:00+00:00,15,11,ER Registration,Release A,284032.0,78.9,3.29,False,True,True,True,Completed Normal Encounter
+NE,2014-10-23 17:23:57+00:00,2014-10-23 17:39:00+00:00,5,5,ER Registration,Leucocytes,903.0,0.25,0.01,False,False,False,False,Truncated / Open Encounter
+NEA,2014-03-15 08:41:08+00:00,2014-04-23 12:00:00+00:00,51,10,ER Registration,Release A,3381532.0,939.31,39.14,False,True,True,True,Completed Normal Encounter
+NF,2014-04-08 23:33:14+00:00,2014-04-27 12:15:00+00:00,28,9,ER Registration,Release A,1600906.0,444.7,18.53,False,True,False,True,Completed Normal Encounter
+NFA,2013-12-13 13:47:56+00:00,2013-12-13 15:01:51+00:00,8,8,ER Registration,IV Antibiotics,4435.0,1.23,0.05,False,True,False,False,Truncated / Open Encounter
+NG,2014-11-30 10:26:08+00:00,2014-11-30 11:29:00+00:00,6,6,ER Registration,Leucocytes,3772.0,1.05,0.04,False,False,False,False,Truncated / Open Encounter
+NGA,2014-06-17 01:17:11+00:00,2014-10-09 10:00:00+00:00,185,11,ER Registration,Release C,9880969.0,2744.71,114.36,False,True,True,True,Completed Normal Encounter
+NH,2014-05-15 12:06:35+00:00,2014-11-16 12:54:24+00:00,13,11,ER Registration,Return ER,15986869.0,4440.8,185.03,True,True,False,True,Readmission Encounter
+NHA,2014-09-14 13:19:00+00:00,2014-09-18 11:36:49+00:00,11,10,ER Registration,Release A,339469.0,94.3,3.93,False,True,False,True,Completed Normal Encounter
+NI,2014-05-31 18:15:05+00:00,2014-07-06 03:03:10+00:00,15,11,ER Registration,Return ER,3055685.0,848.8,35.37,True,True,False,True,Readmission Encounter
+NIA,2014-06-29 13:29:14+00:00,2014-07-14 10:33:21+00:00,13,11,ER Registration,Return ER,1285447.0,357.07,14.88,True,True,False,True,Readmission Encounter
+NJ,2014-03-10 14:20:18+00:00,2014-06-15 12:16:41+00:00,14,11,ER Registration,Return ER,8373383.0,2325.94,96.91,True,True,False,True,Readmission Encounter
+NJA,2014-05-25 15:21:48+00:00,2014-05-29 15:30:00+00:00,16,10,ER Registration,Release A,346092.0,96.14,4.01,False,True,False,True,Completed Normal Encounter
+NK,2014-06-17 18:57:55+00:00,2014-06-24 13:30:00+00:00,18,10,ER Registration,Release A,585125.0,162.53,6.77,False,True,False,True,Completed Normal Encounter
+NKA,2014-06-06 02:13:13+00:00,2014-06-10 12:00:00+00:00,10,10,ER Registration,Release A,380807.0,105.78,4.41,False,True,False,True,Completed Normal Encounter
+NL,2014-09-19 12:44:39+00:00,2014-09-19 12:58:00+00:00,6,6,ER Registration,Leucocytes,801.0,0.22,0.01,False,False,False,False,Truncated / Open Encounter
+NLA,2014-11-20 20:33:53+00:00,2014-11-20 21:16:00+00:00,5,5,ER Registration,Leucocytes,2527.0,0.7,0.03,False,False,False,False,Truncated / Open Encounter
+NM,2014-09-18 20:39:45+00:00,2014-12-31 22:01:03+00:00,15,11,ER Registration,Return ER,8990478.0,2497.36,104.06,True,True,False,True,Readmission Encounter
+NMA,2014-03-15 16:29:31+00:00,2014-03-26 19:00:00+00:00,21,10,ER Registration,Release A,959429.0,266.51,11.1,False,True,False,True,Completed Normal Encounter
+NN,2014-08-09 23:33:30+00:00,2014-08-13 11:00:00+00:00,13,9,ER Registration,Release A,300390.0,83.44,3.48,False,True,False,True,Completed Normal Encounter
+NO,2014-05-14 18:29:12+00:00,2014-05-17 10:00:00+00:00,13,10,ER Registration,Release A,228648.0,63.51,2.65,False,True,False,True,Completed Normal Encounter
+NP,2014-11-05 14:30:30+00:00,2015-02-06 07:48:44+00:00,16,11,ER Registration,Return ER,8011094.0,2225.3,92.72,True,True,False,True,Readmission Encounter
+NQ,2014-06-03 17:36:30+00:00,2014-06-03 18:07:00+00:00,5,5,ER Registration,Leucocytes,1830.0,0.51,0.02,False,False,False,False,Truncated / Open Encounter
+NR,2014-02-28 10:15:57+00:00,2014-03-06 20:10:10+00:00,19,10,ER Registration,Release B,554053.0,153.9,6.41,False,True,False,True,Completed Normal Encounter
+NS,2014-11-02 16:20:22+00:00,2014-11-02 16:51:00+00:00,6,6,ER Registration,Leucocytes,1838.0,0.51,0.02,False,False,False,False,Truncated / Open Encounter
+NT,2014-09-09 12:47:54+00:00,2014-09-16 19:30:00+00:00,17,10,ER Registration,Release A,628926.0,174.7,7.28,False,True,False,True,Completed Normal Encounter
+NU,2014-12-14 01:28:40+00:00,2014-12-25 11:00:00+00:00,20,10,ER Registration,Release A,984680.0,273.52,11.4,False,True,False,True,Completed Normal Encounter
+NV,2015-02-23 00:17:41+00:00,2015-02-26 10:15:00+00:00,11,10,ER Registration,Release A,295039.0,81.96,3.41,False,True,False,True,Completed Normal Encounter
+NW,2014-06-28 18:04:05+00:00,2014-07-06 10:30:00+00:00,18,10,ER Registration,Release A,663955.0,184.43,7.68,False,True,False,True,Completed Normal Encounter
+NX,2014-10-06 18:16:13+00:00,2014-10-13 14:30:00+00:00,12,9,ER Registration,Release A,591227.0,164.23,6.84,False,True,False,True,Completed Normal Encounter
+NY,2014-02-04 15:26:22+00:00,2014-02-04 18:41:48+00:00,8,8,ER Registration,IV Antibiotics,11726.0,3.26,0.14,False,True,False,False,Truncated / Open Encounter
+NZ,2014-06-29 14:48:22+00:00,2014-09-05 16:55:20+00:00,61,12,ER Registration,Return ER,5882818.0,1634.12,68.09,True,True,True,True,Readmission Encounter
+O,2014-10-11 22:29:02+00:00,2014-10-17 18:40:42+00:00,11,11,ER Registration,Return ER,504700.0,140.19,5.84,True,True,False,True,Readmission Encounter
+OA,2013-12-20 22:42:14+00:00,2013-12-21 14:00:00+00:00,11,8,ER Registration,Leucocytes,55066.0,15.3,0.64,False,True,False,False,Truncated / Open Encounter
+OAA,2014-08-24 18:44:24+00:00,2014-09-07 11:00:00+00:00,37,10,ER Registration,Release A,1181736.0,328.26,13.68,False,True,True,True,Completed Normal Encounter
+OB,2014-12-05 09:39:50+00:00,2014-12-13 10:45:00+00:00,16,10,ER Registration,Release A,695110.0,193.09,8.05,False,True,False,True,Completed Normal Encounter
+OBA,2014-10-07 15:32:12+00:00,2014-10-12 10:31:49+00:00,13,8,ER Registration,Release A,413977.0,114.99,4.79,False,False,False,True,Completed Normal Encounter
+OC,2013-12-21 12:19:23+00:00,2014-08-30 13:58:30+00:00,22,12,ER Registration,Return ER,21778747.0,6049.65,252.07,True,True,True,True,Readmission Encounter
+OCA,2014-03-09 13:18:07+00:00,2014-03-09 14:04:00+00:00,5,5,ER Registration,Leucocytes,2753.0,0.76,0.03,False,False,False,False,Truncated / Open Encounter
+OD,2014-05-27 03:53:13+00:00,2014-07-01 21:00:00+00:00,118,10,ER Registration,Release B,3085607.0,857.11,35.71,False,True,True,False,Completed Normal Encounter
+ODA,2014-06-02 10:13:38+00:00,2014-06-12 10:15:00+00:00,23,10,ER Registration,Release D,864082.0,240.02,10.0,False,True,False,True,Completed Normal Encounter
+OE,2014-06-10 18:34:30+00:00,2014-06-10 18:58:20+00:00,3,3,ER Registration,ER Sepsis Triage,1430.0,0.4,0.02,False,False,False,False,Truncated / Open Encounter
+OEA,2014-02-04 17:05:22+00:00,2014-08-09 16:41:48+00:00,20,11,ER Registration,Return ER,16068986.0,4463.61,185.98,True,True,False,True,Readmission Encounter
+OF,2014-04-09 11:43:42+00:00,2014-04-09 11:46:15+00:00,3,3,ER Registration,ER Sepsis Triage,153.0,0.04,0.0,False,False,False,False,Truncated / Open Encounter
+OFA,2014-06-19 11:48:14+00:00,2014-06-19 16:54:50+00:00,7,7,ER Registration,IV Antibiotics,18396.0,5.11,0.21,False,True,False,False,Truncated / Open Encounter
+OG,2014-07-13 13:00:23+00:00,2014-07-16 18:00:00+00:00,9,8,ER Registration,Release A,277177.0,76.99,3.21,False,False,False,True,Completed Normal Encounter
+OGA,2014-11-09 12:47:42+00:00,2014-11-15 09:00:00+00:00,13,10,ER Registration,Release A,504738.0,140.21,5.84,False,True,False,True,Completed Normal Encounter
+OH,2014-03-16 13:22:39+00:00,2014-05-09 19:50:00+00:00,16,11,ER Registration,Return ER,4688841.0,1302.46,54.27,True,True,False,True,Readmission Encounter
+OHA,2014-01-04 12:36:41+00:00,2014-01-10 11:00:00+00:00,13,10,ER Registration,Release A,512599.0,142.39,5.93,False,True,False,True,Completed Normal Encounter
+OI,2014-11-23 16:46:30+00:00,2014-11-23 17:29:00+00:00,6,6,ER Registration,Leucocytes,2550.0,0.71,0.03,False,False,False,False,Truncated / Open Encounter
+OIA,2014-04-21 15:16:39+00:00,2014-04-25 11:00:00+00:00,15,10,ER Registration,Release A,330201.0,91.72,3.82,False,True,False,True,Completed Normal Encounter
+OJ,2014-04-06 21:45:42+00:00,2014-04-14 11:00:00+00:00,23,10,ER Registration,Release A,652458.0,181.24,7.55,False,True,True,True,Completed Normal Encounter
+OJA,2014-07-30 10:42:26+00:00,2014-07-30 11:57:43+00:00,3,3,ER Registration,ER Sepsis Triage,4517.0,1.25,0.05,False,False,False,False,Truncated / Open Encounter
+OK,2014-02-28 13:21:10+00:00,2014-03-12 20:36:23+00:00,19,11,ER Registration,Return ER,1062913.0,295.25,12.3,True,True,False,True,Readmission Encounter
+OKA,2014-08-21 22:25:18+00:00,2014-08-25 11:27:18+00:00,12,10,ER Registration,Release A,306120.0,85.03,3.54,False,True,False,True,Completed Normal Encounter
+OL,2014-01-01 16:00:59+00:00,2014-01-24 00:19:33+00:00,12,8,ER Registration,Return ER,1930714.0,536.31,22.35,True,False,False,True,Readmission Encounter
+OLA,2014-09-10 16:08:09+00:00,2014-09-27 16:41:35+00:00,12,11,ER Registration,Return ER,1470806.0,408.56,17.02,True,True,False,True,Readmission Encounter
+OM,2014-02-25 16:54:39+00:00,2014-05-08 10:44:13+00:00,19,11,ER Registration,Return ER,6198574.0,1721.83,71.74,True,True,False,True,Readmission Encounter
+OMA,2014-08-13 11:10:23+00:00,2014-11-18 07:54:36+00:00,26,12,ER Sepsis Triage,Return ER,8369053.0,2324.74,96.86,True,True,True,True,Readmission Encounter
+ON,2014-03-12 15:08:34+00:00,2014-03-17 11:30:00+00:00,15,10,ER Registration,Release A,418886.0,116.36,4.85,False,True,False,True,Completed Normal Encounter
+OO,2014-11-22 17:24:12+00:00,2014-11-27 09:00:00+00:00,11,9,ER Registration,Release A,401748.0,111.6,4.65,False,True,False,True,Completed Normal Encounter
+OP,2014-04-03 22:14:21+00:00,2014-04-03 23:32:21+00:00,8,8,ER Registration,IV Antibiotics,4680.0,1.3,0.05,False,True,False,False,Truncated / Open Encounter
+OQ,2014-10-26 12:01:08+00:00,2014-10-28 14:00:00+00:00,12,9,ER Registration,Release A,179932.0,49.98,2.08,False,True,False,True,Completed Normal Encounter
+OR,2014-04-12 14:53:43+00:00,2014-11-12 15:26:05+00:00,22,12,ER Registration,Return ER,18491542.0,5136.54,214.02,True,True,True,True,Readmission Encounter
+OS,2014-09-02 08:21:21+00:00,2014-12-14 09:00:02+00:00,12,11,ER Registration,Return ER,8901521.0,2472.64,103.03,True,True,False,True,Readmission Encounter
+OT,2013-11-11 12:48:21+00:00,2013-11-22 14:25:53+00:00,16,11,ER Registration,Return ER,956252.0,265.63,11.07,True,True,False,True,Readmission Encounter
+OU,2014-11-17 16:41:16+00:00,2014-11-30 10:32:25+00:00,14,11,ER Registration,Return ER,1101069.0,305.85,12.74,True,True,False,True,Readmission Encounter
+OV,2014-10-04 22:38:43+00:00,2014-10-06 00:55:18+00:00,9,9,ER Registration,IV Liquid,94595.0,26.28,1.09,False,True,False,True,Truncated / Open Encounter
+OW,2014-05-03 16:07:46+00:00,2014-05-10 12:00:00+00:00,16,10,ER Registration,Release A,589934.0,163.87,6.83,False,True,False,True,Completed Normal Encounter
+OX,2014-04-29 10:54:06+00:00,2014-05-27 17:09:10+00:00,14,11,ER Registration,Return ER,2441704.0,678.25,28.26,True,True,False,True,Readmission Encounter
+OY,2014-12-12 10:37:36+00:00,2014-12-19 18:30:00+00:00,16,7,ER Registration,Release A,633144.0,175.87,7.33,False,False,False,True,Completed Normal Encounter
+OZ,2014-11-24 21:22:56+00:00,2014-11-25 06:00:00+00:00,10,8,ER Registration,Leucocytes,31024.0,8.62,0.36,False,True,False,False,Truncated / Open Encounter
+P,2014-04-22 09:39:36+00:00,2014-04-22 11:01:16+00:00,3,3,ER Registration,ER Sepsis Triage,4900.0,1.36,0.06,False,False,False,False,Truncated / Open Encounter
+PA,2014-11-03 12:01:35+00:00,2014-11-03 12:20:00+00:00,6,6,ER Registration,Leucocytes,1105.0,0.31,0.01,False,False,False,False,Truncated / Open Encounter
+PAA,2014-09-13 03:12:19+00:00,2014-09-13 05:22:51+00:00,8,8,ER Registration,IV Antibiotics,7832.0,2.18,0.09,False,True,False,False,Truncated / Open Encounter
+PB,2015-01-17 19:51:42+00:00,2015-02-05 09:15:08+00:00,16,11,ER Registration,Return ER,1603406.0,445.39,18.56,True,True,False,True,Readmission Encounter
+PBA,2014-04-27 15:01:49+00:00,2014-04-27 22:55:00+00:00,11,10,ER Registration,Release B,28391.0,7.89,0.33,False,True,True,False,Completed Normal Encounter
+PC,2013-11-28 14:27:20+00:00,2013-11-28 15:34:00+00:00,5,5,ER Registration,Leucocytes,4000.0,1.11,0.05,False,False,False,False,Truncated / Open Encounter
+PCA,2013-11-21 18:39:52+00:00,2013-11-22 08:00:00+00:00,10,7,ER Registration,Leucocytes,48008.0,13.34,0.56,False,False,False,True,Truncated / Open Encounter
+PD,2014-06-03 14:28:01+00:00,2014-06-03 16:45:00+00:00,9,8,ER Registration,Leucocytes,8219.0,2.28,0.1,False,True,False,False,Truncated / Open Encounter
+PDA,2014-09-22 15:53:41+00:00,2014-09-28 18:00:00+00:00,16,10,ER Registration,Release A,525979.0,146.11,6.09,False,True,False,True,Completed Normal Encounter
+PE,2014-12-01 15:19:31+00:00,2014-12-01 16:45:00+00:00,8,8,ER Registration,Leucocytes,5129.0,1.42,0.06,False,True,False,False,Truncated / Open Encounter
+PEA,2014-07-05 14:30:34+00:00,2014-07-08 14:44:00+00:00,10,10,ER Registration,Release A,260006.0,72.22,3.01,False,True,False,True,Completed Normal Encounter
+PF,2014-10-04 14:42:23+00:00,2014-10-10 21:00:00+00:00,15,10,ER Registration,Release A,541057.0,150.29,6.26,False,True,False,True,Completed Normal Encounter
+PFA,2014-05-01 15:53:56+00:00,2014-05-07 13:00:00+00:00,20,11,ER Registration,Release A,507964.0,141.1,5.88,False,True,True,True,Completed Normal Encounter
+PG,2014-10-13 11:34:02+00:00,2014-11-08 22:07:32+00:00,13,11,ER Registration,Return ER,2284410.0,634.56,26.44,True,True,False,True,Readmission Encounter
+PGA,2014-08-27 01:15:11+00:00,2014-09-20 00:09:57+00:00,23,12,ER Registration,Return ER,2069686.0,574.91,23.95,True,True,True,True,Readmission Encounter
+PH,2013-12-13 06:44:57+00:00,2013-12-13 07:36:35+00:00,8,8,ER Registration,IV Antibiotics,3098.0,0.86,0.04,False,True,False,False,Truncated / Open Encounter
+PHA,2014-03-21 15:14:58+00:00,2014-03-21 18:30:20+00:00,8,8,ER Registration,IV Antibiotics,11722.0,3.26,0.14,False,True,False,False,Truncated / Open Encounter
+PI,2014-05-03 22:44:44+00:00,2014-05-06 17:00:00+00:00,11,10,ER Registration,Release A,238516.0,66.25,2.76,False,True,False,True,Completed Normal Encounter
+PIA,2014-03-28 21:34:09+00:00,2014-08-20 13:56:05+00:00,45,12,ER Registration,Return ER,12500516.0,3472.37,144.68,True,True,True,True,Readmission Encounter
+PJ,2014-03-02 20:48:23+00:00,2014-03-08 16:20:00+00:00,19,10,ER Registration,Release B,502297.0,139.53,5.81,False,True,False,True,Completed Normal Encounter
+PJA,2014-02-16 10:01:12+00:00,2014-02-16 10:45:00+00:00,8,8,ER Registration,Leucocytes,2628.0,0.73,0.03,False,True,False,False,Truncated / Open Encounter
+PK,2014-12-25 20:04:56+00:00,2015-03-21 21:00:41+00:00,23,11,ER Registration,Return ER,7433745.0,2064.93,86.04,True,True,False,True,Readmission Encounter
+PKA,2014-05-07 02:37:26+00:00,2014-11-03 07:03:00+00:00,15,10,ER Registration,Return ER,15567934.0,4324.43,180.18,True,True,False,True,Readmission Encounter
+PL,2014-05-08 12:14:59+00:00,2014-05-08 12:42:37+00:00,6,6,ER Registration,ER Sepsis Triage,1658.0,0.46,0.02,False,False,False,False,Truncated / Open Encounter
+PLA,2014-04-10 18:44:36+00:00,2014-04-26 10:29:07+00:00,25,11,ER Registration,Return ER,1352671.0,375.74,15.66,True,True,False,True,Readmission Encounter
+PM,2014-07-27 10:07:07+00:00,2014-07-27 11:03:41+00:00,8,8,ER Registration,IV Antibiotics,3394.0,0.94,0.04,False,True,False,False,Truncated / Open Encounter
+PMA,2013-11-21 16:47:34+00:00,2013-11-25 11:00:00+00:00,14,10,ER Registration,Release A,324746.0,90.21,3.76,False,True,False,True,Completed Normal Encounter
+PN,2014-03-08 08:00:00+00:00,2014-03-08 14:48:00+00:00,6,5,Leucocytes,Leucocytes,24480.0,6.8,0.28,False,False,False,False,Truncated / Open Encounter
+PO,2014-09-30 16:17:14+00:00,2014-10-04 11:15:00+00:00,13,9,ER Registration,Release A,327466.0,90.96,3.79,False,True,False,True,Completed Normal Encounter
+PP,2014-03-06 23:29:07+00:00,2014-03-06 23:37:00+00:00,5,5,ER Registration,Leucocytes,473.0,0.13,0.01,False,False,False,False,Truncated / Open Encounter
+PQ,2014-02-26 09:26:08+00:00,2014-02-28 19:30:00+00:00,5,5,ER Registration,Release A,209032.0,58.06,2.42,False,False,False,True,Completed Normal Encounter
+PR,2015-01-11 00:32:15+00:00,2015-02-06 10:00:00+00:00,14,7,ER Registration,Release C,2280465.0,633.46,26.39,False,False,False,True,Completed Normal Encounter
+PS,2014-06-17 09:46:27+00:00,2014-06-20 10:00:00+00:00,10,10,ER Registration,Release A,260013.0,72.23,3.01,False,True,False,True,Completed Normal Encounter
+PT,2014-06-26 06:41:38+00:00,2014-06-30 14:00:00+00:00,13,10,ER Registration,Release A,371902.0,103.31,4.3,False,True,False,True,Completed Normal Encounter
+PU,2014-12-14 11:28:39+00:00,2015-01-19 09:39:00+00:00,38,10,ER Registration,Release B,3103821.0,862.17,35.92,False,True,False,True,Completed Normal Encounter
+PV,2015-02-14 05:11:11+00:00,2015-04-01 14:51:36+00:00,14,11,ER Registration,Return ER,4009225.0,1113.67,46.4,True,True,False,True,Readmission Encounter
+PW,2014-10-12 20:32:12+00:00,2014-10-19 15:00:00+00:00,12,10,ER Registration,Release A,584868.0,162.46,6.77,False,True,False,True,Completed Normal Encounter
+PX,2014-06-18 22:03:49+00:00,2014-06-18 22:57:00+00:00,5,5,ER Registration,Leucocytes,3191.0,0.89,0.04,False,False,False,False,Truncated / Open Encounter
+PY,2014-05-10 15:47:28+00:00,2014-05-10 19:18:37+00:00,8,8,ER Registration,IV Antibiotics,12669.0,3.52,0.15,False,True,False,False,Truncated / Open Encounter
+PZ,2014-04-28 11:46:09+00:00,2014-05-19 11:06:45+00:00,15,10,ER Registration,Return ER,1812036.0,503.34,20.97,True,True,False,True,Readmission Encounter
+Q,2013-12-15 14:17:05+00:00,2013-12-15 14:19:07+00:00,3,3,ER Registration,ER Sepsis Triage,122.0,0.03,0.0,False,False,False,False,Truncated / Open Encounter
+QA,2014-12-23 19:53:47+00:00,2014-12-30 10:10:00+00:00,14,10,ER Registration,Release D,569773.0,158.27,6.59,False,True,False,True,Completed Normal Encounter
+QAA,2014-09-01 15:31:42+00:00,2014-09-08 12:00:00+00:00,14,10,ER Registration,Release C,592098.0,164.47,6.85,False,True,False,True,Completed Normal Encounter
+QB,2014-10-24 10:23:20+00:00,2014-11-12 13:20:15+00:00,16,11,ER Registration,Return ER,1652215.0,458.95,19.12,True,True,False,True,Readmission Encounter
+QBA,2014-05-25 20:18:33+00:00,2014-06-03 10:00:00+00:00,33,11,ER Registration,Release A,740487.0,205.69,8.57,False,True,True,True,Completed Normal Encounter
+QC,2015-01-21 17:57:22+00:00,2015-02-01 13:00:00+00:00,15,10,ER Registration,Release A,932558.0,259.04,10.79,False,True,False,True,Completed Normal Encounter
+QCA,2014-08-01 17:48:47+00:00,2014-08-05 13:00:00+00:00,15,10,ER Registration,Release A,328273.0,91.19,3.8,False,True,False,True,Completed Normal Encounter
+QD,2014-10-11 22:29:47+00:00,2014-10-16 21:30:00+00:00,12,9,ER Registration,Release B,428413.0,119.0,4.96,False,True,False,True,Completed Normal Encounter
+QDA,2014-07-13 11:56:47+00:00,2014-11-07 08:07:33+00:00,9,8,ER Registration,Return ER,10095046.0,2804.18,116.84,True,False,False,True,Readmission Encounter
+QE,2014-10-08 12:06:40+00:00,2014-12-25 15:44:03+00:00,21,12,ER Registration,Return ER,6752243.0,1875.62,78.15,True,True,True,True,Readmission Encounter
+QEA,2014-06-23 00:04:11+00:00,2014-06-23 01:21:00+00:00,7,7,ER Registration,IV Antibiotics,4609.0,1.28,0.05,False,True,False,False,Truncated / Open Encounter
+QF,2014-08-24 15:39:41+00:00,2015-01-17 10:03:53+00:00,16,11,ER Registration,Return ER,12594252.0,3498.4,145.77,True,True,False,True,Readmission Encounter
+QFA,2014-01-16 16:31:27+00:00,2014-01-17 05:50:00+00:00,8,8,ER Registration,Release B,47913.0,13.31,0.55,False,False,False,True,Completed Normal Encounter
+QG,2014-12-02 23:32:42+00:00,2014-12-16 10:31:39+00:00,13,11,ER Registration,Return ER,1162737.0,322.98,13.46,True,True,False,True,Readmission Encounter
+QGA,2014-10-08 13:34:29+00:00,2014-10-08 19:28:35+00:00,7,7,ER Registration,IV Antibiotics,21246.0,5.9,0.25,False,True,False,False,Truncated / Open Encounter
+QH,2015-02-10 10:20:34+00:00,2015-02-12 00:47:00+00:00,23,8,ER Registration,Release B,138386.0,38.44,1.6,False,False,True,False,Completed Normal Encounter
+QHA,2014-04-09 08:27:13+00:00,2014-04-13 10:30:00+00:00,14,10,ER Registration,Release A,352967.0,98.05,4.09,False,True,False,True,Completed Normal Encounter
+QI,2014-11-22 02:37:20+00:00,2014-11-25 12:45:00+00:00,9,8,ER Registration,Release A,295660.0,82.13,3.42,False,False,False,True,Completed Normal Encounter
+QIA,2014-06-22 10:47:48+00:00,2014-07-09 11:12:56+00:00,16,11,ER Registration,Return ER,1470308.0,408.42,17.02,True,True,False,True,Readmission Encounter
+QJ,2014-02-14 12:43:08+00:00,2014-02-20 10:30:00+00:00,14,10,ER Registration,Release A,510412.0,141.78,5.91,False,True,False,True,Completed Normal Encounter
+QJA,2014-05-10 02:35:56+00:00,2014-05-10 12:00:00+00:00,9,8,ER Registration,Leucocytes,33844.0,9.4,0.39,False,True,False,False,Truncated / Open Encounter
+QK,2015-02-26 09:00:00+00:00,2015-03-07 11:00:00+00:00,16,8,CRP,Release A,784800.0,218.0,9.08,False,True,False,True,Completed Normal Encounter
+QKA,2013-11-16 09:13:30+00:00,2014-01-29 01:37:26+00:00,14,11,ER Registration,Return ER,6366236.0,1768.4,73.68,True,True,False,True,Readmission Encounter
+QL,2014-11-15 10:56:38+00:00,2014-11-15 11:05:00+00:00,6,6,ER Registration,Leucocytes,502.0,0.14,0.01,False,False,False,False,Truncated / Open Encounter
+QLA,2014-04-22 10:14:07+00:00,2014-04-22 11:46:05+00:00,7,7,ER Triage,IV Antibiotics,5518.0,1.53,0.06,False,True,False,False,Truncated / Open Encounter
+QM,2014-01-06 16:21:55+00:00,2014-01-10 12:00:00+00:00,12,10,ER Registration,Release A,329885.0,91.63,3.82,False,True,False,True,Completed Normal Encounter
+QMA,2014-08-21 19:51:04+00:00,2014-08-31 10:30:00+00:00,18,10,ER Registration,Release A,830336.0,230.65,9.61,False,True,False,True,Completed Normal Encounter
+QN,2014-01-15 18:21:38+00:00,2014-01-24 10:00:00+00:00,16,10,ER Registration,Release A,747502.0,207.64,8.65,False,True,False,True,Completed Normal Encounter
+QO,2014-06-27 14:15:01+00:00,2014-10-24 16:17:14+00:00,13,11,ER Registration,Return ER,10288933.0,2858.04,119.08,True,True,False,True,Readmission Encounter
+QP,2014-12-17 20:45:37+00:00,2015-01-02 10:15:00+00:00,17,10,ER Registration,Release A,1344563.0,373.49,15.56,False,True,False,True,Completed Normal Encounter
+QQ,2014-07-07 17:08:31+00:00,2014-07-11 10:00:00+00:00,10,9,ER Registration,Release A,319889.0,88.86,3.7,False,True,False,True,Completed Normal Encounter
+QR,2014-08-27 15:20:09+00:00,2014-08-27 15:33:00+00:00,5,5,ER Registration,Leucocytes,771.0,0.21,0.01,False,False,False,False,Truncated / Open Encounter
+QS,2014-11-10 16:42:41+00:00,2014-11-11 18:00:00+00:00,12,10,ER Registration,Release A,91039.0,25.29,1.05,False,True,False,True,Completed Normal Encounter
+QT,2014-05-29 19:57:27+00:00,2014-05-30 08:00:00+00:00,11,9,ER Registration,Leucocytes,43353.0,12.04,0.5,False,True,False,True,Truncated / Open Encounter
+QU,2015-02-06 00:39:42+00:00,2015-04-09 13:08:07+00:00,19,11,ER Registration,Return ER,5401705.0,1500.47,62.52,True,True,False,True,Readmission Encounter
+QV,2014-11-27 20:01:45+00:00,2014-11-28 00:45:34+00:00,9,9,ER Registration,Admission NC,17029.0,4.73,0.2,False,True,False,True,Truncated / Open Encounter
+QW,2014-08-13 01:58:09+00:00,2015-05-09 23:01:47+00:00,14,11,ER Registration,Return ER,23317418.0,6477.06,269.88,True,True,False,True,Readmission Encounter
+QX,2014-08-27 13:24:10+00:00,2014-09-08 10:45:00+00:00,29,10,ER Registration,Release B,1027250.0,285.35,11.89,False,True,False,True,Completed Normal Encounter
+QY,2014-09-08 15:26:08+00:00,2014-09-16 10:30:00+00:00,12,8,ER Registration,Release A,673432.0,187.06,7.79,False,False,False,True,Completed Normal Encounter
+QZ,2014-04-07 17:14:33+00:00,2014-04-13 12:45:00+00:00,10,9,ER Registration,Release A,502227.0,139.51,5.81,False,True,False,True,Completed Normal Encounter
+R,2014-11-30 12:38:16+00:00,2014-11-30 12:45:00+00:00,5,5,ER Registration,Leucocytes,404.0,0.11,0.0,False,False,False,False,Truncated / Open Encounter
+RA,2014-10-07 14:52:25+00:00,2014-10-07 15:38:32+00:00,3,3,ER Registration,ER Sepsis Triage,2767.0,0.77,0.03,False,False,False,False,Truncated / Open Encounter
+RAA,2014-11-24 11:11:07+00:00,2014-12-04 09:30:00+00:00,17,11,ER Registration,Release D,857933.0,238.31,9.93,False,True,True,True,Completed Normal Encounter
+RB,2014-04-22 10:21:51+00:00,2014-04-25 14:30:00+00:00,7,7,ER Registration,Release A,274089.0,76.14,3.17,False,False,False,True,Completed Normal Encounter
+RBA,2014-08-04 08:19:22+00:00,2014-08-07 12:15:00+00:00,13,9,ER Registration,Release A,273338.0,75.93,3.16,False,True,False,True,Completed Normal Encounter
+RC,2014-10-30 15:57:15+00:00,2014-11-08 14:57:00+00:00,13,10,ER Registration,Return ER,773985.0,215.0,8.96,True,True,False,True,Readmission Encounter
+RCA,2014-06-25 21:48:49+00:00,2015-03-08 11:09:52+00:00,15,11,ER Registration,Return ER,22080063.0,6133.35,255.56,True,True,False,True,Readmission Encounter
+RD,2014-04-07 21:23:26+00:00,2014-04-08 01:36:24+00:00,7,7,ER Registration,IV Antibiotics,15178.0,4.22,0.18,False,True,False,False,Truncated / Open Encounter
+RDA,2013-12-24 17:45:59+00:00,2013-12-24 19:23:29+00:00,8,8,ER Registration,IV Antibiotics,5850.0,1.62,0.07,False,True,False,False,Truncated / Open Encounter
+RE,2014-01-06 11:18:20+00:00,2014-01-06 11:45:41+00:00,8,8,ER Registration,IV Antibiotics,1641.0,0.46,0.02,False,True,False,False,Truncated / Open Encounter
+REA,2014-09-07 15:00:07+00:00,2014-09-07 15:26:00+00:00,6,6,ER Registration,Leucocytes,1553.0,0.43,0.02,False,False,False,False,Truncated / Open Encounter
+RF,2014-06-19 19:33:32+00:00,2014-06-19 23:27:50+00:00,9,9,ER Registration,Admission NC,14058.0,3.9,0.16,False,True,False,True,Truncated / Open Encounter
+RFA,2014-05-09 05:50:20+00:00,2014-05-10 09:15:00+00:00,10,10,ER Registration,Release B,98680.0,27.41,1.14,False,True,False,True,Completed Normal Encounter
+RG,2014-10-14 15:29:38+00:00,2015-01-12 19:35:57+00:00,33,9,ER Registration,Return ER,7790779.0,2164.11,90.17,True,False,False,True,Readmission Encounter
+RGA,2014-06-18 19:35:37+00:00,2014-06-23 10:00:00+00:00,14,10,ER Registration,Release A,397463.0,110.41,4.6,False,True,False,True,Completed Normal Encounter
+RH,2014-09-02 00:47:44+00:00,2014-09-02 12:00:00+00:00,5,4,ER Registration,Leucocytes,40336.0,11.2,0.47,False,False,False,False,Truncated / Open Encounter
+RHA,2014-04-04 16:14:41+00:00,2014-04-06 11:00:00+00:00,9,7,ER Registration,Release A,153919.0,42.76,1.78,False,False,False,True,Completed Normal Encounter
+RI,2014-09-21 00:37:57+00:00,2014-10-01 09:46:43+00:00,16,11,ER Registration,Return ER,896926.0,249.15,10.38,True,True,False,True,Readmission Encounter
+RIA,2015-02-03 20:26:28+00:00,2015-02-05 15:30:00+00:00,13,10,ER Registration,Release A,155012.0,43.06,1.79,False,True,False,True,Completed Normal Encounter
+RJ,2014-08-09 06:12:38+00:00,2014-08-09 11:00:00+00:00,7,7,ER Registration,IV Antibiotics,17242.0,4.79,0.2,False,True,False,False,Truncated / Open Encounter
+RJA,2014-06-26 17:25:46+00:00,2014-06-26 21:03:39+00:00,8,8,ER Registration,IV Antibiotics,13073.0,3.63,0.15,False,True,False,False,Truncated / Open Encounter
+RK,2014-08-06 14:08:20+00:00,2014-08-13 10:00:00+00:00,15,10,ER Registration,Release A,589900.0,163.86,6.83,False,True,False,True,Completed Normal Encounter
+RKA,2014-09-24 21:27:33+00:00,2014-09-25 20:00:00+00:00,10,8,ER Registration,Release A,81147.0,22.54,0.94,False,False,False,True,Completed Normal Encounter
+RL,2013-12-02 15:31:26+00:00,2013-12-06 15:15:00+00:00,7,7,ER Registration,Release A,344614.0,95.73,3.99,False,False,False,True,Completed Normal Encounter
+RLA,2014-05-27 09:44:26+00:00,2014-06-24 11:42:16+00:00,22,10,ER Registration,Return ER,2426270.0,673.96,28.08,True,True,False,True,Readmission Encounter
+RM,2014-04-16 15:34:56+00:00,2014-04-17 19:00:00+00:00,7,7,ER Registration,Release A,98704.0,27.42,1.14,False,False,False,True,Completed Normal Encounter
+RN,2014-08-25 13:59:52+00:00,2014-09-10 05:00:00+00:00,20,10,ER Registration,Release B,1350008.0,375.0,15.63,False,True,False,True,Completed Normal Encounter
+RO,2015-01-16 23:13:40+00:00,2015-01-17 20:07:00+00:00,17,9,ER Registration,Leucocytes,75200.0,20.89,0.87,False,True,True,False,Truncated / Open Encounter
+RP,2014-05-15 19:12:10+00:00,2014-05-19 11:00:00+00:00,14,7,ER Registration,Release A,316070.0,87.8,3.66,False,False,False,True,Completed Normal Encounter
+RQ,2014-01-01 10:21:13+00:00,2014-01-01 10:44:00+00:00,8,8,ER Registration,Leucocytes,1367.0,0.38,0.02,False,True,False,False,Truncated / Open Encounter
+RR,2014-01-26 10:30:00+00:00,2014-02-07 16:54:05+00:00,11,11,IV Liquid,Return ER,1059845.0,294.4,12.27,True,True,False,True,Readmission Encounter
+RS,2014-05-05 16:34:45+00:00,2014-05-06 08:35:00+00:00,10,10,ER Registration,Release A,57615.0,16.0,0.67,False,True,False,True,Completed Normal Encounter
+RT,2014-08-27 20:36:23+00:00,2014-12-04 18:43:34+00:00,11,11,ER Registration,Return ER,8546831.0,2374.12,98.92,True,True,False,True,Readmission Encounter
+RU,2014-06-16 15:02:00+00:00,2014-06-29 10:30:00+00:00,34,10,CRP,Release A,1106880.0,307.47,12.81,False,True,True,True,Completed Normal Encounter
+RV,2014-10-14 23:06:51+00:00,2014-10-14 23:28:35+00:00,3,3,ER Registration,ER Sepsis Triage,1304.0,0.36,0.02,False,False,False,False,Truncated / Open Encounter
+RW,2014-11-15 16:48:51+00:00,2014-11-24 12:00:00+00:00,15,10,ER Registration,Release A,760269.0,211.19,8.8,False,True,False,True,Completed Normal Encounter
+RX,2014-07-24 08:49:49+00:00,2014-07-24 09:09:00+00:00,5,5,ER Registration,Leucocytes,1151.0,0.32,0.01,False,False,False,False,Truncated / Open Encounter
+RY,2014-01-12 09:34:00+00:00,2014-01-17 14:00:00+00:00,23,11,CRP,Release A,447960.0,124.43,5.18,False,True,True,True,Completed Normal Encounter
+RZ,2014-08-08 12:59:25+00:00,2014-08-14 14:35:00+00:00,14,9,ER Registration,Release A,524135.0,145.59,6.07,False,True,False,True,Completed Normal Encounter
+S,2014-01-21 12:16:14+00:00,2014-08-30 14:54:18+00:00,19,12,ER Registration,Return ER,19103884.0,5306.63,221.11,True,True,True,True,Readmission Encounter
+SA,2014-01-17 15:17:50+00:00,2014-04-11 18:34:31+00:00,14,11,ER Registration,Return ER,7269401.0,2019.28,84.14,True,True,False,True,Readmission Encounter
+SAA,2014-01-15 08:43:50+00:00,2014-02-06 10:00:00+00:00,11,7,ER Registration,Release E,1905370.0,529.27,22.05,False,False,False,True,Completed Normal Encounter
+SB,2014-05-01 10:17:37+00:00,2014-08-16 06:04:26+00:00,14,11,ER Registration,Return ER,9229609.0,2563.78,106.82,True,True,False,True,Readmission Encounter
+SBA,2014-10-07 23:13:44+00:00,2014-10-13 10:30:00+00:00,14,10,ER Registration,Release A,472576.0,131.27,5.47,False,True,False,True,Completed Normal Encounter
+SC,2014-09-14 00:01:52+00:00,2014-09-14 08:00:00+00:00,9,8,ER Registration,LacticAcid,28688.0,7.97,0.33,False,True,False,False,Truncated / Open Encounter
+SCA,2014-01-27 20:51:17+00:00,2014-02-23 10:41:36+00:00,17,12,ER Registration,Return ER,2296219.0,637.84,26.58,True,True,True,True,Readmission Encounter
+SD,2014-10-27 10:09:46+00:00,2014-11-01 14:00:00+00:00,14,10,ER Registration,Release A,445814.0,123.84,5.16,False,True,False,True,Completed Normal Encounter
+SDA,2014-09-01 13:45:33+00:00,2014-09-09 14:00:00+00:00,14,10,ER Registration,Release A,692067.0,192.24,8.01,False,True,False,True,Completed Normal Encounter
+SE,2014-10-11 20:15:50+00:00,2014-10-16 11:50:00+00:00,10,10,ER Registration,Release A,401650.0,111.57,4.65,False,True,False,True,Completed Normal Encounter
+SEA,2013-12-07 18:57:27+00:00,2014-01-26 01:05:26+00:00,10,10,ER Registration,Return ER,4255679.0,1182.13,49.26,True,True,False,True,Readmission Encounter
+SF,2014-12-31 01:55:56+00:00,2015-02-18 22:05:56+00:00,12,11,ER Registration,Return ER,4306200.0,1196.17,49.84,True,True,False,True,Readmission Encounter
+SFA,2014-02-25 13:03:05+00:00,2014-05-04 05:50:20+00:00,16,11,ER Registration,Return ER,5849235.0,1624.79,67.7,True,True,False,True,Readmission Encounter
+SG,2014-03-09 13:13:42+00:00,2014-03-09 14:52:53+00:00,5,5,ER Registration,ER Sepsis Triage,5951.0,1.65,0.07,False,False,False,False,Truncated / Open Encounter
+SGA,2013-11-16 04:07:53+00:00,2013-11-17 02:00:00+00:00,16,10,ER Registration,Release B,78727.0,21.87,0.91,False,True,True,False,Completed Normal Encounter
+SH,2014-08-12 16:49:08+00:00,2014-09-18 14:29:07+00:00,12,10,ER Registration,Return ER,3188399.0,885.67,36.9,True,True,False,True,Readmission Encounter
+SHA,2014-01-30 22:51:14+00:00,2014-02-04 16:20:00+00:00,17,11,ER Registration,Release A,408526.0,113.48,4.73,False,True,True,True,Completed Normal Encounter
+SI,2014-04-10 23:41:04+00:00,2014-04-18 20:00:00+00:00,18,10,ER Registration,Release A,677936.0,188.32,7.85,False,True,False,True,Completed Normal Encounter
+SIA,2014-05-20 10:26:31+00:00,2014-05-20 11:05:00+00:00,8,8,ER Registration,IV Antibiotics,2309.0,0.64,0.03,False,True,False,False,Truncated / Open Encounter
+SJ,2014-08-27 12:07:52+00:00,2014-10-17 14:33:00+00:00,16,11,ER Registration,Return ER,4415108.0,1226.42,51.1,True,True,False,True,Readmission Encounter
+SJA,2014-05-25 19:02:22+00:00,2014-06-05 11:08:57+00:00,12,10,ER Registration,Return ER,921995.0,256.11,10.67,True,True,False,True,Readmission Encounter
+SK,2014-02-17 11:20:51+00:00,2014-03-20 17:49:33+00:00,32,11,ER Registration,Return ER,2701722.0,750.48,31.27,True,True,False,True,Readmission Encounter
+SKA,2014-01-27 17:09:40+00:00,2014-01-27 17:27:03+00:00,3,3,ER Registration,ER Sepsis Triage,1043.0,0.29,0.01,False,False,False,False,Truncated / Open Encounter
+SL,2014-05-02 11:31:21+00:00,2014-08-03 07:57:26+00:00,16,11,ER Registration,Return ER,8022365.0,2228.43,92.85,True,True,False,True,Readmission Encounter
+SLA,2014-11-05 16:10:19+00:00,2014-11-19 10:30:00+00:00,24,10,ER Registration,Release A,1189181.0,330.33,13.76,False,True,False,True,Completed Normal Encounter
+SM,2013-12-23 01:38:08+00:00,2014-01-29 11:03:20+00:00,40,12,ER Registration,Return ER,3230712.0,897.42,37.39,True,True,True,True,Readmission Encounter
+SMA,2014-03-31 11:30:49+00:00,2014-04-06 16:00:00+00:00,16,10,ER Registration,Release A,534551.0,148.49,6.19,False,True,True,True,Completed Normal Encounter
+SN,2014-07-13 15:09:48+00:00,2014-07-13 20:01:35+00:00,8,8,ER Registration,IV Antibiotics,17507.0,4.86,0.2,False,True,False,False,Truncated / Open Encounter
+SO,2014-09-16 05:05:55+00:00,2014-10-02 17:05:16+00:00,16,11,ER Registration,Return ER,1425561.0,395.99,16.5,True,True,False,True,Readmission Encounter
+SP,2014-06-03 14:14:49+00:00,2014-06-03 14:33:04+00:00,3,3,ER Registration,ER Sepsis Triage,1095.0,0.3,0.01,False,False,False,False,Truncated / Open Encounter
+SQ,2014-03-12 08:45:10+00:00,2014-03-13 21:45:00+00:00,12,7,ER Registration,Release B,133190.0,37.0,1.54,False,False,True,False,Completed Normal Encounter
+SR,2014-02-05 23:30:03+00:00,2014-02-11 10:00:00+00:00,13,10,ER Registration,Release A,469797.0,130.5,5.44,False,True,False,True,Completed Normal Encounter
+SS,2013-11-30 18:07:22+00:00,2014-01-15 15:34:45+00:00,13,11,ER Registration,Return ER,3965243.0,1101.46,45.89,True,True,False,True,Readmission Encounter
+ST,2014-07-31 14:13:23+00:00,2014-11-23 19:36:23+00:00,17,11,ER Registration,Return ER,9955380.0,2765.38,115.22,True,True,False,True,Readmission Encounter
+SU,2014-09-02 18:49:35+00:00,2014-09-02 23:08:14+00:00,9,9,ER Registration,Admission NC,15519.0,4.31,0.18,False,True,False,True,Truncated / Open Encounter
+SV,2014-08-17 09:25:13+00:00,2014-08-18 10:30:00+00:00,10,10,ER Registration,Release B,90287.0,25.08,1.04,False,True,False,True,Completed Normal Encounter
+SW,2014-08-26 14:49:17+00:00,2014-09-01 19:00:00+00:00,19,10,ER Registration,Release A,533443.0,148.18,6.17,False,True,False,True,Completed Normal Encounter
+SX,2014-08-18 19:29:33+00:00,2014-08-25 13:15:00+00:00,20,10,ER Registration,Release A,582327.0,161.76,6.74,False,True,False,True,Completed Normal Encounter
+SY,2014-05-13 18:14:11+00:00,2014-06-22 01:25:11+00:00,14,11,ER Registration,Return ER,3395460.0,943.18,39.3,True,True,False,True,Readmission Encounter
+SZ,2015-01-23 17:20:06+00:00,2015-01-24 18:02:07+00:00,8,8,ER Registration,IV Liquid,88921.0,24.7,1.03,False,True,False,False,Truncated / Open Encounter
+T,2014-10-06 22:24:16+00:00,2014-10-09 04:00:00+00:00,10,10,ER Registration,Release B,192944.0,53.6,2.23,False,True,False,True,Completed Normal Encounter
+TA,2014-08-09 22:23:04+00:00,2014-08-12 20:00:00+00:00,10,7,ER Registration,Release A,250616.0,69.62,2.9,False,False,False,True,Completed Normal Encounter
+TAA,2014-08-01 21:44:05+00:00,2014-08-13 13:00:00+00:00,18,10,ER Registration,Release A,1005355.0,279.27,11.64,False,True,False,True,Completed Normal Encounter
+TB,2014-09-11 09:33:19+00:00,2015-02-24 12:54:09+00:00,9,9,ER Registration,Return ER,14354450.0,3987.35,166.14,True,False,False,True,Readmission Encounter
+TBA,2014-05-08 04:31:11+00:00,2014-05-11 10:00:00+00:00,12,10,ER Registration,Release A,278929.0,77.48,3.23,False,True,False,True,Completed Normal Encounter
+TC,2014-01-17 10:50:43+00:00,2014-06-28 00:01:52+00:00,24,12,ER Registration,Return ER,13957869.0,3877.19,161.55,True,True,True,True,Readmission Encounter
+TCA,2014-10-10 19:06:34+00:00,2014-11-12 17:40:10+00:00,21,11,ER Registration,Return ER,2846016.0,790.56,32.94,True,True,False,True,Readmission Encounter
+TD,2014-11-09 20:47:29+00:00,2014-11-19 19:15:00+00:00,16,10,ER Registration,Release B,858451.0,238.46,9.94,False,True,False,True,Completed Normal Encounter
+TDA,2014-05-11 21:45:46+00:00,2014-05-14 16:00:00+00:00,10,10,ER Registration,Release A,238454.0,66.24,2.76,False,True,False,True,Completed Normal Encounter
+TE,2015-01-06 08:39:52+00:00,2015-01-06 08:56:15+00:00,5,5,ER Registration,ER Sepsis Triage,983.0,0.27,0.01,False,False,False,False,Truncated / Open Encounter
+TEA,2014-07-05 16:59:31+00:00,2014-07-09 18:00:00+00:00,13,10,ER Registration,Release A,349229.0,97.01,4.04,False,True,False,True,Completed Normal Encounter
+TF,2014-01-26 20:10:11+00:00,2014-02-05 10:11:00+00:00,16,7,ER Registration,Leucocytes,828049.0,230.01,9.58,False,False,False,True,Truncated / Open Encounter
+TFA,2014-02-16 02:39:13+00:00,2014-02-16 02:45:07+00:00,6,6,ER Registration,ER Sepsis Triage,354.0,0.1,0.0,False,False,False,False,Truncated / Open Encounter
+TG,2015-01-14 18:14:21+00:00,2015-01-17 09:30:00+00:00,11,9,ER Registration,Release A,227739.0,63.26,2.64,False,True,False,True,Completed Normal Encounter
+TGA,2014-03-14 08:18:19+00:00,2014-03-25 16:59:00+00:00,15,10,ER Registration,Release A,981641.0,272.68,11.36,False,True,False,True,Completed Normal Encounter
+TH,2014-09-07 03:23:50+00:00,2014-09-09 14:00:00+00:00,13,10,ER Registration,Release A,210970.0,58.6,2.44,False,True,False,True,Completed Normal Encounter
+THA,2014-01-09 16:24:38+00:00,2014-01-14 11:30:00+00:00,12,10,ER Registration,Release A,414322.0,115.09,4.8,False,True,False,True,Completed Normal Encounter
+TI,2015-01-29 14:34:58+00:00,2015-02-27 10:30:00+00:00,21,8,ER Registration,Release C,2490902.0,691.92,28.83,False,False,False,True,Completed Normal Encounter
+TIA,2014-05-29 13:16:57+00:00,2014-06-07 11:00:00+00:00,15,7,ER Registration,Release A,769383.0,213.72,8.9,False,False,False,True,Completed Normal Encounter
+TJ,2014-03-02 12:00:00+00:00,2014-03-20 00:48:32+00:00,15,11,IV Liquid,Return ER,1514912.0,420.81,17.53,True,True,False,True,Readmission Encounter
+TJA,2014-07-23 09:34:41+00:00,2014-08-09 10:00:00+00:00,27,10,ER Registration,Release A,1470319.0,408.42,17.02,False,True,False,True,Completed Normal Encounter
+TK,2014-09-07 14:28:58+00:00,2014-09-07 15:45:00+00:00,5,5,ER Registration,Leucocytes,4562.0,1.27,0.05,False,False,False,False,Truncated / Open Encounter
+TKA,2014-06-11 21:00:18+00:00,2014-06-15 20:00:00+00:00,13,10,ER Registration,Release A,341982.0,95.0,3.96,False,True,False,True,Completed Normal Encounter
+TL,2014-07-17 11:53:32+00:00,2014-07-22 16:00:00+00:00,17,10,ER Registration,Release A,446788.0,124.11,5.17,False,True,False,True,Completed Normal Encounter
+TLA,2014-07-26 15:25:25+00:00,2014-07-26 19:20:58+00:00,8,8,ER Registration,IV Antibiotics,14133.0,3.93,0.16,False,True,False,False,Truncated / Open Encounter
+TM,2014-01-31 23:28:40+00:00,2014-02-01 23:44:23+00:00,7,7,ER Registration,IV Liquid,87343.0,24.26,1.01,False,True,False,False,Truncated / Open Encounter
+TMA,2014-01-15 09:52:19+00:00,2014-01-17 17:30:00+00:00,10,10,ER Registration,Release A,200261.0,55.63,2.32,False,True,False,True,Completed Normal Encounter
+TN,2014-10-27 22:24:49+00:00,2014-11-14 10:00:00+00:00,27,11,ER Registration,Release A,1510511.0,419.59,17.48,False,True,True,True,Completed Normal Encounter
+TO,2014-02-23 11:42:49+00:00,2014-04-12 19:26:10+00:00,34,12,ER Registration,Return ER,4175001.0,1159.72,48.32,True,True,True,True,Readmission Encounter
+TP,2014-06-04 13:37:32+00:00,2014-06-09 10:00:00+00:00,15,10,ER Registration,Release A,418948.0,116.37,4.85,False,True,False,True,Completed Normal Encounter
+TQ,2014-03-13 19:57:13+00:00,2014-04-08 15:57:34+00:00,15,11,ER Registration,Return ER,2232021.0,620.01,25.83,True,True,False,True,Readmission Encounter
+TR,2014-04-02 08:03:30+00:00,2014-04-02 16:15:00+00:00,8,8,ER Registration,Release B,29490.0,8.19,0.34,False,False,False,True,Completed Normal Encounter
+TS,2014-04-23 00:29:35+00:00,2014-05-01 11:00:00+00:00,20,10,ER Registration,Release C,729025.0,202.51,8.44,False,True,False,True,Completed Normal Encounter
+TT,2014-08-05 17:03:03+00:00,2014-08-05 17:34:00+00:00,5,5,ER Registration,Leucocytes,1857.0,0.52,0.02,False,False,False,False,Truncated / Open Encounter
+TU,2014-01-04 14:45:49+00:00,2014-01-22 13:30:00+00:00,20,8,ER Registration,Release D,1550651.0,430.74,17.95,False,False,False,True,Completed Normal Encounter
+TV,2014-07-23 07:48:02+00:00,2014-08-18 09:25:13+00:00,17,11,ER Registration,Return ER,2252231.0,625.62,26.07,True,True,False,True,Readmission Encounter
+TW,2014-07-07 20:30:35+00:00,2014-09-27 12:54:30+00:00,22,11,ER Registration,Return ER,7057435.0,1960.4,81.68,True,True,False,True,Readmission Encounter
+TX,2014-11-27 19:23:59+00:00,2015-04-02 11:33:25+00:00,15,11,ER Registration,Return ER,10858166.0,3016.16,125.67,True,True,False,True,Readmission Encounter
+TY,2014-10-04 18:52:39+00:00,2014-10-04 19:37:26+00:00,3,3,ER Registration,ER Sepsis Triage,2687.0,0.75,0.03,False,False,False,False,Truncated / Open Encounter
+TZ,2014-07-03 10:42:50+00:00,2014-07-03 12:57:00+00:00,8,8,ER Registration,LacticAcid,8050.0,2.24,0.09,False,True,False,False,Truncated / Open Encounter
+U,2014-04-29 20:38:23+00:00,2014-05-01 19:10:00+00:00,11,7,ER Registration,Release B,167497.0,46.53,1.94,False,False,False,True,Completed Normal Encounter
+UA,2014-03-23 08:19:14+00:00,2014-03-28 09:00:00+00:00,11,10,ER Registration,Release A,434446.0,120.68,5.03,False,True,False,True,Completed Normal Encounter
+UAA,2015-02-20 00:01:01+00:00,2015-02-20 00:33:00+00:00,5,5,ER Registration,Leucocytes,1919.0,0.53,0.02,False,False,False,False,Truncated / Open Encounter
+UB,2014-07-20 12:27:47+00:00,2014-07-20 15:43:53+00:00,9,9,ER Registration,Admission NC,11766.0,3.27,0.14,False,True,False,True,Truncated / Open Encounter
+UBA,2014-05-08 11:58:15+00:00,2015-05-30 11:14:55+00:00,15,11,ER Registration,Return ER,33434200.0,9287.28,386.97,True,True,False,True,Readmission Encounter
+UC,2014-02-26 15:04:17+00:00,2014-04-26 11:50:43+00:00,32,12,ER Registration,Return ER,5085986.0,1412.77,58.87,True,True,True,True,Readmission Encounter
+UCA,2014-08-11 09:46:45+00:00,2014-08-11 10:31:00+00:00,5,5,ER Registration,Leucocytes,2655.0,0.74,0.03,False,False,False,False,Truncated / Open Encounter
+UD,2014-08-01 15:56:11+00:00,2014-09-24 15:11:02+00:00,31,11,ER Registration,Return ER,4662891.0,1295.25,53.97,True,True,False,True,Readmission Encounter
+UDA,2014-06-22 10:53:00+00:00,2014-07-04 14:30:00+00:00,30,10,CRP,Release A,1049820.0,291.62,12.15,False,True,False,True,Completed Normal Encounter
+UE,2014-05-23 20:22:19+00:00,2014-05-30 10:20:00+00:00,19,10,ER Registration,Release A,568661.0,157.96,6.58,False,True,False,True,Completed Normal Encounter
+UEA,2014-09-07 17:23:45+00:00,2014-09-07 17:43:03+00:00,3,3,ER Registration,ER Sepsis Triage,1158.0,0.32,0.01,False,False,False,False,Truncated / Open Encounter
+UF,2014-11-02 16:15:46+00:00,2014-11-12 10:00:00+00:00,29,11,ER Registration,Release A,841454.0,233.74,9.74,False,True,True,True,Completed Normal Encounter
+UFA,2014-02-04 08:59:25+00:00,2014-02-04 12:31:20+00:00,8,8,ER Registration,IV Antibiotics,12715.0,3.53,0.15,False,True,False,False,Truncated / Open Encounter
+UG,2013-12-09 16:46:01+00:00,2013-12-09 19:25:23+00:00,8,8,ER Registration,IV Antibiotics,9562.0,2.66,0.11,False,True,False,False,Truncated / Open Encounter
+UGA,2015-02-07 13:18:16+00:00,2015-02-13 20:00:00+00:00,15,9,ER Registration,Release A,542504.0,150.7,6.28,False,True,False,True,Completed Normal Encounter
+UH,2014-12-14 22:41:23+00:00,2014-12-14 22:50:30+00:00,3,3,ER Registration,ER Sepsis Triage,547.0,0.15,0.01,False,False,False,False,Truncated / Open Encounter
+UHA,2014-08-15 12:26:01+00:00,2014-08-15 12:44:00+00:00,5,5,ER Registration,Leucocytes,1079.0,0.3,0.01,False,False,False,False,Truncated / Open Encounter
+UI,2015-01-16 22:24:35+00:00,2015-01-20 12:38:00+00:00,14,10,ER Registration,Release A,310405.0,86.22,3.59,False,True,False,True,Completed Normal Encounter
+UIA,2014-08-30 17:57:10+00:00,2014-09-03 09:00:00+00:00,13,10,ER Registration,Release A,313370.0,87.05,3.63,False,True,False,True,Completed Normal Encounter
+UJ,2014-10-16 19:48:50+00:00,2014-12-18 23:42:59+00:00,16,11,ER Registration,Return ER,5457249.0,1515.9,63.16,True,True,False,True,Readmission Encounter
+UJA,2014-09-22 09:51:14+00:00,2014-09-22 10:16:00+00:00,8,8,ER Registration,Leucocytes,1486.0,0.41,0.02,False,True,False,False,Truncated / Open Encounter
+UK,2014-06-24 19:58:16+00:00,2014-10-25 15:51:44+00:00,18,9,ER Registration,Return ER,10612408.0,2947.89,122.83,True,False,False,True,Readmission Encounter
+UKA,2014-09-15 14:04:09+00:00,2014-09-24 11:00:00+00:00,17,10,ER Registration,Release A,766551.0,212.93,8.87,False,True,False,True,Completed Normal Encounter
+UL,2014-03-20 13:42:34+00:00,2014-03-20 14:07:16+00:00,7,7,ER Registration,IV Antibiotics,1482.0,0.41,0.02,False,True,False,False,Truncated / Open Encounter
+ULA,2013-11-12 18:52:04+00:00,2013-11-20 11:00:00+00:00,15,10,ER Registration,Release A,662876.0,184.13,7.67,False,True,False,True,Completed Normal Encounter
+UM,2014-09-25 10:28:26+00:00,2014-09-25 11:38:51+00:00,9,8,ER Registration,IV Antibiotics,4225.0,1.17,0.05,False,True,False,False,Truncated / Open Encounter
+UMA,2014-06-08 12:06:00+00:00,2014-06-12 14:00:00+00:00,14,10,CRP,Release A,352440.0,97.9,4.08,False,True,False,True,Completed Normal Encounter
+UN,2014-06-29 13:28:45+00:00,2014-06-29 13:53:00+00:00,5,5,ER Registration,Leucocytes,1455.0,0.4,0.02,False,False,False,False,Truncated / Open Encounter
+UO,2015-02-19 18:15:45+00:00,2015-02-19 20:15:43+00:00,7,7,ER Registration,Admission NC,7198.0,2.0,0.08,False,False,False,True,Truncated / Open Encounter
+UP,2014-05-16 10:01:26+00:00,2014-05-18 19:00:00+00:00,11,10,ER Registration,Release A,205114.0,56.98,2.37,False,True,False,True,Completed Normal Encounter
+UQ,2013-11-27 20:32:23+00:00,2014-03-25 14:28:59+00:00,12,9,ER Registration,Return ER,10173396.0,2825.94,117.75,True,False,False,True,Readmission Encounter
+UR,2014-04-03 16:25:22+00:00,2014-04-11 09:30:00+00:00,15,10,ER Registration,Release C,666278.0,185.08,7.71,False,True,False,True,Completed Normal Encounter
+US,2014-02-01 19:10:09+00:00,2014-02-06 14:30:00+00:00,15,10,ER Registration,Release A,415191.0,115.33,4.81,False,True,False,True,Completed Normal Encounter
+UT,2014-08-03 02:34:33+00:00,2014-08-06 10:00:00+00:00,12,10,ER Registration,Release A,285927.0,79.42,3.31,False,True,False,True,Completed Normal Encounter
+UU,2014-05-07 10:51:00+00:00,2014-05-10 16:00:00+00:00,6,6,ER Registration,Release A,277740.0,77.15,3.21,False,False,False,True,Completed Normal Encounter
+UV,2014-04-09 18:57:47+00:00,2014-06-27 00:00:47+00:00,15,11,ER Registration,Return ER,6757380.0,1877.05,78.21,True,True,False,True,Readmission Encounter
+UW,2014-11-17 06:31:00+00:00,2015-06-04 07:43:36+00:00,14,11,Leucocytes,Return ER,17197956.0,4777.21,199.05,True,True,False,True,Readmission Encounter
+UX,2013-12-21 13:41:21+00:00,2013-12-21 14:04:03+00:00,8,8,ER Registration,IV Antibiotics,1362.0,0.38,0.02,False,True,False,False,Truncated / Open Encounter
+UY,2014-10-16 15:12:24+00:00,2014-10-16 20:26:00+00:00,9,9,ER Registration,Admission NC,18816.0,5.23,0.22,False,True,False,True,Truncated / Open Encounter
+UZ,2014-01-23 16:31:51+00:00,2014-01-29 20:15:00+00:00,12,10,ER Registration,Release B,531789.0,147.72,6.15,False,True,False,True,Completed Normal Encounter
+V,2014-10-28 20:44:26+00:00,2015-01-19 08:55:06+00:00,21,12,ER Registration,Return ER,7128640.0,1980.18,82.51,True,True,True,True,Readmission Encounter
+VA,2014-10-09 19:00:29+00:00,2014-10-15 10:30:00+00:00,13,10,ER Registration,Release A,487771.0,135.49,5.65,False,True,False,True,Completed Normal Encounter
+VAA,2014-02-05 14:09:05+00:00,2015-04-03 10:55:52+00:00,20,12,ER Registration,Return ER,36449207.0,10124.78,421.87,True,True,True,True,Readmission Encounter
+VB,2015-02-15 17:07:29+00:00,2015-05-05 16:12:17+00:00,13,10,ER Registration,Return ER,6822288.0,1895.08,78.96,True,True,False,True,Readmission Encounter
+VBA,2014-05-20 13:53:55+00:00,2014-05-20 14:28:56+00:00,5,5,ER Registration,ER Sepsis Triage,2101.0,0.58,0.02,False,False,False,False,Truncated / Open Encounter
+VC,2014-12-15 08:31:52+00:00,2014-12-19 12:00:00+00:00,13,10,ER Registration,Release A,358088.0,99.47,4.14,False,True,False,True,Completed Normal Encounter
+VCA,2014-05-14 23:42:35+00:00,2014-11-18 15:09:22+00:00,15,11,ER Registration,Return ER,16212407.0,4503.45,187.64,True,True,False,True,Readmission Encounter
+VD,2015-01-05 22:09:57+00:00,2015-01-08 10:00:00+00:00,11,10,ER Registration,Release A,215403.0,59.83,2.49,False,True,False,True,Completed Normal Encounter
+VDA,2014-09-08 18:10:39+00:00,2014-10-12 11:09:57+00:00,13,11,ER Registration,Return ER,2912358.0,808.99,33.71,True,True,False,True,Readmission Encounter
+VE,2014-11-11 19:48:42+00:00,2014-11-15 13:00:00+00:00,19,10,ER Registration,Release A,321078.0,89.19,3.72,False,True,True,False,Completed Normal Encounter
+VEA,2014-09-10 16:42:37+00:00,2014-09-10 19:37:30+00:00,8,8,ER Registration,IV Antibiotics,10493.0,2.91,0.12,False,True,False,False,Truncated / Open Encounter
+VF,2014-05-26 21:12:31+00:00,2014-05-30 10:00:00+00:00,13,10,ER Registration,Release A,305249.0,84.79,3.53,False,True,False,True,Completed Normal Encounter
+VFA,2014-10-31 10:54:45+00:00,2014-11-11 09:45:00+00:00,16,10,ER Registration,Release A,946215.0,262.84,10.95,False,True,False,True,Completed Normal Encounter
+VG,2013-11-24 14:56:22+00:00,2013-12-11 15:35:26+00:00,16,9,ER Registration,Return ER,1471144.0,408.65,17.03,True,False,False,True,Readmission Encounter
+VGA,2014-02-21 11:29:36+00:00,2014-02-21 13:28:26+00:00,8,8,ER Registration,IV Antibiotics,7130.0,1.98,0.08,False,True,False,False,Truncated / Open Encounter
+VH,2014-07-11 20:51:00+00:00,2014-07-11 21:21:00+00:00,5,5,ER Registration,Leucocytes,1800.0,0.5,0.02,False,False,False,False,Truncated / Open Encounter
+VHA,2014-02-01 17:00:00+00:00,2014-02-01 17:21:00+00:00,5,5,ER Registration,Leucocytes,1260.0,0.35,0.01,False,False,False,False,Truncated / Open Encounter
+VI,2014-09-30 00:48:57+00:00,2014-11-13 16:24:22+00:00,18,11,ER Registration,Return ER,3857725.0,1071.59,44.65,True,True,False,True,Readmission Encounter
+VIA,2013-11-17 01:36:12+00:00,2013-12-13 14:00:00+00:00,36,11,ER Registration,Release A,2291028.0,636.4,26.52,False,True,True,True,Completed Normal Encounter
+VJ,2014-03-22 21:41:37+00:00,2014-03-28 10:00:00+00:00,13,10,ER Registration,Release A,476303.0,132.31,5.51,False,True,False,True,Completed Normal Encounter
+VJA,2014-10-21 16:36:58+00:00,2014-10-21 16:54:55+00:00,3,3,ER Registration,ER Sepsis Triage,1077.0,0.3,0.01,False,False,False,False,Truncated / Open Encounter
+VK,2014-10-29 13:04:12+00:00,2014-11-13 10:30:00+00:00,20,10,ER Registration,Release A,1286748.0,357.43,14.89,False,True,False,True,Completed Normal Encounter
+VKA,2014-12-26 22:53:09+00:00,2015-01-03 15:59:01+00:00,14,10,ER Registration,Release D,666352.0,185.1,7.71,False,True,False,True,Completed Normal Encounter
+VL,2014-05-30 05:09:54+00:00,2014-06-02 19:00:00+00:00,14,10,ER Registration,Release A,309006.0,85.84,3.58,False,True,False,True,Completed Normal Encounter
+VLA,2014-01-07 11:14:54+00:00,2014-01-07 12:11:00+00:00,8,8,ER Registration,Leucocytes,3366.0,0.94,0.04,False,True,False,False,Truncated / Open Encounter
+VM,2014-08-07 14:53:07+00:00,2014-08-11 12:00:00+00:00,15,9,ER Registration,Release A,335213.0,93.11,3.88,False,True,False,True,Completed Normal Encounter
+VMA,2014-06-20 18:19:57+00:00,2014-06-20 18:28:18+00:00,3,3,ER Registration,ER Sepsis Triage,501.0,0.14,0.01,False,False,False,False,Truncated / Open Encounter
+VN,2014-07-01 13:06:37+00:00,2015-04-06 20:41:35+00:00,28,12,ER Registration,Return ER,24132898.0,6703.58,279.32,True,True,True,True,Readmission Encounter
+VO,2014-02-23 16:48:37+00:00,2014-03-11 14:57:26+00:00,22,11,ER Registration,Return ER,1375729.0,382.15,15.92,True,True,False,True,Readmission Encounter
+VP,2014-01-09 13:37:53+00:00,2014-01-12 13:00:00+00:00,15,10,ER Registration,Release B,256927.0,71.37,2.97,False,True,False,True,Completed Normal Encounter
+VQ,2014-04-11 13:50:54+00:00,2014-04-17 11:00:00+00:00,12,10,ER Registration,Release D,508146.0,141.15,5.88,False,True,False,True,Completed Normal Encounter
+VR,2013-12-07 14:11:35+00:00,2014-03-27 15:25:22+00:00,16,11,ER Triage,Return ER,9508427.0,2641.23,110.05,True,True,False,True,Readmission Encounter
+VS,2013-11-23 09:15:19+00:00,2013-11-28 14:00:00+00:00,16,10,ER Registration,Release A,449081.0,124.74,5.2,False,True,False,True,Completed Normal Encounter
+VT,2014-03-30 18:14:53+00:00,2014-04-15 10:00:00+00:00,16,10,ER Registration,Release A,1352707.0,375.75,15.66,False,True,False,True,Completed Normal Encounter
+VU,2014-01-05 03:50:12+00:00,2014-01-09 10:00:00+00:00,14,10,ER Registration,Release A,367788.0,102.16,4.26,False,True,False,True,Completed Normal Encounter
+VV,2014-10-23 15:33:17+00:00,2014-10-23 16:41:00+00:00,5,5,ER Registration,Leucocytes,4063.0,1.13,0.05,False,False,False,False,Truncated / Open Encounter
+VW,2014-09-05 05:38:03+00:00,2014-11-02 18:51:44+00:00,14,11,ER Triage,Return ER,5058821.0,1405.23,58.55,True,True,False,True,Readmission Encounter
+VX,2014-01-29 16:19:33+00:00,2014-01-29 16:35:00+00:00,5,5,ER Registration,Leucocytes,927.0,0.26,0.01,False,False,False,False,Truncated / Open Encounter
+VY,2014-09-12 23:10:39+00:00,2014-09-21 13:30:00+00:00,17,10,ER Registration,Release A,742761.0,206.32,8.6,False,True,False,True,Completed Normal Encounter
+VZ,2014-06-07 15:53:30+00:00,2014-06-07 20:10:00+00:00,6,5,ER Registration,Leucocytes,15390.0,4.28,0.18,False,False,False,False,Truncated / Open Encounter
+W,2014-11-11 16:52:36+00:00,2014-11-15 11:00:00+00:00,11,10,ER Registration,Release A,324444.0,90.12,3.76,False,True,False,True,Completed Normal Encounter
+WA,2014-09-28 16:35:41+00:00,2014-10-11 16:13:13+00:00,8,7,ER Registration,Return ER,1121852.0,311.63,12.98,True,False,False,True,Readmission Encounter
+WAA,2014-08-09 16:06:47+00:00,2014-08-13 19:00:00+00:00,12,10,ER Registration,Release A,355993.0,98.89,4.12,False,True,False,True,Completed Normal Encounter
+WB,2014-11-01 14:32:49+00:00,2014-11-01 15:22:00+00:00,5,5,ER Registration,Leucocytes,2951.0,0.82,0.03,False,False,False,False,Truncated / Open Encounter
+WBA,2015-02-09 18:38:57+00:00,2015-02-14 12:15:00+00:00,12,8,ER Registration,Release A,408963.0,113.6,4.73,False,False,False,True,Completed Normal Encounter
+WC,2014-04-28 11:20:41+00:00,2014-05-08 19:20:37+00:00,12,11,IV Liquid,Return ER,892796.0,248.0,10.33,True,True,False,True,Readmission Encounter
+WCA,2014-04-24 10:02:14+00:00,2014-04-28 15:00:00+00:00,20,11,ER Registration,Release A,363466.0,100.96,4.21,False,True,True,True,Completed Normal Encounter
+WD,2014-11-11 15:26:44+00:00,2014-11-11 17:12:29+00:00,3,3,ER Registration,ER Sepsis Triage,6345.0,1.76,0.07,False,False,False,False,Truncated / Open Encounter
+WDA,2014-08-21 07:26:45+00:00,2014-09-02 13:00:00+00:00,31,11,IV Liquid,Release A,1056795.0,293.55,12.23,False,True,True,True,Completed Normal Encounter
+WE,2014-04-21 12:35:46+00:00,2014-09-30 21:59:52+00:00,17,10,ER Registration,Return ER,14030646.0,3897.4,162.39,True,False,True,True,Readmission Encounter
+WEA,2013-11-09 12:04:54+00:00,2013-11-09 15:04:41+00:00,7,7,ER Registration,IV Antibiotics,10787.0,3.0,0.12,False,True,False,False,Truncated / Open Encounter
+WF,2013-12-27 18:20:00+00:00,2014-02-14 20:12:31+00:00,21,11,ER Registration,Return ER,4240351.0,1177.88,49.08,True,True,False,True,Readmission Encounter
+WFA,2014-10-25 23:18:17+00:00,2014-12-04 11:23:05+00:00,13,11,ER Registration,Return ER,3413088.0,948.08,39.5,True,True,False,True,Readmission Encounter
+WG,2014-12-24 06:12:18+00:00,2014-12-29 18:00:00+00:00,14,10,ER Registration,Release A,474462.0,131.79,5.49,False,True,False,True,Completed Normal Encounter
+WGA,2014-08-14 18:17:48+00:00,2014-12-01 00:19:04+00:00,36,12,ER Registration,Return ER,9352876.0,2598.02,108.25,True,True,True,True,Readmission Encounter
+WH,2014-04-01 11:50:17+00:00,2014-04-01 12:01:00+00:00,5,5,ER Registration,Leucocytes,643.0,0.18,0.01,False,False,False,False,Truncated / Open Encounter
+WHA,2014-06-29 19:32:05+00:00,2014-07-03 14:00:00+00:00,12,10,ER Registration,Release A,325675.0,90.47,3.77,False,True,False,True,Completed Normal Encounter
+WI,2014-12-01 10:06:49+00:00,2015-03-30 13:32:16+00:00,9,8,ER Registration,Return ER,10293927.0,2859.42,119.14,True,False,False,True,Readmission Encounter
+WIA,2014-12-06 14:23:28+00:00,2014-12-06 14:48:03+00:00,5,5,ER Registration,ER Sepsis Triage,1475.0,0.41,0.02,False,False,False,False,Truncated / Open Encounter
+WJA,2014-06-21 16:23:11+00:00,2014-07-05 10:30:00+00:00,18,10,IV Liquid,Release C,1188409.0,330.11,13.75,False,True,False,True,Completed Normal Encounter
+WK,2014-10-07 10:20:00+00:00,2014-10-12 14:00:00+00:00,8,8,CRP,Release A,445200.0,123.67,5.15,False,True,False,True,Completed Normal Encounter
+WKA,2015-02-18 23:34:04+00:00,2015-02-21 07:50:00+00:00,18,11,ER Registration,Release B,202556.0,56.27,2.34,False,True,True,True,Completed Normal Encounter
+WL,2014-06-16 11:46:00+00:00,2014-06-23 14:00:00+00:00,9,7,CRP,Release A,612840.0,170.23,7.09,False,False,False,True,Completed Normal Encounter
+WLA,2014-01-04 11:47:14+00:00,2014-02-23 11:33:00+00:00,14,8,ER Registration,Return ER,4319146.0,1199.76,49.99,True,False,False,True,Readmission Encounter
+WM,2014-11-26 21:18:25+00:00,2014-12-12 11:13:48+00:00,16,11,ER Registration,Return ER,1346123.0,373.92,15.58,True,True,False,True,Readmission Encounter
+WMA,2014-04-17 15:29:26+00:00,2014-04-17 16:46:00+00:00,5,5,ER Registration,Leucocytes,4594.0,1.28,0.05,False,False,False,False,Truncated / Open Encounter
+WN,2014-06-13 10:02:28+00:00,2014-12-12 13:48:23+00:00,23,11,ER Registration,Return ER,15738355.0,4371.77,182.16,True,True,False,True,Readmission Encounter
+WO,2014-10-14 11:10:02+00:00,2015-01-19 13:28:01+00:00,18,11,IV Liquid,Return ER,8389079.0,2330.3,97.1,True,True,False,True,Readmission Encounter
+WP,2014-08-01 13:27:23+00:00,2014-08-05 14:00:00+00:00,16,11,ER Registration,Release A,347557.0,96.54,4.02,False,True,True,True,Completed Normal Encounter
+WQ,2014-10-23 23:51:07+00:00,2014-12-02 11:45:37+00:00,13,11,ER Registration,Return ER,3412470.0,947.91,39.5,True,True,False,True,Readmission Encounter
+WR,2014-08-28 17:41:00+00:00,2014-09-05 11:15:00+00:00,18,10,CRP,Release C,668040.0,185.57,7.73,False,True,False,True,Completed Normal Encounter
+WS,2015-01-23 12:57:03+00:00,2015-01-23 13:27:00+00:00,6,6,ER Registration,Leucocytes,1797.0,0.5,0.02,False,False,False,False,Truncated / Open Encounter
+WT,2014-08-11 03:46:56+00:00,2014-08-26 15:58:28+00:00,18,11,ER Registration,Return ER,1339892.0,372.19,15.51,True,True,False,True,Readmission Encounter
+WU,2014-10-01 20:31:26+00:00,2014-10-12 14:10:00+00:00,17,10,ER Registration,Release A,927514.0,257.64,10.74,False,True,False,True,Completed Normal Encounter
+WV,2014-02-07 12:08:34+00:00,2014-02-11 07:30:00+00:00,14,10,ER Registration,Release A,328886.0,91.36,3.81,False,True,False,True,Completed Normal Encounter
+WW,2014-04-17 13:42:21+00:00,2014-04-27 08:49:23+00:00,18,12,ER Registration,Return ER,846422.0,235.12,9.8,True,True,True,True,Readmission Encounter
+WX,2014-05-10 22:41:42+00:00,2014-05-11 23:25:21+00:00,8,8,ER Registration,IV Liquid,89019.0,24.73,1.03,False,True,False,False,Truncated / Open Encounter
+WY,2014-09-13 22:32:57+00:00,2014-09-13 23:06:50+00:00,3,3,ER Registration,ER Sepsis Triage,2033.0,0.56,0.02,False,False,False,False,Truncated / Open Encounter
+WZ,2014-09-15 19:19:43+00:00,2014-11-17 17:07:00+00:00,24,11,ER Registration,Return ER,5435237.0,1509.79,62.91,True,True,False,True,Readmission Encounter
+X,2014-10-04 03:41:22+00:00,2015-05-09 10:52:02+00:00,13,9,ER Registration,Return ER,18774640.0,5215.18,217.3,True,False,False,True,Readmission Encounter
+XA,2014-04-12 15:18:52+00:00,2014-04-12 15:28:16+00:00,3,3,ER Registration,ER Sepsis Triage,564.0,0.16,0.01,False,False,False,False,Truncated / Open Encounter
+XAA,2014-04-12 11:08:02+00:00,2014-04-16 15:30:00+00:00,13,10,ER Registration,Release A,361318.0,100.37,4.18,False,True,False,True,Completed Normal Encounter
+XB,2014-10-21 11:34:38+00:00,2014-10-23 00:30:00+00:00,11,10,ER Registration,Release B,132922.0,36.92,1.54,False,True,False,True,Completed Normal Encounter
+XBA,2014-04-28 21:27:56+00:00,2014-06-26 18:10:41+00:00,27,12,ER Registration,Return ER,5085765.0,1412.71,58.86,True,True,True,True,Readmission Encounter
+XC,2014-02-23 15:42:28+00:00,2014-02-23 16:03:00+00:00,8,8,ER Registration,Leucocytes,1232.0,0.34,0.01,False,True,False,False,Truncated / Open Encounter
+XCA,2014-09-16 06:17:55+00:00,2014-10-07 15:51:11+00:00,35,12,ER Registration,Return ER,1848796.0,513.55,21.4,True,True,True,True,Readmission Encounter
+XD,2014-08-20 13:28:09+00:00,2014-08-25 14:30:00+00:00,10,10,ER Registration,Release A,435711.0,121.03,5.04,False,True,False,True,Completed Normal Encounter
+XDA,2015-01-11 15:42:30+00:00,2015-01-11 16:25:00+00:00,6,6,ER Registration,Leucocytes,2550.0,0.71,0.03,False,False,False,False,Truncated / Open Encounter
+XE,2014-04-03 11:27:25+00:00,2014-04-03 11:48:00+00:00,8,8,ER Registration,Leucocytes,1235.0,0.34,0.01,False,True,False,False,Truncated / Open Encounter
+XEA,2014-10-30 23:44:52+00:00,2014-11-02 17:00:00+00:00,12,10,ER Registration,Release A,234908.0,65.25,2.72,False,True,False,True,Completed Normal Encounter
+XF,2015-01-09 18:27:18+00:00,2015-01-13 09:30:00+00:00,12,10,ER Registration,Release A,313362.0,87.04,3.63,False,True,False,True,Completed Normal Encounter
+XFA,2013-12-02 18:27:53+00:00,2014-06-29 08:38:32+00:00,19,10,ER Registration,Return ER,18022239.0,5006.18,208.59,True,False,True,True,Readmission Encounter
+XG,2014-03-03 23:30:42+00:00,2014-03-04 02:00:00+00:00,8,8,ER Registration,IV Antibiotics,8958.0,2.49,0.1,False,True,False,False,Truncated / Open Encounter
+XGA,2014-03-12 03:02:41+00:00,2014-04-26 12:45:31+00:00,15,11,ER Registration,Return ER,3922970.0,1089.71,45.4,True,True,False,True,Readmission Encounter
+XH,2014-03-17 12:51:43+00:00,2014-03-28 09:30:00+00:00,22,10,ER Registration,Release A,938297.0,260.64,10.86,False,True,False,True,Completed Normal Encounter
+XHA,2014-05-16 22:25:01+00:00,2014-05-17 07:00:00+00:00,12,9,ER Registration,Leucocytes,30899.0,8.58,0.36,False,True,True,False,Truncated / Open Encounter
+XI,2013-12-29 12:28:10+00:00,2014-01-21 21:02:44+00:00,39,12,ER Registration,Return ER,2018074.0,560.58,23.36,True,True,True,True,Readmission Encounter
+XIA,2014-05-24 18:37:14+00:00,2014-05-24 19:05:00+00:00,5,5,ER Registration,Leucocytes,1666.0,0.46,0.02,False,False,False,False,Truncated / Open Encounter
+XJ,2013-11-07 08:18:29+00:00,2013-12-11 11:02:20+00:00,13,11,ER Registration,Return ER,2947431.0,818.73,34.11,True,True,False,True,Readmission Encounter
+XJA,2013-12-25 18:45:10+00:00,2014-01-07 10:00:00+00:00,20,10,ER Registration,Release A,1091690.0,303.25,12.64,False,True,False,True,Completed Normal Encounter
+XK,2014-05-15 10:41:55+00:00,2014-05-15 11:16:00+00:00,6,6,ER Registration,Leucocytes,2045.0,0.57,0.02,False,False,False,False,Truncated / Open Encounter
+XKA,2014-05-25 15:41:21+00:00,2014-11-10 23:34:04+00:00,13,11,ER Registration,Return ER,14629963.0,4063.88,169.33,True,True,False,True,Readmission Encounter
+XL,2014-11-23 11:00:05+00:00,2015-02-01 09:45:17+00:00,14,11,ER Registration,Return ER,6043512.0,1678.75,69.95,True,True,False,True,Readmission Encounter
+XLA,2015-01-03 11:53:29+00:00,2015-01-03 14:47:21+00:00,8,8,ER Registration,IV Antibiotics,10432.0,2.9,0.12,False,True,False,False,Truncated / Open Encounter
+XM,2014-10-21 18:28:08+00:00,2014-11-13 21:18:25+00:00,18,11,ER Registration,Return ER,1997417.0,554.84,23.12,True,True,False,True,Readmission Encounter
+XMA,2014-05-18 00:13:33+00:00,2014-05-18 00:26:56+00:00,3,3,ER Registration,ER Sepsis Triage,803.0,0.22,0.01,False,False,False,False,Truncated / Open Encounter
+XN,2014-01-14 00:18:41+00:00,2014-01-18 10:58:31+00:00,16,11,ER Registration,Return ER,383990.0,106.66,4.44,True,True,False,True,Readmission Encounter
+XO,2014-10-05 17:02:37+00:00,2014-10-07 06:30:00+00:00,9,9,ER Registration,Release B,134843.0,37.46,1.56,False,True,False,True,Completed Normal Encounter
+XP,2014-03-29 16:34:08+00:00,2014-04-01 11:00:00+00:00,13,10,ER Registration,Release A,239152.0,66.43,2.77,False,True,False,True,Completed Normal Encounter
+XQ,2014-12-29 15:18:06+00:00,2015-03-15 15:40:57+00:00,14,11,ER Registration,Return ER,6567771.0,1824.38,76.02,True,True,False,True,Readmission Encounter
+XR,2014-12-28 15:29:32+00:00,2014-12-28 17:45:03+00:00,6,6,ER Registration,IV Antibiotics,8131.0,2.26,0.09,False,True,False,False,Truncated / Open Encounter
+XS,2014-08-30 11:59:23+00:00,2015-01-15 12:57:03+00:00,21,11,ER Registration,Return ER,11926660.0,3312.96,138.04,True,True,False,True,Readmission Encounter
+XT,2014-07-08 23:19:10+00:00,2014-07-18 22:42:25+00:00,18,11,ER Registration,Return ER,861795.0,239.39,9.97,True,True,False,True,Readmission Encounter
+XU,2014-05-10 10:04:12+00:00,2014-05-10 12:00:54+00:00,8,8,ER Registration,IV Liquid,7002.0,1.94,0.08,False,True,False,False,Truncated / Open Encounter
+XV,2014-04-16 12:23:42+00:00,2014-04-16 15:45:09+00:00,8,8,ER Registration,IV Antibiotics,12087.0,3.36,0.14,False,True,False,False,Truncated / Open Encounter
+XW,2014-05-02 19:51:52+00:00,2014-05-09 13:08:49+00:00,16,10,ER Registration,Release A,580617.0,161.28,6.72,False,True,False,True,Completed Normal Encounter
+XX,2014-05-20 10:00:00+00:00,2014-05-20 15:00:00+00:00,12,10,CRP,Release B,18000.0,5.0,0.21,False,True,False,True,Completed Normal Encounter
+XY,2014-02-16 22:19:34+00:00,2014-08-09 23:17:48+00:00,13,11,ER Registration,Return ER,15037094.0,4176.97,174.04,True,True,False,True,Readmission Encounter
+XZ,2014-09-24 07:30:00+00:00,2014-10-02 03:00:00+00:00,16,10,IV Liquid,Release B,675000.0,187.5,7.81,False,True,False,True,Completed Normal Encounter
+Y,2015-02-25 10:06:20+00:00,2015-02-25 11:00:19+00:00,8,8,ER Registration,IV Liquid,3239.0,0.9,0.04,False,True,False,False,Truncated / Open Encounter
+YA,2014-07-10 12:33:44+00:00,2014-07-10 12:54:00+00:00,6,6,ER Registration,Leucocytes,1216.0,0.34,0.01,False,False,False,False,Truncated / Open Encounter
+YAA,2014-04-13 10:27:43+00:00,2014-04-15 11:30:00+00:00,12,10,ER Registration,Release A,176537.0,49.04,2.04,False,True,False,True,Completed Normal Encounter
+YB,2014-11-09 20:21:38+00:00,2014-11-13 20:00:00+00:00,15,10,ER Registration,Release A,344302.0,95.64,3.98,False,True,False,True,Completed Normal Encounter
+YBA,2014-05-19 18:49:59+00:00,2014-05-26 11:00:00+00:00,14,10,ER Registration,Release A,576601.0,160.17,6.67,False,True,False,True,Completed Normal Encounter
+YC,2014-07-16 11:47:00+00:00,2014-07-16 22:45:51+00:00,9,7,CRP,IV Antibiotics,39531.0,10.98,0.46,False,True,False,False,Truncated / Open Encounter
+YCA,2014-03-01 18:35:34+00:00,2014-03-02 07:00:00+00:00,11,9,ER Registration,Leucocytes,44666.0,12.41,0.52,False,True,False,True,Truncated / Open Encounter
+YD,2014-05-07 12:46:40+00:00,2014-05-07 14:21:48+00:00,8,8,ER Registration,IV Antibiotics,5708.0,1.59,0.07,False,True,False,False,Truncated / Open Encounter
+YDA,2014-04-06 19:43:20+00:00,2014-06-22 14:04:18+00:00,13,11,ER Registration,Return ER,6632458.0,1842.35,76.76,True,True,False,True,Readmission Encounter
+YE,2014-08-25 14:06:46+00:00,2014-08-29 14:00:00+00:00,13,10,ER Registration,Release A,345194.0,95.89,4.0,False,True,False,True,Completed Normal Encounter
+YEA,2013-11-24 13:43:50+00:00,2013-11-29 13:00:00+00:00,10,10,ER Registration,Release A,429370.0,119.27,4.97,False,True,False,True,Completed Normal Encounter
+YF,2014-07-08 18:15:07+00:00,2014-07-21 09:50:00+00:00,29,11,ER Registration,Release A,1092893.0,303.58,12.65,False,True,True,True,Completed Normal Encounter
+YFA,2015-01-14 15:36:47+00:00,2015-01-17 10:20:00+00:00,12,10,ER Registration,Release A,240193.0,66.72,2.78,False,True,False,True,Completed Normal Encounter
+YG,2014-03-17 00:57:07+00:00,2014-04-13 13:00:00+00:00,29,10,ER Registration,Release D,2376173.0,660.05,27.5,False,True,False,True,Completed Normal Encounter
+YGA,2014-05-25 17:28:21+00:00,2014-06-16 04:34:03+00:00,14,11,ER Registration,Return ER,1854342.0,515.1,21.46,True,True,False,True,Readmission Encounter
+YH,2014-03-20 23:25:38+00:00,2014-03-25 10:00:00+00:00,7,7,ER Registration,Release A,383662.0,106.57,4.44,False,False,False,True,Completed Normal Encounter
+YHA,2014-12-22 09:22:47+00:00,2014-12-28 10:02:16+00:00,16,10,ER Registration,Release A,520769.0,144.66,6.03,False,True,False,True,Completed Normal Encounter
+YI,2014-05-01 18:40:48+00:00,2014-05-08 15:50:00+00:00,14,10,ER Registration,Release A,594552.0,165.15,6.88,False,True,False,True,Completed Normal Encounter
+YIA,2013-12-11 23:32:45+00:00,2014-01-12 02:10:25+00:00,52,12,ER Registration,Return ER,2687860.0,746.63,31.11,True,True,True,True,Readmission Encounter
+YJ,2014-10-13 00:04:17+00:00,2014-10-21 10:00:00+00:00,12,7,ER Registration,Release A,726943.0,201.93,8.41,False,False,False,True,Completed Normal Encounter
+YJA,2014-03-20 03:06:58+00:00,2014-03-30 18:00:00+00:00,12,10,ER Registration,Release A,917582.0,254.88,10.62,False,True,False,True,Completed Normal Encounter
+YK,2014-04-17 20:00:20+00:00,2014-04-29 04:51:22+00:00,17,11,ER Registration,Return ER,982262.0,272.85,11.37,True,True,False,True,Readmission Encounter
+YKA,2014-08-11 14:54:03+00:00,2014-08-30 14:45:00+00:00,43,11,ER Registration,Release A,1641057.0,455.85,18.99,False,True,True,True,Completed Normal Encounter
+YL,2014-01-21 14:14:20+00:00,2014-02-03 11:34:33+00:00,18,11,ER Registration,Return ER,1113613.0,309.34,12.89,True,True,False,True,Readmission Encounter
+YLA,2014-03-31 11:31:22+00:00,2014-08-17 13:51:18+00:00,61,10,ER Registration,Return ER,12017996.0,3338.33,139.1,True,False,True,True,Readmission Encounter
+YM,2014-05-08 12:34:25+00:00,2015-01-17 17:28:08+00:00,13,11,ER Registration,Return ER,21963223.0,6100.9,254.2,True,True,False,True,Readmission Encounter
+YMA,2014-09-01 22:26:13+00:00,2014-09-26 22:09:59+00:00,10,8,ER Registration,Return ER,2159026.0,599.73,24.99,True,False,False,True,Readmission Encounter
+YN,2014-04-13 08:40:00+00:00,2014-04-13 21:32:33+00:00,7,5,CRP,ER Sepsis Triage,46353.0,12.88,0.54,False,False,False,False,Truncated / Open Encounter
+YO,2014-05-26 11:54:55+00:00,2014-06-09 17:00:00+00:00,27,10,ER Registration,Release A,1227905.0,341.08,14.21,False,True,False,True,Completed Normal Encounter
+YP,2013-11-18 14:18:15+00:00,2013-12-03 05:30:00+00:00,30,10,ER Registration,Release B,1264305.0,351.2,14.63,False,True,False,True,Completed Normal Encounter
+YQ,2014-11-16 20:24:28+00:00,2014-11-18 14:00:00+00:00,12,10,ER Registration,Release A,149732.0,41.59,1.73,False,True,False,True,Completed Normal Encounter
+YR,2014-05-25 14:20:50+00:00,2014-06-01 16:00:00+00:00,17,10,ER Registration,Release A,610750.0,169.65,7.07,False,True,False,True,Completed Normal Encounter
+YS,2014-03-15 10:10:06+00:00,2014-07-09 00:52:05+00:00,23,12,ER Registration,Return ER,9988919.0,2774.7,115.61,True,True,True,True,Readmission Encounter
+YT,2014-02-13 23:34:19+00:00,2014-03-06 00:27:16+00:00,17,11,ER Registration,Return ER,1731177.0,480.88,20.04,True,True,False,True,Readmission Encounter
+YU,2014-02-05 07:49:49+00:00,2014-02-05 07:58:54+00:00,3,3,ER Registration,ER Sepsis Triage,545.0,0.15,0.01,False,False,False,False,Truncated / Open Encounter
+YV,2014-07-19 18:43:56+00:00,2014-10-13 20:29:46+00:00,21,11,ER Registration,Return ER,7436750.0,2065.76,86.07,True,True,False,True,Readmission Encounter
+YW,2014-10-31 10:10:03+00:00,2014-11-10 10:00:00+00:00,10,7,ER Registration,Release A,863397.0,239.83,9.99,False,False,False,True,Completed Normal Encounter
+YX,2014-04-29 19:24:22+00:00,2014-05-29 13:15:00+00:00,84,11,ER Registration,Release A,2569838.0,713.84,29.74,False,True,True,True,Completed Normal Encounter
+YY,2014-11-03 21:59:04+00:00,2014-11-13 20:00:00+00:00,21,10,ER Registration,Release A,856856.0,238.02,9.92,False,True,False,True,Completed Normal Encounter
+YZ,2014-04-11 08:08:23+00:00,2014-08-25 08:53:01+00:00,15,11,ER Registration,Return ER,11753078.0,3264.74,136.03,True,True,False,True,Readmission Encounter
+Z,2014-04-03 08:49:53+00:00,2014-04-07 10:00:00+00:00,10,9,ER Registration,Release A,349807.0,97.17,4.05,False,False,True,True,Completed Normal Encounter
+ZA,2014-05-24 11:32:26+00:00,2014-05-24 12:40:56+00:00,8,8,ER Registration,IV Antibiotics,4110.0,1.14,0.05,False,True,False,False,Truncated / Open Encounter
+ZAA,2014-12-26 09:17:46+00:00,2015-01-01 16:15:00+00:00,15,10,ER Registration,Release A,543434.0,150.95,6.29,False,True,False,True,Completed Normal Encounter
+ZB,2014-04-26 20:35:33+00:00,2015-01-03 12:34:52+00:00,16,11,ER Registration,Return ER,21743959.0,6039.99,251.67,True,True,False,True,Readmission Encounter
+ZBA,2014-10-30 16:29:10+00:00,2014-11-02 10:30:00+00:00,11,10,ER Registration,Release A,237650.0,66.01,2.75,False,True,False,True,Completed Normal Encounter
+ZC,2014-07-14 18:34:00+00:00,2014-07-15 00:56:24+00:00,10,8,ER Registration,IV Antibiotics,22944.0,6.37,0.27,False,True,False,False,Truncated / Open Encounter
+ZCA,2015-02-05 14:33:02+00:00,2015-02-05 20:34:00+00:00,9,8,ER Registration,LacticAcid,21658.0,6.02,0.25,False,True,False,False,Truncated / Open Encounter
+ZD,2014-04-07 10:15:33+00:00,2014-04-12 11:00:00+00:00,7,7,ER Registration,Release A,434667.0,120.74,5.03,False,False,False,True,Completed Normal Encounter
+ZDA,2014-09-10 19:02:55+00:00,2014-11-24 10:12:02+00:00,18,12,ER Registration,Return ER,6448147.0,1791.15,74.63,True,True,True,True,Readmission Encounter
+ZE,2014-07-02 14:35:50+00:00,2014-07-12 18:15:00+00:00,16,10,ER Registration,Release B,877150.0,243.65,10.15,False,True,False,True,Completed Normal Encounter
+ZEA,2014-07-21 00:57:24+00:00,2014-08-17 16:28:24+00:00,18,12,ER Registration,Return ER,2388660.0,663.52,27.65,True,True,True,True,Readmission Encounter
+ZF,2014-06-05 21:14:36+00:00,2014-06-09 10:00:00+00:00,14,10,ER Registration,Release A,305124.0,84.76,3.53,False,True,False,True,Completed Normal Encounter
+ZFA,2014-01-18 15:42:16+00:00,2014-08-13 10:11:46+00:00,13,11,ER Registration,Return ER,17864970.0,4962.49,206.77,True,True,False,True,Readmission Encounter
+ZG,2014-10-14 23:18:15+00:00,2014-10-16 17:00:00+00:00,10,10,ER Registration,Release B,150105.0,41.7,1.74,False,True,False,True,Completed Normal Encounter
+ZGA,2015-01-29 19:28:36+00:00,2015-03-23 10:59:34+00:00,29,11,ER Registration,Return ER,4548658.0,1263.52,52.65,True,True,False,True,Readmission Encounter
+ZH,2014-07-27 17:26:54+00:00,2014-08-05 14:00:00+00:00,13,10,ER Registration,Release A,765186.0,212.55,8.86,False,True,False,True,Completed Normal Encounter
+ZHA,2014-09-05 19:27:33+00:00,2014-10-26 16:12:03+00:00,26,12,ER Registration,Return ER,4394670.0,1220.74,50.86,True,True,True,True,Readmission Encounter
+ZI,2014-10-15 22:24:54+00:00,2014-10-22 11:15:00+00:00,18,10,ER Registration,Release A,564606.0,156.84,6.53,False,True,False,True,Completed Normal Encounter
+ZIA,2014-05-08 17:53:22+00:00,2014-05-08 20:46:30+00:00,8,8,ER Registration,IV Antibiotics,10388.0,2.89,0.12,False,True,False,False,Truncated / Open Encounter
+ZJ,2014-10-13 20:24:46+00:00,2014-10-22 10:00:00+00:00,16,10,ER Registration,Release A,740114.0,205.59,8.57,False,True,False,True,Completed Normal Encounter
+ZJA,2014-09-24 16:38:28+00:00,2014-10-12 12:15:00+00:00,23,10,ER Registration,Release A,1539392.0,427.61,17.82,False,True,False,True,Completed Normal Encounter
+ZK,2014-11-30 13:57:54+00:00,2014-12-02 15:30:00+00:00,11,9,ER Registration,Release A,178326.0,49.54,2.06,False,True,False,True,Completed Normal Encounter
+ZKA,2014-03-15 15:33:42+00:00,2014-06-13 15:09:24+00:00,16,11,ER Registration,Return ER,7774542.0,2159.59,89.98,True,True,False,True,Readmission Encounter
+ZL,2014-10-15 10:14:51+00:00,2014-11-20 14:57:24+00:00,13,11,ER Registration,Return ER,3127353.0,868.71,36.2,True,True,False,True,Readmission Encounter
+ZLA,2013-12-15 20:30:43+00:00,2014-08-30 16:04:43+00:00,11,11,ER Registration,Return ER,22275240.0,6187.57,257.82,True,True,False,True,Readmission Encounter
+ZM,2014-04-08 17:50:18+00:00,2014-04-23 12:00:00+00:00,28,10,ER Registration,Release A,1274982.0,354.16,14.76,False,True,False,True,Completed Normal Encounter
+ZMA,2014-10-19 10:45:58+00:00,2014-12-03 15:00:00+00:00,66,11,IV Liquid,Release B,3903242.0,1084.23,45.18,False,True,True,True,Completed Normal Encounter
+ZN,2014-04-08 13:41:15+00:00,2014-04-08 14:07:00+00:00,5,5,ER Registration,Leucocytes,1545.0,0.43,0.02,False,False,False,False,Truncated / Open Encounter
+ZO,2014-02-03 23:01:08+00:00,2014-02-11 12:00:00+00:00,12,10,ER Registration,Release A,651532.0,180.98,7.54,False,True,False,True,Completed Normal Encounter
+ZP,2014-02-13 15:01:53+00:00,2014-02-16 13:45:00+00:00,12,10,ER Registration,Release A,254587.0,70.72,2.95,False,True,False,True,Completed Normal Encounter
+ZQ,2014-10-07 11:30:53+00:00,2014-10-16 22:56:00+00:00,21,11,ER Registration,Leucocytes,818707.0,227.42,9.48,True,True,False,True,Readmission Encounter
+ZR,2013-11-26 11:11:34+00:00,2013-11-30 15:00:00+00:00,13,10,ER Registration,Release A,359306.0,99.81,4.16,False,True,False,True,Completed Normal Encounter
+ZS,2013-11-14 11:58:51+00:00,2014-12-18 10:08:54+00:00,14,11,ER Registration,Return ER,34467003.0,9574.17,398.92,True,True,False,True,Readmission Encounter
+ZT,2015-01-07 12:47:40+00:00,2015-01-12 11:00:00+00:00,13,10,ER Registration,Release D,425540.0,118.21,4.93,False,True,False,True,Completed Normal Encounter
+ZU,2014-12-12 13:12:41+00:00,2014-12-15 12:16:00+00:00,10,10,ER Registration,Release A,255799.0,71.06,2.96,False,True,False,True,Completed Normal Encounter
+ZV,2014-11-27 14:37:18+00:00,2014-12-02 13:50:00+00:00,12,10,ER Registration,Release A,429162.0,119.21,4.97,False,True,False,True,Completed Normal Encounter
+ZW,2014-10-03 06:07:59+00:00,2014-10-07 15:00:00+00:00,13,10,ER Registration,Release A,377521.0,104.87,4.37,False,True,False,True,Completed Normal Encounter
+ZX,2013-12-31 20:55:37+00:00,2014-01-05 10:00:00+00:00,10,10,ER Registration,Release A,392663.0,109.07,4.54,False,True,False,True,Completed Normal Encounter
+ZY,2014-12-13 11:09:37+00:00,2014-12-13 17:22:57+00:00,8,8,ER Registration,IV Antibiotics,22400.0,6.22,0.26,False,True,False,False,Truncated / Open Encounter
+ZZ,2014-11-12 16:34:30+00:00,2014-11-17 18:00:00+00:00,14,10,ER Registration,Release A,437130.0,121.42,5.06,False,True,False,True,Completed Normal Encounter

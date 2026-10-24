@@ -1,0 +1,211 @@
+org_group,department,next_org_code,next_dept,handoff_count
+B,Central Diagnostic Laboratory,B,Central Diagnostic Laboratory,6111
+A,Emergency Clinical Staff (Team A),C,Emergency Triage Assessment Unit,946
+A,Emergency Clinical Staff (Team A),A,Emergency Clinical Staff (Team A),929
+A,Emergency Clinical Staff (Team A),B,Central Diagnostic Laboratory,869
+C,Emergency Triage Assessment Unit,A,Emergency Clinical Staff (Team A),863
+B,Central Diagnostic Laboratory,A,Emergency Clinical Staff (Team A),686
+B,Central Diagnostic Laboratory,E,Discharge & Outpatient Administration,637
+E,Discharge & Outpatient Administration,?,Emergency Readmission (Unplanned),293
+F,General Inpatient Ward (F),B,Central Diagnostic Laboratory,165
+O,General Inpatient Ward (O),B,Central Diagnostic Laboratory,150
+C,Emergency Triage Assessment Unit,B,Central Diagnostic Laboratory,129
+A,Emergency Clinical Staff (Team A),G,General Inpatient Ward (G),117
+I,General Inpatient Ward (I),B,Central Diagnostic Laboratory,91
+A,Emergency Clinical Staff (Team A),F,General Inpatient Ward (F),85
+B,Central Diagnostic Laboratory,F,General Inpatient Ward (F),84
+A,Emergency Clinical Staff (Team A),O,General Inpatient Ward (O),82
+B,Central Diagnostic Laboratory,O,General Inpatient Ward (O),71
+M,General Inpatient Ward (M),B,Central Diagnostic Laboratory,65
+G,General Inpatient Ward (G),B,Central Diagnostic Laboratory,62
+L,Emergency Clinical Staff (Team B),C,Emergency Triage Assessment Unit,59
+C,Emergency Triage Assessment Unit,L,Emergency Clinical Staff (Team B),59
+A,Emergency Clinical Staff (Team A),I,General Inpatient Ward (I),55
+L,Emergency Clinical Staff (Team B),B,Central Diagnostic Laboratory,54
+W,Intensive Care Unit (ICU Team W),B,Central Diagnostic Laboratory,54
+L,Emergency Clinical Staff (Team B),L,Emergency Clinical Staff (Team B),54
+P,Intensive Care Unit (ICU Team P),B,Central Diagnostic Laboratory,53
+B,Central Diagnostic Laboratory,I,General Inpatient Ward (I),44
+Q,General Inpatient Ward (Q),B,Central Diagnostic Laboratory,44
+D,General Inpatient Ward (D),B,Central Diagnostic Laboratory,43
+B,Central Diagnostic Laboratory,C,Emergency Triage Assessment Unit,41
+H,General Inpatient Ward (H),B,Central Diagnostic Laboratory,38
+B,Central Diagnostic Laboratory,L,Emergency Clinical Staff (Team B),38
+R,General Inpatient Ward (R),B,Central Diagnostic Laboratory,37
+A,Emergency Clinical Staff (Team A),Q,General Inpatient Ward (Q),33
+B,Central Diagnostic Laboratory,M,General Inpatient Ward (M),32
+F,General Inpatient Ward (F),E,Discharge & Outpatient Administration,30
+B,Central Diagnostic Laboratory,H,General Inpatient Ward (H),29
+T,General Inpatient Ward (T),B,Central Diagnostic Laboratory,28
+B,Central Diagnostic Laboratory,G,General Inpatient Ward (G),26
+A,Emergency Clinical Staff (Team A),R,General Inpatient Ward (R),25
+A,Emergency Clinical Staff (Team A),P,Intensive Care Unit (ICU Team P),24
+A,Emergency Clinical Staff (Team A),W,Intensive Care Unit (ICU Team W),24
+B,Central Diagnostic Laboratory,R,General Inpatient Ward (R),24
+B,Central Diagnostic Laboratory,P,Intensive Care Unit (ICU Team P),23
+A,Emergency Clinical Staff (Team A),M,General Inpatient Ward (M),23
+N,General Inpatient Ward (N),B,Central Diagnostic Laboratory,23
+A,Emergency Clinical Staff (Team A),D,General Inpatient Ward (D),23
+B,Central Diagnostic Laboratory,Q,General Inpatient Ward (Q),22
+B,Central Diagnostic Laboratory,W,Intensive Care Unit (ICU Team W),21
+G,General Inpatient Ward (G),F,General Inpatient Ward (F),21
+S,General Inpatient Ward (S),B,Central Diagnostic Laboratory,21
+B,Central Diagnostic Laboratory,N,General Inpatient Ward (N),21
+B,Central Diagnostic Laboratory,J,Intensive Care Unit (ICU Team J),20
+A,Emergency Clinical Staff (Team A),H,General Inpatient Ward (H),18
+O,General Inpatient Ward (O),E,Discharge & Outpatient Administration,17
+J,Intensive Care Unit (ICU Team J),B,Central Diagnostic Laboratory,17
+B,Central Diagnostic Laboratory,S,General Inpatient Ward (S),17
+B,Central Diagnostic Laboratory,T,General Inpatient Ward (T),17
+I,General Inpatient Ward (I),E,Discharge & Outpatient Administration,16
+B,Central Diagnostic Laboratory,D,General Inpatient Ward (D),15
+M,General Inpatient Ward (M),E,Discharge & Outpatient Administration,15
+A,Emergency Clinical Staff (Team A),N,General Inpatient Ward (N),14
+G,General Inpatient Ward (G),O,General Inpatient Ward (O),14
+A,Emergency Clinical Staff (Team A),S,General Inpatient Ward (S),14
+A,Emergency Clinical Staff (Team A),T,General Inpatient Ward (T),13
+L,Emergency Clinical Staff (Team B),M,General Inpatient Ward (M),13
+A,Emergency Clinical Staff (Team A),V,General Inpatient Ward (V),11
+R,General Inpatient Ward (R),E,Discharge & Outpatient Administration,10
+B,Central Diagnostic Laboratory,V,General Inpatient Ward (V),10
+V,General Inpatient Ward (V),E,Discharge & Outpatient Administration,10
+A,Emergency Clinical Staff (Team A),K,Intensive Care Unit (ICU Team K),10
+A,Emergency Clinical Staff (Team A),U,General Inpatient Ward (U),9
+K,Intensive Care Unit (ICU Team K),B,Central Diagnostic Laboratory,9
+U,General Inpatient Ward (U),B,Central Diagnostic Laboratory,9
+H,General Inpatient Ward (H),E,Discharge & Outpatient Administration,9
+N,General Inpatient Ward (N),E,Discharge & Outpatient Administration,9
+O,General Inpatient Ward (O),A,Emergency Clinical Staff (Team A),7
+B,Central Diagnostic Laboratory,K,Intensive Care Unit (ICU Team K),6
+A,Emergency Clinical Staff (Team A),E,Discharge & Outpatient Administration,6
+G,General Inpatient Ward (G),H,General Inpatient Ward (H),5
+G,General Inpatient Ward (G),Q,General Inpatient Ward (Q),5
+G,General Inpatient Ward (G),I,General Inpatient Ward (I),5
+F,General Inpatient Ward (F),A,Emergency Clinical Staff (Team A),5
+B,Central Diagnostic Laboratory,U,General Inpatient Ward (U),5
+I,General Inpatient Ward (I),A,Emergency Clinical Staff (Team A),5
+N,General Inpatient Ward (N),I,General Inpatient Ward (I),5
+V,General Inpatient Ward (V),B,Central Diagnostic Laboratory,5
+Q,General Inpatient Ward (Q),E,Discharge & Outpatient Administration,5
+O,General Inpatient Ward (O),F,General Inpatient Ward (F),5
+G,General Inpatient Ward (G),E,Discharge & Outpatient Administration,4
+S,General Inpatient Ward (S),E,Discharge & Outpatient Administration,4
+U,General Inpatient Ward (U),M,General Inpatient Ward (M),4
+Q,General Inpatient Ward (Q),O,General Inpatient Ward (O),4
+K,Intensive Care Unit (ICU Team K),M,General Inpatient Ward (M),4
+G,General Inpatient Ward (G),D,General Inpatient Ward (D),4
+G,General Inpatient Ward (G),M,General Inpatient Ward (M),4
+G,General Inpatient Ward (G),N,General Inpatient Ward (N),4
+L,Emergency Clinical Staff (Team B),G,General Inpatient Ward (G),4
+F,General Inpatient Ward (F),F,General Inpatient Ward (F),4
+F,General Inpatient Ward (F),I,General Inpatient Ward (I),3
+?,Emergency Readmission (Unplanned),B,Central Diagnostic Laboratory,3
+A,Emergency Clinical Staff (Team A),J,Intensive Care Unit (ICU Team J),3
+I,General Inpatient Ward (I),N,General Inpatient Ward (N),3
+H,General Inpatient Ward (H),I,General Inpatient Ward (I),3
+G,General Inpatient Ward (G),W,Intensive Care Unit (ICU Team W),3
+J,Intensive Care Unit (ICU Team J),R,General Inpatient Ward (R),3
+I,General Inpatient Ward (I),I,General Inpatient Ward (I),3
+R,General Inpatient Ward (R),F,General Inpatient Ward (F),3
+U,General Inpatient Ward (U),E,Discharge & Outpatient Administration,3
+Q,General Inpatient Ward (Q),F,General Inpatient Ward (F),3
+R,General Inpatient Ward (R),O,General Inpatient Ward (O),3
+G,General Inpatient Ward (G),P,Intensive Care Unit (ICU Team P),2
+E,Discharge & Outpatient Administration,B,Central Diagnostic Laboratory,2
+G,General Inpatient Ward (G),R,General Inpatient Ward (R),2
+L,Emergency Clinical Staff (Team B),U,General Inpatient Ward (U),2
+N,General Inpatient Ward (N),F,General Inpatient Ward (F),2
+J,Intensive Care Unit (ICU Team J),F,General Inpatient Ward (F),2
+N,General Inpatient Ward (N),A,Emergency Clinical Staff (Team A),2
+O,General Inpatient Ward (O),I,General Inpatient Ward (I),2
+O,General Inpatient Ward (O),D,General Inpatient Ward (D),2
+Q,General Inpatient Ward (Q),A,Emergency Clinical Staff (Team A),2
+S,General Inpatient Ward (S),O,General Inpatient Ward (O),2
+V,General Inpatient Ward (V),A,Emergency Clinical Staff (Team A),2
+I,General Inpatient Ward (I),Q,General Inpatient Ward (Q),2
+J,Intensive Care Unit (ICU Team J),J,Intensive Care Unit (ICU Team J),2
+F,General Inpatient Ward (F),P,Intensive Care Unit (ICU Team P),2
+G,General Inpatient Ward (G),A,Emergency Clinical Staff (Team A),2
+V,General Inpatient Ward (V),O,General Inpatient Ward (O),2
+P,Intensive Care Unit (ICU Team P),E,Discharge & Outpatient Administration,2
+Q,General Inpatient Ward (Q),I,General Inpatient Ward (I),2
+K,Intensive Care Unit (ICU Team K),E,Discharge & Outpatient Administration,2
+I,General Inpatient Ward (I),F,General Inpatient Ward (F),2
+H,General Inpatient Ward (H),P,Intensive Care Unit (ICU Team P),2
+G,General Inpatient Ward (G),G,General Inpatient Ward (G),1
+F,General Inpatient Ward (F),R,General Inpatient Ward (R),1
+F,General Inpatient Ward (F),W,Intensive Care Unit (ICU Team W),1
+F,General Inpatient Ward (F),M,General Inpatient Ward (M),1
+F,General Inpatient Ward (F),O,General Inpatient Ward (O),1
+D,General Inpatient Ward (D),A,Emergency Clinical Staff (Team A),1
+B,Central Diagnostic Laboratory,?,Emergency Readmission (Unplanned),1
+A,Emergency Clinical Staff (Team A),X,General Inpatient Ward (X),1
+D,General Inpatient Ward (D),D,General Inpatient Ward (D),1
+E,Discharge & Outpatient Administration,F,General Inpatient Ward (F),1
+D,General Inpatient Ward (D),E,Discharge & Outpatient Administration,1
+K,Intensive Care Unit (ICU Team K),P,Intensive Care Unit (ICU Team P),1
+J,Intensive Care Unit (ICU Team J),E,Discharge & Outpatient Administration,1
+N,General Inpatient Ward (N),Q,General Inpatient Ward (Q),1
+N,General Inpatient Ward (N),Y,General Inpatient Ward (Y),1
+N,General Inpatient Ward (N),N,General Inpatient Ward (N),1
+N,General Inpatient Ward (N),P,Intensive Care Unit (ICU Team P),1
+M,General Inpatient Ward (M),U,General Inpatient Ward (U),1
+M,General Inpatient Ward (M),K,Intensive Care Unit (ICU Team K),1
+M,General Inpatient Ward (M),C,Emergency Triage Assessment Unit,1
+N,General Inpatient Ward (N),D,General Inpatient Ward (D),1
+L,Emergency Clinical Staff (Team B),K,Intensive Care Unit (ICU Team K),1
+L,Emergency Clinical Staff (Team B),J,Intensive Care Unit (ICU Team J),1
+L,Emergency Clinical Staff (Team B),H,General Inpatient Ward (H),1
+L,Emergency Clinical Staff (Team B),F,General Inpatient Ward (F),1
+L,Emergency Clinical Staff (Team B),R,General Inpatient Ward (R),1
+L,Emergency Clinical Staff (Team B),O,General Inpatient Ward (O),1
+L,Emergency Clinical Staff (Team B),T,General Inpatient Ward (T),1
+M,General Inpatient Ward (M),A,Emergency Clinical Staff (Team A),1
+K,Intensive Care Unit (ICU Team K),W,Intensive Care Unit (ICU Team W),1
+I,General Inpatient Ward (I),W,Intensive Care Unit (ICU Team W),1
+I,General Inpatient Ward (I),M,General Inpatient Ward (M),1
+G,General Inpatient Ward (G),U,General Inpatient Ward (U),1
+G,General Inpatient Ward (G),V,General Inpatient Ward (V),1
+H,General Inpatient Ward (H),F,General Inpatient Ward (F),1
+H,General Inpatient Ward (H),A,Emergency Clinical Staff (Team A),1
+G,General Inpatient Ward (G),T,General Inpatient Ward (T),1
+H,General Inpatient Ward (H),H,General Inpatient Ward (H),1
+J,Intensive Care Unit (ICU Team J),O,General Inpatient Ward (O),1
+K,Intensive Care Unit (ICU Team K),O,General Inpatient Ward (O),1
+I,General Inpatient Ward (I),P,Intensive Care Unit (ICU Team P),1
+O,General Inpatient Ward (O),N,General Inpatient Ward (N),1
+O,General Inpatient Ward (O),O,General Inpatient Ward (O),1
+P,Intensive Care Unit (ICU Team P),F,General Inpatient Ward (F),1
+P,Intensive Care Unit (ICU Team P),R,General Inpatient Ward (R),1
+S,General Inpatient Ward (S),D,General Inpatient Ward (D),1
+R,General Inpatient Ward (R),T,General Inpatient Ward (T),1
+R,General Inpatient Ward (R),I,General Inpatient Ward (I),1
+R,General Inpatient Ward (R),M,General Inpatient Ward (M),1
+Q,General Inpatient Ward (Q),V,General Inpatient Ward (V),1
+Q,General Inpatient Ward (Q),P,Intensive Care Unit (ICU Team P),1
+Q,General Inpatient Ward (Q),T,General Inpatient Ward (T),1
+P,Intensive Care Unit (ICU Team P),S,General Inpatient Ward (S),1
+P,Intensive Care Unit (ICU Team P),A,Emergency Clinical Staff (Team A),1
+O,General Inpatient Ward (O),W,Intensive Care Unit (ICU Team W),1
+T,General Inpatient Ward (T),E,Discharge & Outpatient Administration,1
+S,General Inpatient Ward (S),I,General Inpatient Ward (I),1
+S,General Inpatient Ward (S),P,Intensive Care Unit (ICU Team P),1
+S,General Inpatient Ward (S),S,General Inpatient Ward (S),1
+S,General Inpatient Ward (S),W,Intensive Care Unit (ICU Team W),1
+S,General Inpatient Ward (S),F,General Inpatient Ward (F),1
+U,General Inpatient Ward (U),A,Emergency Clinical Staff (Team A),1
+T,General Inpatient Ward (T),W,Intensive Care Unit (ICU Team W),1
+T,General Inpatient Ward (T),V,General Inpatient Ward (V),1
+T,General Inpatient Ward (T),T,General Inpatient Ward (T),1
+T,General Inpatient Ward (T),O,General Inpatient Ward (O),1
+T,General Inpatient Ward (T),P,Intensive Care Unit (ICU Team P),1
+T,General Inpatient Ward (T),H,General Inpatient Ward (H),1
+U,General Inpatient Ward (U),I,General Inpatient Ward (I),1
+V,General Inpatient Ward (V),M,General Inpatient Ward (M),1
+V,General Inpatient Ward (V),I,General Inpatient Ward (I),1
+V,General Inpatient Ward (V),V,General Inpatient Ward (V),1
+V,General Inpatient Ward (V),N,General Inpatient Ward (N),1
+V,General Inpatient Ward (V),W,Intensive Care Unit (ICU Team W),1
+W,Intensive Care Unit (ICU Team W),O,General Inpatient Ward (O),1
+X,General Inpatient Ward (X),O,General Inpatient Ward (O),1
+Y,General Inpatient Ward (Y),N,General Inpatient Ward (N),1
