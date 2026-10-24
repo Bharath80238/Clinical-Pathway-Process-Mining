@@ -1,0 +1,4 @@
+care_archetype,patient_cases,median_events,mean_events,median_stay_days,mean_stay_days,antibiotic_rate_pct,icu_rate_pct,readmission_rate_pct,normal_discharge_rate_pct,mean_age,patient_share_pct
+Archetype 1: Rapid ER Evaluation & Same-Day Discharge,221,6.0,6.067873303167421,0.03,0.06968325791855204,44.34,0.0,0.0,0.0,62.8,21.05
+Archetype 2: Standard Inpatient Ward Acute Recovery,483,13.0,13.289855072463768,4.85,5.469296066252588,86.96,0.0,8.9,90.89,71.7,46.0
+Archetype 3: Critical ICU Escalation & High-Complexity Care,346,17.0,21.540462427745666,44.730000000000004,78.71575144508671,88.15,31.79,72.54,99.13,72.4,32.95
