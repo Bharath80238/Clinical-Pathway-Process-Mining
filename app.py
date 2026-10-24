@@ -672,6 +672,50 @@ with process_tab2:
             m_df = pd.read_csv(matrix_csv)
             st.dataframe(m_df.head(20), use_container_width=True, hide_index=True)
 
+with process_tab3:
+    st.subheader("Hospital Department Workload & Patient Care Handoffs")
+    
+    col_org1, col_org2 = st.columns(2)
+    org_wl_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "org_workload_distribution.png"
+    org_ho_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "org_handoff_heatmap.png"
+
+    with col_org1:
+        if org_wl_img.exists():
+            st.image(str(org_wl_img), caption="Departmental Activity Volume & Workload", use_container_width=True)
+        else:
+            st.info("Workload chart generating...")
+
+    with col_org2:
+        if org_ho_img.exists():
+            st.image(str(org_ho_img), caption="Cross-Department Patient Care Handoff Matrix", use_container_width=True)
+        else:
+            st.info("Handoff heatmap generating...")
+
+    st.subheader("Clinical Cohort Pathway Divergence (Infection, ICU & Age)")
+    
+    col_ch1, col_ch2 = st.columns(2)
+    ch_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "cohort_comparison_barchart.png"
+    sla_comp_img = PROJECT_DIR / "reports" / "figures" / "process_maps" / "cohort_sepsis_sla_comparison.png"
+
+    with col_ch1:
+        if ch_img.exists():
+            st.image(str(ch_img), caption="Length of Stay & Readmissions Across Cohorts", use_container_width=True)
+        else:
+            st.info("Cohort chart generating...")
+
+    with col_ch2:
+        if sla_comp_img.exists():
+            st.image(str(sla_comp_img), caption="Antibiotic Golden Hour Compliance: ICU vs Ward", use_container_width=True)
+        else:
+            st.info("Cohort SLA chart generating...")
+
+    cohort_csv = PROJECT_DIR / "reports" / "cohort_comparison_metrics.csv"
+    if cohort_csv.exists():
+        with st.expander("View Clinical Cohort Comparative Performance Table"):
+            c_df = pd.read_csv(cohort_csv)
+            st.dataframe(c_df, use_container_width=True, hide_index=True)
+
+
 
 with st.expander("View missing values"):
     missing_values = (
