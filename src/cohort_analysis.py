@@ -98,12 +98,66 @@ def compute_cohort_metrics(case_meta):
     print(f"Exported cohort metrics table: {out_csv}")
     return metrics_df
 
+def compare_icu_vs_ward_pathways(df, case_meta):
+    """Compare transition latencies and Golden Hour antibiotic SLA for ICU vs Ward patients."""
+    icu_case_ids = set(case_meta[case_meta["has_icu"]]["case_id"])
+    
+    df_sorted = df.copy()
+    df_sorted["is_icu"] = df_sorted["case_id"].isin(icu_case_ids)
+    df_sorted["next_activity"] = df_sorted.groupby("case_id")["activity"].shift(-1)
+    df_sorted["next_time"] = df_sorted.groupby("case_id")["event_time"].shift(-1)
+
+    trans = df_sorted.dropna(subset=["next_activity", "next_time"]).copy()
+    trans["duration_minutes"] = (
+        (trans["next_time"] - trans["event_time"]).dt.total_seconds() / 60.0
+    )
+    trans = trans[trans["duration_minutes"] >= 0]
+
+    # Sepsis Triage to IV Antibiotics SLA
+    sla_trans = trans[
+        (trans["activity"].isin(["ER Registration", "ER Triage", "ER Sepsis Triage"]))
+        & (trans["next_activity"] == "IV Antibiotics")
+    ]
+
+    icu_sla = sla_trans[sla_trans["is_icu"]]["duration_minutes"]
+    ward_sla = sla_trans[~sla_trans["is_icu"]]["duration_minutes"]
+
+    comparison = {
+        "icu_cohort": {
+            "cases": int(len(icu_case_ids)),
+            "antibiotic_sla_median_minutes": round(float(icu_sla.median()), 2) if not icu_sla.empty else None,
+            "antibiotic_sla_p90_minutes": round(float(np.percentile(icu_sla, 90)), 2) if not icu_sla.empty else None,
+            "golden_hour_compliance_pct": round(float((icu_sla <= 60).mean() * 100), 2) if not icu_sla.empty else None,
+            "three_hour_bundle_compliance_pct": round(float((icu_sla <= 180).mean() * 100), 2) if not icu_sla.empty else None,
+        },
+        "ward_cohort": {
+            "cases": int(len(case_meta) - len(icu_case_ids)),
+            "antibiotic_sla_median_minutes": round(float(ward_sla.median()), 2) if not ward_sla.empty else None,
+            "antibiotic_sla_p90_minutes": round(float(np.percentile(ward_sla, 90)), 2) if not ward_sla.empty else None,
+            "golden_hour_compliance_pct": round(float((ward_sla <= 60).mean() * 100), 2) if not ward_sla.empty else None,
+            "three_hour_bundle_compliance_pct": round(float((ward_sla <= 180).mean() * 100), 2) if not ward_sla.empty else None,
+        },
+    }
+
+    import json
+    comp_path = REPORTS_DIR / "icu_vs_ward_comparison.json"
+    with open(comp_path, "w", encoding="utf-8") as f:
+        json.dump(comparison, f, indent=2)
+    print(f"Exported ICU vs Ward comparison: {comp_path}")
+    return comparison
+
 def main():
     print("Loading events for cohort analysis...")
     df = load_cohort_events()
     print("Segmenting clinical patient cohorts...")
     case_meta = segment_patient_cohorts(df)
     metrics_df = compute_cohort_metrics(case_meta)
+    
+    print("\nComparing ICU vs Normal Ward pathways...")
+    icu_comp = compare_icu_vs_ward_pathways(df, case_meta)
+    print(f"  ICU Golden Hour Compliance (<=60m): {icu_comp['icu_cohort']['golden_hour_compliance_pct']}%")
+    print(f"  Ward Golden Hour Compliance (<=60m): {icu_comp['ward_cohort']['golden_hour_compliance_pct']}%")
+
     print("\n--- Clinical Cohort Comparison Summary ---")
     print(metrics_df[["cohort_name", "patient_cases", "median_event_count", "median_duration_days", "antibiotic_admin_rate_pct", "readmission_rate_pct"]].to_string(index=False))
 

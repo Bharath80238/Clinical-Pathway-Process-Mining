@@ -1,0 +1,16 @@
+{
+  "icu_cohort": {
+    "cases": 110,
+    "antibiotic_sla_median_minutes": 0.88,
+    "antibiotic_sla_p90_minutes": 89.32,
+    "golden_hour_compliance_pct": 80.0,
+    "three_hour_bundle_compliance_pct": 90.0
+  },
+  "ward_cohort": {
+    "cases": 940,
+    "antibiotic_sla_median_minutes": 3.47,
+    "antibiotic_sla_p90_minutes": 107.5,
+    "golden_hour_compliance_pct": 84.81,
+    "three_hour_bundle_compliance_pct": 97.47
+  }
+}
