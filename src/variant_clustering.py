@@ -7,6 +7,9 @@ from pathlib import Path
 import sqlite3
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -89,6 +92,73 @@ def cluster_into_clinical_archetypes(case_features):
 
     return case_features, summary
 
+def plot_archetype_distribution(summary):
+    """Plot donut chart of patient distribution across Care Archetypes."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    
+    labels = ["Archetype 1\nRapid ER (21%)", "Archetype 2\nInpatient Ward (46%)", "Archetype 3\nCritical/ICU (33%)"]
+    sizes = summary["patient_cases"]
+    colors = ["#2ecc71", "#3498db", "#e74c3c"]
+
+    plt.figure(figsize=(8, 8))
+    wedges, texts, autotexts = plt.pie(
+        sizes,
+        labels=labels,
+        autopct="%1.1f%%",
+        startangle=140,
+        colors=colors,
+        textprops=dict(color="#2c3e50", fontweight="bold", fontsize=10),
+        wedgeprops=dict(width=0.45, edgecolor="black", linewidth=1.5),
+    )
+    plt.title("CareFlow Patient Population by Clinical Care Archetype\n(Clustered from 691 Raw Pathway Variants)", fontsize=12, fontweight="bold", pad=15)
+    plt.tight_layout()
+    
+    out_pie = OUTPUT_DIR / "variant_archetypes_pie.png"
+    plt.savefig(out_pie, dpi=200)
+    plt.close()
+    print(f"Created archetype donut chart: {out_pie}")
+
+def plot_archetype_metrics_comparison(summary):
+    """Plot multi-attribute comparison across the 3 Care Archetypes."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
+
+    names = ["Arch 1: Rapid ER", "Arch 2: Acute Ward", "Arch 3: Critical/ICU"]
+    colors = ["#2ecc71", "#3498db", "#e74c3c"]
+
+    # Subplot 1: Median Length of Stay
+    bars1 = ax1.bar(names, summary["median_stay_days"], color=colors, edgecolor="black", alpha=0.85)
+    ax1.set_title("Median Length of Stay by Archetype (Days)", fontsize=11, fontweight="bold")
+    ax1.set_ylabel("Days", fontsize=10, fontweight="bold")
+    for bar in bars1:
+        h = bar.get_height()
+        ax1.annotate(f"{h:.1f}d", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 3),
+                     textcoords="offset points", ha="center", va="bottom", fontsize=9, fontweight="bold")
+
+    # Subplot 2: Readmission Rate vs Antibiotic Administration
+    x = np.arange(len(names))
+    width = 0.35
+    bars_abx = ax2.bar(x - width/2, summary["antibiotic_rate_pct"], width, label="IV Antibiotics %", color="#2980b9", edgecolor="black")
+    bars_readm = ax2.bar(x + width/2, summary["readmission_rate_pct"], width, label="Return ER Readmission %", color="#d35400", edgecolor="black")
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(names, fontsize=9, fontweight="bold")
+    ax2.set_title("Intervention & Readmission Rate by Archetype", fontsize=11, fontweight="bold")
+    ax2.set_ylabel("Percentage (%)", fontsize=10, fontweight="bold")
+    ax2.set_ylim(0, 115)
+    ax2.legend(frameon=True, facecolor="white")
+
+    for bars in [bars_abx, bars_readm]:
+        for bar in bars:
+            h = bar.get_height()
+            ax2.annotate(f"{h:.1f}%", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 3),
+                         textcoords="offset points", ha="center", va="bottom", fontsize=8.5, fontweight="bold")
+
+    plt.tight_layout()
+    out_img = OUTPUT_DIR / "cluster_profile_comparison.png"
+    plt.savefig(out_img, dpi=200)
+    plt.close()
+    print(f"Created cluster comparison chart: {out_img}")
+
 def main():
     print("Loading case features for variant clustering...")
     df, case_features = load_case_level_features()
@@ -96,9 +166,11 @@ def main():
 
     print("\nClustering into Clinical Care Archetypes...")
     case_features, summary = cluster_into_clinical_archetypes(case_features)
-    
-    print("\n--- Clinical Care Archetypes Profile ---")
-    print(summary[["care_archetype", "patient_cases", "patient_share_pct", "median_events", "median_stay_days", "readmission_rate_pct"]].to_string(index=False))
+
+    print("\nGenerating archetype visualizations...")
+    plot_archetype_distribution(summary)
+    plot_archetype_metrics_comparison(summary)
+    print("Variant clustering completed successfully.")
 
 if __name__ == "__main__":
     main()
