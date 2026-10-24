@@ -18,9 +18,12 @@ CareFlow-Data-Collection-Cleaning/
 |   |-- day05_timestamp_validation_report.csv
 |   |-- day05_timestamp_validation_report.md
 |   |-- day06_case_activity_validation.csv
-|   `-- day06_case_activity_validation.md
+|   |-- day06_case_activity_validation.md
+|   |-- day07_data_quality_report.csv
+|   `-- day07_data_quality_report.md
 |-- src/
 |   |-- case_activity_validation.py
+|   |-- data_quality_checks.py
 |   |-- data_dictionary.py
 |   |-- duplicate_analysis.py
 |   |-- missing_values_analysis.py
@@ -132,3 +135,17 @@ original dataset. It reports missing values, empty or whitespace-only strings,
 unique non-missing values, and the 10 most frequent non-empty activity names.
 It creates `reports\day06_case_activity_validation.csv` and
 `reports\day06_case_activity_validation.md`.
+
+## Run the Data Quality Checks
+
+From the workspace folder, run:
+
+```powershell
+python .\CareFlow-Data-Collection-Cleaning\src\data_quality_checks.py
+```
+
+The script reads the original `events.parquet` without changing it. It
+summarizes row and column counts, exact duplicate rows, missing values in every
+column, blank case/activity values, and timestamp validity. It creates
+`reports\day07_data_quality_report.csv` with per-column details and
+`reports\day07_data_quality_report.md` with a concise summary.
