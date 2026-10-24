@@ -1,0 +1,32 @@
+{
+  "mining_algorithm": "Inductive Miner (IM)",
+  "total_places": 39,
+  "total_transitions": 50,
+  "labeled_clinical_transitions": 16,
+  "silent_routing_transitions_tau": 34,
+  "total_directed_arcs": 116,
+  "initial_marking": [
+    "source"
+  ],
+  "final_marking": [
+    "sink"
+  ],
+  "clinical_labels": [
+    "Admission IC",
+    "Admission NC",
+    "CRP",
+    "ER Registration",
+    "ER Sepsis Triage",
+    "ER Triage",
+    "IV Antibiotics",
+    "IV Liquid",
+    "LacticAcid",
+    "Leucocytes",
+    "Release A",
+    "Release B",
+    "Release C",
+    "Release D",
+    "Release E",
+    "Return ER"
+  ]
+}
