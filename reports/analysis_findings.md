@@ -100,3 +100,23 @@ Dashboard metrics should be compared with independent SQL results before the das
 ## 12. Conclusion
 The analysis covers 15,213 event records across 1,050 cases and 16 activities. It identifies frequent laboratory activities, a strongly right-skewed case-duration distribution, substantial missingness in clinical measurements, and unusually long intervals that warrant further investigation.
 The dashboard provides an exploratory view of these patterns. Final conclusions about pathway efficiency or clinical bottlenecks require additional validation of encounter boundaries, event sequences, and clinical context.
+
+
+## Common Clinical Pathway Sequences
+### Objective
+Identify the most frequent complete sequences of clinical activities across cases to understand common patient journeys.
+### Method
+- Sorted events by case ID, event timestamp, and activity.
+- Grouped events by case ID to create ordered activity sequences.
+- Counted how often each complete sequence occurred.
+- Saved the 20 most frequent sequences to `reports/common_pathways.csv`.
+### Key Findings
+- The most frequent complete sequence was **ER Registration → ER Triage → ER Sepsis Triage → CRP → Leucocytes**, observed in 46 cases.
+- The sequence **ER Registration → ER Triage → ER Sepsis Triage → CRP → LacticAcid → Leucocytes → IV Liquid → IV Antibiotics** occurred in 41 cases.
+- The sequence **ER Registration → ER Triage → ER Sepsis Triage** occurred in 35 cases.
+- Several frequent pathways included IV treatment, admission, repeated laboratory tests, and release activities.
+### Interpretation and Limitations
+The results show that cases can follow different activity sequences. Repeated laboratory tests may represent clinical monitoring rather than unnecessary repetition. Complete-sequence counts do not, by themselves, establish treatment quality, delays, or clinical outcomes.
+Events were ordered by timestamp, with activity used as a tie-breaker when timestamps matched. The literal `NA` case ID remains included and is grouped as one identifier, even though it may represent an unknown case. These factors should be considered when interpreting pathway results.
+### Output
+The top 20 complete activity sequences are available in `reports/common_pathways.csv`.

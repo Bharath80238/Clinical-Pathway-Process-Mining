@@ -1,0 +1,21 @@
+activity_sequence,sequence_length,case_count
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> Leucocytes,5,46
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics,8,41
+ER Registration -> ER Triage -> ER Sepsis Triage,3,35
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes,6,21
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Leucocytes -> Release A,12,18
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Leucocytes -> CRP -> Leucocytes -> Release A,14,11
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> Release A,10,11
+ER Registration -> ER Triage -> CRP -> LacticAcid -> Leucocytes -> ER Sepsis Triage -> IV Liquid -> IV Antibiotics,8,10
+ER Registration -> ER Triage -> ER Sepsis Triage -> IV Liquid -> IV Antibiotics -> CRP -> LacticAcid -> Leucocytes,8,10
+ER Registration -> ER Triage -> CRP -> Leucocytes -> ER Sepsis Triage,5,9
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Leucocytes -> Admission NC -> CRP -> Leucocytes -> Release A,15,9
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Leucocytes -> Release A -> Return ER,13,9
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> Leucocytes -> Admission NC -> Release A,7,9
+ER Registration -> ER Triage -> ER Sepsis Triage -> IV Liquid -> CRP -> LacticAcid -> Leucocytes -> IV Antibiotics,8,9
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> Admission NC -> CRP -> Leucocytes -> Release A,13,6
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Leucocytes -> CRP -> Leucocytes -> Release A -> Return ER,15,6
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Liquid -> IV Antibiotics -> Admission NC -> CRP -> Release A -> Return ER,12,6
+ER Registration -> ER Triage -> ER Sepsis Triage -> IV Liquid -> CRP -> LacticAcid -> Leucocytes -> IV Antibiotics -> Admission NC -> Admission NC -> CRP -> Leucocytes -> Release A,13,6
+ER Registration -> ER Triage -> ER Sepsis Triage -> IV Liquid -> IV Antibiotics -> CRP -> LacticAcid -> Leucocytes -> Admission NC -> CRP -> Leucocytes -> Release A,12,6
+ER Registration -> ER Triage -> ER Sepsis Triage -> CRP -> LacticAcid -> Leucocytes -> IV Antibiotics,7,5
