@@ -587,13 +587,35 @@ st.download_button(
     file_name="careflow_filtered_events.csv",
     mime="text/csv",
 )
+
 st.header("Data Quality Summary")
 
-quality1, quality2, quality3 = st.columns(3)
+unknown_case_id_count = int(
+    valid_events["case_id"].str.strip().eq("NA").sum()
+)
+
+unknown_case_event_count = int(
+    valid_events.loc[
+        valid_events["case_id"].str.strip().eq("NA"),
+        "case_id",
+    ].count()
+)
+
+quality1, quality2, quality3, quality4 = st.columns(4)
 
 quality1.metric("Source Records", f"{len(events):,}")
 quality2.metric("Valid Event Records", f"{len(valid_events):,}")
 quality3.metric("Excluded Invalid Records", f"{invalid_record_count:,}")
+quality4.metric("Events with Unknown Case ID", f"{unknown_case_event_count:,}")
+
+if unknown_case_event_count:
+    st.warning(
+        f"{unknown_case_event_count} valid event records use the literal "
+        "'NA' as their case ID. Their true case identity is unknown, so "
+        "they are currently grouped together as one case in case-level "
+        "calculations. These records have not been deleted."
+    )
+
 
 with st.expander("View missing values"):
     missing_values = (
