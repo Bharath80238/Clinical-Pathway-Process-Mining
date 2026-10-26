@@ -101,7 +101,6 @@ Dashboard metrics should be compared with independent SQL results before the das
 The analysis covers 15,213 event records across 1,050 cases and 16 activities. It identifies frequent laboratory activities, a strongly right-skewed case-duration distribution, substantial missingness in clinical measurements, and unusually long intervals that warrant further investigation.
 The dashboard provides an exploratory view of these patterns. Final conclusions about pathway efficiency or clinical bottlenecks require additional validation of encounter boundaries, event sequences, and clinical context.
 
-
 ## Common Clinical Pathway Sequences
 ### Objective
 Identify the most frequent complete sequences of clinical activities across cases to understand common patient journeys.
@@ -120,3 +119,24 @@ The results show that cases can follow different activity sequences. Repeated la
 Events were ordered by timestamp, with activity used as a tie-breaker when timestamps matched. The literal `NA` case ID remains included and is grouped as one identifier, even though it may represent an unknown case. These factors should be considered when interpreting pathway results.
 ### Output
 The top 20 complete activity sequences are available in `reports/common_pathways.csv`.
+## Frequent Activity Transition Analysis
+### Objective
+Identify consecutive clinical activities that occur most frequently within the observed event log.
+### Method
+- Loaded case IDs, activity names, and event timestamps from the `events_analysis` table.
+- Sorted events by case ID, timestamp, and activity name.
+- Identified consecutive activity pairs within each case.
+- Counted occurrences of each transition and saved the results to `reports/activity_transitions.csv`.
+### Key Findings
+- The analysis processed 15,213 valid events across 1,050 distinct case IDs.
+- No invalid events were excluded.
+- A total of 105 unique consecutive activity transitions were identified.
+- The most frequent transition was CRP → Leucocytes, with 1,664 occurrences.
+- LacticAcid → Leucocytes occurred 1,372 times, while CRP → LacticAcid occurred 1,360 times.
+- ER Registration → ER Triage occurred 971 times, followed by ER Triage → ER Sepsis Triage at 905 occurrences.
+- IV Liquid → IV Antibiotics occurred 478 times.
+### Interpretation and Limitations
+Frequent transitions help describe common patterns in the observed clinical event log. Repeated laboratory activities may reflect routine monitoring, and transition counts alone do not establish treatment quality, delays, or clinical outcomes.
+Events with identical timestamps are ordered alphabetically by activity name, so some transitions may reflect the sorting rule rather than a confirmed clinical order. The literal `NA` case ID remains included and is grouped as one identifier, although it may represent an unknown case.
+### Output
+The complete transition-frequency report is available in `reports/activity_transitions.csv`.
