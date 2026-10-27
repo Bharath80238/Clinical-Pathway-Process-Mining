@@ -93,6 +93,17 @@ def execute_token_based_replay(event_log, net, initial_marking, final_marking):
         "total_remaining_tokens": int(trace_df["remaining_tokens"].sum()),
     }
 
+    # Export CSV and JSON reports
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    csv_path = REPORTS_DIR / "token_replay_case_fitness.csv"
+    trace_df.to_csv(csv_path, index=False)
+    print(f"Exported case fitness CSV: {csv_path}")
+
+    json_path = REPORTS_DIR / "token_replay_summary.json"
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+    print(f"Exported token replay summary JSON: {json_path}")
+
     return trace_df, summary
 
 def main():
