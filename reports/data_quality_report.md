@@ -1,13 +1,16 @@
 # CareFlow - Initial Data Quality Report
 ## 1. Objective
 Validate the source event log before using it for SQL analysis and clinical pathway process mining. The checks cover source consistency, missing values, duplicate records, timestamps, case identifiers, and preparation of the analysis dataset.
-## 2. Dataset source
+## 2. Dataset source and attribution
 - **Dataset:** Sepsis Cases Event Log
-- **Dataset URL:** https://huggingface.co/datasets/kondratevakate/sepsis-cases-event-log
-- **Original publication attribution recorded in the initial project notes:** Mannhardt (2016), 4TU.ResearchData.
-- **Source files:** `data/raw/events.xlsx` and `data/raw/events.parquet`
-- **Database:** `data/processed/careflow.db`
-The dataset attribution should be checked against the dataset card and original publication before final external publication. The raw source files are retained locally and excluded from Git tracking.
+- **Dataset creator:** Felix Mannhardt
+- **Publication year:** 2016
+- **Dataset repository:** https://huggingface.co/datasets/kondratevakate/sepsis-cases-event-log
+- **Original data repository:** https://data.4tu.nl/articles/_/12707639/1
+- **DOI:** https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460
+**Citation:** Mannhardt, F. (2016). *Sepsis Cases Event Log*. 4TU.ResearchData. https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460
+The dataset is used for exploratory clinical event-log analysis and process mining. Consult the original repository's terms of use before redistributing the dataset or using it beyond the permitted scope.
+The raw source files are retained locally and excluded from Git tracking. Refer to this report for data validation results, cleaning decisions, and analysis limitations.
 ## 3. Validation results
 ### 3.1 Source-file comparison
 The Excel and Parquet files were compared after normalizing representation differences.

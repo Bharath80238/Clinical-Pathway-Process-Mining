@@ -16,14 +16,21 @@ The analysis is exploratory. Long intervals and repeated activities are investig
 - SQLite and SQL
 - Matplotlib and Streamlit
 - Git and GitHub
-## Dataset
-The project uses a clinical event-log dataset containing recorded activities, timestamps, case identifiers, organizational information, and clinical measurements.
-**Dataset source:**
-https://huggingface.co/datasets/kondratevakate/sepsis-cases-event-log
-The local source files are expected at:
+## Dataset source and attribution
+This project uses the **Sepsis Cases Event Log** dataset.
+- **Dataset creator:** Felix Mannhardt
+- **Publication year:** 2016
+- **Dataset repository:** [Hugging Face — Sepsis Cases Event Log](https://huggingface.co/datasets/kondratevakate/sepsis-cases-event-log)
+- **Original data repository:** [4TU.ResearchData](https://data.4tu.nl/articles/_/12707639/1)
+- **DOI:** [10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460](https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460)
+**Citation:** Mannhardt, F. (2016). *Sepsis Cases Event Log*. 4TU.ResearchData. https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460
+The dataset is used for exploratory clinical event-log analysis and process mining. Consult the original repository's terms of use before redistributing the dataset or using it beyond the permitted scope.
+### Local dataset setup
+Place the downloaded source files in these locations before running the project:
 - `data/raw/events.xlsx`
 - `data/raw/events.parquet`
-Original source files and the generated database are excluded from Git. Obtain the dataset from its source and place the required files in the expected locations before running the project.
+The original source files and generated database are excluded from Git tracking. The database is generated locally at `data/processed/careflow.db`.
+See `reports/data_quality_report.md` for validation results, cleaning decisions, and analysis limitations.
 ## Project Structure
 ```text
 Clinical-Pathway-Process-Mining/
