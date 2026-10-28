@@ -1,4 +1,4 @@
-# CareFlow - Initial Data Quality Report
+﻿# CareFlow - Initial Data Quality Report
 ## 1. Objective
 Validate the source event log before using it for SQL analysis and clinical pathway process mining. The checks cover source consistency, missing values, duplicate records, timestamps, case identifiers, and preparation of the analysis dataset.
 ## 2. Dataset source and attribution
@@ -82,8 +82,8 @@ The raw source files were not modified by the comparison process. The SQLite dat
 3. **Case duration is not necessarily hospital length of stay:** A case duration calculated from the first to the last recorded event is an event-log span. It should not automatically be described as an actual hospital length of stay.
 4. **Long event intervals:** Large gaps between events may reflect the structure of the event log, missing intermediate events, or case-identity issues. They should not automatically be interpreted as clinical waiting times.
 5. **Duplicate policy:** One exact duplicate was excluded from the analysis table. This decision is documented and reproducible, while the raw record remains available.
-6. **Source attribution:** The dataset's original publication details should be confirmed against the source documentation before final publication.
+6. **Dataset attribution and reuse:** The creator, publication year, repository, and DOI are documented in Section 2. The applicable terms of use should be checked before redistributing the dataset or using it beyond the permitted scope.
 ## 7. Conclusion
 **Status: Ready for analysis with documented limitations.**
 The source-file comparison passed, and the preparation pipeline and SQLite row counts were verified. The analysis table is suitable for continued exploratory SQL analysis and preliminary pathway analysis, provided the limitations above are carried forward.
-Before finalizing clinical interpretations, verify the meaning of the literal `"NA"` case identifier, confirm the dataset attribution, and document the precise definitions used for case duration and waiting-time KPIs.
+Before finalizing clinical interpretations, investigate the meaning of the literal `"NA"` case identifier, verify the applicable dataset reuse terms, and document the precise definitions used for case duration and waiting-time KPIs.
