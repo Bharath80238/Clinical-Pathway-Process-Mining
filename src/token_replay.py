@@ -8,6 +8,9 @@ import sqlite3
 import json
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 import pm4py
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -106,15 +109,64 @@ def execute_token_based_replay(event_log, net, initial_marking, final_marking):
 
     return trace_df, summary
 
+def plot_token_replay_diagnostics(trace_df, summary):
+    """Plot token fitness distribution and token accounting charts."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
+
+    # Panel 1: Trace fitness distribution
+    fitness_vals = trace_df["trace_fitness"]
+    ax1.hist(fitness_vals, bins=15, color="#16a085", edgecolor="black", alpha=0.85)
+    ax1.axvline(fitness_vals.mean(), color="#e74c3c", linestyle="--", linewidth=2, label=f"Mean Fitness ({summary['mean_trace_fitness']:.3f})")
+    ax1.set_title("Trace Replay Fitness Distribution (Petri Net Model)", fontsize=11, fontweight="bold")
+    ax1.set_xlabel("Token Fitness Score (0.0 to 1.0)", fontsize=10, fontweight="bold")
+    ax1.set_ylabel("Patient Cases", fontsize=10, fontweight="bold")
+    ax1.legend(frameon=True, facecolor="white")
+
+    # Panel 2: Token Accounting Breakdown
+    token_labels = ["Produced Tokens\n(p)", "Consumed Tokens\n(c)", "Missing Tokens\n(m)", "Remaining Tokens\n(r)"]
+    token_counts = [
+        summary["total_produced_tokens"],
+        summary["total_consumed_tokens"],
+        summary["total_missing_tokens"],
+        summary["total_remaining_tokens"],
+    ]
+    colors = ["#2980b9", "#27ae60", "#e74c3c", "#f39c12"]
+
+    bars = ax2.bar(token_labels, token_counts, color=colors, edgecolor="black", alpha=0.85)
+    ax2.set_title("Global Token Accounting Across 1,050 Patient Traces", fontsize=11, fontweight="bold")
+    ax2.set_ylabel("Total Tokens", fontsize=10, fontweight="bold")
+
+    for bar in bars:
+        h = bar.get_height()
+        ax2.annotate(
+            f"{int(h):,}",
+            xy=(bar.get_x() + bar.get_width() / 2, h),
+            xytext=(0, 3),
+            textcoords="offset points",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+            fontweight="bold",
+        )
+
+    plt.tight_layout()
+    chart_path = OUTPUT_DIR / "token_fitness_distribution.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Created token fitness chart: {chart_path}")
+
 def main():
     print("Loading event log...")
     log = load_process_event_log()
     net, im, fm = load_petri_net_model()
     trace_df, summary = execute_token_based_replay(log, net, im, fm)
+    plot_token_replay_diagnostics(trace_df, summary)
 
     print("\n--- Token-Based Replay Global Conformance Metrics ---")
     for k, v in summary.items():
         print(f"  {k}: {v}")
+    print("\nToken-based replay simulation completed successfully.")
 
 if __name__ == "__main__":
     main()
