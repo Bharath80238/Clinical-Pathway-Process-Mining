@@ -1,0 +1,60 @@
+{
+  "total_cohort_cases": 1050,
+  "total_laboratory_events": 8110,
+  "laboratory_share_of_all_events_pct": 53.31,
+  "assays_analyzed": [
+    "CRP",
+    "LacticAcid",
+    "Leucocytes"
+  ],
+  "assay_metrics": [
+    {
+      "assay": "CRP",
+      "total_tested_cases": 1007,
+      "total_test_events": 3262,
+      "cases_with_repetition": 692,
+      "repetition_rate_pct": 68.72,
+      "median_tat_minutes": 24.3,
+      "mean_tat_minutes": 28.12,
+      "p25_tat_minutes": 16.25,
+      "p75_tat_minutes": 34.4,
+      "p90_tat_minutes": 46.6,
+      "iqr_tat_minutes": 18.15,
+      "pct_within_30min": 66.09,
+      "pct_within_60min": 95.16,
+      "pct_within_120min": 99.63
+    },
+    {
+      "assay": "LacticAcid",
+      "total_tested_cases": 860,
+      "total_test_events": 1466,
+      "cases_with_repetition": 172,
+      "repetition_rate_pct": 20.0,
+      "median_tat_minutes": 24.97,
+      "mean_tat_minutes": 38.5,
+      "p25_tat_minutes": 16.64,
+      "p75_tat_minutes": 35.58,
+      "p90_tat_minutes": 49.55,
+      "iqr_tat_minutes": 18.94,
+      "pct_within_30min": 64.55,
+      "pct_within_60min": 93.77,
+      "pct_within_120min": 98.48
+    },
+    {
+      "assay": "Leucocytes",
+      "total_tested_cases": 1012,
+      "total_test_events": 3382,
+      "cases_with_repetition": 677,
+      "repetition_rate_pct": 66.9,
+      "median_tat_minutes": 24.41,
+      "mean_tat_minutes": 28.14,
+      "p25_tat_minutes": 16.11,
+      "p75_tat_minutes": 34.42,
+      "p90_tat_minutes": 46.64,
+      "iqr_tat_minutes": 18.31,
+      "pct_within_30min": 65.96,
+      "pct_within_60min": 95.14,
+      "pct_within_120min": 99.63
+    }
+  ]
+}
