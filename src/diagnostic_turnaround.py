@@ -8,6 +8,9 @@ import sqlite3
 import json
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -116,6 +119,64 @@ def analyze_diagnostic_turnaround(df):
 
     return metrics_df, summary
 
+def plot_diagnostic_turnaround(metrics_df, output_dir=OUTPUT_DIR):
+    """Plot multi-panel diagnostic turnaround time comparison and repetition metrics."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(18, 5))
+
+    assays = metrics_df["assay"]
+    x = np.arange(len(assays))
+    width = 0.35
+
+    # Panel 1: Median vs 90th Percentile Turnaround Time
+    bars1 = ax1.bar(x - width/2, metrics_df["median_tat_minutes"], width, label="Median TAT", color="#2980b9", edgecolor="black", alpha=0.85)
+    bars2 = ax1.bar(x + width/2, metrics_df["p90_tat_minutes"], width, label="90th Percentile TAT", color="#e74c3c", edgecolor="black", alpha=0.85)
+    ax1.set_title("Diagnostic Turnaround Time (Minutes)", fontsize=11, fontweight="bold")
+    ax1.set_ylabel("Turnaround Time (Minutes)", fontsize=10, fontweight="bold")
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(assays, fontsize=10, fontweight="bold")
+    ax1.axhline(60, color="#f39c12", linestyle="--", linewidth=1.5, label="60-min Golden SLA Target")
+    ax1.legend(frameon=True, facecolor="white", fontsize=9)
+    ax1.grid(axis="y", linestyle="--", alpha=0.5)
+
+    for bar in bars1:
+        h = bar.get_height()
+        ax1.annotate(f"{h:.1f}m", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 2), textcoords="offset points", ha="center", va="bottom", fontsize=8, fontweight="bold")
+    for bar in bars2:
+        h = bar.get_height()
+        ax1.annotate(f"{h:.1f}m", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 2), textcoords="offset points", ha="center", va="bottom", fontsize=8, fontweight="bold")
+
+    # Panel 2: Repetition / Re-testing Rate
+    bars3 = ax2.bar(assays, metrics_df["repetition_rate_pct"], color="#8e44ad", edgecolor="black", alpha=0.85, width=0.5)
+    ax2.set_title("Assay Re-testing Rate (% Patients Tested >= 2x)", fontsize=11, fontweight="bold")
+    ax2.set_ylabel("Patients with Repeat Tests (%)", fontsize=10, fontweight="bold")
+    ax2.set_ylim(0, 100)
+    ax2.grid(axis="y", linestyle="--", alpha=0.5)
+
+    for bar in bars3:
+        h = bar.get_height()
+        ax2.annotate(f"{h:.1f}%", xy=(bar.get_x() + bar.get_width() / 2, h), xytext=(0, 3), textcoords="offset points", ha="center", va="bottom", fontsize=9, fontweight="bold")
+
+    # Panel 3: SLA Adherence Distribution (Within 30m, 60m, 120m)
+    w3 = 0.25
+    b_30 = ax3.bar(x - w3, metrics_df["pct_within_30min"], w3, label="<= 30 min", color="#27ae60", edgecolor="black", alpha=0.85)
+    b_60 = ax3.bar(x, metrics_df["pct_within_60min"], w3, label="<= 60 min", color="#f39c12", edgecolor="black", alpha=0.85)
+    b_120 = ax3.bar(x + w3, metrics_df["pct_within_120min"], w3, label="<= 120 min", color="#2c3e50", edgecolor="black", alpha=0.85)
+    ax3.set_title("SLA Turnaround Benchmark Compliance (%)", fontsize=11, fontweight="bold")
+    ax3.set_ylabel("Compliance Rate (%)", fontsize=10, fontweight="bold")
+    ax3.set_xticks(x)
+    ax3.set_xticklabels(assays, fontsize=10, fontweight="bold")
+    ax3.set_ylim(0, 110)
+    ax3.legend(frameon=True, facecolor="white", fontsize=9)
+    ax3.grid(axis="y", linestyle="--", alpha=0.5)
+
+    plt.tight_layout()
+    chart_path = output_dir / "diagnostic_turnaround_distribution.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Exported diagnostic turnaround chart: {chart_path}")
+    return chart_path
+
 def main():
     print("Loading event log for diagnostic turnaround analysis...")
     df = load_data()
@@ -130,6 +191,8 @@ def main():
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print(f"Exported diagnostic turnaround summary JSON: {json_path}")
+
+    plot_diagnostic_turnaround(metrics_df)
 
     print("\n--- Diagnostic Turnaround Metrics ---")
     for stat in summary["assay_metrics"]:
