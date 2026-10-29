@@ -69,8 +69,9 @@ The repeated-activity SQL query returned 1,864 case-activity combinations with m
 Leucocytes and CRP appeared frequently among the repeated activities in the query results.
 Repeated events may reflect routine monitoring, changes in clinical condition, or other workflow patterns. Additional clinical and temporal context is needed before concluding that repeated activities are unnecessary or inefficient.
 ## 8. Process Mining and Pathway Variation
-The project includes event-level analysis and visualizations of activity frequency, case event counts, case durations, event intervals, and repeated activities.
-A complete pathway-variation analysis should additionally identify common ordered activity sequences and compare their frequencies. This finding should be finalized only after the sequence analysis has been run and validated.
+The project includes complete activity-sequence analysis and consecutive activity-transition analysis. The 20 most frequent complete pathways are recorded in `reports/common_pathways.csv`, and the transition frequencies are recorded in `reports/activity_transitions.csv`.
+These analyses describe recurring event-log patterns and variations in the order of recorded activities. They provide a basis for exploring common workflows and identifying unusual sequences for further investigation.
+**Interpretation limitations:** Event timestamps determine the sequence, with activity names used to break timestamp ties. The literal `"NA"` case ID remains included and is grouped as one identifier, although its meaning has not been verified. Frequent transitions and pathways do not independently establish clinical quality, treatment effectiveness, delays, or bottlenecks. Those conclusions require additional validation and clinical context.
 ## 9. Dashboard
 The Streamlit dashboard provides:
 - KPI cards for event counts, case counts, activities, and median duration.
