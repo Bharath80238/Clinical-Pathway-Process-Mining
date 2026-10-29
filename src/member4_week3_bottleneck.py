@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "raw" / "events.xlsx"
 OUTPUT = ROOT / "reports" / "week3"
+TRANSITIONS_OUTPUT = OUTPUT / "patient_transitions_regenerated.csv"
 
 OUTPUT.mkdir(parents=True, exist_ok=True)
 
@@ -187,11 +188,12 @@ def main():
         + transitions["Next_Activity"].astype(str)
     )
 
-    # Save patient transitions
+        # Save patient transitions to a new file
     transitions.to_csv(
-        OUTPUT / "patient_transitions.csv",
+        TRANSITIONS_OUTPUT,
         index=False
     )
+    print("Patient transitions saved:", TRANSITIONS_OUTPUT)
 
     # 8. Calculate bottleneck summary
     if not transitions.empty:
