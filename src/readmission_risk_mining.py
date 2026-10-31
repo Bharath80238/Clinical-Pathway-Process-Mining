@@ -8,6 +8,9 @@ import sqlite3
 import json
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -178,6 +181,71 @@ def mine_readmission_risk_factors(case_df):
 
     return risk_df, summary
 
+def plot_readmission_risk_factors(risk_df, case_df, output_dir=OUTPUT_DIR):
+    """Generate multi-panel readmission risk factor and clinical stratification plots."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+    # Filter out baseline admission which is an inclusion criterion, for focused clinical display
+    plot_factors = risk_df[risk_df["predictor_feature"] != "has_ward"].copy()
+    plot_factors = plot_factors.sort_values(by="odds_ratio", ascending=True)
+
+    y_pos = np.arange(len(plot_factors))
+    labels = plot_factors["predictor_name"]
+    ors = plot_factors["odds_ratio"]
+
+    # Panel 1: Odds Ratios with 95% Confidence Intervals (Log-Scale Horizontal Bar)
+    bars1 = ax1.barh(y_pos, ors, color="#c0392b", edgecolor="black", alpha=0.85, height=0.55)
+    ax1.set_yticks(y_pos)
+    ax1.set_yticklabels(labels, fontsize=9, fontweight="bold")
+    ax1.set_xscale("log")
+    ax1.axvline(1.0, color="#7f8c8d", linestyle="--", linewidth=1.5, label="Neutral Risk (OR = 1.0)")
+    ax1.set_xlabel("Odds Ratio (Logarithmic Scale)", fontsize=10, fontweight="bold")
+    ax1.set_title("Clinical Risk Factors for Hospital Readmission (Return ER)", fontsize=11, fontweight="bold")
+    ax1.grid(axis="x", linestyle="--", alpha=0.5)
+    ax1.legend(loc="lower right", frameon=True, facecolor="white")
+
+    for bar, (_, row) in zip(bars1, plot_factors.iterrows()):
+        w = bar.get_width()
+        ax1.annotate(
+            f"OR: {w:.2f} [{row['ci_95_lower']}, {row['ci_95_upper']}]",
+            xy=(w, bar.get_y() + bar.get_height() / 2),
+            xytext=(6, 0),
+            textcoords="offset points",
+            va="center",
+            fontsize=8.5,
+            fontweight="bold",
+        )
+
+    # Panel 2: Readmission Rate Comparison (Exposed vs Unexposed Cohort)
+    width = 0.35
+    exp_rates = plot_factors["readmission_rate_exposed_pct"]
+    unexp_rates = plot_factors["readmission_rate_unexposed_pct"]
+
+    bars_exp = ax2.barh(y_pos + width/2, exp_rates, width, label="Factor Present (Exposed)", color="#e74c3c", edgecolor="black", alpha=0.85)
+    bars_unexp = ax2.barh(y_pos - width/2, unexp_rates, width, label="Factor Absent (Unexposed)", color="#3498db", edgecolor="black", alpha=0.85)
+
+    ax2.set_yticks(y_pos)
+    ax2.set_yticklabels([""] * len(plot_factors))
+    ax2.set_xlabel("Readmission Rate (% of Cohort Returning to ER)", fontsize=10, fontweight="bold")
+    ax2.set_title("Readmission Incidence Comparison by Clinical Predictor", fontsize=11, fontweight="bold")
+    ax2.grid(axis="x", linestyle="--", alpha=0.5)
+    ax2.legend(loc="lower right", frameon=True, facecolor="white")
+
+    for bar in bars_exp:
+        w = bar.get_width()
+        ax2.annotate(f"{w:.1f}%", xy=(w, bar.get_y() + bar.get_height() / 2), xytext=(4, 0), textcoords="offset points", va="center", fontsize=8, fontweight="bold")
+    for bar in bars_unexp:
+        w = bar.get_width()
+        ax2.annotate(f"{w:.1f}%", xy=(w, bar.get_y() + bar.get_height() / 2), xytext=(4, 0), textcoords="offset points", va="center", fontsize=8, fontweight="bold")
+
+    plt.tight_layout()
+    chart_path = output_dir / "readmission_risk_factors.png"
+    plt.savefig(chart_path, dpi=200)
+    plt.close()
+    print(f"Exported readmission risk chart: {chart_path}")
+    return chart_path
+
 def main():
     print("Loading patient cohort features for readmission root-cause analysis...")
     case_df = load_case_cohort_features()
@@ -192,6 +260,8 @@ def main():
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print(f"Exported readmission risk summary JSON: {json_path}")
+
+    plot_readmission_risk_factors(risk_df, case_df)
 
     print("\n--- Readmission Root-Cause Risk Factors (Ranked by Odds Ratio) ---")
     for _, row in risk_df.iterrows():
