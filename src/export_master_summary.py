@@ -18,7 +18,7 @@ def generate_master_summary():
         "project": "CareFlow: Clinical Pathway Process Mining",
         "analyst": "Amit Prajapati (Member 3 - Process Mining Analyst)",
         "dataset": "Sepsis Cases Event Log (Eindhoven / MIMIC-aligned benchmark)",
-        "milestone": "Mid-Project Review & Advanced Pathway Mining (Day 16)",
+        "milestone": "Dimensional Data Warehousing & Star-Schema Hand-off (Day 17)",
         "executive_kpis": {
             "total_patient_cases": 1050,
             "total_recorded_events": 15213,
@@ -33,6 +33,17 @@ def generate_master_summary():
             "petri_net_token_replay_fitness_pct": 100.0,
             "total_tokens_conserved": 49273,
             "missing_or_remaining_tokens": 0,
+            "star_schema_fact_rows": 15213,
+            "star_schema_dimension_tables": 4,
+        },
+        "dimensional_star_schema": {
+            "fact_table": "fact_clinical_events (15,213 rows, 4 foreign keys)",
+            "dimension_patient_cohort": "dim_patient_cohort (1,050 rows)",
+            "dimension_activity": "dim_activity (16 rows)",
+            "dimension_department": "dim_department (26 rows)",
+            "dimension_time_bucket": "dim_time_bucket (5 tiers)",
+            "warehouse_path": "reports/star_schema/careflow_star_schema.db",
+            "referential_integrity_status": "100% verified (0 orphaned keys)",
         },
         "care_archetypes": {
             "archetype_1_rapid_er": {"prevalence_pct": 21.05, "cases": 221, "median_stay_days": 0.03, "readmission_pct": 0.0},
