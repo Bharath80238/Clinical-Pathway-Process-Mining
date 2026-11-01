@@ -1,0 +1,6 @@
+time_bucket_key,bucket_name,min_minutes,max_minutes,sla_compliance_grade
+1,Immediate (<= 15 min),0,15,Optimal
+2,Rapid (15 - 30 min),15,30,Good
+3,Standard SLA (30 - 60 min),30,60,Compliant
+4,Delayed (60 - 180 min),60,180,Breached (Mild)
+5,Prolonged (> 180 min),180,999999,Breached (Critical)

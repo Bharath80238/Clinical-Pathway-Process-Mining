@@ -1,0 +1,35 @@
+{
+  "data_warehouse_name": "CareFlow Dimensional Star Schema",
+  "fact_table": {
+    "name": "fact_clinical_events",
+    "total_rows": 15213,
+    "foreign_keys": [
+      "patient_cohort_key",
+      "activity_key",
+      "department_key",
+      "time_bucket_key"
+    ]
+  },
+  "dimension_tables": [
+    {
+      "name": "dim_activity",
+      "rows": 16
+    },
+    {
+      "name": "dim_department",
+      "rows": 26
+    },
+    {
+      "name": "dim_patient_cohort",
+      "rows": 1050
+    },
+    {
+      "name": "dim_time_bucket",
+      "rows": 5
+    }
+  ],
+  "export_paths": {
+    "sqlite_database": "C:\\Users\\amitp\\OneDrive\\Desktop\\data analytice project infotact\\reports\\star_schema\\careflow_star_schema.db",
+    "csv_directory": "C:\\Users\\amitp\\OneDrive\\Desktop\\data analytice project infotact\\reports\\star_schema"
+  }
+}

@@ -1,0 +1,27 @@
+department_key,org_code,department_name,clinical_division,service_tier,is_critical_care,is_diagnostic_unit
+1,?,External / Unassigned,Unknown,External Transfer,0,0
+2,A,Emergency Clinical Staff A,Emergency Care,Primary Clinical,0,0
+3,B,Central Diagnostic Laboratory,Diagnostics,Ancillary Support,0,1
+4,C,Emergency Triage Nursing,Emergency Care,Intake / Triage,0,0
+5,D,Department D,General Hospital,Support,0,0
+6,E,Discharge Administration,Administration,Outpatient Transition,0,0
+7,F,Internal Medicine Ward,Inpatient Ward,Secondary Care,0,0
+8,G,General Surgery Ward,Inpatient Ward,Surgical Inpatient,0,0
+9,H,Cardiology Ward,Inpatient Ward,Specialized Inpatient,0,0
+10,I,Pulmonology Ward,Inpatient Ward,Specialized Inpatient,0,0
+11,J,Pediatric / Specialty ICU,Critical Care,Tertiary Intensive,1,0
+12,K,Neurosurgical ICU,Critical Care,Tertiary Intensive,1,0
+13,L,Emergency Clinical Staff L,Emergency Care,Primary Clinical,0,0
+14,M,Gastroenterology Ward,Inpatient Ward,Specialized Inpatient,0,0
+15,N,Nephrology Ward,Inpatient Ward,Specialized Inpatient,0,0
+16,O,Geriatric Inpatient Ward,Inpatient Ward,Subacute Inpatient,0,0
+17,P,Medical Intensive Care Unit,Critical Care,Tertiary Intensive,1,0
+18,Q,Oncology Ward,Inpatient Ward,Specialized Inpatient,0,0
+19,R,Orthopedic Ward,Inpatient Ward,Surgical Inpatient,0,0
+20,S,Neurology Ward,Inpatient Ward,Specialized Inpatient,0,0
+21,T,Infectious Diseases Ward,Inpatient Ward,Specialized Inpatient,0,0
+22,U,Urology Ward,Inpatient Ward,Surgical Inpatient,0,0
+23,V,Vascular Surgery Ward,Inpatient Ward,Surgical Inpatient,0,0
+24,W,Surgical Intensive Care Unit,Critical Care,Tertiary Intensive,1,0
+25,X,Radiology & Imaging Unit,Diagnostics,Ancillary Support,0,1
+26,Y,Post-Anesthesia Care Unit,Perioperative,Subacute Intensive,1,0
