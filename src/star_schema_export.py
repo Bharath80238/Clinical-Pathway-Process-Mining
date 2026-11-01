@@ -8,6 +8,10 @@ import sqlite3
 import json
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "processed" / "careflow.db"
@@ -306,10 +310,149 @@ def build_star_schema(df):
     print(f"  Department dim: {len(dim_department)} rows")
     return summary
 
+def plot_star_schema_architecture(output_dir=FIGURES_DIR):
+    """Draw a clean publication-grade entity-relationship star-schema architecture diagram."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(15, 9), dpi=200)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis("off")
+
+    def draw_table_card(ax, x, y, width, height, title, fields, header_color, bg_color="#f8f9fa"):
+        # Outer box
+        rect = patches.FancyBboxPatch(
+            (x, y), width, height,
+            boxstyle="round,pad=0.5,rounding_size=1.5",
+            facecolor=bg_color, edgecolor="#2c3e50", linewidth=1.5
+        )
+        ax.add_patch(rect)
+        # Header banner
+        header_h = 3.5
+        h_rect = patches.FancyBboxPatch(
+            (x, y + height - header_h), width, header_h,
+            boxstyle="round,pad=0.2,rounding_size=1.0",
+            facecolor=header_color, edgecolor="#2c3e50", linewidth=1.2
+        )
+        ax.add_patch(h_rect)
+        # Title text
+        ax.text(x + width / 2, y + height - header_h / 2, title,
+                ha="center", va="center", color="white", fontsize=9.5, fontweight="bold")
+        # Field items
+        line_y = y + height - header_h - 2.0
+        for field, is_pk, is_fk in fields:
+            prefix = "[PK] " if is_pk else ("[FK] " if is_fk else "  • ")
+            weight = "bold" if (is_pk or is_fk) else "normal"
+            color = "#c0392b" if is_pk else ("#2980b9" if is_fk else "#2c3e50")
+            ax.text(x + 1.5, line_y, f"{prefix}{field}", ha="left", va="center",
+                    fontsize=8.0, fontweight=weight, color=color)
+            line_y -= 2.0
+
+    # Draw Central Fact Table
+    fact_fields = [
+        ("event_surrogate_key", True, False),
+        ("patient_cohort_key", False, True),
+        ("activity_key", False, True),
+        ("department_key", False, True),
+        ("time_bucket_key", False, True),
+        ("step_sequence", False, False),
+        ("timestamp", False, False),
+        ("transition_duration_minutes", False, False),
+        ("transition_duration_hours", False, False),
+        ("elapsed_from_start_hours", False, False),
+        ("is_repeat_activity", False, False),
+        ("is_sla_delayed", False, False),
+    ]
+    draw_table_card(ax, 35, 30, 30, 34, "FACT_CLINICAL_EVENTS (15,213 rows)", fact_fields, "#e74c3c", "#fdfefe")
+
+    # Dimension 1: dim_patient_cohort (Top-Left)
+    pat_fields = [
+        ("patient_cohort_key", True, False),
+        ("case_id", False, False),
+        ("age", False, False),
+        ("age_bracket", False, False),
+        ("is_geriatric", False, False),
+        ("infection_suspected", False, False),
+        ("sirs_criteria", False, False),
+        ("care_archetype", False, False),
+        ("has_icu_admission", False, False),
+        ("has_readmission", False, False),
+        ("total_stay_days", False, False),
+    ]
+    draw_table_card(ax, 3, 56, 26, 32, "DIM_PATIENT_COHORT (1,050 rows)", pat_fields, "#2980b9")
+
+    # Dimension 2: dim_activity (Top-Right)
+    act_fields = [
+        ("activity_key", True, False),
+        ("activity_name", False, False),
+        ("clinical_phase", False, False),
+        ("is_normative_step", False, False),
+        ("is_diagnostic_lab", False, False),
+        ("is_admission_step", False, False),
+        ("is_discharge_step", False, False),
+    ]
+    draw_table_card(ax, 71, 62, 26, 24, "DIM_ACTIVITY (16 rows)", act_fields, "#27ae60")
+
+    # Dimension 3: dim_department (Bottom-Left)
+    dept_fields = [
+        ("department_key", True, False),
+        ("org_code", False, False),
+        ("department_name", False, False),
+        ("clinical_division", False, False),
+        ("service_tier", False, False),
+        ("is_critical_care", False, False),
+    ]
+    draw_table_card(ax, 3, 10, 26, 22, "DIM_DEPARTMENT (26 rows)", dept_fields, "#8e44ad")
+
+    # Dimension 4: dim_time_bucket (Bottom-Right)
+    time_fields = [
+        ("time_bucket_key", True, False),
+        ("bucket_name", False, False),
+        ("min_minutes", False, False),
+        ("max_minutes", False, False),
+        ("sla_compliance_grade", False, False),
+    ]
+    draw_table_card(ax, 71, 14, 26, 20, "DIM_TIME_BUCKET (5 rows)", time_fields, "#d35400")
+
+    # Draw Connecting Relationship Arrows (Dimensions -> Fact Table)
+    arrows = [
+        # dim_patient_cohort -> Fact
+        ((29, 68), (35, 56), "1 : N (patient_cohort_key)"),
+        # dim_activity -> Fact
+        ((71, 72), (65, 56), "1 : N (activity_key)"),
+        # dim_department -> Fact
+        ((29, 24), (35, 38), "1 : N (department_key)"),
+        # dim_time_bucket -> Fact
+        ((71, 26), (65, 38), "1 : N (time_bucket_key)"),
+    ]
+
+    for (x1, y1), (x2, y2), label in arrows:
+        ax.annotate(
+            "", xy=(x2, y2), xytext=(x1, y1),
+            arrowprops=dict(arrowstyle="-|>", color="#34495e", lw=2, mutation_scale=15, linestyle="-")
+        )
+        mid_x, mid_y = (x1 + x2) / 2, (y1 + y2) / 2
+        ax.text(mid_x, mid_y + 1.2, label, ha="center", va="center",
+                fontsize=7.5, fontweight="bold", color="#2c3e50",
+                bbox=dict(boxstyle="round,pad=0.2", facecolor="#ecf0f1", edgecolor="none"))
+
+    # Title Banner
+    ax.text(50, 96, "CareFlow Clinical Pathway Dimensional Data Warehouse (Star-Schema Architecture)",
+            ha="center", va="center", fontsize=13, fontweight="bold", color="#1a252f")
+    ax.text(50, 93, "Optimized for Power BI / Executive Dashboard Slice-and-Dice Analytics | Author: Amit Prajapati (Member 3)",
+            ha="center", va="center", fontsize=9, color="#7f8c8d")
+
+    plt.tight_layout()
+    chart_path = output_dir / "star_schema_entity_relationship.png"
+    plt.savefig(chart_path, dpi=200, bbox_inches="tight")
+    plt.close()
+    print(f"Exported Star-Schema Architecture Diagram: {chart_path}")
+    return chart_path
+
 def main():
     print("Loading events for star-schema construction...")
     df = load_source_events()
     summary = build_star_schema(df)
+    plot_star_schema_architecture()
     print("\nStar-Schema construction finished successfully.")
 
 if __name__ == "__main__":
