@@ -49,6 +49,8 @@ def load_events():
 
 def find_common_pathways(events, top_n=20):
     """Count distinct ordered activity sequences for each case."""
+    if isinstance(top_n, bool) or not isinstance(top_n, int) or top_n <= 0:
+        raise ValueError("top_n must be a positive integer.")
     case_paths = (
         events.groupby("case_id", sort=True)["activity"]
         .agg(lambda activities: tuple(str(a) for a in activities))
