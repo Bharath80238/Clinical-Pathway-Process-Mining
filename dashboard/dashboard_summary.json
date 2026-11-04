@@ -1,0 +1,47 @@
+{
+  "dashboard_title": "CareFlow Executive Overview Dashboard",
+  "author": "Tanisha Kumari (Member 4)",
+  "headline_kpis": {
+    "Total Patient Encounters": "1,050",
+    "Total Clinical Transitions": "15,213",
+    "Sepsis Golden Hour Compliance": "33.9%",
+    "Unplanned ER Readmission Rate": "28.0%",
+    "Median Length of Stay": "5.34 Days",
+    "Central Lab Workload Share": "53.31%"
+  },
+  "care_archetypes": [
+    {
+      "care_archetype": "Archetype 1: Rapid ER Evaluation",
+      "patient_count": 240,
+      "median_stay_days": 0.04,
+      "mean_stay_days": 0.10325000000000001,
+      "readmissions": 0,
+      "icu_admissions": 0,
+      "geriatric_patients": 146,
+      "population_share_pct": 22.86,
+      "readmission_rate_pct": 0.0
+    },
+    {
+      "care_archetype": "Archetype 2: Standard Ward Recovery",
+      "patient_count": 504,
+      "median_stay_days": 5.16,
+      "mean_stay_days": 6.5622420634920635,
+      "readmissions": 63,
+      "icu_admissions": 0,
+      "geriatric_patients": 378,
+      "population_share_pct": 48.0,
+      "readmission_rate_pct": 12.5
+    },
+    {
+      "care_archetype": "Archetype 3: Critical ICU Escalation",
+      "patient_count": 306,
+      "median_stay_days": 52.965,
+      "mean_stay_days": 86.79924836601307,
+      "readmissions": 231,
+      "icu_admissions": 110,
+      "geriatric_patients": 232,
+      "population_share_pct": 29.14,
+      "readmission_rate_pct": 75.49
+    }
+  ]
+}

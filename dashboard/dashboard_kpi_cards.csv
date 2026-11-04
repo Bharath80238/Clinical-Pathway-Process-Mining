@@ -1,0 +1,7 @@
+kpi_name,metric_value,category,target_benchmark
+Total Patient Encounters,"1,050",Volume,"1,050 Cohort"
+Total Clinical Transitions,"15,213",Volume,"15,213 Events"
+Sepsis Golden Hour Compliance,33.9%,Clinical SLA,>= 90.0% Target
+Unplanned ER Readmission Rate,28.0%,Quality,< 20.0% Benchmark
+Median Length of Stay,5.34 Days,Capacity,< 5.0 Days
+Central Lab Workload Share,53.31%,Operations,< 40.0% Balance

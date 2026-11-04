@@ -1,0 +1,4 @@
+care_archetype,patient_count,median_stay_days,mean_stay_days,readmissions,icu_admissions,geriatric_patients,population_share_pct,readmission_rate_pct
+Archetype 1: Rapid ER Evaluation,240,0.04,0.10325000000000001,0,0,146,22.86,0.0
+Archetype 2: Standard Ward Recovery,504,5.16,6.5622420634920635,63,0,378,48.0,12.5
+Archetype 3: Critical ICU Escalation,306,52.965,86.79924836601307,231,110,232,29.14,75.49
