@@ -18,7 +18,7 @@ def generate_master_summary():
         "project": "CareFlow: Clinical Pathway Process Mining",
         "analyst": "Amit Prajapati (Member 3 - Process Mining Analyst)",
         "dataset": "Sepsis Cases Event Log (Eindhoven / MIMIC-aligned benchmark)",
-        "milestone": "Dimensional Data Warehousing & Star-Schema Hand-off (Day 17)",
+        "milestone": "Executive Synthesis & Clinical Decision Support Architecture (Day 18)",
         "executive_kpis": {
             "total_patient_cases": 1050,
             "total_recorded_events": 15213,
@@ -35,6 +35,16 @@ def generate_master_summary():
             "missing_or_remaining_tokens": 0,
             "star_schema_fact_rows": 15213,
             "star_schema_dimension_tables": 4,
+            "cdss_evaluated_patients": 1050,
+            "cdss_high_risk_escalations": 543,
+        },
+        "clinical_decision_support_system": {
+            "scoring_engine": "Sepsis Pathway Escalation Score (SPES, 0-10 scale)",
+            "low_risk_outpatient_pct": 18.29,
+            "moderate_risk_ward_pct": 30.00,
+            "critical_risk_icu_pct": 51.71,
+            "recommendations_path": "reports/clinical_decision_recommendations.csv",
+            "decision_rules_path": "reports/clinical_decision_rules.json",
         },
         "dimensional_star_schema": {
             "fact_table": "fact_clinical_events (15,213 rows, 4 foreign keys)",
