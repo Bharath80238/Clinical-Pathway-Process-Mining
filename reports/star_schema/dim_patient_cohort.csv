@@ -1,0 +1,1051 @@
+patient_cohort_key,case_id,age,age_bracket,is_geriatric,infection_suspected,sirs_criteria,organ_dysfunction,care_archetype,has_icu_admission,has_ward_admission,has_antibiotics,has_readmission,total_stay_days,total_event_count,is_extended_stay
+1,A,85.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,11.17,22,1
+2,AA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.22,8,0
+3,AAA,60.0,40-64 Years,0,0,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.54,11,1
+4,AB,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.16,8,0
+5,ABA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.2,17,0
+6,AC,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,69.13,13,1
+7,ACA,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,8,0
+8,AD,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,136.4,29,1
+9,ADA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.57,24,1
+10,AE,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,134.37,18,1
+11,AEA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.18,9,0
+12,AF,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,13.45,17,1
+13,AFA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,88.04,13,1
+14,AG,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.43,5,0
+15,AGA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.85,15,0
+16,AH,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.06,11,0
+17,AHA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.62,12,0
+18,AI,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,364.29,15,1
+19,AIA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,14.94,17,1
+20,AJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,16.06,25,1
+21,AJA,60.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.49,5,0
+22,AK,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.43,11,0
+23,AKA,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,3,0
+24,AL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,320.5,19,1
+25,ALA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.98,11,0
+26,AM,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+27,AMA,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,9.28,9,1
+28,AN,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,1.13,8,0
+29,ANA,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.95,9,0
+30,AO,65.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,130.49,7,1
+31,AP,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.52,11,0
+32,AQ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.78,14,0
+33,AR,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,42.13,23,1
+34,AS,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,0,1,0,1.03,22,0
+35,AT,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,8,0
+36,AU,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.5,12,0
+37,AV,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.4,10,0
+38,AW,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,7,0
+39,AX,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,6,0
+40,AY,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,8.17,22,1
+41,AZ,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.34,15,0
+42,B,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.29,12,0
+43,BA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,85.64,13,1
+44,BAA,25.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.65,12,0
+45,BB,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,6,0
+46,BBA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.12,14,0
+47,BC,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+48,BCA,60.0,40-64 Years,0,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,2.02,19,0
+49,BD,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.33,12,0
+50,BDA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.08,12,0
+51,BE,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,252.16,15,1
+52,BEA,60.0,40-64 Years,0,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+53,BF,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,4.14,13,0
+54,BFA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,4.28,21,0
+55,BG,65.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.02,10,0
+56,BGA,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.54,12,0
+57,BH,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.57,20,0
+58,BHA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.35,15,0
+59,BI,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.46,10,0
+60,BIA,80.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,100.17,36,1
+61,BJ,80.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,6.29,21,0
+62,BJA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,232.57,17,1
+63,BK,45.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,123.01,13,1
+64,BKA,35.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,23.98,19,1
+65,BL,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.52,11,0
+66,BLA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,55.13,20,1
+67,BM,80.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,0.12,9,0
+68,BMA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,126.72,12,1
+69,BN,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,0,22.94,26,1
+70,BNA,30.0,<40 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.88,7,0
+71,BO,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+72,BP,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,0,14.03,22,1
+73,BQ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.83,12,0
+74,BR,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,202.11,11,1
+75,BS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.95,13,1
+76,BT,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,85.08,13,1
+77,BU,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.04,14,0
+78,BV,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.89,16,0
+79,BW,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,18.89,21,1
+80,BX,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,100.54,17,1
+81,BY,30.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,6,0
+82,BZ,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.75,24,1
+83,C,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.6,14,0
+84,CA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,8,0
+85,CAA,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+86,CB,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.85,14,0
+87,CBA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.65,21,1
+88,CC,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,3.56,14,0
+89,CCA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+90,CD,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.23,8,0
+91,CDA,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+92,CE,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.64,11,1
+93,CEA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.98,14,1
+94,CF,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,23.99,27,1
+95,CFA,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.56,18,1
+96,CG,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.95,15,0
+97,CGA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.52,10,0
+98,CH,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.34,9,0
+99,CHA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,8.6,13,1
+100,CI,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.81,13,0
+101,CIA,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+102,CJ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.6,25,1
+103,CJA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.48,8,0
+104,CK,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+105,CKA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.05,17,1
+106,CL,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,4,0
+107,CLA,40.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+108,CM,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.92,15,0
+109,CMA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.38,8,0
+110,CN,70.0,65-79 Years,1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,0.66,11,0
+111,CNA,65.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,1,17.1,17,1
+112,CO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.76,8,0
+113,CP,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,18.91,15,1
+114,CQ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.53,13,0
+115,CR,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,38.8,17,1
+116,CS,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,7,0
+117,CT,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.68,12,0
+118,CU,30.0,<40 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,1,8.87,11,1
+119,CV,30.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.51,12,0
+120,CW,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.98,15,0
+121,CX,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.52,14,0
+122,CY,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,28.54,33,1
+123,CZ,50.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,14.47,40,1
+124,D,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,18.24,13,1
+125,DA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.66,12,0
+126,DAA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.53,16,1
+127,DB,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.98,12,0
+128,DBA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.94,14,0
+129,DC,45.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,262.97,12,1
+130,DCA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,41.96,13,1
+131,DD,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,5.26,8,0
+132,DDA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.65,17,1
+133,DE,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+134,DEA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.31,14,0
+135,DF,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.09,5,0
+136,DFA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,6.98,10,0
+137,DG,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.3,12,0
+138,DGA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.6,18,1
+139,DH,25.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,109.72,15,1
+140,DHA,65.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.78,8,0
+141,DI,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.44,12,0
+142,DIA,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+143,DJ,90.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,128.86,23,1
+144,DJA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,54.58,9,1
+145,DK,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,96.4,13,1
+146,DKA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,30.11,14,1
+147,DL,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.56,11,0
+148,DLA,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.15,8,0
+149,DM,45.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,8,0
+150,DMA,55.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+151,DN,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+152,DNA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.11,8,0
+153,DO,85.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,30.99,16,1
+154,DP,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.96,14,0
+155,DQ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+156,DR,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.98,15,0
+157,DS,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.57,15,1
+158,DT,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,6.2,9,0
+159,DU,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.1,9,0
+160,DV,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,8,0
+161,DW,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.04,13,0
+162,DX,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.85,13,0
+163,DY,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.53,14,0
+164,DZ,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,20.68,32,1
+165,E,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+166,EA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,164.94,15,1
+167,EAA,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.57,15,0
+168,EB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.17,8,0
+169,EBA,25.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.92,12,0
+170,EC,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,17.02,17,1
+171,ECA,50.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,4.68,19,0
+172,ED,90.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,167.53,33,1
+173,EDA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,6.57,12,0
+174,EE,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,5.21,7,0
+175,EEA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,142.12,13,1
+176,EF,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.85,14,0
+177,EFA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+178,EG,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,5,0
+179,EGA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.88,13,0
+180,EH,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.9,10,0
+181,EHA,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,10.81,30,1
+182,EI,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,19.87,14,1
+183,EIA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,192.98,12,1
+184,EJ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.98,11,0
+185,EJA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.89,9,0
+186,EK,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,7.07,20,1
+187,EKA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.15,14,0
+188,EL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.32,14,0
+189,ELA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.61,20,1
+190,EM,85.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,91.99,29,1
+191,EMA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,32.98,17,1
+192,EN,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.27,8,0
+193,ENA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+194,EO,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,184.23,15,1
+195,EP,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+196,EQ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,22.71,30,1
+197,ER,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+198,ES,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,30.92,47,1
+199,ET,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.91,10,0
+200,EU,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,178.82,14,1
+201,EV,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,1.01,10,0
+202,EW,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.56,23,1
+203,EX,30.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,17.83,24,1
+204,EY,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.29,12,0
+205,EZ,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,6,0
+206,F,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.67,10,0
+207,FA,75.0,65-79 Years,1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.24,8,0
+208,FAA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,241.59,17,1
+209,FB,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+210,FBA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,269.24,10,1
+211,FC,80.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.85,7,0
+212,FCA,90.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,39.83,15,1
+213,FD,65.0,65-79 Years,1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.36,11,0
+214,FDA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.6,18,1
+215,FE,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,0,1,26.74,17,1
+216,FEA,20.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.58,10,0
+217,FF,40.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.24,8,0
+218,FFA,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+219,FG,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.04,11,0
+220,FGA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.01,11,0
+221,FH,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,47.32,13,1
+222,FHA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,233.24,13,1
+223,FI,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.13,8,0
+224,FIA,60.0,40-64 Years,0,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,0,20.8,13,1
+225,FJ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,123.1,13,1
+226,FJA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.57,16,1
+227,FK,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.57,17,1
+228,FKA,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.52,11,0
+229,FL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.13,9,0
+230,FLA,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+231,FM,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,0,32.93,16,1
+232,FMA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,4.95,13,0
+233,FN,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.71,23,0
+234,FNA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.05,9,0
+235,FO,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,6.33,28,0
+236,FP,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.1,6,0
+237,FQ,65.0,65-79 Years,1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,0,0,0.14,8,0
+238,FR,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.14,9,0
+239,FS,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,6,0
+240,FT,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,18.01,37,1
+241,FU,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,6.12,12,0
+242,FV,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+243,FW,40.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,92.47,20,1
+244,FX,30.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,20.14,17,1
+245,FY,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.9,17,1
+246,FZ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,17.05,18,1
+247,G,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.81,12,0
+248,GA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.1,12,0
+249,GAA,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.16,16,0
+250,GB,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,245.55,13,1
+251,GBA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,161.17,11,1
+252,GC,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.15,12,0
+253,GCA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,165.0,14,1
+254,GD,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.8,14,0
+255,GDA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,207.48,9,1
+256,GE,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.98,15,0
+257,GEA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.79,14,0
+258,GF,40.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,44.81,59,1
+259,GFA,25.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.6,10,0
+260,GG,70.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,36.18,18,1
+261,GGA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+262,GH,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+263,GHA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.78,14,0
+264,GI,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.22,12,1
+265,GIA,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,7,0
+266,GJ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,86.65,21,1
+267,GJA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,24.74,19,1
+268,GK,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,42.16,88,1
+269,GKA,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+270,GL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,7.47,15,1
+271,GLA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.55,14,0
+272,GM,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.85,13,0
+273,GMA,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,9.04,13,1
+274,GN,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,35.93,41,1
+275,GNA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,6.65,25,0
+276,GO,55.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,5.88,20,0
+277,GP,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.97,10,0
+278,GQ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.03,10,0
+279,GR,60.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+280,GS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,13.84,16,1
+281,GT,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,23.09,22,1
+282,GU,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,100.11,15,1
+283,GV,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.21,14,1
+284,GW,75.0,65-79 Years,1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,11,0
+285,GX,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.29,15,0
+286,GY,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.85,13,1
+287,GZ,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+288,H,80.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,0,4.63,13,0
+289,HA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,5.93,11,0
+290,HAA,80.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,9.88,21,1
+291,HB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.88,15,0
+292,HBA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,130.69,15,1
+293,HC,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+294,HCA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+295,HD,85.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,6.28,32,0
+296,HDA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,364.94,12,1
+297,HE,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.06,17,1
+298,HEA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,5.73,19,0
+299,HF,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.56,13,0
+300,HFA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.2,8,0
+301,HG,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,422.32,15,1
+302,HGA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.12,16,1
+303,HH,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.86,12,0
+304,HHA,40.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,4.77,16,0
+305,HI,60.0,40-64 Years,0,1,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,21.16,9,1
+306,HIA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,52.07,16,1
+307,HJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.85,15,0
+308,HJA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.92,13,0
+309,HK,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.83,10,1
+310,HKA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.83,19,1
+311,HL,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,99.46,15,1
+312,HLA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,6.23,16,0
+313,HM,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,11.99,15,1
+314,HMA,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+315,HN,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.94,18,1
+316,HNA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,12.0,30,1
+317,HO,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,16.11,25,1
+318,HP,65.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.35,11,0
+319,HQ,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.11,13,0
+320,HR,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.64,10,0
+321,HS,80.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,18.11,45,1
+322,HT,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.32,14,1
+323,HU,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+324,HV,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.23,16,0
+325,HW,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,6,0
+326,HX,30.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.37,10,0
+327,HY,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,58.59,15,1
+328,HZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,4.58,22,0
+329,I,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.16,11,1
+330,IA,75.0,65-79 Years,1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+331,IAA,70.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,68.23,9,1
+332,IB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.45,14,0
+333,IBA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.1,12,0
+334,IC,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,63.6,12,1
+335,ICA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+336,ID,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,3,0
+337,IDA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,39.27,13,1
+338,IE,55.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.68,7,0
+339,IEA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,53.28,13,1
+340,IF,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.85,17,0
+341,IFA,50.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+342,IG,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,11.58,18,1
+343,IGA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,20.38,16,1
+344,IH,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,19.51,17,1
+345,IHA,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.89,16,0
+346,II,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,4.95,13,0
+347,IIA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.86,13,0
+348,IJ,85.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,6.62,16,0
+349,IJA,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.48,11,0
+350,IK,65.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+351,IKA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+352,IL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.8,13,0
+353,ILA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,20.96,12,1
+354,IM,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,31.14,37,1
+355,IMA,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.1,5,0
+356,IN,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.75,11,0
+357,INA,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,3,0
+358,IO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,59.97,17,1
+359,IP,80.0,80+ Years (Elderly),1,0,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.31,16,1
+360,IQ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,4.88,13,0
+361,IR,60.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,9,0
+362,IS,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,13.0,23,1
+363,IT,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,101.22,16,1
+364,IU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.62,15,0
+365,IV,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.15,8,0
+366,IW,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.2,13,0
+367,IX,90.0,80+ Years (Elderly),1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.17,8,0
+368,IY,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,44.22,18,1
+369,IZ,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.5,7,0
+370,J,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.76,11,0
+371,JA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,70.53,14,1
+372,JAA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,0,0,29.12,23,1
+373,JB,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+374,JBA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+375,JC,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,81.18,15,1
+376,JCA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,79.14,18,1
+377,JD,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,219.06,14,1
+378,JDA,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.29,8,0
+379,JE,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,16.83,16,1
+380,JEA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.09,9,0
+381,JF,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+382,JFA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,204.04,8,1
+383,JG,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.88,13,1
+384,JGA,50.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.15,8,0
+385,JH,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.31,12,1
+386,JHA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.06,7,0
+387,JI,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+388,JIA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.29,9,0
+389,JJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.09,12,0
+390,JJA,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.25,9,0
+391,JK,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,5.1,31,0
+392,JKA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.78,13,0
+393,JL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.84,10,0
+394,JLA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.32,25,1
+395,JM,60.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,19.95,13,1
+396,JMA,80.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,8.62,17,1
+397,JN,85.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,3.68,12,0
+398,JNA,40.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+399,JO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,13.04,12,1
+400,JP,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+401,JQ,65.0,65-79 Years,1,0,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.35,18,0
+402,JR,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,55.18,16,1
+403,JS,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,0,35.77,39,1
+404,JT,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.91,14,1
+405,JU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.47,16,0
+406,JV,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.48,15,0
+407,JW,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,10.27,16,1
+408,JX,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,4.93,17,0
+409,JY,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,29.76,18,1
+410,JZ,90.0,80+ Years (Elderly),1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.52,10,0
+411,K,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,107.03,16,1
+412,KA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.18,16,0
+413,KAA,60.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.97,5,0
+414,KB,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,144.46,11,1
+415,KBA,25.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.99,15,0
+416,KC,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,17.11,13,1
+417,KCA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.84,11,0
+418,KD,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,121.5,17,1
+419,KDA,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+420,KE,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,336.02,16,1
+421,KEA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.06,8,0
+422,KF,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.6,15,0
+423,KFA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,27.02,15,1
+424,KG,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.1,16,0
+425,KGA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.13,6,0
+426,KH,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.23,12,0
+427,KHA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.93,10,1
+428,KI,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,47.57,16,1
+429,KIA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.3,13,0
+430,KJ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.12,10,0
+431,KJA,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.27,5,0
+432,KK,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.36,14,0
+433,KKA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,12.57,14,1
+434,KL,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+435,KLA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.21,14,0
+436,KM,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,69.47,170,1
+437,KMA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.39,20,1
+438,KN,80.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,7.27,14,1
+439,KNA,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.73,15,0
+440,KO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,108.43,16,1
+441,KP,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.94,10,0
+442,KQ,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,160.92,11,1
+443,KR,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.17,9,0
+444,KS,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,50.64,22,1
+445,KT,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.61,13,0
+446,KU,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+447,KV,65.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,1,6.15,8,0
+448,KW,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,8.01,13,1
+449,KX,65.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,0,1,21.22,30,1
+450,KY,40.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+451,KZ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.93,17,0
+452,L,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,11.25,15,1
+453,LA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+454,LAA,25.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+455,LB,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.83,19,1
+456,LBA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.52,19,1
+457,LC,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,24.1,21,1
+458,LCA,25.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+459,LD,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.2,14,1
+460,LDA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.73,15,0
+461,LE,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.31,12,0
+462,LEA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,6.49,30,0
+463,LF,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,5,0
+464,LFA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.85,10,0
+465,LG,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,122.3,41,1
+466,LGA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.22,9,0
+467,LH,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,11.07,17,1
+468,LHA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.01,13,0
+469,LI,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,157.7,14,1
+470,LIA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,48.13,31,1
+471,LJ,90.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,0,48.55,31,1
+472,LJA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.1,8,0
+473,LK,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.67,12,0
+474,LKA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,37.85,24,1
+475,LL,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.88,22,1
+476,LLA,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+477,LM,80.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,23.4,35,1
+478,LMA,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.19,6,0
+479,LN,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,342.61,15,1
+480,LNA,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+481,LO,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+482,LP,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.36,19,1
+483,LQ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.5,21,1
+484,LR,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.93,12,0
+485,LS,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,396.97,15,1
+486,LT,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,14.83,29,1
+487,LU,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.71,13,1
+488,LV,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,0,20.9,19,1
+489,LW,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.05,15,0
+490,LX,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.11,13,0
+491,LY,60.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+492,LZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,60.58,21,1
+493,M,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+494,MA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.03,14,0
+495,MAA,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.92,14,0
+496,MB,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+497,MBA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.02,11,0
+498,MC,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.83,14,1
+499,MCA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+500,MD,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,13.68,15,1
+501,MDA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,0.46,12,0
+502,ME,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,114.37,15,1
+503,MEA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.0,21,1
+504,MF,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,3,0
+505,MFA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,41.68,13,1
+506,MG,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.23,6,0
+507,MGA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.41,12,0
+508,MH,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+509,MHA,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,208.46,13,1
+510,MI,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.06,8,0
+511,MIA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,51.73,13,1
+512,MJ,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.52,13,0
+513,MJA,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.42,8,0
+514,MK,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,233.68,27,1
+515,MKA,35.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,16.0,52,1
+516,ML,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,198.34,29,1
+517,MLA,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+518,MM,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,11.05,20,1
+519,MMA,75.0,65-79 Years,1,0,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+520,MN,55.0,40-64 Years,0,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,1,9.84,33,1
+521,MO,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.73,10,0
+522,MP,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.65,22,1
+523,MQ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,221.16,16,1
+524,MR,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.66,12,0
+525,MS,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,92.91,15,1
+526,MT,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,83.08,12,1
+527,MU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.05,14,1
+528,MV,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.81,16,0
+529,MW,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.98,30,1
+530,MX,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.93,12,1
+531,MY,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,6,0
+532,MZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,21.23,14,1
+533,N,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.16,12,0
+534,NA,90.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,12.53,24,1
+535,NAA,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+536,NB,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.78,21,1
+537,NBA,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+538,NC,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.21,7,0
+539,NCA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,316.8,17,1
+540,ND,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.64,16,0
+541,NDA,20.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,3.29,15,0
+542,NE,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+543,NEA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,39.14,51,1
+544,NF,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,18.53,28,1
+545,NFA,50.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+546,NG,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,6,0
+547,NGA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,114.36,185,1
+548,NH,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,185.03,13,1
+549,NHA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.93,11,0
+550,NI,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,35.37,15,1
+551,NIA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,14.88,13,1
+552,NJ,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,96.91,14,1
+553,NJA,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.01,16,0
+554,NK,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.77,18,0
+555,NKA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.41,10,0
+556,NL,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,6,0
+557,NLA,30.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+558,NM,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,104.06,15,1
+559,NMA,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.1,21,1
+560,NN,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.48,13,0
+561,NO,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.65,13,0
+562,NP,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,92.72,16,1
+563,NQ,60.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+564,NR,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.41,19,0
+565,NS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+566,NT,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.28,17,1
+567,NU,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.4,20,1
+568,NV,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.41,11,0
+569,NW,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.68,18,1
+570,NX,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.84,12,0
+571,NY,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+572,NZ,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,68.09,61,1
+573,O,30.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,5.84,11,0
+574,OA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.64,11,0
+575,OAA,45.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,13.68,37,1
+576,OB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.05,16,1
+577,OBA,60.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.79,13,0
+578,OC,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,252.07,22,1
+579,OCA,55.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+580,OD,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,0,1,0,35.71,118,1
+581,ODA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.0,23,1
+582,OE,55.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,3,0
+583,OEA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,185.98,20,1
+584,OF,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+585,OFA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.21,7,0
+586,OG,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.21,9,0
+587,OGA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.84,13,0
+588,OH,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,54.27,16,1
+589,OHA,60.0,40-64 Years,0,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,5.93,13,0
+590,OI,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,6,0
+591,OIA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.82,15,0
+592,OJ,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,7.55,23,1
+593,OJA,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,3,0
+594,OK,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.3,19,1
+595,OKA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.54,12,0
+596,OL,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,0,1,22.35,12,1
+597,OLA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,17.02,12,1
+598,OM,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,71.74,19,1
+599,OMA,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,96.86,26,1
+600,ON,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.85,15,0
+601,OO,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.65,11,0
+602,OP,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+603,OQ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.08,12,0
+604,OR,85.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,214.02,22,1
+605,OS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,103.03,12,1
+606,OT,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,11.07,16,1
+607,OU,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.74,14,1
+608,OV,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.09,9,0
+609,OW,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.83,16,0
+610,OX,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,28.26,14,1
+611,OY,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,7.33,16,1
+612,OZ,65.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.36,10,0
+613,P,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.06,3,0
+614,PA,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,6,0
+615,PAA,65.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.09,8,0
+616,PB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,18.56,16,1
+617,PBA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,0.33,11,0
+618,PC,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+619,PCA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.56,10,0
+620,PD,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.1,9,0
+621,PDA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.09,16,0
+622,PE,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.06,8,0
+623,PEA,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.01,10,0
+624,PF,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.26,15,0
+625,PFA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,5.88,20,0
+626,PG,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,26.44,13,1
+627,PGA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,23.95,23,1
+628,PH,80.0,80+ Years (Elderly),1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+629,PHA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+630,PI,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.76,11,0
+631,PIA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,144.68,45,1
+632,PJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.81,19,0
+633,PJA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,8,0
+634,PK,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,86.04,23,1
+635,PKA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,180.18,15,1
+636,PL,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+637,PLA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.66,25,1
+638,PM,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+639,PMA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.76,14,0
+640,PN,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.28,6,0
+641,PO,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.79,13,0
+642,PP,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+643,PQ,45.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.42,5,0
+644,PR,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,0,0,26.39,14,1
+645,PS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.01,10,0
+646,PT,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.3,13,0
+647,PU,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,0,35.92,38,1
+648,PV,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,46.4,14,1
+649,PW,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.77,12,0
+650,PX,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.04,5,0
+651,PY,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.15,8,0
+652,PZ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,20.97,15,1
+653,Q,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,3,0
+654,QA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.59,14,0
+655,QAA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.85,14,0
+656,QB,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,19.12,16,1
+657,QBA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,8.57,33,1
+658,QC,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.79,15,1
+659,QCA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.8,15,0
+660,QD,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.96,12,0
+661,QDA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,116.84,9,1
+662,QE,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,78.15,21,1
+663,QEA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,7,0
+664,QF,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,145.77,16,1
+665,QFA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.55,8,0
+666,QG,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,13.46,13,1
+667,QGA,60.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.25,7,0
+668,QH,75.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,1,0,0,0,1.6,23,0
+669,QHA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.09,14,0
+670,QI,35.0,<40 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.42,9,0
+671,QIA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,17.02,16,1
+672,QJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.91,14,0
+673,QJA,25.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.39,9,0
+674,QK,75.0,65-79 Years,1,1,0,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.08,16,1
+675,QKA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,73.68,14,1
+676,QL,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,6,0
+677,QLA,70.0,65-79 Years,1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.06,7,0
+678,QM,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.82,12,0
+679,QMA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.61,18,1
+680,QN,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.65,16,1
+681,QO,65.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,1,1,119.08,13,1
+682,QP,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.56,17,1
+683,QQ,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.7,10,0
+684,QR,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+685,QS,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.05,12,0
+686,QT,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.5,11,0
+687,QU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,62.52,19,1
+688,QV,80.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,0.2,9,0
+689,QW,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,269.88,14,1
+690,QX,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.89,29,1
+691,QY,30.0,<40 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,7.79,12,1
+692,QZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.81,10,0
+693,R,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,5,0
+694,RA,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,3,0
+695,RAA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,9.93,17,1
+696,RB,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.17,7,0
+697,RBA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.16,13,0
+698,RC,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,8.96,13,1
+699,RCA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,255.56,15,1
+700,RD,65.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.18,7,0
+701,RDA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,8,0
+702,RE,50.0,40-64 Years,0,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+703,REA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+704,RF,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.16,9,0
+705,RFA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.14,10,0
+706,RG,80.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,90.17,33,1
+707,RGA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.6,14,0
+708,RH,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.47,5,0
+709,RHA,40.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.78,9,0
+710,RI,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,10.38,16,1
+711,RIA,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.79,13,0
+712,RJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.2,7,0
+713,RJA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.15,8,0
+714,RK,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.83,15,0
+715,RKA,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.94,10,0
+716,RL,80.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.99,7,0
+717,RLA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,28.08,22,1
+718,RM,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.14,7,0
+719,RN,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.63,20,1
+720,RO,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,0.87,17,0
+721,RP,40.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.66,14,0
+722,RQ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+723,RR,35.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.27,11,1
+724,RS,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.67,10,0
+725,RT,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,98.92,11,1
+726,RU,40.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,12.81,34,1
+727,RV,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,3,0
+728,RW,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.8,15,1
+729,RX,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+730,RY,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,5.18,23,0
+731,RZ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.07,14,0
+732,S,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,221.11,19,1
+733,SA,45.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,84.14,14,1
+734,SAA,90.0,80+ Years (Elderly),1,0,1,0,Archetype 3: Critical ICU Escalation,0,1,0,0,22.05,11,1
+735,SB,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,106.82,14,1
+736,SBA,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.47,14,0
+737,SC,65.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.33,9,0
+738,SCA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,26.58,17,1
+739,SD,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.16,14,0
+740,SDA,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.01,14,1
+741,SE,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.65,10,0
+742,SEA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,49.26,10,1
+743,SF,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,49.84,12,1
+744,SFA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,67.7,16,1
+745,SG,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.07,5,0
+746,SGA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,0.91,16,0
+747,SH,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,36.9,12,1
+748,SHA,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,4.73,17,0
+749,SI,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.85,18,1
+750,SIA,25.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.03,8,0
+751,SJ,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,51.1,16,1
+752,SJA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,10.67,12,1
+753,SK,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,31.27,32,1
+754,SKA,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+755,SL,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,92.85,16,1
+756,SLA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,13.76,24,1
+757,SM,70.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,37.39,40,1
+758,SMA,45.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,6.19,16,0
+759,SN,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.2,8,0
+760,SO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,16.5,16,1
+761,SP,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+762,SQ,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,1,0,0,0,1.54,12,0
+763,SR,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.44,13,0
+764,SS,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,45.89,13,1
+765,ST,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,115.22,17,1
+766,SU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.18,9,0
+767,SV,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.04,10,0
+768,SW,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.17,19,0
+769,SX,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.74,20,0
+770,SY,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,39.3,14,1
+771,SZ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,1.03,8,0
+772,T,70.0,65-79 Years,1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,2.23,10,0
+773,TA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,2.9,10,0
+774,TAA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.64,18,1
+775,TB,70.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,166.14,9,1
+776,TBA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.23,12,0
+777,TC,65.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,161.55,24,1
+778,TCA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,32.94,21,1
+779,TD,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.94,16,1
+780,TDA,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.76,10,0
+781,TE,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+782,TEA,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.04,13,0
+783,TF,45.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,9.58,16,1
+784,TFA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.0,6,0
+785,TG,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.64,11,0
+786,TGA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,11.36,15,1
+787,TH,20.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.44,13,0
+788,THA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.8,12,0
+789,TI,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,0,0,28.83,21,1
+790,TIA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,8.9,15,1
+791,TJ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,17.53,15,1
+792,TJA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,17.02,27,1
+793,TK,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+794,TKA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.96,13,0
+795,TL,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.17,17,0
+796,TLA,80.0,80+ Years (Elderly),1,1,1,1,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.16,8,0
+797,TM,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,1.01,7,0
+798,TMA,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.32,10,0
+799,TN,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,17.48,27,1
+800,TO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,48.32,34,1
+801,TP,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.85,15,0
+802,TQ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,25.83,15,1
+803,TR,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.34,8,0
+804,TS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.44,20,1
+805,TT,60.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+806,TU,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,17.95,20,1
+807,TV,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,26.07,17,1
+808,TW,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,81.68,22,1
+809,TX,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,125.67,15,1
+810,TY,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,3,0
+811,TZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.09,8,0
+812,U,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,1.94,11,0
+813,UA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.03,11,0
+814,UAA,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+815,UB,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.14,9,0
+816,UBA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,386.97,15,1
+817,UC,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,58.87,32,1
+818,UCA,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+819,UD,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,53.97,31,1
+820,UDA,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.15,30,1
+821,UE,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.58,19,0
+822,UEA,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+823,UF,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,9.74,29,1
+824,UFA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.15,8,0
+825,UG,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.11,8,0
+826,UGA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.28,15,0
+827,UH,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+828,UHA,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+829,UI,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.59,14,0
+830,UIA,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.63,13,0
+831,UJ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,63.16,16,1
+832,UJA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+833,UK,80.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,122.83,18,1
+834,UKA,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.87,17,1
+835,UL,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,7,0
+836,ULA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.67,15,1
+837,UM,45.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,9,0
+838,UMA,25.0,<40 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.08,14,0
+839,UN,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+840,UO,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,0.08,7,0
+841,UP,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.37,11,0
+842,UQ,65.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,117.75,12,1
+843,UR,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.71,15,1
+844,US,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.81,15,0
+845,UT,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.31,12,0
+846,UU,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,3.21,6,0
+847,UV,75.0,65-79 Years,1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,78.21,15,1
+848,UW,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,199.05,14,1
+849,UX,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.02,8,0
+850,UY,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.22,9,0
+851,UZ,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.15,12,0
+852,V,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,82.51,21,1
+853,VA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.65,13,0
+854,VAA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,421.87,20,1
+855,VB,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,78.96,13,1
+856,VBA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+857,VC,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.14,13,0
+858,VCA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,187.64,15,1
+859,VD,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.49,11,0
+860,VDA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,33.71,13,1
+861,VE,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,3.72,19,0
+862,VEA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+863,VF,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.53,13,0
+864,VFA,70.0,65-79 Years,1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,10.95,16,1
+865,VG,80.0,80+ Years (Elderly),1,0,1,0,Archetype 2: Standard Ward Recovery,0,1,0,1,17.03,16,1
+866,VGA,40.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+867,VH,20.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+868,VHA,65.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+869,VI,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,44.65,18,1
+870,VIA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,26.52,36,1
+871,VJ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.51,13,0
+872,VJA,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+873,VK,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.89,20,1
+874,VKA,90.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,7.71,14,1
+875,VL,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.58,14,0
+876,VLA,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+877,VM,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.88,15,0
+878,VMA,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+879,VN,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,279.32,28,1
+880,VO,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.92,22,1
+881,VP,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.97,15,0
+882,VQ,90.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,5.88,12,0
+883,VR,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,1,1,110.05,16,1
+884,VS,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.2,16,0
+885,VT,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,15.66,16,1
+886,VU,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.26,14,0
+887,VV,80.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+888,VW,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,58.55,14,1
+889,VX,30.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+890,VY,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.6,17,1
+891,VZ,25.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.18,6,0
+892,W,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.76,11,0
+893,WA,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,1,12.98,8,1
+894,WAA,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.12,12,0
+895,WB,50.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,5,0
+896,WBA,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.73,12,0
+897,WC,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,10.33,12,1
+898,WCA,60.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,4.21,20,0
+899,WD,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.07,3,0
+900,WDA,55.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,12.23,31,1
+901,WE,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,1,162.39,17,1
+902,WEA,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,7,0
+903,WF,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,49.08,21,1
+904,WFA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,39.5,13,1
+905,WG,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.49,14,0
+906,WGA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,108.25,36,1
+907,WH,75.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,5,0
+908,WHA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.77,12,0
+909,WI,65.0,65-79 Years,1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,119.14,9,1
+910,WIA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+911,WJA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,13.75,18,1
+912,WK,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.15,8,0
+913,WKA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,2.34,18,0
+914,WL,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,0,0,7.09,9,1
+915,WLA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,49.99,14,1
+916,WM,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.58,16,1
+917,WMA,20.0,<40 Years,0,0,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.05,5,0
+918,WN,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,182.16,23,1
+919,WO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,97.1,18,1
+920,WP,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,0,4.02,16,0
+921,WQ,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,39.5,13,1
+922,WR,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.73,18,1
+923,WS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+924,WT,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,15.51,18,1
+925,WU,90.0,80+ Years (Elderly),1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,10.74,17,1
+926,WV,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.81,14,0
+927,WW,55.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,9.8,18,1
+928,WX,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,1.03,8,0
+929,WY,55.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,3,0
+930,WZ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,62.91,24,1
+931,X,85.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,217.3,13,1
+932,XA,70.0,65-79 Years,1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+933,XAA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.18,13,0
+934,XB,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.54,11,0
+935,XBA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,58.86,27,1
+936,XC,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+937,XCA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,21.4,35,1
+938,XD,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.04,10,0
+939,XDA,50.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.03,6,0
+940,XE,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.01,8,0
+941,XEA,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.72,12,0
+942,XF,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.63,12,0
+943,XFA,40.0,40-64 Years,0,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,1,208.59,19,1
+944,XG,45.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.1,8,0
+945,XGA,90.0,80+ Years (Elderly),1,1,1,1,Archetype 3: Critical ICU Escalation,0,1,1,1,45.4,15,1
+946,XH,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.86,22,1
+947,XHA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,0,1,0,0.36,12,0
+948,XI,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,23.36,39,1
+949,XIA,35.0,<40 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+950,XJ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,34.11,13,1
+951,XJA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,12.64,20,1
+952,XK,85.0,80+ Years (Elderly),1,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,6,0
+953,XKA,50.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,169.33,13,1
+954,XL,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,69.95,14,1
+955,XLA,40.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+956,XM,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,23.12,18,1
+957,XMA,40.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+958,XN,40.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,4.44,16,0
+959,XO,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.56,9,0
+960,XP,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.77,13,0
+961,XQ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,76.02,14,1
+962,XR,55.0,40-64 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.09,6,0
+963,XS,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,138.04,21,1
+964,XT,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.97,18,1
+965,XU,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.08,8,0
+966,XV,80.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.14,8,0
+967,XW,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.72,16,0
+968,XX,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.21,12,0
+969,XY,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,174.04,13,1
+970,XZ,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.81,16,1
+971,Y,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.04,8,0
+972,YA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,6,0
+973,YAA,75.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.04,12,0
+974,YB,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.98,15,0
+975,YBA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.67,14,0
+976,YC,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.46,9,0
+977,YCA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,0.52,11,0
+978,YD,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.07,8,0
+979,YDA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,76.76,13,1
+980,YE,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.0,13,0
+981,YEA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.97,10,0
+982,YF,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,12.65,29,1
+983,YFA,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.78,12,0
+984,YG,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,0,27.5,29,1
+985,YGA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,21.46,14,1
+986,YH,70.0,65-79 Years,1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,4.44,7,0
+987,YHA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.03,16,0
+988,YI,75.0,65-79 Years,1,1,1,1,Archetype 2: Standard Ward Recovery,0,1,1,0,6.88,14,0
+989,YIA,55.0,40-64 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,31.11,52,1
+990,YJ,40.0,40-64 Years,0,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,8.41,12,1
+991,YJA,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.62,12,1
+992,YK,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,11.37,17,1
+993,YKA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,18.99,43,1
+994,YL,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,12.89,18,1
+995,YLA,80.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,1,1,0,1,139.1,61,1
+996,YM,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,254.2,13,1
+997,YMA,90.0,80+ Years (Elderly),1,0,0,0,Archetype 3: Critical ICU Escalation,0,1,0,1,24.99,10,1
+998,YN,45.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.54,7,0
+999,YO,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.21,27,1
+1000,YP,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.63,30,1
+1001,YQ,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.73,12,0
+1002,YR,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.07,17,1
+1003,YS,60.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,115.61,23,1
+1004,YT,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,20.04,17,1
+1005,YU,60.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.01,3,0
+1006,YV,90.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,86.07,21,1
+1007,YW,85.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,9.99,10,1
+1008,YX,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,29.74,84,1
+1009,YY,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,9.92,21,1
+1010,YZ,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,136.03,15,1
+1011,Z,80.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,0,0,4.05,10,0
+1012,ZA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.05,8,0
+1013,ZAA,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.29,15,0
+1014,ZB,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,251.67,16,1
+1015,ZBA,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.75,11,0
+1016,ZC,70.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.27,10,0
+1017,ZCA,75.0,65-79 Years,1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.25,9,0
+1018,ZD,90.0,80+ Years (Elderly),1,0,0,0,Archetype 2: Standard Ward Recovery,0,1,0,0,5.03,7,0
+1019,ZDA,85.0,80+ Years (Elderly),1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,74.63,18,1
+1020,ZE,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,10.15,16,1
+1021,ZEA,65.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,1,27.65,18,1
+1022,ZF,45.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,3.53,14,0
+1023,ZFA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,206.77,13,1
+1024,ZG,60.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,1.74,10,0
+1025,ZGA,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,52.65,29,1
+1026,ZH,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.86,13,1
+1027,ZHA,50.0,40-64 Years,0,1,1,1,Archetype 3: Critical ICU Escalation,1,1,1,1,50.86,26,1
+1028,ZI,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,6.53,18,0
+1029,ZIA,35.0,<40 Years,0,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.12,8,0
+1030,ZJ,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,8.57,16,1
+1031,ZJA,50.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,17.82,23,1
+1032,ZK,65.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.06,11,0
+1033,ZKA,35.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,89.98,16,1
+1034,ZL,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,36.2,13,1
+1035,ZLA,25.0,<40 Years,0,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,257.82,11,1
+1036,ZM,80.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,14.76,28,1
+1037,ZMA,70.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,1,1,1,0,45.18,66,1
+1038,ZN,55.0,40-64 Years,0,0,0,0,Archetype 1: Rapid ER Evaluation,0,0,0,0,0.02,5,0
+1039,ZO,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,7.54,12,1
+1040,ZP,55.0,40-64 Years,0,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.95,12,0
+1041,ZQ,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,1,9.48,21,1
+1042,ZR,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.16,13,0
+1043,ZS,75.0,65-79 Years,1,1,1,0,Archetype 3: Critical ICU Escalation,0,1,1,1,398.92,14,1
+1044,ZT,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.93,13,0
+1045,ZU,90.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,2.96,10,0
+1046,ZV,75.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.97,12,0
+1047,ZW,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.37,13,0
+1048,ZX,85.0,80+ Years (Elderly),1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,4.54,10,0
+1049,ZY,85.0,80+ Years (Elderly),1,1,1,0,Archetype 1: Rapid ER Evaluation,0,0,1,0,0.26,8,0
+1050,ZZ,70.0,65-79 Years,1,1,1,0,Archetype 2: Standard Ward Recovery,0,1,1,0,5.06,14,0

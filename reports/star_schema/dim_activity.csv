@@ -1,0 +1,17 @@
+activity_key,activity_name,clinical_phase,is_normative_step,is_diagnostic_lab,is_admission_step,is_discharge_step
+1,Admission IC,Critical Intensive Care,0,0,1,0
+2,Admission NC,Inpatient Ward Care,1,0,1,0
+3,CRP,Diagnostic Laboratory,1,1,0,0
+4,ER Registration,Intake & Registration,1,0,0,0
+5,ER Sepsis Triage,Emergency Triage,1,0,0,0
+6,ER Triage,Emergency Triage,1,0,0,0
+7,IV Antibiotics,Therapeutic Intervention,1,0,0,0
+8,IV Liquid,Therapeutic Intervention,0,0,0,0
+9,LacticAcid,Diagnostic Laboratory,1,1,0,0
+10,Leucocytes,Diagnostic Laboratory,1,1,0,0
+11,Release A,Discharge,1,0,0,1
+12,Release B,Discharge,0,0,0,1
+13,Release C,Discharge,0,0,0,1
+14,Release D,Discharge,0,0,0,1
+15,Release E,Discharge,0,0,0,1
+16,Return ER,Emergency Readmission,0,0,0,1

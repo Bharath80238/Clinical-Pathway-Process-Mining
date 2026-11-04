@@ -1,0 +1,11 @@
+source_activity,target_activity,transfer_label,transition_count,median_duration_hours,mean_duration_hours,p25_duration_hours,p75_duration_hours,p90_duration_hours,max_duration_hours
+ER Sepsis Triage,Admission NC,ER to Normal Care Ward,19,1.6,2.13,0.75,3.27,4.57,5.87
+ER Sepsis Triage,Admission IC,ER to Intensive Care (Direct),1,2.0,2.0,2.0,2.0,2.0,2.0
+Admission NC,Admission IC,ICU Escalation (Ward to ICU),21,5.01,6.49,2.47,8.83,13.82,20.45
+Admission IC,Admission NC,ICU Step-Down (ICU to Ward),4,7.35,8.54,4.94,10.95,14.64,17.09
+Admission NC,Release A,Ward Discharge (Routine),117,67.74,77.81,47.0,100.0,124.2,284.11
+Admission NC,Release B,Ward Discharge (Specialized),17,20.66,34.65,11.84,44.67,90.77,123.7
+Admission IC,Release A,Direct ICU Discharge,0,0.0,0.0,0.0,0.0,0.0,0.0
+Release A,Return ER,Post-Discharge Emergency Readmission,276,1134.4,1976.16,281.37,2839.81,5120.61,10014.25
+Admission NC,Return ER,Ward Failure to ER Readmission,0,0.0,0.0,0.0,0.0,0.0,0.0
+Admission IC,Return ER,ICU Escalation to ER Readmission,0,0.0,0.0,0.0,0.0,0.0,0.0

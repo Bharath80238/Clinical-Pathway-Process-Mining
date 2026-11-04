@@ -1,0 +1,133 @@
+{
+  "total_evaluated_cases": 1050,
+  "ward_admission_cases": 800,
+  "ward_admission_pct": 76.19,
+  "icu_admission_cases": 110,
+  "icu_admission_pct": 10.48,
+  "multi_ward_transfer_cases": 100,
+  "multi_ward_transfer_pct": 9.52,
+  "total_readmission_cases": 294,
+  "readmission_rate_pct": 28.0,
+  "key_transitions": [
+    {
+      "source_activity": "ER Sepsis Triage",
+      "target_activity": "Admission NC",
+      "transfer_label": "ER to Normal Care Ward",
+      "transition_count": 19,
+      "median_duration_hours": 1.6,
+      "mean_duration_hours": 2.13,
+      "p25_duration_hours": 0.75,
+      "p75_duration_hours": 3.27,
+      "p90_duration_hours": 4.57,
+      "max_duration_hours": 5.87
+    },
+    {
+      "source_activity": "ER Sepsis Triage",
+      "target_activity": "Admission IC",
+      "transfer_label": "ER to Intensive Care (Direct)",
+      "transition_count": 1,
+      "median_duration_hours": 2.0,
+      "mean_duration_hours": 2.0,
+      "p25_duration_hours": 2.0,
+      "p75_duration_hours": 2.0,
+      "p90_duration_hours": 2.0,
+      "max_duration_hours": 2.0
+    },
+    {
+      "source_activity": "Admission NC",
+      "target_activity": "Admission IC",
+      "transfer_label": "ICU Escalation (Ward to ICU)",
+      "transition_count": 21,
+      "median_duration_hours": 5.01,
+      "mean_duration_hours": 6.49,
+      "p25_duration_hours": 2.47,
+      "p75_duration_hours": 8.83,
+      "p90_duration_hours": 13.82,
+      "max_duration_hours": 20.45
+    },
+    {
+      "source_activity": "Admission IC",
+      "target_activity": "Admission NC",
+      "transfer_label": "ICU Step-Down (ICU to Ward)",
+      "transition_count": 4,
+      "median_duration_hours": 7.35,
+      "mean_duration_hours": 8.54,
+      "p25_duration_hours": 4.94,
+      "p75_duration_hours": 10.95,
+      "p90_duration_hours": 14.64,
+      "max_duration_hours": 17.09
+    },
+    {
+      "source_activity": "Admission NC",
+      "target_activity": "Release A",
+      "transfer_label": "Ward Discharge (Routine)",
+      "transition_count": 117,
+      "median_duration_hours": 67.74,
+      "mean_duration_hours": 77.81,
+      "p25_duration_hours": 47.0,
+      "p75_duration_hours": 100.0,
+      "p90_duration_hours": 124.2,
+      "max_duration_hours": 284.11
+    },
+    {
+      "source_activity": "Admission NC",
+      "target_activity": "Release B",
+      "transfer_label": "Ward Discharge (Specialized)",
+      "transition_count": 17,
+      "median_duration_hours": 20.66,
+      "mean_duration_hours": 34.65,
+      "p25_duration_hours": 11.84,
+      "p75_duration_hours": 44.67,
+      "p90_duration_hours": 90.77,
+      "max_duration_hours": 123.7
+    },
+    {
+      "source_activity": "Admission IC",
+      "target_activity": "Release A",
+      "transfer_label": "Direct ICU Discharge",
+      "transition_count": 0,
+      "median_duration_hours": 0.0,
+      "mean_duration_hours": 0.0,
+      "p25_duration_hours": 0.0,
+      "p75_duration_hours": 0.0,
+      "p90_duration_hours": 0.0,
+      "max_duration_hours": 0.0
+    },
+    {
+      "source_activity": "Release A",
+      "target_activity": "Return ER",
+      "transfer_label": "Post-Discharge Emergency Readmission",
+      "transition_count": 276,
+      "median_duration_hours": 1134.4,
+      "mean_duration_hours": 1976.16,
+      "p25_duration_hours": 281.37,
+      "p75_duration_hours": 2839.81,
+      "p90_duration_hours": 5120.61,
+      "max_duration_hours": 10014.25
+    },
+    {
+      "source_activity": "Admission NC",
+      "target_activity": "Return ER",
+      "transfer_label": "Ward Failure to ER Readmission",
+      "transition_count": 0,
+      "median_duration_hours": 0.0,
+      "mean_duration_hours": 0.0,
+      "p25_duration_hours": 0.0,
+      "p75_duration_hours": 0.0,
+      "p90_duration_hours": 0.0,
+      "max_duration_hours": 0.0
+    },
+    {
+      "source_activity": "Admission IC",
+      "target_activity": "Return ER",
+      "transfer_label": "ICU Escalation to ER Readmission",
+      "transition_count": 0,
+      "median_duration_hours": 0.0,
+      "mean_duration_hours": 0.0,
+      "p25_duration_hours": 0.0,
+      "p75_duration_hours": 0.0,
+      "p90_duration_hours": 0.0,
+      "max_duration_hours": 0.0
+    }
+  ]
+}

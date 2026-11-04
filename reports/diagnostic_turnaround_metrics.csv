@@ -1,0 +1,4 @@
+assay,total_tested_cases,total_test_events,cases_with_repetition,repetition_rate_pct,median_tat_minutes,mean_tat_minutes,p25_tat_minutes,p75_tat_minutes,p90_tat_minutes,iqr_tat_minutes,pct_within_30min,pct_within_60min,pct_within_120min
+CRP,1007,3262,692,68.72,24.3,28.12,16.25,34.4,46.6,18.15,66.09,95.16,99.63
+LacticAcid,860,1466,172,20.0,24.97,38.5,16.64,35.58,49.55,18.94,64.55,93.77,98.48
+Leucocytes,1012,3382,677,66.9,24.41,28.14,16.11,34.42,46.64,18.31,65.96,95.14,99.63

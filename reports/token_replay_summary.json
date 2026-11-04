@@ -1,0 +1,11 @@
+{
+  "total_evaluated_traces": 1050,
+  "mean_trace_fitness": 1.0,
+  "median_trace_fitness": 1.0,
+  "perfectly_fit_traces": 1050,
+  "perfectly_fit_share_pct": 100.0,
+  "total_produced_tokens": 49273,
+  "total_consumed_tokens": 49273,
+  "total_missing_tokens": 0,
+  "total_remaining_tokens": 0
+}

@@ -1,0 +1,23 @@
+{
+  "cdss_engine_name": "CareFlow Sepsis Pathway Escalation System (SPES)",
+  "total_evaluated_patients": 1050,
+  "scoring_scale": "0 to 10 points",
+  "risk_tier_distribution": {
+    "High / Critical Risk (ICU Escalation Candidate)": {
+      "count": 543,
+      "share_pct": 51.71
+    },
+    "Moderate Risk (Inpatient Acute Care)": {
+      "count": 315,
+      "share_pct": 30.0
+    },
+    "Low Risk (Outpatient / Observation)": {
+      "count": 192,
+      "share_pct": 18.29
+    }
+  },
+  "high_risk_escalation_cases": 543,
+  "high_risk_escalation_pct": 51.71,
+  "mean_spes_score": 4.95,
+  "median_spes_score": 6.0
+}

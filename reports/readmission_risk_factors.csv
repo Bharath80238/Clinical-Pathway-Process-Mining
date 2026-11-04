@@ -1,0 +1,8 @@
+predictor_feature,predictor_name,clinical_category,exposed_count,exposed_prevalence_pct,readmissions_exposed,readmission_rate_exposed_pct,unexposed_count,readmissions_unexposed,readmission_rate_unexposed_pct,relative_risk,risk_difference_pct,odds_ratio,ci_95_lower,ci_95_upper
+has_ward,Normal Care Ward Admission (Admission NC),Inpatient Hospitalization,800,76.19,294,36.75,250,0,0.0,0.0,36.75,291.3,18.1,4687.71
+is_long_stay,Extended Length of Stay (>= 7 Days),Prolonged Inpatient Treatment,445,42.38,284,63.82,605,10,1.65,38.68,62.17,104.96,54.56,201.9
+has_repeat_labs,Repetitive Laboratory Orders (>= 2 Draws),Clinical Instability & Monitoring,722,68.76,270,37.4,328,24,7.32,5.11,30.08,7.57,4.86,11.77
+sirs_criteria,Systemic Inflammatory Response (SIRS >= 2),Severe Systemic Presentation,853,81.24,265,31.07,197,29,14.72,2.11,16.35,2.61,1.72,3.97
+has_icu,ICU Admission (Admission IC),Critical Care Escalation,110,10.48,47,42.73,940,247,26.28,1.63,16.45,2.09,1.4,3.14
+is_geriatric,Geriatric Age Cohort (Age >= 65),Vulnerable Elderly Population,756,72.0,236,31.22,294,58,19.73,1.58,11.49,1.85,1.33,2.56
+abx_delayed,Sepsis Golden Hour SLA Delay (> 60 Min),Delayed Antimicrobial Administration,541,51.52,171,31.61,509,123,24.17,1.31,7.44,1.45,1.1,1.9
