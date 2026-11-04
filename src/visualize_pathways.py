@@ -111,9 +111,14 @@ def save_duration_distribution(events):
     print("Created case_duration_distribution.png")
     print(f"Median case duration: {durations.median():.2f} hours")
 
+
 def calculate_waiting_times(events):
     """Calculate elapsed time between consecutive recorded events."""
-    valid = events.dropna(subset=["case_id", "activity", "event_time"])
+    valid = events.dropna(
+        subset=["case_id", "activity", "event_time"]
+    )
+    if valid.empty:
+        return pd.Series(dtype=float)
     ordered = valid.sort_values(
         ["case_id", "event_time", "activity"]
     ).copy()
