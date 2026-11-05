@@ -1,11 +1,13 @@
+
 from pathlib import Path
-from io import BytesIO
+import tempfile
+
 import pandas as pd
 import requests
 
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
-
 EXCEL_PATH = RAW_DIR / "events.xlsx"
 PARQUET_PATH = RAW_DIR / "events.parquet"
 
@@ -14,9 +16,11 @@ PARQUET_URL = (
     "kondratevakate/sepsis-cases-event-log/"
     "resolve/main/events.parquet"
 )
+
 CASE_COL = "case:concept:name"
 ACTIVITY_COL = "concept:name"
 TIME_COL = "time:timestamp"
+
 BOOLEAN_COLUMNS = [
     "InfectionSuspected",
     "DiagnosticBlood",
@@ -41,15 +45,61 @@ BOOLEAN_COLUMNS = [
     "DiagnosticUrinarySediment",
     "DiagnosticECG",
 ]
+
+
+def validate_schema(df, dataset_name="Dataset"):
+    """Validate required columns and reject duplicate column names."""
+    if df.columns.duplicated().any():
+        duplicates = df.columns[df.columns.duplicated()].tolist()
+        raise ValueError(
+            f"{dataset_name} contains duplicate columns: {duplicates}"
+        )
+
+    required_columns = {CASE_COL, ACTIVITY_COL, TIME_COL}
+    missing_columns = required_columns - set(df.columns)
+
+    if missing_columns:
+        raise ValueError(
+            f"{dataset_name} is missing required columns: "
+            f"{sorted(missing_columns)}"
+        )
+
+    return True
+
+
 def load_source_parquet():
-    """Load the local Parquet file or download it if absent."""
+    """Load the local Parquet file or safely download it if absent."""
     if PARQUET_PATH.exists():
         return pd.read_parquet(PARQUET_PATH)
+
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+
     response = requests.get(PARQUET_URL, timeout=60)
     response.raise_for_status()
-    PARQUET_PATH.write_bytes(response.content)
-    return pd.read_parquet(BytesIO(response.content))
+
+    temp_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="wb",
+            suffix=".parquet",
+            dir=RAW_DIR,
+            delete=False,
+        ) as temp_file:
+            temp_path = Path(temp_file.name)
+            temp_file.write(response.content)
+
+        validated_df = pd.read_parquet(temp_path)
+        validate_schema(validated_df, "Downloaded Parquet file")
+
+        temp_path.replace(PARQUET_PATH)
+
+        return validated_df
+
+    finally:
+        if temp_path is not None and temp_path.exists():
+            temp_path.unlink()
+
 
 def summarize(name, df):
     """Print a basic summary of a dataset."""
@@ -60,19 +110,23 @@ def summarize(name, df):
     print("Exact duplicate rows:", int(df.duplicated().sum()))
     print("Unique non-missing cases:", df[CASE_COL].nunique())
     print("Unique activities:", df[ACTIVITY_COL].nunique())
+
     timestamps = pd.to_datetime(
         df[TIME_COL],
         errors="coerce",
         utc=True,
     )
+
     print("Invalid/missing timestamps:", int(timestamps.isna().sum()))
     print("Timestamp range:", timestamps.min(), "to", timestamps.max())
+
+
 def normalize_boolean(value):
     """Make Boolean and numeric 0/1 values comparable."""
     if pd.isna(value):
         return "<MISSING>"
 
-    if isinstance(value, (bool,)):
+    if isinstance(value, bool):
         return "TRUE" if value else "FALSE"
 
     if isinstance(value, (int, float)) and value in (0, 1):
@@ -151,11 +205,13 @@ def compare_datasets(excel_df, parquet_df):
         print("PASS: All values match after normalization.")
         print("Boolean values and missing values were normalized.")
         print('Literal case ID "NA" was preserved as text.')
+
         return True
 
     except AssertionError as exc:
         print("FAIL: Differences remain after normalization.")
         print(str(exc)[:2000])
+
         return False
 
 
@@ -173,19 +229,11 @@ def main():
 
     parquet_df = load_source_parquet()
 
-    required_columns = {CASE_COL, ACTIVITY_COL, TIME_COL}
-
     for name, df in [
         ("Excel copy", excel_df),
         ("Parquet file", parquet_df),
     ]:
-        missing_columns = required_columns - set(df.columns)
-
-        if missing_columns:
-            raise ValueError(
-                f"{name} is missing required columns: {missing_columns}"
-            )
-
+        validate_schema(df, name)
         summarize(name, df)
 
     passed = compare_datasets(excel_df, parquet_df)
@@ -198,6 +246,7 @@ def main():
     print("\n========== VALIDATION COMPLETE ==========")
     print("Excel and Parquet match after normalization.")
     print("No source files were modified.")
+
 
 if __name__ == "__main__":
     main()
