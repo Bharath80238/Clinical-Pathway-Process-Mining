@@ -6,6 +6,11 @@ Project: CareFlow: Clinical Pathway Process Mining
 from pathlib import Path
 import json
 import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
@@ -123,9 +128,131 @@ def generate_slide_metrics():
 
     return bundle
 
+def plot_milestone_roadmap(output_dir=OUTPUT_DIR):
+    """Generate high-resolution 4-week analytical pipeline milestone roadmap diagram."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(16, 8), dpi=200)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis("off")
+
+    phases = [
+        {
+            "week": "WEEK 1 (Days 1 - 5)",
+            "title": "Data Hygiene, Discovery & SLAs",
+            "color": "#2980b9",
+            "items": [
+                "• 15,213 Events & 1,050 Cases Ingestion",
+                "• Resolved 4,446 Same-Second Ties",
+                "• PM4Py DFG Mining: Happy Path vs Spaghetti",
+                "• Sepsis Golden Hour SLA (84.8% on-time)",
+                "• Transition Duration Matrix & Rework Loops",
+            ],
+            "x": 3, "y": 18, "w": 21, "h": 66,
+        },
+        {
+            "week": "WEEK 2 (Days 6 - 10)",
+            "title": "Formal Models & Archetypes",
+            "color": "#8e44ad",
+            "items": [
+                "• Inductive Miner Workflow Petri Net",
+                "• 39 Places, 50 Transitions, 116 Arcs",
+                "• Causal Heuristic Net (D >= 0.5)",
+                "• 691 Variants Clustered into 3 Archetypes:",
+                "  - Rapid ER: 21.1% (Stay 45m, 0% readmit)",
+                "  - Ward Acute: 46.0% (Stay 4.8d, 8.9% readmit)",
+                "  - Critical ICU: 33.0% (Stay 44.7d, 72.5% readmit)",
+            ],
+            "x": 27, "y": 18, "w": 21, "h": 66,
+        },
+        {
+            "week": "WEEK 3 (Days 11 - 15)",
+            "title": "Conformance & Lab Queueing",
+            "color": "#16a085",
+            "items": [
+                "• Token-Based Replay Simulation Engine",
+                "• 100.0% Replay Fitness (p=c=49,273 tokens)",
+                "• 0 Missing & 0 Remaining Tokens",
+                "• Central Lab B Workload (53.31% Events)",
+                "• Lab Turnaround Tails (Median 24.5m, p90 49.6m)",
+                "• Ward-to-ICU Escalation Latency (5.01h)",
+            ],
+            "x": 51, "y": 18, "w": 21, "h": 66,
+        },
+        {
+            "week": "WEEK 4 (Days 16 - 20)",
+            "title": "Readmission, DW & CDSS",
+            "color": "#d35400",
+            "items": [
+                "• Readmission Root-Cause Mining (28.0% Rate)",
+                "• Stay >=7d Risk Multiplier (OR = 104.96)",
+                "• Repeat Blood Draws Instability (OR = 7.57)",
+                "• Enterprise Star-Schema DW (15,213 Facts)",
+                "• CDSS 10-point SPES Triage Scoring Engine",
+                "• 543 High-Risk Escalations Flagged (<=30m abx)",
+            ],
+            "x": 75, "y": 18, "w": 22, "h": 66,
+        },
+    ]
+
+    for p in phases:
+        # Box background
+        rect = patches.FancyBboxPatch(
+            (p["x"], p["y"]), p["w"], p["h"],
+            boxstyle="round,pad=0.5,rounding_size=1.5",
+            facecolor="#fcfdfd", edgecolor="#2c3e50", linewidth=1.5
+        )
+        ax.add_patch(rect)
+
+        # Header banner
+        h_rect = patches.FancyBboxPatch(
+            (p["x"], p["y"] + p["h"] - 8), p["w"], 8,
+            boxstyle="round,pad=0.2,rounding_size=1.0",
+            facecolor=p["color"], edgecolor="#2c3e50", linewidth=1.2
+        )
+        ax.add_patch(h_rect)
+
+        # Header texts
+        ax.text(p["x"] + p["w"] / 2, p["y"] + p["h"] - 3, p["week"],
+                ha="center", va="center", color="white", fontsize=9.5, fontweight="bold")
+        ax.text(p["x"] + p["w"] / 2, p["y"] + p["h"] - 6, p["title"],
+                ha="center", va="center", color="#ecf0f1", fontsize=8.0, fontweight="bold")
+
+        # Bullet points
+        line_y = p["y"] + p["h"] - 12
+        for item in p["items"]:
+            weight = "bold" if ("Archetype" in item or "Replay Fitness" in item or "Star-Schema" in item or "OR =" in item) else "normal"
+            color = "#c0392b" if "OR =" in item else ("#2c3e50" if weight == "normal" else "#1a252f")
+            ax.text(p["x"] + 1.2, line_y, item, ha="left", va="center", fontsize=7.5, fontweight=weight, color=color)
+            line_y -= 4.2
+
+    # Draw Connecting Milestone Arrows
+    for i in range(3):
+        x1 = phases[i]["x"] + phases[i]["w"]
+        x2 = phases[i+1]["x"]
+        y_mid = 51
+        ax.annotate(
+            "", xy=(x2, y_mid), xytext=(x1, y_mid),
+            arrowprops=dict(arrowstyle="-|>", color="#2c3e50", lw=2.5, mutation_scale=18)
+        )
+
+    # Title & Subtitle Banners
+    ax.text(50, 95, "CareFlow: 4-Week End-to-End Clinical Process Mining Milestone Roadmap",
+            ha="center", va="center", fontsize=13, fontweight="bold", color="#1a252f")
+    ax.text(50, 91, "Member 3 (Process Mining Analyst) Deliverables | 1,050 Sepsis Patients, 15,213 Events, 100% Soundness",
+            ha="center", va="center", fontsize=9, color="#7f8c8d")
+
+    plt.tight_layout()
+    chart_path = output_dir / "careflow_executive_milestone_roadmap.png"
+    plt.savefig(chart_path, dpi=200, bbox_inches="tight")
+    plt.close()
+    print(f"Exported CareFlow Milestone Roadmap Diagram: {chart_path}")
+    return chart_path
+
 def main():
     print("Compiling slide-by-slide executive metrics for final defense...")
     bundle = generate_slide_metrics()
+    plot_milestone_roadmap()
     print(f"Successfully compiled {bundle['total_slides']} slide metrics for CareFlow Final Defense.")
 
 if __name__ == "__main__":
