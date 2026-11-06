@@ -1,0 +1,59 @@
+{
+  "audit_certificate_id": "INFOTACT-BATCH22.1-CAREFLOW-MEMBER3-FINAL-001",
+  "timestamp_utc": "2026-11-06 15:16:17Z",
+  "project": "CareFlow: Clinical Pathway Process Mining",
+  "institutional_program": "Infotact Solutions 1st Month Data Analytics Internship (Weeks 1-4)",
+  "cohort": "Batch-22.1",
+  "author": "Amit Prajapati",
+  "assigned_role": "Member 3 \u2014 Process Mining Analyst",
+  "repository_branch": "Amit-Prajapati",
+  "evaluation_stage": "FINAL Review (Weeks 3-4 Complete)",
+  "deliverables_summary": {
+    "source_modules_count": 25,
+    "unit_test_suites_count": 10,
+    "process_map_figures_count": 24,
+    "star_schema_tables_count": 5,
+    "formal_petri_net_model": "reports/models/sepsis_petri_net.pnml"
+  },
+  "verified_clinical_metrics": {
+    "total_patient_cohort": 1050,
+    "total_clinical_events": 15213,
+    "unique_clinical_activities": 16,
+    "discovered_pathway_variants": 691,
+    "sepsis_golden_hour_sla_compliance_pct": 84.8,
+    "sepsis_three_hour_bundle_compliance_pct": 96.5,
+    "unplanned_readmission_rate_pct": 28.0,
+    "petri_net_token_fitness_pct": 100.0,
+    "cdss_high_risk_cases_identified": 543,
+    "central_lab_b_workload_share": "53.31% (8,110 events, 96.5% reach)"
+  },
+  "star_schema_warehouse": {
+    "fact_clinical_events": {
+      "rows": 15213,
+      "columns": 12,
+      "sha256": "b9ff71877f35d959"
+    },
+    "dim_patient_cohort": {
+      "rows": 1050,
+      "columns": 16,
+      "sha256": "32375513c6458bb9"
+    },
+    "dim_activity": {
+      "rows": 16,
+      "columns": 7,
+      "sha256": "c5bf4cebd28d2b9a"
+    },
+    "dim_department": {
+      "rows": 26,
+      "columns": 7,
+      "sha256": "73408380f800545a"
+    },
+    "dim_time_bucket": {
+      "rows": 5,
+      "columns": 5,
+      "sha256": "706570303847a9c3"
+    }
+  },
+  "verification_status": "APPROVED_FOR_FINAL_DEFENSE",
+  "audit_sign_off": "Verified 100% complete, reproducible, and compliant with Infotact Solutions Batch-22.1 final review requirements."
+}
