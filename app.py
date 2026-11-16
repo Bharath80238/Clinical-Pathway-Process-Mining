@@ -24,79 +24,179 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom High-Impact CSS Styling
+# Custom High-Impact Professional CSS Styling (Fully Dark/Light Adaptive)
 st.markdown(
     """
     <style>
     /* Global styles */
-    .main {
-        background-color: #f8fafc;
-    }
-    .stMetric {
-        background: white;
-        padding: 16px 20px;
-        border-radius: 12px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .stMetric:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 6px rgba(0,0,0,0.08);
-    }
-    .metric-card {
-        background: white;
-        border-radius: 12px;
-        padding: 20px;
-        border-left: 5px solid #2563eb;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-        margin-bottom: 16px;
-    }
-    .metric-card.success { border-left-color: #10b981; }
-    .metric-card.warning { border-left-color: #f59e0b; }
-    .metric-card.danger { border-left-color: #ef4444; }
-    .metric-card.info { border-left-color: #3b82f6; }
-    
-    .badge {
-        display: inline-block;
-        padding: 4px 10px;
-        border-radius: 9999px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    .badge-success { background-color: #d1fae5; color: #065f46; }
-    .badge-warning { background-color: #fef3c7; color: #92400e; }
-    .badge-danger { background-color: #fee2e2; color: #991b1b; }
-    .badge-info { background-color: #dbeafe; color: #1e40af; }
-    
     .hero-banner {
-        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-        color: white;
+        background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%);
+        color: #ffffff;
         padding: 24px 32px;
         border-radius: 16px;
         margin-bottom: 24px;
-        box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.2);
+        box-shadow: 0 10px 20px -5px rgba(30, 58, 138, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.15);
     }
     .hero-banner h1 {
-        color: white;
+        color: #ffffff !important;
         font-size: 2.2rem;
-        font-weight: 700;
+        font-weight: 800;
         margin-bottom: 8px;
+        letter-spacing: -0.02em;
     }
     .hero-banner p {
-        color: #e0e7ff;
+        color: #e0e7ff !important;
         font-size: 1.05rem;
         margin-bottom: 0;
     }
     .hero-pill {
-        background: rgba(255, 255, 255, 0.2);
-        color: white;
+        background: rgba(255, 255, 255, 0.18);
+        color: #ffffff !important;
         padding: 4px 12px;
         border-radius: 20px;
-        font-size: 0.85rem;
+        font-size: 0.82rem;
+        font-weight: 600;
         display: inline-block;
         margin-top: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    
+    /* Executive KPI Grid */
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 14px;
+        margin-bottom: 24px;
+    }
+    @media (max-width: 1200px) {
+        .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 768px) {
+        .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    
+    .kpi-card {
+        background-color: #1e293b !important;
+        border: 1px solid #334155 !important;
+        border-radius: 14px;
+        padding: 16px 16px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s, border-color 0.2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .kpi-card:hover {
+        transform: translateY(-2px);
+        border-color: #60a5fa !important;
+    }
+    .kpi-header {
+        color: #94a3b8 !important;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .kpi-value {
+        color: #ffffff !important;
+        font-size: 1.85rem;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 10px;
+        font-feature-settings: "tnum";
+    }
+    .kpi-badge {
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 3px 8px;
+        border-radius: 6px;
+        display: inline-block;
+        width: fit-content;
+    }
+    .badge-emerald { background: rgba(16, 185, 129, 0.2); color: #34d399 !important; border: 1px solid rgba(16, 185, 129, 0.4); }
+    .badge-blue { background: rgba(59, 130, 246, 0.2); color: #60a5fa !important; border: 1px solid rgba(59, 130, 246, 0.4); }
+    .badge-amber { background: rgba(245, 158, 11, 0.2); color: #fbbf24 !important; border: 1px solid rgba(245, 158, 11, 0.4); }
+    .badge-purple { background: rgba(168, 85, 247, 0.2); color: #c084fc !important; border: 1px solid rgba(168, 85, 247, 0.4); }
+    .badge-coral { background: rgba(248, 113, 113, 0.2); color: #f87171 !important; border: 1px solid rgba(248, 113, 113, 0.4); }
+
+    /* Streamlit Native Metric Fixes for Dark Mode */
+    div[data-testid="stMetric"] {
+        background-color: #1e293b !important;
+        border: 1px solid #334155 !important;
+        border-radius: 12px !important;
+        padding: 14px 18px !important;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25) !important;
+    }
+    div[data-testid="stMetricLabel"] * {
+        color: #94a3b8 !important;
+        font-size: 0.80rem !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+    }
+    div[data-testid="stMetricValue"] * {
+        color: #ffffff !important;
+        font-size: 1.8rem !important;
+        font-weight: 700 !important;
+    }
+    div[data-testid="stMetricDelta"] * {
+        font-weight: 600 !important;
+    }
+
+    /* Clinical Decision Support Metric Cards */
+    .metric-card {
+        background-color: #1e293b !important;
+        border-radius: 12px;
+        padding: 22px;
+        border: 1px solid #334155;
+        border-left: 6px solid #3b82f6;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        margin-bottom: 16px;
+    }
+    .metric-card h3 {
+        color: #ffffff !important;
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .metric-card p, .metric-card li {
+        color: #e2e8f0 !important;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    .metric-card.success { border-left-color: #10b981 !important; background: rgba(16, 185, 129, 0.08) !important; }
+    .metric-card.warning { border-left-color: #f59e0b !important; background: rgba(245, 158, 11, 0.08) !important; }
+    .metric-card.danger { border-left-color: #ef4444 !important; background: rgba(239, 68, 68, 0.08) !important; }
+    
+    /* Archetype Mini Cards */
+    .archetype-box {
+        background-color: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin-bottom: 12px;
+    }
+    .archetype-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .archetype-title {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+    .archetype-meta {
+        color: #94a3b8;
+        font-size: 0.82rem;
+        line-height: 1.4;
     }
     </style>
     """,
@@ -231,19 +331,42 @@ if page == "📊 Executive KPI Overview":
 
     kpis = master_data.get("executive_kpis", {})
 
-    col1, col2, col3, col4, col5, col6 = st.columns(6)
-    with col1:
-        st.metric("Total Patients", f"{kpis.get('total_patient_cases', 1050):,}", "1,050 Cohort")
-    with col2:
-        st.metric("Clinical Events", f"{kpis.get('total_recorded_events', 15213):,}", "16 Activities")
-    with col3:
-        st.metric("Golden Hour SLA", f"{kpis.get('sepsis_antibiotics_golden_hour_compliance_pct', 84.8):.1f}%", "+4.8% vs Target", delta_color="normal")
-    with col4:
-        st.metric("3-Hour Bundle", f"{kpis.get('sepsis_antibiotics_three_hour_bundle_compliance_pct', 96.5):.1f}%", "Surviving Sepsis", delta_color="normal")
-    with col5:
-        st.metric("Readmission Rate", f"{kpis.get('unplanned_er_readmission_rate_pct', 28.0):.1f}%", "-2.0% vs Baseline", delta_color="inverse")
-    with col6:
-        st.metric("Central Lab Share", "53.31%", "8,110 Orders", delta_color="off")
+    # Custom HTML KPI Grid with Guaranteed Dark/Light Contrast
+    kpi_html = f"""
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-header">👥 TOTAL PATIENTS</div>
+            <div class="kpi-value">{kpis.get('total_patient_cases', 1050):,}</div>
+            <div class="kpi-badge badge-blue">1,050 Sepsis Cohort</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-header">📋 RECORDED EVENTS</div>
+            <div class="kpi-value">{kpis.get('total_recorded_events', 15213):,}</div>
+            <div class="kpi-badge badge-purple">16 Activities</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-header">⚡ GOLDEN HOUR SLA</div>
+            <div class="kpi-value">{kpis.get('sepsis_antibiotics_golden_hour_compliance_pct', 84.8):.1f}%</div>
+            <div class="kpi-badge badge-emerald">↑ 84.8% &le; 60m SLA</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-header">🛡️ 3-HOUR SSC BUNDLE</div>
+            <div class="kpi-value">{kpis.get('sepsis_antibiotics_three_hour_bundle_compliance_pct', 96.5):.1f}%</div>
+            <div class="kpi-badge badge-emerald">Surviving Sepsis</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-header">🔄 UNPLANNED READMIT</div>
+            <div class="kpi-value">{kpis.get('unplanned_er_readmission_rate_pct', 28.0):.1f}%</div>
+            <div class="kpi-badge badge-coral">294 Return ER Cases</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-header">🧪 CENTRAL LAB (B)</div>
+            <div class="kpi-value">53.31%</div>
+            <div class="kpi-badge badge-amber">8,110 Diagnostic Orders</div>
+        </div>
+    </div>
+    """
+    st.markdown(kpi_html, unsafe_allow_html=True)
 
     st.markdown("---")
 
@@ -251,29 +374,41 @@ if page == "📊 Executive KPI Overview":
 
     with col_arch:
         st.subheader("Care Archetype Segmentation")
-        st.markdown(
-            """
-            Process mining variant clustering revealed **3 distinct clinical archetypes** within the sepsis cohort:
-            """
-        )
+        st.markdown("Process mining variant clustering revealed **3 distinct clinical archetypes** within the sepsis cohort:")
+
         archetypes = master_data.get("care_archetypes", {})
-        
-        # Display archetypes with progress bars and KPIs
         arch1 = archetypes.get("archetype_1_rapid_er", {"prevalence_pct": 21.05, "cases": 221, "median_stay_days": 0.03, "readmission_pct": 0.0})
         arch2 = archetypes.get("archetype_2_inpatient_ward", {"prevalence_pct": 46.0, "cases": 483, "median_stay_days": 4.85, "readmission_pct": 8.9})
         arch3 = archetypes.get("archetype_3_critical_icu", {"prevalence_pct": 32.95, "cases": 346, "median_stay_days": 44.7, "readmission_pct": 72.5})
 
-        st.markdown(f"**1. Rapid ER Discharge** ({arch1['prevalence_pct']}%) — {arch1['cases']} patients")
-        st.progress(arch1["prevalence_pct"] / 100)
-        st.caption(f"Median stay: {arch1['median_stay_days']} days | Readmission: {arch1['readmission_pct']}% | Mild infection ruled out.")
-
-        st.markdown(f"**2. Standard Inpatient Ward** ({arch2['prevalence_pct']}%) — {arch2['cases']} patients")
-        st.progress(arch2["prevalence_pct"] / 100)
-        st.caption(f"Median stay: {arch2['median_stay_days']} days | Readmission: {arch2['readmission_pct']}% | IV antibiotics + ward observation.")
-
-        st.markdown(f"**3. Critical ICU Escalation** ({arch3['prevalence_pct']}%) — {arch3['cases']} patients")
-        st.progress(arch3["prevalence_pct"] / 100)
-        st.caption(f"Median stay: {arch3['median_stay_days']} days | Readmission: {arch3['readmission_pct']}% | High organ dysfunction & intensive care.")
+        st.markdown(
+            f"""
+            <div class="archetype-box">
+                <div class="archetype-header">
+                    <span class="archetype-title">🟢 1. Rapid ER Discharge</span>
+                    <span class="kpi-badge badge-emerald">{arch1['prevalence_pct']}% ({arch1['cases']} pts)</span>
+                </div>
+                <div class="archetype-meta">Median stay: <b>{arch1['median_stay_days']} days</b> | Readmissions: <b>{arch1['readmission_pct']}%</b><br>Mild infection ruled out; patients discharged home from emergency unit.</div>
+            </div>
+            
+            <div class="archetype-box">
+                <div class="archetype-header">
+                    <span class="archetype-title">🟡 2. Standard Inpatient Ward</span>
+                    <span class="kpi-badge badge-amber">{arch2['prevalence_pct']}% ({arch2['cases']} pts)</span>
+                </div>
+                <div class="archetype-meta">Median stay: <b>{arch2['median_stay_days']} days</b> | Readmissions: <b>{arch2['readmission_pct']}%</b><br>Confirmed sepsis; admission to normal care ward (Admission NC) with IV antibiotics.</div>
+            </div>
+            
+            <div class="archetype-box">
+                <div class="archetype-header">
+                    <span class="archetype-title">🔴 3. Critical ICU Escalation</span>
+                    <span class="kpi-badge badge-coral">{arch3['prevalence_pct']}% ({arch3['cases']} pts)</span>
+                </div>
+                <div class="archetype-meta">Median stay: <b>{arch3['median_stay_days']} days</b> | Readmissions: <b>{arch3['readmission_pct']}%</b><br>Severe sepsis with organ dysfunction; ICU escalation and prolonged inpatient stay.</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
         arch_img = FIGURES_DIR / "variant_archetypes_pie.png"
         if arch_img.exists():
@@ -284,17 +419,17 @@ if page == "📊 Executive KPI Overview":
         st.markdown("Distribution of clinical activities processed across hospital administrative & diagnostic divisions:")
 
         workload = master_data.get("workload_by_department", {
-            "Central Diagnostic Laboratory (B)": "53.31% (8,110 events)",
-            "Emergency Clinical Staff (A & L)": "24.16% (3,675 events)",
-            "General Inpatient Wards (F, O, G, etc.)": "7.82% (1,189 events)",
-            "Emergency Triage Unit (C)": "6.92% (1,053 events)",
-            "Discharge Administration (E)": "5.14% (782 events)",
-            "Emergency Readmission (?)": "1.93% (294 events)",
-            "Intensive Care Units (P, W, J, K)": "0.72% (110 events)"
+            "Central Diagnostic Laboratory (B)": "53.31% (8,110 events, 96.5% reach)",
+            "Emergency Clinical Staff (A & L)": "24.16% (3,675 events, 95.2% reach)",
+            "General Inpatient Wards (F, O, G, etc.)": "7.82% (1,189 events, 80.9% reach)",
+            "Emergency Triage Unit (C)": "6.92% (1,053 events, 100.0% reach)",
+            "Discharge Administration (E)": "5.14% (782 events, 74.5% reach)",
+            "Emergency Readmission (?)": "1.93% (294 events, 28.0% reach)",
+            "Intensive Care Units (P, W, J, K)": "0.72% (110 events, 10.5% reach)"
         })
 
         wl_df = pd.DataFrame([
-            {"Department / Division": k, "Workload Share & Event Volume": v}
+            {"Hospital Division": k, "Volume Share & Reach": v}
             for k, v in workload.items()
         ])
         st.dataframe(wl_df, use_container_width=True, hide_index=True)
